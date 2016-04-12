@@ -113,6 +113,11 @@ public class Layout_120_Page extends Page {
 
     }
 
+    //ToDo - create element locator and write method
+    public Layout_120_Page pressNoButton() {
+        return this;
+    }
+
     //public boolean isOnPatientPage() {
     //return exists(questMenu);
     // }
