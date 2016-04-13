@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.AssertJUnit.assertTrue;
 
-public class SampleTestNgTest {
+public class LayOut120Test {
   public WebDriver driver;
   public Layout_120_Page layout_120_page;
   private HomePage homepage;
@@ -22,7 +22,7 @@ public class SampleTestNgTest {
     driver = new FirefoxDriver();
     homepage = PageFactory.initElements(driver, HomePage.class);
     layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
-    driver.get("http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/");
+
   }
 
   @BeforeMethod
@@ -31,9 +31,11 @@ public class SampleTestNgTest {
 
   }
 
-  @Test
-  public void PressYesButton() {
-
+  //This test runs several times, every iteration with new url. Urls are stored in resources/urlList.data file
+// (one URL for row)
+  @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
+  public void PressYesButton(String url) {
+    driver.get(url);
     layout_120_page
             .WaitUntilLayoutIsLoaded()
             .pressYesButton();

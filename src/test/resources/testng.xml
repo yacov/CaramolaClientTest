@@ -3,7 +3,7 @@
 <suite name="Tests" verbose="5">
   <test name="Test1">
     <classes>
-      <class name="il.carambola.SampleTestNgTest"/>
+      <class name="il.carambola.LayOut120Test"/>
     </classes>
   </test>  
 </suite>
