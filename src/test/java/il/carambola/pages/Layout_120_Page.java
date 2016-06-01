@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
-import java.util.Random;
 
 /**
  * Created by Iakov Volf
@@ -74,6 +73,9 @@ public class Layout_120_Page extends Page {
     public boolean CheckThatYesButtonExists() {
         return exists(TrueButton);
 
+    }
+
+    public void ErrorHandling() {
     }
 
     //ToDo - create element locator and write method
