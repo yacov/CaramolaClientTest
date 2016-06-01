@@ -3,7 +3,8 @@
 <suite name="Tests" verbose="5">
   <test name="Test1">
     <classes>
-      <class name="il.carambola.LayOut120Test"/>
+
+      <class name="il.carambola.Layout120Test_TC1_BasicFullLoad"/>
     </classes>
   </test>  
 </suite>

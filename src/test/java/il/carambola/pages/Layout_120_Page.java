@@ -21,7 +21,6 @@ public class Layout_120_Page extends Page {
     @FindBy(xpath = "//*[@id='cbolaContent-leftButton0']/i")
     WebElement TrueButton;
 
-
     //public ProfilePage profilePag
 
     public Layout_120_Page(WebDriver driver) {
@@ -50,42 +49,6 @@ public class Layout_120_Page extends Page {
         return name;
     }*/
 
-    public String generateParentEmail() {
-        Random rn = new Random();
-        int num = rn.nextInt(1000) + 1;
-        String ParentEmail = "hore" + num + "@yopmail.com";
-        //Log.info("Parent email generated is <" + ParentEmail + ">");
-        return ParentEmail;
-    }
-
-    public String generateTeacherEmail() {
-        Random rn = new Random();
-        int num = rn.nextInt(1000) + 1;
-        String Email = "more" + num + "@yopmail.com";
-        // Log.info("TeacherEmail generated is <" + Email + ">");
-        return Email;
-    }
-
-
-    public String createMeetingDate() {
-
-        Random rn = new Random();
-        int day = rn.nextInt(27) + 1;
-        int month = rn.nextInt(11) + 1;
-        int year = rn.nextInt(3) + 2016;
-        String meetingDate = day + "/" + month + "/" + year + " 08:00";
-        System.out.println(meetingDate);
-        //Log.info("MeetingDate generated is <" + meetingDate + ">");
-        return meetingDate;
-    }
-
-    public String generateBirthDate() {
-        Random rn = new Random();
-        int day = rn.nextInt(27) + 1;
-        int month = rn.nextInt(11) + 1;
-        int year = rn.nextInt(3) + 2010;
-        return day + "/" + month + "/" + year;
-    }
 
 
     public Layout_120_Page pressYesButton() {
@@ -105,7 +68,7 @@ public class Layout_120_Page extends Page {
 
     public Layout_120_Page WaitUntilLayoutIsLoaded() {
         waitUntilIsLoaded(CbolaBoard);
-        return this;
+        return this;  // ?? why like this?
     }
 
     public boolean CheckThatYesButtonExists() {

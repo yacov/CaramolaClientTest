@@ -2,6 +2,7 @@ package il.carambola;
 
 import il.carambola.pages.HomePage;
 import il.carambola.pages.Layout_120_Page;
+import il.carambola.pages.Page;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -12,10 +13,14 @@ import org.testng.annotations.Test;
 
 import static org.testng.AssertJUnit.assertTrue;
 
-public class LayOut120Test {
+public class LayOut120Test extends Page{
   public WebDriver driver;
   public Layout_120_Page layout_120_page;
   private HomePage homepage;
+
+  public LayOut120Test(WebDriver driver) {
+    super(driver);
+  }
 
   @BeforeClass
   public void initbrowser() {
@@ -43,7 +48,7 @@ public class LayOut120Test {
     assertTrue("Yes button do not exist", layout_120_page.CheckThatYesButtonExists());
   }
 
-  @Test
+  @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
   public void PressNoButton() {
 
     layout_120_page

@@ -1,5 +1,6 @@
 package il.carambola.pages;
 
+import il.carambola.Consts;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -8,6 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.io.IOException;
+import java.util.List;
 //import java.util.concurrent.ThreadLocalRandom;
 
 /**
@@ -29,27 +31,19 @@ public abstract class Page {
   }
 
 
-  public void goBackBrowserButton() {
-    driver.navigate().back();
-  }
+  public void goBackBrowserButton() { driver.navigate().back(); }
 
-  public void goForwardBrowserButton() {
-    driver.navigate().forward();
-  }
+  public void goForwardBrowserButton() {  driver.navigate().forward(); }
 
   public void reloadPage() {
     driver.navigate().refresh();
   }
 
-
   public String getTitle() {
     return driver.getTitle();
   }
 
-  public String getPageUrl() {
-
-    return PAGE_URL;
-  }
+  public String getPageUrl() { return PAGE_URL; }
 
   public String getPageTitle() {
     return PAGE_TITLE;
@@ -59,6 +53,63 @@ public abstract class Page {
     driver.get(getPageUrl());
 //  Assert.assertEquals(getTitle(), getPageTitle());
   }
+
+  public static boolean IsScriptValid(WebDriver driver, List<String> errors, String browserName, Integer i) {
+
+    boolean isScriptValid = true;
+    try {
+      boolean LayerStatus = driver.findElement(By.id("InContentScript0")).isEnabled();
+      if (LayerStatus) {
+        System.out.println("YEAH!- cbola SCRIPT was loaded succefuly inside the HTML");
+      } else {
+        errors.add("Browser: " + browserName + " URL: " + (i + 1) + " SHAYSE- cbola SCRIPT WASNT LOADED...");
+        System.out.println("SHAYSE- cbola SCRIPT WASNT LOADED...");
+        isScriptValid = false;
+      }
+    } catch (Exception e) {
+      System.out.println("SHAYSE- unexpected error: " + e.getMessage().substring(0,100));
+      isScriptValid = false;
+    }
+    return isScriptValid;
+
+  }
+
+    public static boolean CheckCenterWrapper(Integer layoutNumber, WebDriver driver, List<String>errors, String browserName, Integer i) throws InterruptedException{
+
+        Thread.sleep(1500);
+
+        boolean result = false;
+
+        switch(layoutNumber){
+            case 100:
+                break;
+            case 110:
+                break;
+            case 120:
+                WebElement cbolaCenterWrapper = driver.findElement(By.id(Consts.CENTER_WRAPPER_ID + 0));
+                if (cbolaCenterWrapper != null && cbolaCenterWrapper.isDisplayed()) {
+                    System.out.println("YEAH!- cbola centerWrapper was loaded succefuly inside the HTML");
+                    result = true;
+
+                } else {
+                    errors.add("Browser: "+browserName+" URL: "+(i+1)+" SHAYSE- cbola centerWrapper WASNT DISPLAYED");
+                    System.out.println("SHAYSE- cbola centerWrapper WASNT DISPLAYED");
+                    if(cbolaCenterWrapper == null){
+                        System.out.println("SHAYSE- cbola centerWrapper WASNT LOADED");
+                    }
+                    result = false;
+
+                }
+                break;
+            case 130:
+                break;
+            case 140:
+                break;
+        }
+        return result;
+
+
+    }
 
   public void setElementText(WebElement element, String text) {
     element.click();
@@ -84,7 +135,7 @@ public abstract class Page {
 
   public void waitUntilIsLoaded(WebElement element) {
     try {
-      new WebDriverWait(driver, 7).until(ExpectedConditions.visibilityOf(element));
+      new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(element));
     } catch (Exception e) {
       // Log.info("---------------------------------");
       // Log.info("element " + element + " can not be found by ExpectedConditions.visibilityOf(element)");
