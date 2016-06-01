@@ -1,18 +1,15 @@
 package il.carambola;
 
-import java.io.IOException;
-
-import org.openqa.selenium.WebDriver;
+import il.carambola.util.PropertyLoader;
 import org.openqa.selenium.Capabilities;
-
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-
+import org.testng.annotations.BeforeTest;
 import ru.stqa.selenium.factory.WebDriverFactory;
 import ru.stqa.selenium.factory.WebDriverFactoryMode;
 
-import il.carambola.util.PropertyLoader;
+import java.io.IOException;
 
 /**
  * Base class for TestNG-based test classes
@@ -25,7 +22,7 @@ public class TestNgTestBase {
 
   protected WebDriver driver;
 
-  @BeforeSuite
+  @BeforeTest
   public void initTestSuite() throws IOException {
     baseUrl = PropertyLoader.loadProperty("site.url");
     gridHubUrl = PropertyLoader.loadProperty("grid.url");
@@ -34,11 +31,12 @@ public class TestNgTestBase {
     }
     capabilities = PropertyLoader.loadCapabilities();
     WebDriverFactory.setMode(WebDriverFactoryMode.THREADLOCAL_SINGLETON);
+    driver = WebDriverFactory.getDriver(gridHubUrl, capabilities);
   }
 
   @BeforeMethod
   public void initWebDriver() {
-    driver = WebDriverFactory.getDriver(gridHubUrl, capabilities);
+
   }
 
   @AfterSuite(alwaysRun = true)

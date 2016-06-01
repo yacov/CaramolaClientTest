@@ -1,6 +1,8 @@
 package il.carambola.pages;
 
 import il.carambola.Consts;
+import il.carambola.LogLog4j;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -16,6 +18,7 @@ import java.util.List;
  * Abstract class representation of a Page in the UI. Page object pattern
  */
 public abstract class Page {
+  private static Logger Log = Logger.getLogger(LogLog4j.class.getName());
   //public static String baseUrl = TestNgTestBase.baseUrl;
   public String PAGE_URL;
   public String PAGE_TITLE;
@@ -30,6 +33,42 @@ public abstract class Page {
     this.driver = driver;
   }
 
+  public static boolean CheckCenterWrapper(Integer layoutNumber, WebDriver driver, List<String> errors, String browserName, Integer i) throws InterruptedException {
+
+    Thread.sleep(1500);
+
+    boolean result = false;
+
+    switch (layoutNumber) {
+      case 100:
+        break;
+      case 110:
+        break;
+      case 120:
+        WebElement cbolaCenterWrapper = driver.findElement(By.id(Consts.CENTER_WRAPPER_ID + 0));
+        if (cbolaCenterWrapper != null && cbolaCenterWrapper.isDisplayed()) {
+          System.out.println("YEAH!- cbola centerWrapper was loaded succefuly inside the HTML");
+          result = true;
+
+        } else {
+          errors.add("Browser: " + browserName + " URL: " + (i + 1) + " SHAYSE- cbola centerWrapper WASNT DISPLAYED");
+          System.out.println("SHAYSE- cbola centerWrapper WASNT DISPLAYED");
+          if (cbolaCenterWrapper == null) {
+            System.out.println("SHAYSE- cbola centerWrapper WASNT LOADED");
+          }
+          result = false;
+
+        }
+        break;
+      case 130:
+        break;
+      case 140:
+        break;
+    }
+    return result;
+
+
+  }
 
   public void goBackBrowserButton() { driver.navigate().back(); }
 
@@ -54,11 +93,11 @@ public abstract class Page {
 //  Assert.assertEquals(getTitle(), getPageTitle());
   }
 
-  public static boolean IsScriptValid(WebDriver driver, List<String> errors, String browserName, Integer i) {
+  public boolean IsScriptValid(WebElement script, List<String> errors, String browserName, Integer i) {
 
     boolean isScriptValid = true;
     try {
-      boolean LayerStatus = driver.findElement(By.id("InContentScript0")).isEnabled();
+      boolean LayerStatus = script.isEnabled();
       if (LayerStatus) {
         System.out.println("YEAH!- cbola SCRIPT was loaded succefuly inside the HTML");
       } else {
@@ -74,42 +113,28 @@ public abstract class Page {
 
   }
 
-    public static boolean CheckCenterWrapper(Integer layoutNumber, WebDriver driver, List<String>errors, String browserName, Integer i) throws InterruptedException{
+  public boolean IsScriptValid1(WebElement script) {
 
-        Thread.sleep(1500);
-
-        boolean result = false;
-
-        switch(layoutNumber){
-            case 100:
-                break;
-            case 110:
-                break;
-            case 120:
-                WebElement cbolaCenterWrapper = driver.findElement(By.id(Consts.CENTER_WRAPPER_ID + 0));
-                if (cbolaCenterWrapper != null && cbolaCenterWrapper.isDisplayed()) {
-                    System.out.println("YEAH!- cbola centerWrapper was loaded succefuly inside the HTML");
-                    result = true;
-
-                } else {
-                    errors.add("Browser: "+browserName+" URL: "+(i+1)+" SHAYSE- cbola centerWrapper WASNT DISPLAYED");
-                    System.out.println("SHAYSE- cbola centerWrapper WASNT DISPLAYED");
-                    if(cbolaCenterWrapper == null){
-                        System.out.println("SHAYSE- cbola centerWrapper WASNT LOADED");
-                    }
-                    result = false;
-
-                }
-                break;
-            case 130:
-                break;
-            case 140:
-                break;
-        }
-        return result;
-
-
+    boolean isScriptValid = true;
+    try {
+      boolean LayerStatus = script.isEnabled();
+      if (LayerStatus) {
+        System.out.println("YEAH!- cbola SCRIPT was loaded succefuly inside the HTML");
+        Log.info("YEAH!- cbola SCRIPT was loaded succefuly inside the HTML");
+      } else {
+        Log.info("SHAYSE- cbola SCRIPT WASNT LOADED...");
+        //errors.add("Browser: " + browserName + " URL: " + (i + 1) + " ");
+        System.out.println("SHAYSE- cbola SCRIPT WASNT LOADED...");
+        isScriptValid = false;
+      }
+    } catch (Exception e) {
+      System.out.println("SHAYSE- unexpected error: " + e.getMessage().substring(0, 100));
+      Log.info("SHAYSE- unexpected error: " + e.getMessage().substring(0, 100));
+      isScriptValid = false;
     }
+    return isScriptValid;
+
+  }
 
   public void setElementText(WebElement element, String text) {
     element.click();
@@ -201,6 +226,13 @@ public abstract class Page {
     }
   }
 
+  public void checkLayerNumber(Integer LayerNum) {
+    String layerTypeAttribute = driver.findElement(By.className(Consts.CENTER_WRAPPER_ID)).getAttribute("layertype");
+    Integer layerNumber = Integer.parseInt(layerTypeAttribute);
+    Assert.assertEquals(layerNumber, LayerNum, "This is not right Layer Number, so test stops here. Actual Layer nimber is " + layerNumber);
+    Log.info("Layer check is OK, layer number here is " + layerNumber);
+    System.out.println(layerTypeAttribute);
+  }
 
   public void waitUntilElementIsLoaded(WebElement element) throws IOException, InterruptedException {
     new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(element));

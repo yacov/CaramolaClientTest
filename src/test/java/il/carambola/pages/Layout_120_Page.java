@@ -1,5 +1,8 @@
 package il.carambola.pages;
 
+import il.carambola.Consts;
+import il.carambola.LogLog4j;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,13 +15,22 @@ import java.io.IOException;
  * Created by Iakov Volf
  */
 public class Layout_120_Page extends Page {
-    //private static Logger Log = Logger.getLogger(LogLog4j.class.getName());
+    private static Logger Log = Logger.getLogger(LogLog4j.class.getName());
+
 
     @FindBy(xpath = "//*[@id='InContent-container-centerWrapper0']//div[@class='cbola_board cbola_board0 unselectDrag']")
     WebElement CbolaBoard;
 
     @FindBy(xpath = "//*[@id='cbolaContent-leftButton0']/i")
     WebElement TrueButton;
+
+    @FindBy(id = "InContentScript0")
+    WebElement ContentScript;
+
+
+    @FindBy(id = Consts.CENTER_WRAPPER_ID)
+    WebElement centerWrapper;
+
 
     //public ProfilePage profilePag
 
@@ -49,9 +61,9 @@ public class Layout_120_Page extends Page {
     }*/
 
 
-
     public Layout_120_Page pressYesButton() {
         clickElement(TrueButton);
+        Log.info("element 'TrueButton' is clicked");
         return this;
     }
 
@@ -66,7 +78,8 @@ public class Layout_120_Page extends Page {
 
 
     public Layout_120_Page WaitUntilLayoutIsLoaded() {
-        waitUntilIsLoaded(CbolaBoard);
+        waitUntilIsLoadedCustomTime(CbolaBoard, 15);
+
         return this;  // ?? why like this?
     }
 
@@ -75,7 +88,14 @@ public class Layout_120_Page extends Page {
 
     }
 
-    public void ErrorHandling() {
+    public boolean CheckThatCenterWrapperExists() {
+        return exists(centerWrapper);
+
+    }
+
+    public boolean isScriptValidHere() {
+        waitUntilIsLoadedCustomTime(ContentScript, 10);
+        return IsScriptValid1(ContentScript);
     }
 
     //ToDo - create element locator and write method
@@ -86,4 +106,10 @@ public class Layout_120_Page extends Page {
     //public boolean isOnPatientPage() {
     //return exists(questMenu);
     // }
+
+    //check if the layout is 120. if not - end
+
+    public void chekLayerisCorrect() {
+        checkLayerNumber(120);
+    }
 }
