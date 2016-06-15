@@ -31,37 +31,63 @@ public class LayOut120Test extends TestNgTestBase {
 
   }
 
+
+
   //This test runs several times, every iteration with new url. Urls are stored in resources/urlList.data file
-// (one URL for row)
+// Test Case 1
   @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
-  public void PressN0andYesButton(String url) {
+  public void BasicFullLoad(String url) {
+
     try {
       driver.get(url);
-
-      assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
+      Log.info("-----   Test Case 1 with URL: "+ url + "-----" );
+        // step 1
+        assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
       layout_120_page.WaitUntilLayoutIsLoaded();
+        //step 2
       layout_120_page.chekLayerisCorrect();
-      layout_120_page.pressYesButton();
-      softAssert.assertTrue(layout_120_page.CheckThatYesButtonExists(), "Yes button do not exist");
-      Log.info("Assert is OK, button Yes exists");
-      layout_120_page.pressNoButton();
-      softAssert.assertTrue(layout_120_page.CheckThatYesButtonExists(), "No button do not exist");
-      Log.info("Assert is OK, button No exists");
+        //step 3
       softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "Centerwrapper do not exist");
       Log.info("Assert is OK, centerwrapper exists");
+        //step 4
+      assertTrue("Cbola board DOESNT exists", layout_120_page.IsBoardExist());
+        //step 4.2
+      layout_120_page.isFirstImageExists();
+        layout_120_page.printImage();
+
+
     } catch (Exception e) {
       Log.info(e);
     }
   }
 
-  //@Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
-  public void PressNoButton() {
+  @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
+// Test Case 2
+  public void HalfGame(String url) {
 
-    layout_120_page
-            .WaitUntilLayoutIsLoaded()
-            .pressNoButton();
+      try{
+          driver.get(url);
+          Log.info("-----   Test Case 2 with URL: "+ url + "-----" );
+          assertTrue("Script is not valid on url"+ url,layout_120_page.isScriptValidHere());
+          layout_120_page.WaitUntilLayoutIsLoaded().chekLayerisCorrect();
 
-    assertTrue("Yes button do not exist", layout_120_page.CheckThatYesButtonExists());
+          // TODO: 08/06/2016  create loop
+          layout_120_page.pressYesButton();
+          
+          /*layout_120_page.pressYesButton();
+          softAssert.assertTrue(layout_120_page.CheckThatYesButtonExists(), "Yes button do not exist");
+          Log.info("Assert is OK, button Yes exists");
+          layout_120_page.pressNoButton();
+          softAssert.assertTrue(layout_120_page.CheckThatYesButtonExists(), "No button do not exist");
+          Log.info("Assert is OK, button No exists");*/
+
+                  
+
+      }catch(Exception e){
+          Log.info(e);
+      }
+
+    //assertTrue("Yes button do not exist", layout_120_page.CheckThatYesButtonExists());
   }
 }
 

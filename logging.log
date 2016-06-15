@@ -29,3 +29,76 @@
 2016-06-01 14:38:14 INFO  LogLog4j:52 - Assert is OK, button Yes exists
 2016-06-01 14:38:14 INFO  LogLog4j:55 - Assert is OK, button No exists
 2016-06-01 14:38:14 INFO  LogLog4j:57 - Assert is OK, centerwrapper exists
+2016-06-08 10:02:06 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-08 10:02:38 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-08 10:03:10 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-08 10:03:10 INFO  LogLog4j:233 - Layer check is OK, layer number here is 120
+2016-06-08 10:03:10 INFO  LogLog4j:44 - Assert is OK, centerWrapper exists
+2016-06-08 10:20:12 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-08 10:20:43 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-08 10:21:12 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-08 10:21:12 INFO  LogLog4j:233 - Layer check is OK, layer number here is 120
+2016-06-08 10:21:12 INFO  LogLog4j:44 - Assert is OK, centerwrapper exists
+2016-06-08 10:21:37 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-08 10:22:07 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-08 10:22:35 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-08 10:22:35 INFO  LogLog4j:233 - Layer check is OK, layer number here is 120
+2016-06-08 10:22:36 INFO  LogLog4j:63 - element 'TrueButton' is clicked
+2016-06-09 18:13:13 INFO  LogLog4j:38 - -----   Starting Test Case 1 ------
+2016-06-09 18:13:29 INFO  LogLog4j:42 - -----   Test Case 1 with URL: http://findagrave.com/cgi-bin/fg.cgi?page=gsr&GSln=Abelard&GSiman=1&GScnty=4552-----
+2016-06-09 18:13:40 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-09 18:13:55 INFO  LogLog4j:38 - -----   Starting Test Case 1 ------
+2016-06-09 18:14:01 INFO  LogLog4j:42 - -----   Test Case 1 with URL: http://www.leathercelebrities.com/photos/entry/megan-fox-and-her-husband-enjoying-a-lunch-date/-----
+2016-06-09 18:14:11 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-09 18:14:26 INFO  LogLog4j:38 - -----   Starting Test Case 1 ------
+2016-06-09 18:14:31 INFO  LogLog4j:42 - -----   Test Case 1 with URL: http://egotvonline.com/2013/01/09/top-5-things-we-learned-watching-the-new-david-bowie-music-video/-----
+2016-06-09 18:14:42 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-09 18:14:42 INFO  LogLog4j:233 - Layer check is OK, layer number here is 120
+2016-06-09 18:14:42 INFO  LogLog4j:47 - Assert is OK, centerwrapper exists
+2016-06-09 18:14:42 INFO  LogLog4j:56 - -----   Starting Test Case 2 ------
+2016-06-09 18:14:51 INFO  LogLog4j:59 - -----   Test Case 2 with URL: http://findagrave.com/cgi-bin/fg.cgi?page=gsr&GSln=Abelard&GSiman=1&GScnty=4552-----
+2016-06-09 18:15:01 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-09 18:15:17 INFO  LogLog4j:56 - -----   Starting Test Case 2 ------
+2016-06-09 18:15:21 INFO  LogLog4j:59 - -----   Test Case 2 with URL: http://www.leathercelebrities.com/photos/entry/megan-fox-and-her-husband-enjoying-a-lunch-date/-----
+2016-06-09 18:15:31 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-09 18:15:47 INFO  LogLog4j:56 - -----   Starting Test Case 2 ------
+2016-06-09 18:15:51 INFO  LogLog4j:59 - -----   Test Case 2 with URL: http://egotvonline.com/2013/01/09/top-5-things-we-learned-watching-the-new-david-bowie-music-video/-----
+2016-06-09 18:16:01 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-09 18:16:01 INFO  LogLog4j:233 - Layer check is OK, layer number here is 120
+2016-06-09 18:16:02 INFO  LogLog4j:63 - element 'TrueButton' is clicked
+2016-06-09 18:55:45 INFO  LogLog4j:60 - -----   Test Case 2 with URL: http://egotvonline.com/2013/01/09/top-5-things-we-learned-watching-the-new-david-bowie-music-video/-----
+2016-06-09 18:55:56 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-09 18:55:56 INFO  LogLog4j:233 - Layer check is OK, layer number here is 120
+2016-06-09 18:55:56 INFO  LogLog4j:63 - element 'TrueButton' is clicked
+2016-06-09 19:16:23 INFO  LogLog4j:43 - -----   Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-06-09 19:16:23 INFO  LogLog4j:43 - -----   Test Case 1 with URL: http://egotvonline.com/2013/01/09/top-5-things-we-learned-watching-the-new-david-bowie-music-video/-----
+2016-06-09 19:16:27 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-09 19:16:27 INFO  LogLog4j:233 - Layer check is OK, layer number here is 120
+2016-06-09 19:16:27 INFO  LogLog4j:51 - Assert is OK, centerwrapper exists
+2016-06-09 19:16:33 INFO  LogLog4j:123 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-09 19:16:33 INFO  LogLog4j:233 - Layer check is OK, layer number here is 120
+2016-06-09 19:16:33 INFO  LogLog4j:51 - Assert is OK, centerwrapper exists
+2016-06-09 19:44:40 INFO  LogLog4j:43 - -----   Test Case 1 with URL: http://egotvonline.com/2013/01/09/top-5-things-we-learned-watching-the-new-david-bowie-music-video/-----
+2016-06-09 19:44:40 INFO  LogLog4j:43 - -----   Test Case 1 with URL: http://egotvonline.com/2013/01/09/top-5-things-we-learned-watching-the-new-david-bowie-music-video/-----
+2016-06-09 19:44:40 INFO  LogLog4j:43 - -----   Test Case 1 with URL: http://egotvonline.com/2013/01/09/top-5-things-we-learned-watching-the-new-david-bowie-music-video/-----
+2016-06-09 19:44:53 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-09 19:44:53 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-09 19:44:53 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-09 19:44:53 INFO  LogLog4j:230 - Layer check is OK, layer number here is 120
+2016-06-09 19:44:53 INFO  LogLog4j:230 - Layer check is OK, layer number here is 120
+2016-06-09 19:44:53 INFO  LogLog4j:230 - Layer check is OK, layer number here is 120
+2016-06-09 19:44:53 INFO  LogLog4j:51 - Assert is OK, centerwrapper exists
+2016-06-09 19:44:53 INFO  LogLog4j:51 - Assert is OK, centerwrapper exists
+2016-06-09 19:44:53 INFO  LogLog4j:51 - Assert is OK, centerwrapper exists
+2016-06-09 19:44:53 INFO  LogLog4j:43 - -----   Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-06-09 19:44:53 INFO  LogLog4j:43 - -----   Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-06-09 19:44:59 INFO  LogLog4j:43 - -----   Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-06-09 19:45:04 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-09 19:45:04 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-09 19:45:04 INFO  LogLog4j:230 - Layer check is OK, layer number here is 120
+2016-06-09 19:45:04 INFO  LogLog4j:230 - Layer check is OK, layer number here is 120
+2016-06-09 19:45:04 INFO  LogLog4j:51 - Assert is OK, centerwrapper exists
+2016-06-09 19:45:04 INFO  LogLog4j:51 - Assert is OK, centerwrapper exists
+2016-06-09 19:45:10 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-06-09 19:45:10 INFO  LogLog4j:230 - Layer check is OK, layer number here is 120
+2016-06-09 19:45:10 INFO  LogLog4j:51 - Assert is OK, centerwrapper exists

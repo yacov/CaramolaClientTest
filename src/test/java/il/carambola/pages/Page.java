@@ -119,21 +119,40 @@ public abstract class Page {
     try {
       boolean LayerStatus = script.isEnabled();
       if (LayerStatus) {
-        System.out.println("YEAH!- cbola SCRIPT was loaded succefuly inside the HTML");
         Log.info("YEAH!- cbola SCRIPT was loaded succefuly inside the HTML");
       } else {
         Log.info("SHAYSE- cbola SCRIPT WASNT LOADED...");
         //errors.add("Browser: " + browserName + " URL: " + (i + 1) + " ");
-        System.out.println("SHAYSE- cbola SCRIPT WASNT LOADED...");
         isScriptValid = false;
       }
     } catch (Exception e) {
-      System.out.println("SHAYSE- unexpected error: " + e.getMessage().substring(0, 100));
       Log.info("SHAYSE- unexpected error: " + e.getMessage().substring(0, 100));
       isScriptValid = false;
     }
     return isScriptValid;
 
+  }
+
+  // Step 4.1 - check if cbola board was displayed (the actual game)
+
+  public boolean IsBoardExists(WebElement CbolaBoardStatus) {
+    //WebElement CbolaBoardStatus = driver.findElement(By.className(Consts.BOARD_CLASS));
+    boolean isBoardValid = true;
+    if (CbolaBoardStatus != null && CbolaBoardStatus.isDisplayed()) {
+      Log.info("V - cbola board displayed");
+      System.out.println("YEAH!- cbola board was displayed");
+    } else {
+      Log.info("X - cbola board WASNT displayed");
+      //errors.add("\nBrowser: " + browserName + " URL: " + (i + 1) + " SHAYSE- cbola borad is NOT displayed");
+      //testRunSuccessfull = false;
+      isBoardValid = false;
+      if (CbolaBoardStatus == null) {
+        Log.info("X - cbola board WASNT loaded");
+        //testRunSuccessfull = false;  // NEED TO CONSIDER if it fails..
+
+      }
+    }
+    return isBoardValid;
   }
 
   public void setElementText(WebElement element, String text) {
