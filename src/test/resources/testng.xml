@@ -3,21 +3,21 @@
 <suite name="Tests" verbose="5">
 
   <test name="FirefoxTests">
-    <parameter name="browser" value="Firefox"/>
+    <parameter name="browser_name" value="Firefox"/>
     <classes>
       <class name="il.carambola.LayOut120Test"/>
     </classes>
   </test>
 
   <test name="ChromeTests">
-    <parameter name="browser" value="Chrome"/>
+    <parameter name="browser_name" value="Chrome"/>
     <classes>
       <class name="il.carambola.LayOut120Test"/>
     </classes>
   </test>
 
   <test name="IETests">
-    <parameter name="browser" value="ie"/>
+    <parameter name="browser_name" value="ie"/>
     <classes>
       <class name="il.carambola.LayOut120Test"/>
     </classes>

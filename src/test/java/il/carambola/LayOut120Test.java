@@ -18,7 +18,7 @@ public class LayOut120Test {
     public Layout_120_Page layout_120_page;
   private SoftAssert softAssert = new SoftAssert();
 
-    @Parameters("browser")
+    @Parameters({"browser_name"})
     @BeforeClass(alwaysRun = true)
     public void initbrowser(String browser) throws Exception {
         if (browser.equalsIgnoreCase("firefox")) {
