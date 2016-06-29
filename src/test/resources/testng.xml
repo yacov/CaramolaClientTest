@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Tests" verbose="5">
-  <test name="Test1">
+
+  <test name="FirefoxTests">
+    <parameter name="browser" value="Firefox"/>
     <classes>
       <class name="il.carambola.LayOut120Test"/>
     </classes>
-  </test>  
+  </test>
+
+  <test name="ChromeTests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="il.carambola.LayOut120Test"/>
+    </classes>
+  </test>
+
+  <test name="IETests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="il.carambola.LayOut120Test"/>
+    </classes>
+  </test>
 </suite>

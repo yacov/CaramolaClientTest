@@ -2,9 +2,12 @@ package il.carambola;
 
 import il.carambola.pages.Layout_120_Page;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -12,20 +15,20 @@ import static org.testng.AssertJUnit.assertTrue;
 
 public class LayOut120Test extends TestNgTestBase {
   private static Logger Log = Logger.getLogger(LogLog4j.class.getName());
-  //public WebDriver driver;
-  public Layout_120_Page layout_120_page;
+    public WebDriver driver;
+
   private SoftAssert softAssert = new SoftAssert();
 
 
-  @BeforeClass
+    @BeforeClass(alwaysRun = true)
   public void initbrowser() {
-    // driver = new FirefoxDriver();
-    driver.manage().window().maximize();
-    layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
+        driver = new ChromeDriver();
+        layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
+
 
   }
 
-  @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
   public void initPageObjects() {
 
 
@@ -35,10 +38,12 @@ public class LayOut120Test extends TestNgTestBase {
 
   //This test runs several times, every iteration with new url. Urls are stored in resources/urlList.data file
 // Test Case 1
+  @Parameters("browser")
   @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
   public void BasicFullLoad(String url) {
 
     try {
+        driver.manage().window().maximize();
       driver.get(url);
       Log.info("-----   Test Case 1 with URL: "+ url + "-----" );
         // step 1
