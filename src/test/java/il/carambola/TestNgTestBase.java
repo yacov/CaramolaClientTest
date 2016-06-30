@@ -11,6 +11,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import ru.stqa.selenium.factory.WebDriverFactory;
 import ru.stqa.selenium.factory.WebDriverFactoryMode;
@@ -31,7 +32,7 @@ public class TestNgTestBase {
 
   @Parameters({"browser_name"})
   @BeforeTest(alwaysRun = true)
-  public void setuptestNg(String browser) throws Exception {
+  public void setuptestNg(@Optional("Chrome") String browser) throws Exception {
     baseUrl = PropertyLoader.loadProperty("site.url");
 
     WebDriverFactory.setMode(WebDriverFactoryMode.THREADLOCAL_SINGLETON);
