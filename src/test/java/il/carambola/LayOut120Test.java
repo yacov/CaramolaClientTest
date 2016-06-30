@@ -7,7 +7,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import static org.testng.AssertJUnit.assertTrue;
@@ -19,7 +22,7 @@ public class LayOut120Test {
   private SoftAssert softAssert = new SoftAssert();
 
     @Parameters({"browser_name"})
-    @BeforeClass(alwaysRun = true)
+    //  @BeforeClass(alwaysRun = true)
     public void initbrowser(String browser) throws Exception {
         if (browser.equalsIgnoreCase("firefox")) {
 

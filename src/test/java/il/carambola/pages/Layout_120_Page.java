@@ -37,7 +37,7 @@ public class Layout_120_Page extends Page {
 
     //public ProfilePage profilePag
 
-    public Layout_120_Page(WebDriver driver, WebElement elementTest) {
+    public Layout_120_Page(WebDriver driver) {
         super(driver);
 
         //this.PAGE_URL = baseUrl + "/SitePages/createUser.aspx?ReturnUrl=HomePage";

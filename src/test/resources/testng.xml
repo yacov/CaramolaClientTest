@@ -5,21 +5,21 @@
   <test name="FirefoxTests">
     <parameter name="browser_name" value="Firefox"/>
     <classes>
-      <class name="il.carambola.LayOut120Test"/>
+      <class name="il.carambola.LayOut120BrowserDataTest"/>
     </classes>
   </test>
 
   <test name="ChromeTests">
     <parameter name="browser_name" value="Chrome"/>
     <classes>
-      <class name="il.carambola.LayOut120Test"/>
+      <class name="il.carambola.LayOut120BrowserDataTest"/>
     </classes>
   </test>
 
   <test name="IETests">
     <parameter name="browser_name" value="ie"/>
     <classes>
-      <class name="il.carambola.LayOut120Test"/>
+      <class name="il.carambola.LayOut120BrowserDataTest"/>
     </classes>
   </test>
 </suite>

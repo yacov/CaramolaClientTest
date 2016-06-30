@@ -1,13 +1,6 @@
 package il.carambola;
 
-import il.carambola.pages.Layout_120_Page;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -15,17 +8,17 @@ import org.testng.asserts.SoftAssert;
 
 import static org.testng.AssertJUnit.assertTrue;
 
-public class LayOut120BrowserDataTest {
+public class LayOut120BrowserDataTest extends TestNgTestBase {
     private static Logger Log = Logger.getLogger(LogLog4j.class.getName());
-    public WebDriver driver;
-    public Layout_120_Page layout_120_page;
+    //  public WebDriver driver;
+
     private SoftAssert softAssert = new SoftAssert();
 
 
     @BeforeClass(alwaysRun = true)
     public void initbrowser() throws Exception {
 
-        layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
+
         // driver = new ChromeDriver();
 
 
@@ -40,51 +33,11 @@ public class LayOut120BrowserDataTest {
 
     //This test runs several times, every iteration with new url. Urls are stored in resources/urlList.data file
 // Test Case 1
-    //@Parameters("browser")
-    @Test(dataProviderClass = DataProviders.class, dataProvider = "UrlsAndBrowsers")
-    public void BasicFullLoad(String url, String browser) {
+
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
+    public void BasicFullLoad(String url) {
 
         try {
-            if (browser.equalsIgnoreCase("FirefoxDriver")) {
-
-                //create firefox instance
-
-                driver = new FirefoxDriver();
-
-            }
-
-            //Check if parameter passed as 'chrome'
-
-            else if (browser.equalsIgnoreCase("ChromeDriver")) {
-
-                //set path to chromedriver.exe You may need to download it from http://code.google.com/p/selenium/wiki/ChromeDriver
-
-
-                //create chrome instance
-
-                driver = new ChromeDriver();
-
-            } else if (browser.equalsIgnoreCase("InternetExplorerDriver")) {
-
-                //set path to IEdriver.exe You may need to download it from
-
-                // 32 bits http://selenium-release.storage.googleapis.com/2.42/IEDriverServer_Win32_2.42.0.zip
-
-                // 64 bits http://selenium-release.storage.googleapis.com/2.42/IEDriverServer_x64_2.42.0.zip
-
-                //  System.setProperty("webdriver.ie.driver","C:\\IEdriver.exe");
-
-                //create chrome instance
-
-                driver = new InternetExplorerDriver();
-
-            } else {
-
-                //If no browser passed throw exception
-
-                throw new Exception("Browser is not correct");
-
-            }
             driver.manage().window().maximize();
             driver.get(url);
             Log.info("-----   Test Case 1 with URL: " + url + "-----");
@@ -107,6 +60,7 @@ public class LayOut120BrowserDataTest {
             Log.info(e);
         }
     }
+
 
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
 // Test Case 2
@@ -137,9 +91,9 @@ public class LayOut120BrowserDataTest {
     }
 
 
-    @AfterClass(alwaysRun = true)
+    /*@AfterClass(alwaysRun = true)
     public void tearDown() {
         this.driver.quit();
-    }
+    }*/
 }
 
