@@ -1,7 +1,6 @@
 package il.carambola;
 
 import org.apache.log4j.Logger;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -13,16 +12,6 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     //  public WebDriver driver;
 
     private SoftAssert softAssert = new SoftAssert();
-
-
-    @BeforeClass(alwaysRun = true)
-    public void initbrowser() throws Exception {
-
-
-        // driver = new ChromeDriver();
-
-
-    }
 
     @BeforeMethod
     public void initPageObjects() {
@@ -66,8 +55,8 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
 // Test Case 2
     public void HalfGame(String url) {
 
-        try {
-            driver.get(url);
+
+        driver.get(url);
             Log.info("-----   Test Case 2 with URL: " + url + "-----");
             assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
             layout_120_page.WaitUntilLayoutIsLoaded().chekLayerisCorrect();
@@ -83,12 +72,10 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
           Log.info("Assert is OK, button No exists");*/
 
 
-        } catch (Exception e) {
-            Log.info(e);
         }
 
         //assertTrue("Yes button do not exist", layout_120_page.CheckThatYesButtonExists());
-    }
+
 
 
     /*@AfterClass(alwaysRun = true)
