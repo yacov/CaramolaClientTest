@@ -67,7 +67,7 @@ public class Layout_120_Page extends Page {
 
     public Layout_120_Page pressYesButton() {
         clickElement(TrueButton);
-        Log.info("element 'TrueButton' is clicked");
+        Log.info("From Page class: element 'TrueButton' is clicked");
         return this;
 
     }
@@ -83,7 +83,7 @@ public class Layout_120_Page extends Page {
 
 
     public Layout_120_Page WaitUntilLayoutIsLoaded() {
-        waitUntilIsLoadedCustomTime(CbolaBoard, 15);
+        waitUntilIsLoadedCustomTime(CbolaBoard, 20);
 
         return this;  // ?? why like this?
     }
@@ -99,12 +99,25 @@ public class Layout_120_Page extends Page {
     }
 
     public boolean isScriptValidHere() {
-        waitUntilIsLoadedCustomTime(ContentScript, 10);
+        waitUntilIsLoadedCustomTime(ContentScript, 30);
         return IsScriptValid1(ContentScript);
     }
 
     public boolean IsBoardExist(){
-        return IsBoardExists(CbolaBoard);
+        boolean isBoardValid = true;
+        if (CbolaBoard != null && CbolaBoard.isDisplayed()) {
+            Log.info("V - cbola board displayed");
+            System.out.println("YEAH!- cbola board was displayed");
+        } else {
+            Log.info("X - cbola board WASNT displayed");
+            //errors.add("\nBrowser: " + browserName + " URL: " + (i + 1) + " SHAYSE- cbola borad is NOT displayed");
+            //testRunSuccessfull = false;
+            isBoardValid = false;
+            if (CbolaBoard == null) {
+                Log.info("X - cbola board WASNT loaded");
+            }
+        }
+        return isBoardValid;
     }
 
     //ToDo - create element locator and write method
@@ -127,11 +140,11 @@ public class Layout_120_Page extends Page {
     public boolean isFirstImageExists(){
         boolean CbolaFirstImg = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS+0)).isDisplayed();
         if(CbolaFirstImg) {
-            Log.info("V - Image 1 was displayed");
-            System.out.println("YEAH!- we can see 1st image element:");
+            Log.info("From Page class: V - Image 1 was displayed");
+            System.out.println("From Page class: YEAH!- we can see 1st image element:");
         } else {
-            Log.info("X - Image 1 WASNT displayed");
-            System.out.println("SHAYSE- 1st img element WASNT displayed");
+            Log.info("From Page class: X - Image 1 WASNT displayed");
+            System.out.println("From Page class: SHAYSE - 1st img element WASNT displayed");
             CbolaFirstImg = false;
         }
         return CbolaFirstImg;
@@ -139,7 +152,7 @@ public class Layout_120_Page extends Page {
     // get the src of the img and print it
     public void printImage(){
         String src0 = img0.getAttribute("src");
-        System.out.println(src0);
-        Log.info("V - Image 1 src is: " + src0);
+        //System.out.println(src0);
+        Log.info("From Page class: V - Image 1 src is: " + src0);
     }
 }

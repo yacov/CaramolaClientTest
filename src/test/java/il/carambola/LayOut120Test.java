@@ -73,7 +73,6 @@ public class LayOut120Test {
     @BeforeMethod(alwaysRun = true)
   public void initPageObjects() {
         layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
-
   }
 
 

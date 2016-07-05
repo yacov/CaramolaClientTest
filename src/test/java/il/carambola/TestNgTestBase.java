@@ -32,7 +32,7 @@ public class TestNgTestBase {
 
   @Parameters({"browser_name"})
   @BeforeTest(alwaysRun = true)
-  public void setuptestNg(@Optional("Chrome") String browser) throws Exception {
+  public void setuptestNg(@Optional("Firefox") String browser) throws Exception {
     baseUrl = PropertyLoader.loadProperty("site.url");
 
     WebDriverFactory.setMode(WebDriverFactoryMode.THREADLOCAL_SINGLETON);

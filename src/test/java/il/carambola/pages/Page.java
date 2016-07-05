@@ -249,7 +249,7 @@ public abstract class Page {
     String layerTypeAttribute = driver.findElement(By.className(Consts.CENTER_WRAPPER_ID)).getAttribute("layertype");
     Integer layerNumber = Integer.parseInt(layerTypeAttribute);
     Assert.assertEquals(layerNumber, LayerNum, "This is not right Layer Number, so test stops here. Actual Layer nimber is " + layerNumber);
-    Log.info("Layer check is OK, layer number here is " + layerNumber);
+    Log.info("From Page Layer check is OK, layer number here is " + layerNumber);
     System.out.println(layerTypeAttribute);
   }
 
