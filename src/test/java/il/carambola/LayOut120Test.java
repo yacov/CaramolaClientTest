@@ -86,22 +86,21 @@ public class LayOut120Test {
 
     try {
         driver.manage().window().maximize();
-      driver.get(url);
-      Log.info("-----   Test Case 1 with URL: "+ url + "-----" );
+        driver.get(url);
+        Log.info("-----   Test Case 1 with URL: "+ url + "-----" );
         // step 1
         assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
-      layout_120_page.WaitUntilLayoutIsLoaded();
+        layout_120_page.WaitUntilLayoutIsLoaded();
         //step 2
-      layout_120_page.chekLayerisCorrect();
+        layout_120_page.chekLayerIsCorrect();
         //step 3
-      softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "Centerwrapper do not exist");
-      Log.info("Assert is OK, centerwrapper exists");
+        softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "Centerwrapper do not exist");
+        Log.info("Assert is OK, centerwrapper exists");
         //step 4
-      assertTrue("Cbola board DOESNT exists", layout_120_page.IsBoardExist());
+        assertTrue("Cbola board DOESNT exists", layout_120_page.IsBoardExist());
         //step 4.2
-      layout_120_page.isFirstImageExists();
-        layout_120_page.printImage();
-
+        layout_120_page.checkImageIsCorrect(0);
+        layout_120_page.printImage(0);
 
     } catch (Exception e) {
       Log.info(e);
@@ -116,7 +115,7 @@ public class LayOut120Test {
           driver.get(url);
           Log.info("-----   Test Case 2 with URL: "+ url + "-----" );
           assertTrue("Script is not valid on url"+ url,layout_120_page.isScriptValidHere());
-          layout_120_page.WaitUntilLayoutIsLoaded().chekLayerisCorrect();
+          layout_120_page.WaitUntilLayoutIsLoaded().chekLayerIsCorrect();
 
           // TODO: 08/06/2016  create loop
           layout_120_page.pressYesButton();

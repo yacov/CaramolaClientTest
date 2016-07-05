@@ -155,6 +155,20 @@ public abstract class Page {
     return isBoardValid;
   }
 
+  public boolean isImageExists(Integer imageNo , WebElement img){
+    boolean CbolaFirstImg = img.isDisplayed();
+    if(CbolaFirstImg) {
+      Log.info("V - Image "+ imageNo +" was displayed");
+      System.out.println("YEAH!- we can see image element no "+ imageNo +":"); // the element will get printed in method "printImage"
+
+    } else {
+      Log.info("X - Image "+ imageNo +" WASNT displayed");
+      System.out.println("SHAYSE- img element no "+ imageNo +" WASNT displayed");
+      CbolaFirstImg = false;
+    }
+    return CbolaFirstImg;
+  }
+
   public void setElementText(WebElement element, String text) {
     element.click();
     element.clear();

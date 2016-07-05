@@ -181,6 +181,11 @@ Session ID: e6f2d287192b86082542a95760cd7f20
 2016-06-30 12:58:11 INFO  LogLog4j:64 - java.lang.NullPointerException
 2016-06-30 12:58:11 INFO  LogLog4j:90 - java.lang.NullPointerException
 2016-06-30 12:58:11 INFO  LogLog4j:90 - java.lang.NullPointerException
+2016-06-30 13:29:33 INFO  LogLog4j:86 - java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+2016-06-30 13:29:33 INFO  LogLog4j:60 - java.lang.NullPointerException
+2016-06-30 13:29:34 INFO  LogLog4j:60 - java.lang.NullPointerException
+2016-06-30 13:29:34 INFO  LogLog4j:87 - java.lang.NullPointerException
+2016-06-30 13:29:34 INFO  LogLog4j:87 - java.lang.NullPointerException
 2016-06-30 13:21:51 INFO  LogLog4j:134 - java.lang.NullPointerException
 2016-06-30 13:21:51 INFO  LogLog4j:134 - java.lang.NullPointerException
 2016-06-30 13:23:11 INFO  LogLog4j:43 - -----   Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
@@ -302,3 +307,9 @@ Session ID: a4a78d0a3370f2a565debf717a426611
 2016-07-04 09:41:01 INFO  LogLog4j:107 - java.lang.NullPointerException
 2016-07-04 09:41:01 INFO  LogLog4j:134 - java.lang.NullPointerException
 2016-07-04 09:41:01 INFO  LogLog4j:134 - java.lang.NullPointerException
+2016-07-04 19:20:29 INFO  LogLog4j:86 - java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+2016-07-04 19:20:29 INFO  LogLog4j:57 - java.lang.NullPointerException
+2016-07-04 19:20:29 INFO  LogLog4j:57 - java.lang.NullPointerException
+2016-07-04 19:20:42 INFO  LogLog4j:86 - java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+2016-07-04 19:20:42 INFO  LogLog4j:57 - java.lang.NullPointerException
+2016-07-04 19:20:43 INFO  LogLog4j:57 - java.lang.NullPointerException
