@@ -32,9 +32,8 @@ public class Layout_120_Page extends Page {
     @FindBy(id = Consts.TRUE_BTN_ID)
     WebElement TrueButton;
 
-    //@FindBy(id = Consts.FIRST_IMG_CLASS+0)
-    //WebElement img0;
-
+    @FindBy(id = Consts.FIRST_IMG_CLASS+0)
+    WebElement img0;
 
     //public ProfilePage profilePag
 
@@ -68,7 +67,7 @@ public class Layout_120_Page extends Page {
 
     public Layout_120_Page pressYesButton() {
         clickElement(TrueButton);
-        Log.info("element 'TrueButton' is clicked");
+        Log.info("From Page class: element 'TrueButton' is clicked");
         return this;
 
     }
@@ -84,7 +83,7 @@ public class Layout_120_Page extends Page {
 
 
     public Layout_120_Page WaitUntilLayoutIsLoaded() {
-        waitUntilIsLoadedCustomTime(CbolaBoard, 15);
+        waitUntilIsLoadedCustomTime(CbolaBoard, 20);
 
         return this;  // ?? why like this?
     }
@@ -100,12 +99,25 @@ public class Layout_120_Page extends Page {
     }
 
     public boolean isScriptValidHere() {
-        waitUntilIsLoadedCustomTime(ContentScript, 10);
+        waitUntilIsLoadedCustomTime(ContentScript, 30);
         return IsScriptValid1(ContentScript);
     }
 
     public boolean IsBoardExist(){
-        return IsBoardExists(CbolaBoard);
+        boolean isBoardValid = true;
+        if (CbolaBoard != null && CbolaBoard.isDisplayed()) {
+            Log.info("V - cbola board displayed");
+            System.out.println("YEAH!- cbola board was displayed");
+        } else {
+            Log.info("X - cbola board WASNT displayed");
+            //errors.add("\nBrowser: " + browserName + " URL: " + (i + 1) + " SHAYSE- cbola borad is NOT displayed");
+            //testRunSuccessfull = false;
+            isBoardValid = false;
+            if (CbolaBoard == null) {
+                Log.info("X - cbola board WASNT loaded");
+            }
+        }
+        return isBoardValid;
     }
 
     //ToDo - create element locator and write method
@@ -125,11 +137,26 @@ public class Layout_120_Page extends Page {
 
     // Step 4.2 - Verify 1st Image -cbolaContent-imageLoader
 
+    public boolean isFirstImageExists(){
+        boolean CbolaFirstImg = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS+0)).isDisplayed();
+        if(CbolaFirstImg) {
+            Log.info("From Page class: V - Image 1 was displayed");
+            System.out.println("From Page class: YEAH!- we can see 1st image element:");
+        } else {
+            Log.info("From Page class: X - Image 1 WASNT displayed");
+            System.out.println("From Page class: SHAYSE - 1st img element WASNT displayed");
+            CbolaFirstImg = false;
+        }
+        return CbolaFirstImg;
     public boolean checkImageIsCorrect(Integer imageNo){
         WebElement imageElement = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS + imageNo));
         return isImageExists(imageNo, imageElement);
     }
     // get the src of the img and print it
+    public void printImage(){
+        String src0 = img0.getAttribute("src");
+        //System.out.println(src0);
+        Log.info("From Page class: V - Image 1 src is: " + src0);
     public void printImage(Integer imageNo){
         // couldnt use the @FindBy with the operator so I am looking here for the element
         WebElement imgClass = driver.findElement(By.className(Consts.FIRST_IMG_CLASS + imageNo));
