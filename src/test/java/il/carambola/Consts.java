@@ -14,7 +14,7 @@ public class Consts {
 
     //120
     // HTML classes
-    public static final String FIRST_IMG_CLASS = "cbolaContent-itemPicture cbolaContent-itemPicture";
+    public static final String FIRST_IMG_CLASS = "cbolaContent-itemPicture";
     public static final String FIRST_ITEM_CLASS = "cbolaContent-itemDescription";
     public static final String BOARD_CLASS = "cbola_board cbola_board0 unselectDrag";
     public static final String SHARE_FB_CLASS = "cbola-fa-facebook";

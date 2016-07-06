@@ -550,3 +550,21 @@ Command duration or timeout:
 2016-07-06 13:48:55 INFO  LogLog4j:252 - From Page Layer check is OK, layer number here is 120
 2016-07-06 13:49:05 INFO  LogLog4j:42 - From test: Assert is OK, centerwrapper exists
 2016-07-06 13:49:06 INFO  LogLog4j:124 - From Page class: V - Image 1 was displayed
+2016-07-06 14:09:23 INFO  LogLog4j:34 - -----  From test: Test Case 1 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-06 14:09:25 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-07-06 14:09:25 INFO  LogLog4j:252 - From Page Layer check is OK, layer number here is 120
+2016-07-06 14:09:37 INFO  LogLog4j:42 - From test: Assert is OK, centerwrapper exists
+2016-07-06 14:09:38 INFO  LogLog4j:124 - From Page class: V - Image 1 was displayed
+2016-07-06 14:09:38 INFO  LogLog4j:138 - From Page class: V - Image 1 src is: http://media.carambo.la/Images/11970_1_5.jpg
+2016-07-06 14:09:38 INFO  LogLog4j:34 - -----  From test: Test Case 1 with URL: http://egotvonline.com/2013/01/09/top-5-things-we-learned-watching-the-new-david-bowie-music-video/-----
+2016-07-06 14:09:49 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-07-06 14:09:49 INFO  LogLog4j:252 - From Page Layer check is OK, layer number here is 120
+2016-07-06 14:09:59 INFO  LogLog4j:42 - From test: Assert is OK, centerwrapper exists
+2016-07-06 14:09:59 INFO  LogLog4j:124 - From Page class: V - Image 1 was displayed
+2016-07-06 14:09:59 INFO  LogLog4j:138 - From Page class: V - Image 1 src is: http://media.carambo.la/Images/12060_1_5.jpg
+2016-07-06 14:10:00 INFO  LogLog4j:34 - -----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-06 14:10:10 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-07-06 14:10:11 INFO  LogLog4j:252 - From Page Layer check is OK, layer number here is 120
+2016-07-06 14:10:21 INFO  LogLog4j:42 - From test: Assert is OK, centerwrapper exists
+2016-07-06 14:10:22 INFO  LogLog4j:124 - From Page class: V - Image 1 was displayed
+2016-07-06 14:10:22 INFO  LogLog4j:138 - From Page class: V - Image 1 src is: http://media.carambo.la/Images/10394_1_5.jpg

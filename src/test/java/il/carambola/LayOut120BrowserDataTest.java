@@ -44,7 +44,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         //softAssert.assertTrue(layout_120_page.IsBoardExist(), "From test: Cbola board DOESNT exists");
             //step 4.2
             layout_120_page.isFirstImageExists();
-        // layout_120_page.printImage();
+        layout_120_page.printImage();
 
 
     }
