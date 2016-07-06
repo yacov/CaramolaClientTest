@@ -5,6 +5,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import java.util.concurrent.TimeUnit;
+
 import static org.testng.AssertJUnit.assertTrue;
 
 public class LayOut120BrowserDataTest extends TestNgTestBase {
@@ -25,7 +27,8 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
 
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
     public void BasicFullLoad(String url) {
-
+        long maxPageRunTime = (60 + 10); // 60 for page load + 10 for the test
+        driver.manage().timeouts().pageLoadTimeout(maxPageRunTime, TimeUnit.SECONDS);
             driver.manage().window().maximize();
             driver.get(url);
         Log.info("-----  From test: Test Case 1 with URL: " + url + "-----");
@@ -41,7 +44,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         //softAssert.assertTrue(layout_120_page.IsBoardExist(), "From test: Cbola board DOESNT exists");
             //step 4.2
             layout_120_page.isFirstImageExists();
-            layout_120_page.printImage();
+        // layout_120_page.printImage();
 
 
     }

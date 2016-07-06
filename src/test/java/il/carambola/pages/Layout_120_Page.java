@@ -23,7 +23,7 @@ public class Layout_120_Page extends Page {
     @FindBy(id = Consts.CENTER_WRAPPER_ID)
     WebElement centerWrapper;
 
-    @FindBy(id = Consts.BOARD_CLASS)
+    @FindBy(xpath = "//div[@class='" + Consts.BOARD_CLASS + "']")
     WebElement CbolaBoard;
 
     //@FindBy(xpath = "//*[@id='InContent-container-centerWrapper0']//div[@class='cbola_board cbola_board0 unselectDrag']")
@@ -32,7 +32,7 @@ public class Layout_120_Page extends Page {
     @FindBy(id = Consts.TRUE_BTN_ID)
     WebElement TrueButton;
 
-    @FindBy(id = Consts.FIRST_IMG_CLASS+0)
+    @FindBy(xpath = "//img[@class='cbolaContent-itemPicture cbolaContent-itemPicture0']")
     WebElement img0;
 
     //public ProfilePage profilePag
@@ -44,25 +44,6 @@ public class Layout_120_Page extends Page {
         PageFactory.initElements(driver, this);
     }
 
-
-//Fill the fileds
-
-
-//methods that generate test data
-
-    /*public String generateFirstName() {
-        Random rn = new Random();
-        int num = rn.nextInt(1000) + 1;
-        String name = "First" + Integer.toString(num);
-        return name;
-    }*/
-
-    /*public String generateLastName() {
-        Random rn = new Random();
-        int num = rn.nextInt(1000) + 1;
-        String name = "Last" + num;
-        return name;
-    }*/
 
 
     public Layout_120_Page pressYesButton() {
@@ -83,7 +64,7 @@ public class Layout_120_Page extends Page {
 
 
     public Layout_120_Page WaitUntilLayoutIsLoaded() {
-        waitUntilIsLoadedCustomTime(CbolaBoard, 20);
+        waitUntilIsLoadedCustomTime(CbolaBoard, 30);
 
         return this;  // ?? why like this?
     }
@@ -99,7 +80,7 @@ public class Layout_120_Page extends Page {
     }
 
     public boolean isScriptValidHere() {
-        waitUntilIsLoadedCustomTime(ContentScript, 30);
+//        waitUntilIsLoadedCustomTime(ContentScript, 30);
         return IsScriptValid1(ContentScript);
     }
 
@@ -141,17 +122,18 @@ public class Layout_120_Page extends Page {
         boolean CbolaFirstImg = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS+0)).isDisplayed();
         if(CbolaFirstImg) {
             Log.info("From Page class: V - Image 1 was displayed");
-            System.out.println("From Page class: YEAH!- we can see 1st image element:");
+            // System.out.println("From Page class: YEAH!- we can see 1st image element:");
         } else {
-            Log.info("From Page class: X - Image 1 WASNT displayed");
-            System.out.println("From Page class: SHAYSE - 1st img element WASNT displayed");
+            Log.info("From Page class: SHAYSE X - Image 1 WASNT displayed");
+            //  System.out.println("From Page class: SHAYSE - 1st img element WASNT displayed");
             CbolaFirstImg = false;
         }
         return CbolaFirstImg;
     }
     // get the src of the img and print it
     public void printImage(){
-        String src0 = img0.getAttribute("src");
+        WebElement src0El = driver.findElement(By.className(Consts.FIRST_IMG_CLASS + 0));
+        String src0 = src0El.getAttribute("src");
         //System.out.println(src0);
         Log.info("From Page class: V - Image 1 src is: " + src0);
     }
