@@ -16,10 +16,5 @@
     </classes>
   </test>
 
-  <test name="IETests">
-    <parameter name="browser_name" value="ie"/>
-    <classes>
-      <class name="il.carambola.LayOut120BrowserDataTest"/>
-    </classes>
-  </test>
+
 </suite>

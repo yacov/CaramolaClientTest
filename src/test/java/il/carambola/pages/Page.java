@@ -119,7 +119,7 @@ public abstract class Page {
     try {
       boolean LayerStatus = script.isEnabled();
       if (LayerStatus) {
-        Log.info("YEAH!- cbola SCRIPT was loaded succefuly inside the HTML");
+        Log.info("YEAH!- cbola SCRIPT was loaded successfuly inside the HTML");
       } else {
         Log.info("SHAYSE- cbola SCRIPT WASNT LOADED...");
         //errors.add("Browser: " + browserName + " URL: " + (i + 1) + " ");
@@ -254,6 +254,7 @@ public abstract class Page {
   public boolean exists(WebElement element) {
     try {
       return element.isDisplayed();
+
     } catch (org.openqa.selenium.NoSuchElementException ignored) {
       return false;
     }
@@ -262,9 +263,9 @@ public abstract class Page {
   public void checkLayerNumber(Integer LayerNum) {
     String layerTypeAttribute = driver.findElement(By.className(Consts.CENTER_WRAPPER_ID)).getAttribute("layertype");
     Integer layerNumber = Integer.parseInt(layerTypeAttribute);
-    Assert.assertEquals(layerNumber, LayerNum, "This is not right Layer Number, so test stops here. Actual Layer nimber is " + layerNumber);
-    Log.info("From Page Layer check is OK, layer number here is " + layerNumber);
-    System.out.println(layerTypeAttribute);
+    Assert.assertEquals(layerNumber, LayerNum, "This is not right Layer Number, so test stops here. Actual Layer number is " + layerNumber);
+    Log.info("Layer number is OK: " + layerNumber);
+    //System.out.println(layerTypeAttribute);
   }
 
   public void waitUntilElementIsLoaded(WebElement element) throws IOException, InterruptedException {

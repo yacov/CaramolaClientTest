@@ -83,12 +83,16 @@ public class Layout_120_Page extends Page {
 
 
     public Layout_120_Page WaitUntilLayoutIsLoaded() {
-        waitUntilIsLoadedCustomTime(CbolaBoard, 20);
+        Integer waitTime = 2;
+        waitUntilIsLoadedCustomTime(CbolaBoard, waitTime);
+        System.out.println("waited " + waitTime + " sec after cbola board");
 
         return this;  // ?? why like this?
     }
 
     public boolean CheckThatYesButtonExists() {
+
+        // "exists()" is a method in Page.java that the element is.Displayed()
         return exists(TrueButton);
 
     }
@@ -99,7 +103,7 @@ public class Layout_120_Page extends Page {
     }
 
     public boolean isScriptValidHere() {
-        waitUntilIsLoadedCustomTime(ContentScript, 30);
+       // waitUntilIsLoadedCustomTime(ContentScript, 30);
         return IsScriptValid1(ContentScript);
     }
 
@@ -137,9 +141,9 @@ public class Layout_120_Page extends Page {
 
     // Step 4.2 - Verify 1st Image -cbolaContent-imageLoader
 
-    public boolean isFirstImageExists(){
-        boolean CbolaFirstImg = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS+0)).isDisplayed();
-        if(CbolaFirstImg) {
+    public boolean isFirstImageExists() {
+        boolean CbolaFirstImg = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS + 0)).isDisplayed();
+        if (CbolaFirstImg) {
             Log.info("From Page class: V - Image 1 was displayed");
             System.out.println("From Page class: YEAH!- we can see 1st image element:");
         } else {
@@ -148,15 +152,17 @@ public class Layout_120_Page extends Page {
             CbolaFirstImg = false;
         }
         return CbolaFirstImg;
+    }
     public boolean checkImageIsCorrect(Integer imageNo){
         WebElement imageElement = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS + imageNo));
         return isImageExists(imageNo, imageElement);
     }
     // get the src of the img and print it
-    public void printImage(){
+    public void printImage() {
         String src0 = img0.getAttribute("src");
         //System.out.println(src0);
         Log.info("From Page class: V - Image 1 src is: " + src0);
+    }
     public void printImage(Integer imageNo){
         // couldnt use the @FindBy with the operator so I am looking here for the element
         WebElement imgClass = driver.findElement(By.className(Consts.FIRST_IMG_CLASS + imageNo));

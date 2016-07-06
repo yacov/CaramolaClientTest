@@ -52,8 +52,8 @@ public class TestNgTestBase {
 
         //set path to chromedriver.exe You may need to download it from http://code.google.com/p/selenium/wiki/ChromeDriver
 
-
-        //create chrome instance
+        String exePathChromeDriver = "C:\\Users\\Yair\\Documents\\yair\\QA\\TestAutomation\\Selenium\\chrome_driver2_0\\chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver", exePathChromeDriver);
 
         driver = new ChromeDriver();
 
@@ -68,7 +68,8 @@ public class TestNgTestBase {
         //  System.setProperty("webdriver.ie.driver","C:\\IEdriver.exe");
 
         //create chrome instance
-
+        String exeServiceIEdriver = "C:\\Users\\Yair\\Documents\\yair\\QA\\TestAutomation\\Selenium\\IEdriver2_48\\IEDriverServer.exe";
+        System.setProperty("webdriver.ie.driver", exeServiceIEdriver);
         driver = new InternetExplorerDriver();
 
       } else {
@@ -91,5 +92,6 @@ public class TestNgTestBase {
   @AfterSuite(alwaysRun = true)
   public void tearDown() {
     WebDriverFactory.dismissAll();
+    this.driver.quit();
   }
 }
