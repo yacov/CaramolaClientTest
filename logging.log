@@ -589,3 +589,29 @@ Session ID: a4a78d0a3370f2a565debf717a426611
 2016-07-06 12:23:33 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
 2016-07-06 12:23:53 INFO  LogLog4j:267 - Layer number is OK: 120
 2016-07-06 12:23:53 INFO  LogLog4j:70 - From Page class: element 'TrueButton' is clicked
+2016-07-12 13:51:24 INFO  LogLog4j:39 - -----  From test: Test Case 1 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-12 13:51:25 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-12 13:51:25 INFO  LogLog4j:267 - Layer number is OK: 120
+2016-07-12 13:51:35 INFO  LogLog4j:47 - From test: Assert is OK, centerwrapper exists
+2016-07-12 13:51:35 INFO  LogLog4j:161 - V - Image 0 was displayed
+2016-07-12 13:51:35 INFO  LogLog4j:171 - V - Image 1 src is: http://media.carambo.la/Images/11974_1_5.jpg
+2016-07-12 13:51:43 INFO  LogLog4j:39 - -----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-12 13:51:43 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-12 13:51:43 INFO  LogLog4j:267 - Layer number is OK: 120
+2016-07-12 13:51:53 INFO  LogLog4j:47 - From test: Assert is OK, centerwrapper exists
+2016-07-12 13:51:53 INFO  LogLog4j:161 - V - Image 0 was displayed
+2016-07-12 13:51:53 INFO  LogLog4j:171 - V - Image 1 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-12 13:52:09 INFO  LogLog4j:64 - -----   Test Case 2 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-12 13:52:10 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-12 13:52:30 INFO  LogLog4j:267 - Layer number is OK: 120
+2016-07-12 13:52:30 INFO  LogLog4j:70 - From Page class: element 'TrueButton' is clicked
+2016-07-12 13:52:30 INFO  LogLog4j:64 - -----   Test Case 2 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-12 13:52:33 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-12 13:52:53 INFO  LogLog4j:267 - Layer number is OK: 120
+2016-07-12 13:52:54 INFO  LogLog4j:70 - From Page class: element 'TrueButton' is clicked
+2016-07-12 13:53:15 INFO  LogLog4j:39 - -----  From test: Test Case 1 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-12 13:53:15 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-12 13:53:15 INFO  LogLog4j:267 - Layer number is OK: 120
+2016-07-12 13:53:25 INFO  LogLog4j:47 - From test: Assert is OK, centerwrapper exists
+2016-07-12 13:53:25 INFO  LogLog4j:161 - V - Image 0 was displayed
+2016-07-12 13:53:25 INFO  LogLog4j:171 - V - Image 1 src is: http://media.carambo.la/Images/11974_1_5.jpg
