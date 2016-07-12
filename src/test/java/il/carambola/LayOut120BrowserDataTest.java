@@ -1,10 +1,11 @@
 package il.carambola;
 
 import org.apache.log4j.Logger;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+
+import java.util.concurrent.TimeUnit;
 
 import static org.testng.AssertJUnit.assertTrue;
 
@@ -13,13 +14,6 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     //  public WebDriver driver;
 
     private SoftAssert softAssert = new SoftAssert();
-
-
-    @BeforeClass(alwaysRun = true)
-    public void initbrowser() throws Exception {
-
-        // driver = new ChromeDriver();
-    }
 
     @BeforeMethod
     public void initPageObjects() {
@@ -33,23 +27,24 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
 
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
     public void BasicFullLoad(String url) {
-
-        driver.manage().window().maximize();
-        driver.get(url);
+        long maxPageRunTime = (60 + 10); // 60 for page load + 10 for the test
+        driver.manage().timeouts().pageLoadTimeout(maxPageRunTime, TimeUnit.SECONDS);
+            driver.manage().window().maximize();
+            driver.get(url);
         Log.info("-----  From test: Test Case 1 with URL: " + url + "-----");
-        // step 1
+            // step 1
         assertTrue("From test: Script is not valid on url " + url, layout_120_page.isScriptValidHere());
         //    layout_120_page.WaitUntilLayoutIsLoaded();
-        //step 2
-        layout_120_page.chekLayerIsCorrect();
-        //step 3
-        softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "Centerwrapper do not exist");
+            //step 2
+            layout_120_page.chekLayerisCorrect();
+            //step 3
+            softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "Centerwrapper do not exist");
         Log.info("From test: Assert is OK, centerwrapper exists");
-        //step 4
+            //step 4
         //softAssert.assertTrue(layout_120_page.IsBoardExist(), "From test: Cbola board DOESNT exists");
-        //step 4.2
-        layout_120_page.checkImageIsCorrect(0);
-        layout_120_page.printImage(0);
+            //step 4.2
+            layout_120_page.isFirstImageExists();
+        layout_120_page.printImage();
 
 
     }
@@ -61,12 +56,12 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
 
 
         driver.get(url);
-        Log.info("-----   Test Case 2 with URL: " + url + "-----");
-        assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
-        layout_120_page.WaitUntilLayoutIsLoaded().chekLayerIsCorrect();
+            Log.info("-----   Test Case 2 with URL: " + url + "-----");
+            assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
+            layout_120_page.WaitUntilLayoutIsLoaded().chekLayerisCorrect();
 
-        // TODO: 08/06/2016  create loop
-        layout_120_page.pressYesButton();
+            // TODO: 08/06/2016  create loop
+            layout_120_page.pressYesButton();
           
           /*layout_120_page.pressYesButton();
           softAssert.assertTrue(layout_120_page.CheckThatYesButtonExists(), "Yes button do not exist");
@@ -76,9 +71,9 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
           Log.info("Assert is OK, button No exists");*/
 
 
-    }
+        }
 
-    //assertTrue("Yes button do not exist", layout_120_page.CheckThatYesButtonExists());
+        //assertTrue("Yes button do not exist", layout_120_page.CheckThatYesButtonExists());
 
 
 
