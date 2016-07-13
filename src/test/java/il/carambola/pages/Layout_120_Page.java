@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import ru.yandex.qatools.allure.annotations.Step;
 
 import java.io.IOException;
 
@@ -45,7 +46,7 @@ public class Layout_120_Page extends Page {
     }
 
 
-
+    @Step("Press Yes button")
     public Layout_120_Page pressYesButton() {
         clickElement(TrueButton);
         Log.info("From Page class: element 'TrueButton' is clicked");
@@ -53,37 +54,42 @@ public class Layout_120_Page extends Page {
 
     }
 
-    //Check
+    @Step("wait Until Popup Closed")
     public void waitUntilPopupClosed() throws IOException, InterruptedException {
         waitUntilElementIsDisappeared("popup");
     }
 
+    @Step("Check is Pop Up Closed")
     public boolean isPopUpClosed() {
         return !exists(driver.findElement(By.id("popup")));
     }
 
-
+    @Step("Wait Until Layout Is Loaded")
     public Layout_120_Page WaitUntilLayoutIsLoaded() {
         waitUntilIsLoadedCustomTime(CbolaBoard, 30);
 
         return this;  // ?? why like this?
     }
 
+    @Step("Check That Yes Button Exists")
     public boolean CheckThatYesButtonExists() {
         return exists(TrueButton);
 
     }
 
+    @Step("Check That Center Wrapper Exists")
     public boolean CheckThatCenterWrapperExists() {
         return exists(centerWrapper);
 
     }
 
+    @Step("Check if Script Valid Here")
     public boolean isScriptValidHere() {
 //        waitUntilIsLoadedCustomTime(ContentScript, 30);
         return IsScriptValid1(ContentScript);
     }
 
+    @Step("Check if board exists")
     public boolean IsBoardExist(){
         boolean isBoardValid = true;
         if (CbolaBoard != null && CbolaBoard.isDisplayed()) {
@@ -111,13 +117,13 @@ public class Layout_120_Page extends Page {
     // }
 
     //check if the layout is 120. if not - end
-
+    @Step("Check if Layer is correct")
     public void chekLayerisCorrect() {
         checkLayerNumber(120);
     }
 
     // Step 4.2 - Verify 1st Image -cbolaContent-imageLoader
-
+    @Step("Check if First Image Exists")
     public boolean isFirstImageExists(){
         boolean CbolaFirstImg = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS+0)).isDisplayed();
         if(CbolaFirstImg) {
@@ -131,6 +137,7 @@ public class Layout_120_Page extends Page {
         return CbolaFirstImg;
     }
     // get the src of the img and print it
+    @Step("Print Image")
     public void printImage(){
         WebElement src0El = driver.findElement(By.className(Consts.FIRST_IMG_CLASS + 0));
         String src0 = src0El.getAttribute("src");

@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+import ru.yandex.qatools.allure.annotations.Features;
 
 import java.util.concurrent.TimeUnit;
 
@@ -24,13 +25,13 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
 
     //This test runs several times, every iteration with new url. Urls are stored in resources/urlList.data file
 // Test Case 1
-
+    @Features("Check if Layer Correct")
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
     public void BasicFullLoad(String url) {
         long maxPageRunTime = (60 + 10); // 60 for page load + 10 for the test
         driver.manage().timeouts().pageLoadTimeout(maxPageRunTime, TimeUnit.SECONDS);
             driver.manage().window().maximize();
-            driver.get(url);
+        driver.get(url);
         Log.info("-----  From test: Test Case 1 with URL: " + url + "-----");
             // step 1
         assertTrue("From test: Script is not valid on url " + url, layout_120_page.isScriptValidHere());
@@ -49,7 +50,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
 
     }
 
-
+    @Features("Press buttons")
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
 // Test Case 2
     public void HalfGame(String url) {
