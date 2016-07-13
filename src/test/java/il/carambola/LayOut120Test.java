@@ -90,15 +90,15 @@ public class LayOut120Test {
         assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
         layout_120_page.WaitUntilLayoutIsLoaded();
         //step 2
-        layout_120_page.chekLayerIsCorrect();
+        layout_120_page.chekLayerisCorrect();
         //step 3
         softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "Centerwrapper do not exist");
         Log.info("Assert is OK, centerwrapper exists");
         //step 4
         assertTrue("Cbola board DOESNT exists", layout_120_page.IsBoardExist());
         //step 4.2
-        layout_120_page.checkImageIsCorrect(0);
-        layout_120_page.printImage(0);
+        layout_120_page.isFirstImageExists();
+        layout_120_page.printImage();
 
     } catch (Exception e) {
       Log.info(e);
@@ -113,10 +113,10 @@ public class LayOut120Test {
           driver.get(url);
           Log.info("-----   Test Case 2 with URL: "+ url + "-----" );
           assertTrue("Script is not valid on url"+ url,layout_120_page.isScriptValidHere());
-          layout_120_page.WaitUntilLayoutIsLoaded().chekLayerIsCorrect();
+          layout_120_page.WaitUntilLayoutIsLoaded().chekLayerisCorrect();
 
           // TODO: 08/06/2016  create loop
-          layout_120_page.pressYesButton();
+          layout_120_page.pressTrueButton(3);
           
           /*layout_120_page.pressYesButton();
           softAssert.assertTrue(layout_120_page.CheckThatYesButtonExists(), "Yes button do not exist");

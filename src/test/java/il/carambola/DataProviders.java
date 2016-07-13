@@ -40,6 +40,7 @@ public class DataProviders {
         }
         in.close();
         return userData.iterator();
+
     }
 
     @DataProvider

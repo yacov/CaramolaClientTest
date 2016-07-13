@@ -44,33 +44,27 @@ public class TestNgTestBase {
 
         driver = new FirefoxDriver();
 
+        Log.info("*** Starting FireFox Browser ***");
+
       }
 
       //Check if parameter passed as 'chrome'
 
       else if (browser.equalsIgnoreCase("Chrome")) {
 
-        //set path to chromedriver.exe You may need to download it from http://code.google.com/p/selenium/wiki/ChromeDriver
-
-
-        //create chrome instance
+        String exePathChromeDriver = "C:\\Users\\Yair\\Documents\\yair\\QA\\TestAutomation\\Selenium\\chrome_driver2_0\\chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver", exePathChromeDriver);
 
         driver = new ChromeDriver();
+        Log.info("*** Starting Chrome Browser ***");
 
       } else if (browser.equalsIgnoreCase("ie")) {
 
-        //set path to IEdriver.exe You may need to download it from
-
-        // 32 bits http://selenium-release.storage.googleapis.com/2.42/IEDriverServer_Win32_2.42.0.zip
-
-        // 64 bits http://selenium-release.storage.googleapis.com/2.42/IEDriverServer_x64_2.42.0.zip
-
-        //  System.setProperty("webdriver.ie.driver","C:\\IEdriver.exe");
-
-        //create chrome instance
-
+        //String exeServiceIEdriver = "C:\\Users\\Yair\\Documents\\yair\\QA\\TestAutomation\\Selenium\\IEdriver2_48\\IEDriverServer.exe";
+        //System.setProperty("webdriver.ie.driver", exeServiceIEdriver);
+        //InternetExplorerDriver driverIE = new InternetExplorerDriver();
         driver = new InternetExplorerDriver();
-
+        Log.info("*** Starting IE Browser ***");
       } else {
 
         //If no browser passed throw exception

@@ -8,9 +8,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import ru.yandex.qatools.allure.annotations.Step;
 
 import java.io.IOException;
+
+import ru.yandex.qatools.allure.annotations.Step;
 
 /**
  * Created by Iakov Volf
@@ -32,6 +33,8 @@ public class Layout_120_Page extends Page {
 
     @FindBy(id = Consts.TRUE_BTN_ID)
     WebElement TrueButton;
+    @FindBy(id = Consts.FALSE_BTN_ID)
+    WebElement FalseButton;
 
     @FindBy(xpath = "//img[@class='cbolaContent-itemPicture cbolaContent-itemPicture0']")
     WebElement img0;
@@ -46,44 +49,54 @@ public class Layout_120_Page extends Page {
     }
 
 
-    @Step("Press Yes button")
-    public Layout_120_Page pressYesButton() {
-        clickElement(TrueButton);
-        Log.info("From Page class: element 'TrueButton' is clicked");
-        return this;
 
+    public Layout_120_Page pressTrueButton(Integer noOfClicks) throws InterruptedException {
+        Integer i = 0;
+        while ( i < noOfClicks){
+            clickElement(TrueButton);
+            Log.info("From Page class: element 'TrueButton' is clicked");
+            Thread.sleep(1500);
+            i++;
+        }
+        return this;
+    }
+    public Layout_120_Page pressFalseButton(Integer noOfClicks) throws InterruptedException {
+        Integer i = 0;
+        while ( i < noOfClicks){
+            clickElement(FalseButton);
+            Log.info("From Page class: element 'FalseButton' is clicked");
+            Thread.sleep(1500);
+            i++;
+        }
+        return this;
     }
 
-    @Step("wait Until Popup Closed")
+    //Check
     public void waitUntilPopupClosed() throws IOException, InterruptedException {
         waitUntilElementIsDisappeared("popup");
     }
 
-    @Step("Check is Pop Up Closed")
     public boolean isPopUpClosed() {
         return !exists(driver.findElement(By.id("popup")));
     }
 
-    @Step("Wait Until Layout Is Loaded")
+
     public Layout_120_Page WaitUntilLayoutIsLoaded() {
         waitUntilIsLoadedCustomTime(CbolaBoard, 30);
 
         return this;  // ?? why like this?
     }
 
-    @Step("Check That Yes Button Exists")
     public boolean CheckThatYesButtonExists() {
         return exists(TrueButton);
 
     }
 
-    @Step("Check That Center Wrapper Exists")
     public boolean CheckThatCenterWrapperExists() {
         return exists(centerWrapper);
 
     }
 
-    @Step("Check if Script Valid Here")
     public boolean isScriptValidHere() {
 //        waitUntilIsLoadedCustomTime(ContentScript, 30);
         return IsScriptValid1(ContentScript);

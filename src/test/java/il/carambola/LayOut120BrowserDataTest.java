@@ -30,7 +30,8 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     public void BasicFullLoad(String url) {
         long maxPageRunTime = (60 + 10); // 60 for page load + 10 for the test
         driver.manage().timeouts().pageLoadTimeout(maxPageRunTime, TimeUnit.SECONDS);
-            driver.manage().window().maximize();
+        driver.manage().window().maximize();
+
         driver.get(url);
         Log.info("-----  From test: Test Case 1 with URL: " + url + "-----");
             // step 1
@@ -53,7 +54,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     @Features("Press buttons")
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
 // Test Case 2
-    public void HalfGame(String url) {
+    public void HalfGame(String url) throws InterruptedException {
 
 
         driver.get(url);
@@ -61,9 +62,12 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
             assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
             layout_120_page.WaitUntilLayoutIsLoaded().chekLayerisCorrect();
 
-            // TODO: 08/06/2016  create loop
-            layout_120_page.pressYesButton();
-          
+            layout_120_page.pressTrueButton(3);
+            layout_120_page.pressFalseButton(2);
+
+        // TODO: 13/07/2016
+        // method: click + check image
+
           /*layout_120_page.pressYesButton();
           softAssert.assertTrue(layout_120_page.CheckThatYesButtonExists(), "Yes button do not exist");
           Log.info("Assert is OK, button Yes exists");
