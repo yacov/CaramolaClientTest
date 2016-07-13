@@ -604,3 +604,39 @@ Command duration or timeout:
 2016-07-12 14:57:39 INFO  LogLog4j:133 - java.lang.NullPointerException
 2016-07-12 14:57:39 INFO  LogLog4j:133 - java.lang.NullPointerException
 2016-07-12 14:57:39 INFO  LogLog4j:133 - java.lang.NullPointerException
+2016-07-13 14:07:14 INFO  LogLog4j:35 - -----  From test: Test Case 1 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-13 14:07:15 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-07-13 14:07:15 INFO  LogLog4j:252 - From Page Layer check is OK, layer number here is 120
+2016-07-13 14:07:25 INFO  LogLog4j:43 - From test: Assert is OK, centerwrapper exists
+2016-07-13 14:07:25 INFO  LogLog4j:130 - From Page class: V - Image 1 was displayed
+2016-07-13 14:07:25 INFO  LogLog4j:145 - From Page class: V - Image 1 src is: http://media.carambo.la/Images/11953_1_5.jpg
+2016-07-13 14:07:32 INFO  LogLog4j:35 - -----  From test: Test Case 1 with URL: http://egotvonline.com/2013/01/09/top-5-things-we-learned-watching-the-new-david-bowie-music-video/-----
+2016-07-13 14:07:32 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-07-13 14:07:32 INFO  LogLog4j:252 - From Page Layer check is OK, layer number here is 120
+2016-07-13 14:07:42 INFO  LogLog4j:43 - From test: Assert is OK, centerwrapper exists
+2016-07-13 14:07:42 INFO  LogLog4j:130 - From Page class: V - Image 1 was displayed
+2016-07-13 14:07:42 INFO  LogLog4j:145 - From Page class: V - Image 1 src is: http://media.carambo.la/Images/10983_1_5.jpg
+2016-07-13 14:07:52 INFO  LogLog4j:35 - -----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-13 14:07:52 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-07-13 14:07:53 INFO  LogLog4j:252 - From Page Layer check is OK, layer number here is 120
+2016-07-13 14:08:03 INFO  LogLog4j:43 - From test: Assert is OK, centerwrapper exists
+2016-07-13 14:08:03 INFO  LogLog4j:130 - From Page class: V - Image 1 was displayed
+2016-07-13 14:08:03 INFO  LogLog4j:145 - From Page class: V - Image 1 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-13 14:08:25 INFO  LogLog4j:60 - -----   Test Case 2 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-13 14:08:25 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-07-13 14:08:26 INFO  LogLog4j:252 - From Page Layer check is OK, layer number here is 120
+2016-07-13 14:08:26 INFO  LogLog4j:52 - From Page class: element 'TrueButton' is clicked
+2016-07-13 14:08:27 INFO  LogLog4j:60 - -----   Test Case 2 with URL: http://egotvonline.com/2013/01/09/top-5-things-we-learned-watching-the-new-david-bowie-music-video/-----
+2016-07-13 14:08:33 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-07-13 14:08:33 INFO  LogLog4j:252 - From Page Layer check is OK, layer number here is 120
+2016-07-13 14:08:33 INFO  LogLog4j:52 - From Page class: element 'TrueButton' is clicked
+2016-07-13 14:08:34 INFO  LogLog4j:60 - -----   Test Case 2 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-13 14:08:39 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded succefuly inside the HTML
+2016-07-13 14:08:39 INFO  LogLog4j:252 - From Page Layer check is OK, layer number here is 120
+2016-07-13 14:08:40 INFO  LogLog4j:52 - From Page class: element 'TrueButton' is clicked
+2016-07-13 14:08:40 INFO  LogLog4j:105 - java.lang.NullPointerException
+2016-07-13 14:08:40 INFO  LogLog4j:105 - java.lang.NullPointerException
+2016-07-13 14:08:40 INFO  LogLog4j:105 - java.lang.NullPointerException
+2016-07-13 14:08:40 INFO  LogLog4j:132 - java.lang.NullPointerException
+2016-07-13 14:08:40 INFO  LogLog4j:132 - java.lang.NullPointerException
+2016-07-13 14:08:40 INFO  LogLog4j:132 - java.lang.NullPointerException
