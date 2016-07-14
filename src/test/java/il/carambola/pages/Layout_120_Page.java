@@ -48,7 +48,17 @@ public class Layout_120_Page extends Page {
         PageFactory.initElements(driver, this);
     }
 
+    public boolean isTextExists(Integer itemNo) throws IOException {
+        // must declare the WebElement here so we can use the "itemNo" (its a dynamic class)
+        WebElement Item = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS + itemNo));
+        return findText(Item, itemNo);
+    }
 
+    public boolean isScoreTitleExists() throws IOException {
+        // must declare the WebElement here so we can use the "itemNo" (its a dynamic class)
+        WebElement scoreTitle = driver.findElement(By.className(Consts.SCORE_TITLE_CLASS));
+        return findScoreTitle(scoreTitle);
+    }
 
     public Layout_120_Page pressTrueButton(Integer noOfClicks) throws InterruptedException {
         Integer i = 0;

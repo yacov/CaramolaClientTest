@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import ru.yandex.qatools.allure.annotations.Features;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import static org.testng.AssertJUnit.assertTrue;
@@ -27,7 +28,8 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
 // Test Case 1
     @Features("Check if Layer Correct")
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
-    public void BasicFullLoad(String url) {
+    // IO Exception added after using File export for screenshot
+    public void BasicFullLoad(String url) throws IOException {
         long maxPageRunTime = (60 + 10); // 60 for page load + 10 for the test
         driver.manage().timeouts().pageLoadTimeout(maxPageRunTime, TimeUnit.SECONDS);
         driver.manage().window().maximize();
@@ -47,7 +49,8 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
             //step 4.2
         layout_120_page.isFirstImageExists(0);
         layout_120_page.printImage(0);
-
+        layout_120_page.isTextExists(0); // its a boolean in case we will want to make Assert
+        layout_120_page.isScoreTitleExists();
 
     }
 

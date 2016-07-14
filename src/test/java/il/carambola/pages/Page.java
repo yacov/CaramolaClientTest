@@ -2,6 +2,7 @@ package il.carambola.pages;
 
 import il.carambola.Consts;
 import il.carambola.LogLog4j;
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.Color;
@@ -10,7 +11,11 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.io.File;
 import java.io.IOException;
+
+import java.math.RoundingMode;
+//import java.time.LocalDateTime; ---------- why cant use it?
 import java.util.List;
 //import java.util.concurrent.ThreadLocalRandom;
 
@@ -23,6 +28,7 @@ public abstract class Page {
   public String PAGE_URL;
   public String PAGE_TITLE;
   public WebDriver driver;
+
 
   /*
    * Constructor injecting the WebDriver interface
@@ -168,6 +174,48 @@ public abstract class Page {
     }
     return CbolaFirstImg;
   }
+  // check if the text of the item exists, AND print it
+  public boolean findText(WebElement Item, Integer itemNo) throws IOException {
+
+    boolean isText = Item.isDisplayed();
+    if (isText) {
+      Log.info("V - Item " + itemNo + " was displayed");
+      String TextString = Item.getText();
+      Log.info("Text of item number: " + itemNo + " is: "+ TextString);
+      File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+      FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" + Math.random()*10 + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
+    } else {
+      Log.info("X - Item " + itemNo + " WASN'T displayed");
+      File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+      FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" +  Math.random()*10 + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
+    }
+
+    return isText;
+  }
+
+  // check if the text of the Score Title exists, AND print it
+  public boolean findScoreTitle(WebElement scoreTilte) throws IOException {
+
+    boolean isScoreTitle = scoreTilte.isDisplayed();
+    if (isScoreTitle) {
+      Log.info("V - Score Title Class was displayed");
+      String TextString = scoreTilte.getText();
+      if(new String(Consts.TEXT_QUESTION).equals(TextString)){
+        Log.info("V - Text of Question is Correct: "+ TextString);
+        File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" + Math.random()*10 + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
+      }else{
+        Log.info("X- Text of Question is NOT correct: "+ TextString);
+        File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" + Math.random()*10 + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
+      }
+    } else {
+      Log.info("X - score title class WASN'T displayed");
+      File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+      FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" +  Math.random()*10 + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
+    }
+    return isScoreTitle;
+  }
 
   public void setElementText(WebElement element, String text) {
     element.click();
@@ -176,7 +224,6 @@ public abstract class Page {
     element.sendKeys(text);
     // Assert.assertEquals(element.getAttribute("value"), text);
   }
-
 
   public void clickElement(WebElement element) {
     // Log.info("clicking on element " + element + "");
@@ -193,7 +240,8 @@ public abstract class Page {
 
   public void waitUntilIsLoaded(WebElement element) {
     try {
-      new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(element));
+      // was 10 and changed into 2
+      new WebDriverWait(driver, 2).until(ExpectedConditions.visibilityOf(element));
     } catch (Exception e) {
       // Log.info("---------------------------------");
       // Log.info("element " + element + " can not be found by ExpectedConditions.visibilityOf(element)");

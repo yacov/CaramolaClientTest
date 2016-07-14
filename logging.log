@@ -735,3 +735,147 @@ Command duration or timeout:
 2016-07-14 15:30:44 INFO  LogLog4j:44 - From test: Assert is OK, centerwrapper exists
 2016-07-14 15:30:44 INFO  LogLog4j:143 - From Page class: V - Image 1 was displayed
 2016-07-14 15:30:44 INFO  LogLog4j:158 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-14 17:25:39 INFO  LogLog4j:48 - 
+*** Starting FireFox Browser ***
+2016-07-14 17:25:58 INFO  LogLog4j:36 - 
+-----  From test: Test Case 1 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-14 17:25:59 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-14 17:25:59 INFO  LogLog4j:284 - Layer number is OK: 120
+2016-07-14 17:26:09 INFO  LogLog4j:44 - From test: Assert is OK, centerwrapper exists
+2016-07-14 17:26:09 INFO  LogLog4j:141 - From Page class: V - Image 0 was displayed
+2016-07-14 17:26:09 INFO  LogLog4j:156 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/11953_1_5.jpg
+2016-07-14 17:26:09 INFO  LogLog4j:177 - V - Item 0 was displayed
+2016-07-14 17:26:19 INFO  LogLog4j:36 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-14 17:26:19 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-14 17:26:19 INFO  LogLog4j:284 - Layer number is OK: 120
+2016-07-14 17:26:29 INFO  LogLog4j:44 - From test: Assert is OK, centerwrapper exists
+2016-07-14 17:26:29 INFO  LogLog4j:141 - From Page class: V - Image 0 was displayed
+2016-07-14 17:26:29 INFO  LogLog4j:156 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-14 17:26:29 INFO  LogLog4j:177 - V - Item 0 was displayed
+2016-07-14 17:41:36 INFO  LogLog4j:48 - 
+*** Starting FireFox Browser ***
+2016-07-14 17:41:45 INFO  LogLog4j:36 - 
+-----  From test: Test Case 1 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-14 17:41:46 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-14 17:41:46 INFO  LogLog4j:283 - Layer number is OK: 120
+2016-07-14 17:41:56 INFO  LogLog4j:44 - From test: Assert is OK, centerwrapper exists
+2016-07-14 17:41:56 INFO  LogLog4j:146 - From Page class: V - Image 0 was displayed
+2016-07-14 17:41:56 INFO  LogLog4j:161 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/11953_1_5.jpg
+2016-07-14 17:41:56 INFO  LogLog4j:176 - V - Item 0 was displayed
+2016-07-14 17:41:56 INFO  LogLog4j:177 - YEAH!- text for item number: 0 is diplayed, and it says: 
+2016-07-14 17:41:56 INFO  LogLog4j:179 - Tunisian crochet: AKA Afghan crochet, creates a thick fabric usually used to make blankets
+2016-07-14 17:42:02 INFO  LogLog4j:36 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-14 17:42:02 INFO  LogLog4j:122 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-14 17:42:03 INFO  LogLog4j:283 - Layer number is OK: 120
+2016-07-14 17:42:13 INFO  LogLog4j:44 - From test: Assert is OK, centerwrapper exists
+2016-07-14 17:42:13 INFO  LogLog4j:146 - From Page class: V - Image 0 was displayed
+2016-07-14 17:42:13 INFO  LogLog4j:161 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-14 17:42:13 INFO  LogLog4j:176 - V - Item 0 was displayed
+2016-07-14 17:42:13 INFO  LogLog4j:177 - YEAH!- text for item number: 0 is diplayed, and it says: 
+2016-07-14 17:42:13 INFO  LogLog4j:179 - In 1969, Steve Owens traded his Heisman cuff links to Richard Nixon for ones with the Presidential Seal
+2016-07-14 18:08:29 INFO  LogLog4j:48 - 
+*** Starting FireFox Browser ***
+2016-07-14 18:08:48 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-14 18:08:49 INFO  LogLog4j:125 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-14 18:08:49 INFO  LogLog4j:287 - Layer number is OK: 120
+2016-07-14 18:08:59 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-14 18:08:59 INFO  LogLog4j:146 - From Page class: V - Image 0 was displayed
+2016-07-14 18:08:59 INFO  LogLog4j:161 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/11953_1_5.jpg
+2016-07-14 18:08:59 INFO  LogLog4j:179 - V - Item 0 was displayed
+2016-07-14 18:08:59 INFO  LogLog4j:181 - Text of item number: 0 is: Tunisian crochet: AKA Afghan crochet, creates a thick fabric usually used to make blankets
+2016-07-14 18:09:14 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-14 18:09:14 INFO  LogLog4j:125 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-14 18:09:14 INFO  LogLog4j:287 - Layer number is OK: 120
+2016-07-14 18:09:24 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-14 18:09:24 INFO  LogLog4j:146 - From Page class: V - Image 0 was displayed
+2016-07-14 18:09:24 INFO  LogLog4j:161 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-14 18:09:24 INFO  LogLog4j:179 - V - Item 0 was displayed
+2016-07-14 18:09:24 INFO  LogLog4j:181 - Text of item number: 0 is: In 1969, Steve Owens traded his Heisman cuff links to Richard Nixon for ones with the Presidential Seal
+2016-07-14 18:26:14 INFO  LogLog4j:48 - 
+*** Starting FireFox Browser ***
+2016-07-14 18:26:24 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-14 18:26:25 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-14 18:26:25 INFO  LogLog4j:290 - Layer number is OK: 120
+2016-07-14 18:26:35 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-14 18:26:35 INFO  LogLog4j:146 - From Page class: V - Image 0 was displayed
+2016-07-14 18:26:35 INFO  LogLog4j:161 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/11953_1_5.jpg
+2016-07-14 18:26:35 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-14 18:26:35 INFO  LogLog4j:184 - Text of item number: 0 is: Tunisian crochet: AKA Afghan crochet, creates a thick fabric usually used to make blankets
+2016-07-14 18:26:41 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-14 18:26:41 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-14 18:26:42 INFO  LogLog4j:290 - Layer number is OK: 120
+2016-07-14 18:26:52 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-14 18:26:52 INFO  LogLog4j:146 - From Page class: V - Image 0 was displayed
+2016-07-14 18:26:52 INFO  LogLog4j:161 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-14 18:26:52 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-14 18:26:52 INFO  LogLog4j:184 - Text of item number: 0 is: In 1969, Steve Owens traded his Heisman cuff links to Richard Nixon for ones with the Presidential Seal
+2016-07-14 18:36:57 INFO  LogLog4j:48 - 
+*** Starting FireFox Browser ***
+2016-07-14 18:37:25 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-14 18:37:26 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-14 18:37:26 INFO  LogLog4j:291 - Layer number is OK: 120
+2016-07-14 18:37:36 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-14 18:37:36 INFO  LogLog4j:146 - From Page class: V - Image 0 was displayed
+2016-07-14 18:37:36 INFO  LogLog4j:161 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/11953_1_5.jpg
+2016-07-14 18:37:36 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-14 18:37:36 INFO  LogLog4j:184 - Text of item number: 0 is: Tunisian crochet: AKA Afghan crochet, creates a thick fabric usually used to make blankets
+2016-07-14 18:37:38 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-14 18:37:38 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-14 18:37:38 INFO  LogLog4j:291 - Layer number is OK: 120
+2016-07-14 18:37:48 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-14 18:37:48 INFO  LogLog4j:146 - From Page class: V - Image 0 was displayed
+2016-07-14 18:37:49 INFO  LogLog4j:161 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-14 18:37:49 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-14 18:37:49 INFO  LogLog4j:184 - Text of item number: 0 is: In 1969, Steve Owens traded his Heisman cuff links to Richard Nixon for ones with the Presidential Seal
+2016-07-14 18:38:43 INFO  LogLog4j:48 - 
+*** Starting FireFox Browser ***
+2016-07-14 18:39:02 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-14 18:39:02 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-14 18:39:03 INFO  LogLog4j:291 - Layer number is OK: 120
+2016-07-14 18:39:13 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-14 18:39:13 INFO  LogLog4j:146 - From Page class: V - Image 0 was displayed
+2016-07-14 18:39:13 INFO  LogLog4j:161 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/11953_1_5.jpg
+2016-07-14 18:39:13 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-14 18:39:13 INFO  LogLog4j:184 - Text of item number: 0 is: Tunisian crochet: AKA Afghan crochet, creates a thick fabric usually used to make blankets
+2016-07-14 18:39:24 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-14 18:39:24 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-14 18:39:24 INFO  LogLog4j:291 - Layer number is OK: 120
+2016-07-14 18:39:34 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-14 18:39:34 INFO  LogLog4j:146 - From Page class: V - Image 0 was displayed
+2016-07-14 18:39:34 INFO  LogLog4j:161 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-14 18:39:34 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-14 18:39:34 INFO  LogLog4j:184 - Text of item number: 0 is: In 1969, Steve Owens traded his Heisman cuff links to Richard Nixon for ones with the Presidential Seal
+2016-07-14 19:12:00 INFO  LogLog4j:48 - 
+*** Starting FireFox Browser ***
+2016-07-14 19:12:10 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-14 19:12:11 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-14 19:12:11 INFO  LogLog4j:315 - Layer number is OK: 120
+2016-07-14 19:12:21 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-14 19:12:21 INFO  LogLog4j:153 - From Page class: V - Image 0 was displayed
+2016-07-14 19:12:21 INFO  LogLog4j:168 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/11953_1_5.jpg
+2016-07-14 19:12:21 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-14 19:12:21 INFO  LogLog4j:184 - Text of item number: 0 is: Tunisian crochet: AKA Afghan crochet, creates a thick fabric usually used to make blankets
+2016-07-14 19:12:23 INFO  LogLog4j:201 - V - Score Title Class was displayed
+2016-07-14 19:12:23 INFO  LogLog4j:204 - V - Text of Question is Correct: Question
+2016-07-14 19:12:28 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-14 19:12:29 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-14 19:12:29 INFO  LogLog4j:315 - Layer number is OK: 120
+2016-07-14 19:12:39 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-14 19:12:39 INFO  LogLog4j:153 - From Page class: V - Image 0 was displayed
+2016-07-14 19:12:39 INFO  LogLog4j:168 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-14 19:12:39 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-14 19:12:39 INFO  LogLog4j:184 - Text of item number: 0 is: In 1969, Steve Owens traded his Heisman cuff links to Richard Nixon for ones with the Presidential Seal
+2016-07-14 19:12:41 INFO  LogLog4j:201 - V - Score Title Class was displayed
+2016-07-14 19:12:41 INFO  LogLog4j:204 - V - Text of Question is Correct: Question
