@@ -44,7 +44,8 @@ public class TestNgTestBase {
 
         driver = new FirefoxDriver();
 
-        Log.info("*** Starting FireFox Browser ***");
+
+        Log.info("\n*** Starting FireFox Browser ***");
 
       }
 
@@ -56,7 +57,7 @@ public class TestNgTestBase {
         System.setProperty("webdriver.chrome.driver", exePathChromeDriver);
 
         driver = new ChromeDriver();
-        Log.info("*** Starting Chrome Browser ***");
+        Log.info("\n*** Starting Chrome Browser ***");
 
       } else if (browser.equalsIgnoreCase("ie")) {
 
@@ -64,7 +65,7 @@ public class TestNgTestBase {
         //System.setProperty("webdriver.ie.driver", exeServiceIEdriver);
         //InternetExplorerDriver driverIE = new InternetExplorerDriver();
         driver = new InternetExplorerDriver();
-        Log.info("*** Starting IE Browser ***");
+        Log.info("\n*** Starting IE Browser ***");
       } else {
 
         //If no browser passed throw exception

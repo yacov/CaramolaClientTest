@@ -33,20 +33,20 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         driver.manage().window().maximize();
 
         driver.get(url);
-        Log.info("-----  From test: Test Case 1 with URL: " + url + "-----");
+        Log.info("\n-----  From test: Test Case 1 with URL: " + url + "-----");
             // step 1
         assertTrue("From test: Script is not valid on url " + url, layout_120_page.isScriptValidHere());
         //    layout_120_page.WaitUntilLayoutIsLoaded();
             //step 2
-            layout_120_page.chekLayerisCorrect();
+        layout_120_page.chekLayerisCorrect();
             //step 3
-            softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "Centerwrapper do not exist");
+        softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "Centerwrapper do not exist");
         Log.info("From test: Assert is OK, centerwrapper exists");
             //step 4
         //softAssert.assertTrue(layout_120_page.IsBoardExist(), "From test: Cbola board DOESNT exists");
             //step 4.2
-            layout_120_page.isFirstImageExists();
-        layout_120_page.printImage();
+        layout_120_page.isFirstImageExists(0);
+        layout_120_page.printImage(0);
 
 
     }

@@ -137,13 +137,13 @@ public class Layout_120_Page extends Page {
 
     // Step 4.2 - Verify 1st Image -cbolaContent-imageLoader
     @Step("Check if First Image Exists")
-    public boolean isFirstImageExists(){
-        boolean CbolaFirstImg = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS+0)).isDisplayed();
+    public boolean isFirstImageExists(Integer imgNo){
+        boolean CbolaFirstImg = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS + imgNo)).isDisplayed();
         if(CbolaFirstImg) {
-            Log.info("From Page class: V - Image 1 was displayed");
+            Log.info("From Page class: V - Image " + imgNo + " was displayed");
             // System.out.println("From Page class: YEAH!- we can see 1st image element:");
         } else {
-            Log.info("From Page class: SHAYSE X - Image 1 WASNT displayed");
+            Log.info("From Page class: SHAYSE X - Image " + imgNo + " WASNT displayed");
             //  System.out.println("From Page class: SHAYSE - 1st img element WASNT displayed");
             CbolaFirstImg = false;
         }
@@ -151,10 +151,10 @@ public class Layout_120_Page extends Page {
     }
     // get the src of the img and print it
     @Step("Print Image")
-    public void printImage(){
-        WebElement src0El = driver.findElement(By.className(Consts.FIRST_IMG_CLASS + 0));
+    public void printImage(Integer imgNo){
+        WebElement src0El = driver.findElement(By.className(Consts.FIRST_IMG_CLASS + imgNo));
         String src0 = src0El.getAttribute("src");
         //System.out.println(src0);
-        Log.info("From Page class: V - Image 1 src is: " + src0);
+        Log.info("From Page class: V - Image " + imgNo + " src is: " + src0);
     }
 }
