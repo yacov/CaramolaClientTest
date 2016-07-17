@@ -139,6 +139,14 @@ public abstract class Page {
 
   }
 
+  public void checkLayerNumber(Integer LayerNum) {
+    String layerTypeAttribute = driver.findElement(By.className(Consts.CENTER_WRAPPER_ID)).getAttribute("layertype");
+    Integer layerNumber = Integer.parseInt(layerTypeAttribute);
+    Assert.assertEquals(layerNumber, LayerNum, "This is not right Layer Number, so test stops here. Actual Layer number is " + layerNumber);
+    Log.info("Layer number is OK: " + layerNumber);
+    //System.out.println(layerTypeAttribute);
+  }
+
   // Step 4.1 - check if cbola board was displayed (the actual game)
 
   public boolean IsBoardExists(WebElement CbolaBoardStatus) {
@@ -215,6 +223,42 @@ public abstract class Page {
       FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" +  Math.random()*10 + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
     }
     return isScoreTitle;
+  }
+
+  public void isScoreUnit(WebElement ScoreUnitElement) throws IOException {
+
+    String ScoreUnit = ScoreUnitElement.findElement(By.tagName("span")).getText();
+    System.out.println("ref text is: " + Consts.TEXT_YOUR_SCORE);
+    System.out.println("text on screen is: " + ScoreUnit);
+
+    // score unit- "your score"
+    if (new String(Consts.TEXT_YOUR_SCORE).equals(ScoreUnit)) {
+      Log.info("V - Text check- score unit match");
+    } else {
+      Log.info("X - Text check- score unit DOESNT match");
+      File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+      FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot_NO match between the unit_score texts.png"));
+    }
+  }
+
+  // Find share btns
+  public void findShareBtn(String firm, WebElement shareBtn){
+    //select test fb or twitter
+    if(firm.equals("FB")){
+      boolean ShareFBb = shareBtn.isDisplayed();
+      if (ShareFBb) {
+        Log.info("V - FB share btn was displayed");
+      } else {
+        Log.info("X - FB share btn WASNT displayed");
+      }
+    }else if (firm.equals("Twitter")){
+      boolean shareTwitterBtn = shareBtn.isDisplayed();
+      if (shareTwitterBtn) {
+        Log.info("V - Twitter share btn was displayed");
+      } else {
+        Log.info("X - Twitter share btn WASNT displayed");
+      }
+    }else{Log.info("!!! err !!! share btn name is not correct. please adjust argument");}
   }
 
   public void setElementText(WebElement element, String text) {
@@ -308,14 +352,6 @@ public abstract class Page {
     }
   }
 
-  public void checkLayerNumber(Integer LayerNum) {
-    String layerTypeAttribute = driver.findElement(By.className(Consts.CENTER_WRAPPER_ID)).getAttribute("layertype");
-    Integer layerNumber = Integer.parseInt(layerTypeAttribute);
-    Assert.assertEquals(layerNumber, LayerNum, "This is not right Layer Number, so test stops here. Actual Layer number is " + layerNumber);
-    Log.info("Layer number is OK: " + layerNumber);
-    //System.out.println(layerTypeAttribute);
-  }
-
   public void waitUntilElementIsLoaded(WebElement element) throws IOException, InterruptedException {
     new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(element));
   }
@@ -363,23 +399,4 @@ public abstract class Page {
     return !cellColorBeforeClick.equals(cellColorAfterClick);
   }
 
-  // Find share btns
-  public void isShareBtnExists(String firm){
-    //select test fb or twitter
-    if(firm.equals("FB")){
-      boolean ShareFBb = driver.findElement(By.className(Consts.SHARE_FB_CLASS)).isDisplayed();
-      if (ShareFBb) {
-        Log.info("V - FB share btn was displayed");
-      } else {
-        Log.info("X - FB share btn WASNT displayed");
-      }
-    }else if (firm.equals("Twitter")){
-      boolean shareTwitterBtn = driver.findElement(By.className(Consts.SHARE_TWITTER_CLASS)).isDisplayed();
-      if (shareTwitterBtn) {
-        Log.info("V - Twitter share btn was displayed");
-      } else {
-        Log.info("X - Twitter share btn WASNT displayed");
-      }
-    }else{Log.info("!!! err !!! share btn name is not correct. please adjust argument");}
-  }
 }

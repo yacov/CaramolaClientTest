@@ -53,6 +53,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         layout_120_page.isScoreTitleExists();
         layout_120_page.isShareBtnExists("FB");
         layout_120_page.isShareBtnExists("Twitter");
+        layout_120_page.isScoreUnitExists();
 
     }
 

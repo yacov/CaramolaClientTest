@@ -38,6 +38,12 @@ public class Layout_120_Page extends Page {
 
     @FindBy(xpath = "//img[@class='cbolaContent-itemPicture cbolaContent-itemPicture0']")
     WebElement img0;
+    @FindBy(className = Consts.SHARE_FB_CLASS)
+    WebElement shareFB;
+    @FindBy(className = Consts.SHARE_TWITTER_CLASS)
+    WebElement shareTwitter;
+    @FindBy(className = Consts.SCORE_UNIT_CLASS)
+    WebElement scoreUnit;
 
     //public ProfilePage profilePag
 
@@ -167,7 +173,16 @@ public class Layout_120_Page extends Page {
         //System.out.println(src0);
         Log.info("From Page class: V - Image " + imgNo + " src is: " + src0);
     }
+    // check Share btns. passes the specific layer's elements to Method in PAGE
+    public void isShareBtnExists(String firm){
+        if(firm.equals("FB")){
+            findShareBtn(firm, shareFB);
+        }else if(firm.equals("Twitter")){
+            findShareBtn(firm, shareTwitter);
+        }
 
-
-
+    }
+    public void isScoreUnitExists() throws IOException {
+        isScoreUnit(scoreUnit);
+    }
 }

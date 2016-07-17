@@ -1000,3 +1000,53 @@ Command duration or timeout:
 2016-07-17 16:33:48 INFO  LogLog4j:204 - V - Text of Question is Correct: Question
 2016-07-17 16:33:49 INFO  LogLog4j:372 - V - FB share btn was displayed
 2016-07-17 16:33:49 INFO  LogLog4j:383 - !!! err !!! share btn name is not correct. please adjust argument
+2016-07-17 17:10:07 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-17 17:10:12 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-17 17:10:15 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-17 17:10:16 INFO  LogLog4j:315 - Layer number is OK: 120
+2016-07-17 17:10:26 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-17 17:10:26 INFO  LogLog4j:157 - From Page class: V - Image 0 was displayed
+2016-07-17 17:10:26 INFO  LogLog4j:172 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-17 17:10:26 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-17 17:10:26 INFO  LogLog4j:184 - Text of item number: 0 is: In 1969, Steve Owens traded his Heisman cuff links to Richard Nixon for ones with the Presidential Seal
+2016-07-17 17:10:27 INFO  LogLog4j:201 - V - Score Title Class was displayed
+2016-07-17 17:10:27 INFO  LogLog4j:204 - V - Text of Question is Correct: Question
+2016-07-17 17:13:57 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-17 17:14:07 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-17 17:14:08 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-17 17:14:08 INFO  LogLog4j:315 - Layer number is OK: 120
+2016-07-17 17:14:18 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-17 17:14:18 INFO  LogLog4j:157 - From Page class: V - Image 0 was displayed
+2016-07-17 17:14:18 INFO  LogLog4j:172 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-17 17:14:18 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-17 17:14:18 INFO  LogLog4j:184 - Text of item number: 0 is: In 1969, Steve Owens traded his Heisman cuff links to Richard Nixon for ones with the Presidential Seal
+2016-07-17 17:14:19 INFO  LogLog4j:201 - V - Score Title Class was displayed
+2016-07-17 17:14:19 INFO  LogLog4j:204 - V - Text of Question is Correct: Question
+2016-07-17 17:14:20 INFO  LogLog4j:372 - V - FB share btn was displayed
+2016-07-17 17:14:20 INFO  LogLog4j:379 - V - Twitter share btn was displayed
+2016-07-17 18:25:10 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-17 18:25:21 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-17 18:25:21 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-17 18:25:21 INFO  LogLog4j:146 - Layer number is OK: 120
+2016-07-17 18:25:31 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-17 18:25:31 INFO  LogLog4j:159 - From Page class: V - Image 0 was displayed
+2016-07-17 18:25:31 INFO  LogLog4j:174 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-17 18:25:31 INFO  LogLog4j:190 - V - Item 0 was displayed
+2016-07-17 18:25:31 INFO  LogLog4j:192 - Text of item number: 0 is: In 1969, Steve Owens traded his Heisman cuff links to Richard Nixon for ones with the Presidential Seal
+2016-07-17 18:25:32 INFO  LogLog4j:209 - V - Score Title Class was displayed
+2016-07-17 18:25:32 INFO  LogLog4j:212 - V - Text of Question is Correct: Question
+2016-07-17 18:25:33 INFO  LogLog4j:250 - V - FB share btn was displayed
+2016-07-17 18:25:33 INFO  LogLog4j:257 - V - Twitter share btn was displayed
+2016-07-17 18:25:33 INFO  LogLog4j:236 - V - Text check- score unit match
