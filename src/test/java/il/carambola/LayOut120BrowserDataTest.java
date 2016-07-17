@@ -51,8 +51,11 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         layout_120_page.printImage(0);
         layout_120_page.isTextExists(0); // its a boolean in case we will want to make Assert
         layout_120_page.isScoreTitleExists();
+        layout_120_page.isShareBtnExists("FB");
+        layout_120_page.isShareBtnExists("Twitter");
 
     }
+
 
     @Features("Press buttons")
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")

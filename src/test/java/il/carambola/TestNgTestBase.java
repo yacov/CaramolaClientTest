@@ -45,7 +45,7 @@ public class TestNgTestBase {
         driver = new FirefoxDriver();
 
 
-        Log.info("\n*** Starting FireFox Browser ***");
+        Log.info("\n\n*** Starting FireFox Browser ***\n");
 
       }
 
@@ -57,7 +57,7 @@ public class TestNgTestBase {
         System.setProperty("webdriver.chrome.driver", exePathChromeDriver);
 
         driver = new ChromeDriver();
-        Log.info("\n*** Starting Chrome Browser ***");
+        Log.info("\n\n*** Starting Chrome Browser ***\n");
 
       } else if (browser.equalsIgnoreCase("ie")) {
 

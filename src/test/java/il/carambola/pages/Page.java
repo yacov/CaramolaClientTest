@@ -362,4 +362,24 @@ public abstract class Page {
     String cellColorAfterClick = Color.fromString(cell.getCssValue("background-color")).asHex();
     return !cellColorBeforeClick.equals(cellColorAfterClick);
   }
+
+  // Find share btns
+  public void isShareBtnExists(String firm){
+    //select test fb or twitter
+    if(firm.equals("FB")){
+      boolean ShareFBb = driver.findElement(By.className(Consts.SHARE_FB_CLASS)).isDisplayed();
+      if (ShareFBb) {
+        Log.info("V - FB share btn was displayed");
+      } else {
+        Log.info("X - FB share btn WASNT displayed");
+      }
+    }else if (firm.equals("Twitter")){
+      boolean shareTwitterBtn = driver.findElement(By.className(Consts.SHARE_TWITTER_CLASS)).isDisplayed();
+      if (shareTwitterBtn) {
+        Log.info("V - Twitter share btn was displayed");
+      } else {
+        Log.info("X - Twitter share btn WASNT displayed");
+      }
+    }else{Log.info("!!! err !!! share btn name is not correct. please adjust argument");}
+  }
 }

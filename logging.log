@@ -879,3 +879,124 @@ Command duration or timeout:
 2016-07-14 19:12:39 INFO  LogLog4j:184 - Text of item number: 0 is: In 1969, Steve Owens traded his Heisman cuff links to Richard Nixon for ones with the Presidential Seal
 2016-07-14 19:12:41 INFO  LogLog4j:201 - V - Score Title Class was displayed
 2016-07-14 19:12:41 INFO  LogLog4j:204 - V - Text of Question is Correct: Question
+2016-07-17 10:37:28 INFO  LogLog4j:48 - 
+*** Starting FireFox Browser ***
+2016-07-17 10:37:38 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-17 10:37:39 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-17 10:37:39 INFO  LogLog4j:315 - Layer number is OK: 120
+2016-07-17 10:37:49 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-17 10:37:49 INFO  LogLog4j:153 - From Page class: V - Image 0 was displayed
+2016-07-17 10:37:49 INFO  LogLog4j:168 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/11830_1_5.jpg
+2016-07-17 10:37:49 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-17 10:37:50 INFO  LogLog4j:184 - Text of item number: 0 is: The word “scrapbook” came about when people pasted "scrap" on brightly colored blank books
+2016-07-17 10:37:51 INFO  LogLog4j:201 - V - Score Title Class was displayed
+2016-07-17 10:37:51 INFO  LogLog4j:204 - V - Text of Question is Correct: Question
+2016-07-17 10:38:00 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-17 10:38:00 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-17 10:38:00 INFO  LogLog4j:315 - Layer number is OK: 120
+2016-07-17 10:38:10 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-17 10:38:10 INFO  LogLog4j:153 - From Page class: V - Image 0 was displayed
+2016-07-17 10:38:10 INFO  LogLog4j:168 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-17 10:38:10 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-17 10:38:10 INFO  LogLog4j:184 - Text of item number: 0 is: In 1969, Steve Owens traded his Heisman cuff links to Richard Nixon for ones with the Presidential Seal
+2016-07-17 10:38:11 INFO  LogLog4j:201 - V - Score Title Class was displayed
+2016-07-17 10:38:11 INFO  LogLog4j:204 - V - Text of Question is Correct: Question
+2016-07-17 10:40:03 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-17 10:40:18 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-17 10:40:20 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-17 10:40:20 INFO  LogLog4j:315 - Layer number is OK: 120
+2016-07-17 10:40:30 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-17 10:40:30 INFO  LogLog4j:153 - From Page class: V - Image 0 was displayed
+2016-07-17 10:40:30 INFO  LogLog4j:168 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/11830_1_5.jpg
+2016-07-17 10:40:30 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-17 10:40:30 INFO  LogLog4j:184 - Text of item number: 0 is: The word “scrapbook” came about when people pasted "scrap" on brightly colored blank books
+2016-07-17 10:40:32 INFO  LogLog4j:201 - V - Score Title Class was displayed
+2016-07-17 10:40:32 INFO  LogLog4j:204 - V - Text of Question is Correct: Question
+2016-07-17 10:40:44 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-17 10:40:44 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-17 10:40:44 INFO  LogLog4j:315 - Layer number is OK: 120
+2016-07-17 10:40:54 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-17 10:40:54 INFO  LogLog4j:153 - From Page class: V - Image 0 was displayed
+2016-07-17 10:40:54 INFO  LogLog4j:168 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-17 10:40:54 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-17 10:40:54 INFO  LogLog4j:184 - Text of item number: 0 is: In 1969, Steve Owens traded his Heisman cuff links to Richard Nixon for ones with the Presidential Seal
+2016-07-17 10:40:55 INFO  LogLog4j:201 - V - Score Title Class was displayed
+2016-07-17 10:40:55 INFO  LogLog4j:204 - V - Text of Question is Correct: Question
+2016-07-17 15:32:52 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-17 15:33:05 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-17 15:33:06 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-17 15:33:06 INFO  LogLog4j:315 - Layer number is OK: 120
+2016-07-17 15:33:16 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-17 15:33:16 INFO  LogLog4j:153 - From Page class: V - Image 0 was displayed
+2016-07-17 15:33:16 INFO  LogLog4j:168 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/11830_1_5.jpg
+2016-07-17 15:33:16 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-17 15:33:16 INFO  LogLog4j:184 - Text of item number: 0 is: The word “scrapbook” came about when people pasted "scrap" on brightly colored blank books
+2016-07-17 15:33:19 INFO  LogLog4j:201 - V - Score Title Class was displayed
+2016-07-17 15:33:19 INFO  LogLog4j:204 - V - Text of Question is Correct: Question
+2016-07-17 15:33:24 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-17 15:33:25 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-17 15:33:25 INFO  LogLog4j:315 - Layer number is OK: 120
+2016-07-17 15:33:36 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-17 15:33:36 INFO  LogLog4j:153 - From Page class: V - Image 0 was displayed
+2016-07-17 15:33:36 INFO  LogLog4j:168 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-17 15:33:36 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-17 15:33:36 INFO  LogLog4j:184 - Text of item number: 0 is: In 1969, Steve Owens traded his Heisman cuff links to Richard Nixon for ones with the Presidential Seal
+2016-07-17 15:33:37 INFO  LogLog4j:201 - V - Score Title Class was displayed
+2016-07-17 15:33:37 INFO  LogLog4j:204 - V - Text of Question is Correct: Question
+2016-07-17 16:28:36 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-17 16:28:48 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.allfreecrochet.com/Crochet-Afghan-Patterns/Relaxing-Rainbow-Crochet-Blanket-----
+2016-07-17 16:28:49 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-17 16:28:50 INFO  LogLog4j:315 - Layer number is OK: 120
+2016-07-17 16:29:00 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-17 16:29:00 INFO  LogLog4j:153 - From Page class: V - Image 0 was displayed
+2016-07-17 16:29:00 INFO  LogLog4j:168 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/11830_1_5.jpg
+2016-07-17 16:29:00 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-17 16:29:00 INFO  LogLog4j:184 - Text of item number: 0 is: The word “scrapbook” came about when people pasted "scrap" on brightly colored blank books
+2016-07-17 16:29:02 INFO  LogLog4j:201 - V - Score Title Class was displayed
+2016-07-17 16:29:02 INFO  LogLog4j:204 - V - Text of Question is Correct: Question
+2016-07-17 16:29:03 INFO  LogLog4j:372 - V - FB share btn was displayed
+2016-07-17 16:29:09 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-17 16:29:09 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-17 16:29:09 INFO  LogLog4j:315 - Layer number is OK: 120
+2016-07-17 16:29:19 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-17 16:29:19 INFO  LogLog4j:153 - From Page class: V - Image 0 was displayed
+2016-07-17 16:29:19 INFO  LogLog4j:168 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-17 16:29:19 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-17 16:29:19 INFO  LogLog4j:184 - Text of item number: 0 is: In 1969, Steve Owens traded his Heisman cuff links to Richard Nixon for ones with the Presidential Seal
+2016-07-17 16:29:20 INFO  LogLog4j:201 - V - Score Title Class was displayed
+2016-07-17 16:29:20 INFO  LogLog4j:204 - V - Text of Question is Correct: Question
+2016-07-17 16:29:22 INFO  LogLog4j:372 - V - FB share btn was displayed
+2016-07-17 16:33:25 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-17 16:33:37 INFO  LogLog4j:38 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-17 16:33:37 INFO  LogLog4j:128 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-17 16:33:37 INFO  LogLog4j:315 - Layer number is OK: 120
+2016-07-17 16:33:47 INFO  LogLog4j:46 - From test: Assert is OK, centerwrapper exists
+2016-07-17 16:33:47 INFO  LogLog4j:153 - From Page class: V - Image 0 was displayed
+2016-07-17 16:33:47 INFO  LogLog4j:168 - From Page class: V - Image 0 src is: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-17 16:33:47 INFO  LogLog4j:182 - V - Item 0 was displayed
+2016-07-17 16:33:47 INFO  LogLog4j:184 - Text of item number: 0 is: In 1969, Steve Owens traded his Heisman cuff links to Richard Nixon for ones with the Presidential Seal
+2016-07-17 16:33:48 INFO  LogLog4j:201 - V - Score Title Class was displayed
+2016-07-17 16:33:48 INFO  LogLog4j:204 - V - Text of Question is Correct: Question
+2016-07-17 16:33:49 INFO  LogLog4j:372 - V - FB share btn was displayed
+2016-07-17 16:33:49 INFO  LogLog4j:383 - !!! err !!! share btn name is not correct. please adjust argument

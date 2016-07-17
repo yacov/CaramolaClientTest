@@ -167,4 +167,7 @@ public class Layout_120_Page extends Page {
         //System.out.println(src0);
         Log.info("From Page class: V - Image " + imgNo + " src is: " + src0);
     }
+
+
+
 }
