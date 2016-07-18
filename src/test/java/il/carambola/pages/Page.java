@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import ru.yandex.qatools.allure.annotations.Step;
 
 import java.io.File;
 import java.io.IOException;
@@ -187,17 +188,17 @@ public abstract class Page {
 
     boolean isText = Item.isDisplayed();
     if (isText) {
-      Log.info("V - Item " + itemNo + " was displayed");
       String TextString = Item.getText();
-      Log.info("Text of item number: " + itemNo + " is: "+ TextString);
-      File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-      FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" + Math.random()*10 + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
+      Log.info("V - Item " + itemNo + " was displayed: " + TextString);
+
+      // ~~~ creating file MAY make the test slower ~~~
+     // File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+     // FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" + Math.random()*10 + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
     } else {
       Log.info("X - Item " + itemNo + " WASN'T displayed");
-      File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-      FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" +  Math.random()*10 + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
+     // File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+     // FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" +  Math.random()*10 + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
     }
-
     return isText;
   }
 
@@ -240,7 +241,7 @@ public abstract class Page {
       FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot_NO match between the unit_score texts.png"));
     }
   }
-
+  @Step("Is share btns exists")
   // Find share btns
   public void findShareBtn(String firm, WebElement shareBtn){
     //select test fb or twitter
@@ -260,6 +261,25 @@ public abstract class Page {
       }
     }else{Log.info("!!! err !!! share btn name is not correct. please adjust argument");}
   }
+  @Step("Find Unit Title")
+  public void findUnitTitle(WebElement unitTitle) throws IOException {
+    // Step 5.4- verify items Title
+    boolean isTitle = unitTitle.isDisplayed();
+    if (isTitle) {
+      String title = unitTitle.getText();
+      Log.info("V - Text check- Title was displayed: " + title);
+    } else {
+      Log.info("X - Text check- Title WASNT displayed");
+      File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+      FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot_Title WASNT displayed.png"));
+    }
+
+  }
+
+
+  // ----------------------------------------------------   Methods not in use   ------------------------------------------------------------------------------------
+
+
 
   public void setElementText(WebElement element, String text) {
     element.click();

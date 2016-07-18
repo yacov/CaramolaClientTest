@@ -44,7 +44,8 @@ public class Layout_120_Page extends Page {
     WebElement shareTwitter;
     @FindBy(className = Consts.SCORE_UNIT_CLASS)
     WebElement scoreUnit;
-
+    @FindBy(className = Consts.TITLE_CLASS)
+    WebElement unitTitle;
     //public ProfilePage profilePag
 
     public Layout_120_Page(WebDriver driver) {
@@ -70,7 +71,7 @@ public class Layout_120_Page extends Page {
         Integer i = 0;
         while ( i < noOfClicks){
             clickElement(TrueButton);
-            Log.info("From Page class: element 'TrueButton' is clicked");
+            Log.info("V- element 'TrueButton' is clicked");
             Thread.sleep(1500);
             i++;
         }
@@ -80,7 +81,26 @@ public class Layout_120_Page extends Page {
         Integer i = 0;
         while ( i < noOfClicks){
             clickElement(FalseButton);
-            Log.info("From Page class: element 'FalseButton' is clicked");
+            Log.info("V- element 'FalseButton' is clicked");
+            Thread.sleep(1500);
+            i++;
+        }
+        return this;
+    }
+
+    public Layout_120_Page pressFalseButtonAndCheckContent(Integer noOfClicks) throws InterruptedException, IOException {
+        Integer i = 0;
+        while ( i < noOfClicks){
+            Log.info("Item " + i + " is: ");
+            // first item
+            isTextExists(i);
+            // first image
+            isFirstImageExists(i);  // also prints the src. no need for printImage()
+            //printImage(i);
+
+            //click to next
+            clickElement(FalseButton);
+            Log.info("V- element 'FalseButton' is clicked");
             Thread.sleep(1500);
             i++;
         }
@@ -154,12 +174,15 @@ public class Layout_120_Page extends Page {
     // Step 4.2 - Verify 1st Image -cbolaContent-imageLoader
     @Step("Check if First Image Exists")
     public boolean isFirstImageExists(Integer imgNo){
-        boolean CbolaFirstImg = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS + imgNo)).isDisplayed();
+        WebElement imgElement = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS + imgNo));
+        boolean CbolaFirstImg = imgElement.isDisplayed();
         if(CbolaFirstImg) {
-            Log.info("From Page class: V - Image " + imgNo + " was displayed");
+            // (same as print img method)
+            String srcOfImage = imgElement.getAttribute("src");
+            Log.info("V - Image " + imgNo + " was displayed: " + srcOfImage);
             // System.out.println("From Page class: YEAH!- we can see 1st image element:");
         } else {
-            Log.info("From Page class: SHAYSE X - Image " + imgNo + " WASNT displayed");
+            Log.info("X - Image " + imgNo + " WASNT displayed");
             //  System.out.println("From Page class: SHAYSE - 1st img element WASNT displayed");
             CbolaFirstImg = false;
         }
@@ -168,12 +191,12 @@ public class Layout_120_Page extends Page {
     // get the src of the img and print it
     @Step("Print Image")
     public void printImage(Integer imgNo){
-        WebElement src0El = driver.findElement(By.className(Consts.FIRST_IMG_CLASS + imgNo));
-        String src0 = src0El.getAttribute("src");
-        //System.out.println(src0);
-        Log.info("From Page class: V - Image " + imgNo + " src is: " + src0);
+        WebElement imgSrc = driver.findElement(By.className(Consts.FIRST_IMG_CLASS + imgNo));
+        String srcOfImage = imgSrc.getAttribute("src");
+        Log.info("V - Image " + imgNo + " src is: " + srcOfImage);
     }
     // check Share btns. passes the specific layer's elements to Method in PAGE
+
     public void isShareBtnExists(String firm){
         if(firm.equals("FB")){
             findShareBtn(firm, shareFB);
@@ -182,7 +205,11 @@ public class Layout_120_Page extends Page {
         }
 
     }
+
     public void isScoreUnitExists() throws IOException {
         isScoreUnit(scoreUnit);
+    }
+    public void isUnitTitleExists()throws IOException{
+        findUnitTitle(unitTitle);
     }
 }

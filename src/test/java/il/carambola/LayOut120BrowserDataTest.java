@@ -1,6 +1,10 @@
 package il.carambola;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -23,19 +27,23 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
 
     }
 
-
     //This test runs several times, every iteration with new url. Urls are stored in resources/urlList.data file
 // Test Case 1
-    @Features("Check if Layer Correct")
-    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
+    @Features("Check if Layer's UI was fully loaded")
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls",timeOut = 60000)
     // IO Exception added after using File export for screenshot
     public void BasicFullLoad(String url) throws IOException {
-        long maxPageRunTime = (60 + 10); // 60 for page load + 10 for the test
-        driver.manage().timeouts().pageLoadTimeout(maxPageRunTime, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
 
+        Log.info("time before loaing page");
+        long maxPageRunTime = (30 + 10); // 30 for page load + 10 for the test
+        //driver.manage().timeouts().pageLoadTimeout(maxPageRunTime, TimeUnit.SECONDS); // will work on the pages with synch loading, but this doesn't solve the problem on pages loading stuff in asynch, the tests will fail all the time if we set the pageLoadTimeOut.
+        WebDriverWait wait = new WebDriverWait(driver,10);
+
+        driver.manage().window().maximize();
         driver.get(url);
+        // wait.until(ExpectedConditions.titleContains("Rushing")); // nice to have- dont start until element X is on page
         Log.info("\n-----  From test: Test Case 1 with URL: " + url + "-----");
+
             // step 1
         assertTrue("From test: Script is not valid on url " + url, layout_120_page.isScriptValidHere());
         //    layout_120_page.WaitUntilLayoutIsLoaded();
@@ -54,23 +62,30 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         layout_120_page.isShareBtnExists("FB");
         layout_120_page.isShareBtnExists("Twitter");
         layout_120_page.isScoreUnitExists();
+        layout_120_page.isUnitTitleExists();
 
     }
 
 
-    @Features("Press buttons")
+    @Features("Click buttons")
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
 // Test Case 2
-    public void HalfGame(String url) throws InterruptedException {
-
+    public void HalfGame(String url) throws InterruptedException, IOException {
 
         driver.get(url);
-            Log.info("-----   Test Case 2 with URL: " + url + "-----");
-            assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
-            layout_120_page.WaitUntilLayoutIsLoaded().chekLayerisCorrect();
+        Log.info("-----   Test Case 2 with URL: " + url + "-----");
+        assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
+        layout_120_page.WaitUntilLayoutIsLoaded().chekLayerisCorrect();
 
-            layout_120_page.pressTrueButton(3);
-            layout_120_page.pressFalseButton(2);
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("document.getElementById('InContent-container-centerWrapper0').scrollIntoView(true);");
+        System.out.println("JS scroll executed");
+        //jse.executeScript("window.scrollBy(0,-100)"); // (-X) will scroll up
+
+        //layout_120_page.pressTrueButton(1);
+        //layout_120_page.pressFalseButton(2);
+        layout_120_page.pressFalseButtonAndCheckContent(10);
+
 
         // TODO: 13/07/2016
         // method: click + check image
