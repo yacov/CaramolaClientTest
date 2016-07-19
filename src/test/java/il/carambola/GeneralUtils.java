@@ -24,7 +24,7 @@ public class GeneralUtils {
             .toFormatter();
 */
     public static Date date = new Date();
-    public static SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-YYYY_HH-mm"); //   dd/MM/yyyy HH:mm:ss
+    public static SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-YYYY_HH-mm-ss"); //   dd/MM/yyyy HH:mm:ss
 
     public static long totalTestingTime = 0;
     public static long totalPagesLoadTime = 0;

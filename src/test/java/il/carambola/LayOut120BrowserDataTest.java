@@ -11,6 +11,7 @@ import org.testng.asserts.SoftAssert;
 import ru.yandex.qatools.allure.annotations.Features;
 
 import java.io.IOException;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import static org.testng.AssertJUnit.assertTrue;
@@ -56,10 +57,10 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         //softAssert.assertTrue(layout_120_page.IsBoardExist(), "From test: Cbola board DOESNT exists");
             //step 4.2
         layout_120_page.isFirstImageExists(0);
-        layout_120_page.printImage(0);
+        // Log.info(layout_120_page.printImage(0)); printImage return String. its already in isFirstImageExists
         layout_120_page.isTextExists(0); // its a boolean in case we will want to make Assert
         layout_120_page.isScoreTitleExists();
-        layout_120_page.isShareBtnExists("FB");
+        layout_120_page.isShareBtnExists("FB"); // excepts "FB" or "Twitter"
         layout_120_page.isShareBtnExists("Twitter");
         layout_120_page.isScoreUnitExists();
         layout_120_page.isUnitTitleExists();
@@ -71,6 +72,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
 // Test Case 2
     public void HalfGame(String url) throws InterruptedException, IOException {
+        Log.info(GeneralUtils.sdf.format(new Date()));
 
         driver.get(url);
         Log.info("-----   Test Case 2 with URL: " + url + "-----");
@@ -84,11 +86,14 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
 
         //layout_120_page.pressTrueButton(1);
         //layout_120_page.pressFalseButton(2);
-        layout_120_page.pressFalseButtonAndCheckContent(10);
+        /**
+         * one method that combines true and false btns. define how many clicks to perform
+         */
 
+        layout_120_page.pressButtonAndCheckContent(false,2);
+        layout_120_page.pressButtonAndCheckContent(true,3);
+        layout_120_page.pressButtonAndCheckContent(false,1);
 
-        // TODO: 13/07/2016
-        // method: click + check image
 
           /*layout_120_page.pressYesButton();
           softAssert.assertTrue(layout_120_page.CheckThatYesButtonExists(), "Yes button do not exist");

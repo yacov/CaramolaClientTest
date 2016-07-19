@@ -18,6 +18,8 @@ import ru.yandex.qatools.allure.annotations.Step;
  */
 public class Layout_120_Page extends Page {
     private static Logger Log = Logger.getLogger(LogLog4j.class.getName());
+    private Integer sumOfClicks = 0;
+    private String testUrl = null;
 
     @FindBy(id = Consts.SCRIPT_ID)
     WebElement ContentScript;
@@ -88,22 +90,46 @@ public class Layout_120_Page extends Page {
         return this;
     }
 
-    public Layout_120_Page pressFalseButtonAndCheckContent(Integer noOfClicks) throws InterruptedException, IOException {
-        Integer i = 0;
-        while ( i < noOfClicks){
-            Log.info("Item " + i + " is: ");
-            // first item
-            isTextExists(i);
-            // first image
-            isFirstImageExists(i);  // also prints the src. no need for printImage()
-            //printImage(i);
+    public Layout_120_Page pressButtonAndCheckContent(boolean tf, Integer noOfClicks) throws InterruptedException, IOException {
+        //Integer i = 0; // made a global parameter at the top of the Class
+        // check if url was changed. if it did, init sum of clicks to 0
+        String a = getTitle();
+        if(! a.equals(testUrl)){
+            sumOfClicks = 0;
+            testUrl = getTitle();
+        } // if a test reached 10 clicks, we need to init the parameter IN the next Test URL
 
-            //click to next
-            clickElement(FalseButton);
-            Log.info("V- element 'FalseButton' is clicked");
-            Thread.sleep(1500);
-            i++;
+        Integer maxClicks = sumOfClicks;
+        if (tf){
+            while ( (sumOfClicks < noOfClicks + maxClicks) && sumOfClicks < 10){
+                Log.info("Item " + sumOfClicks + " is: ");
+                // first item
+                isTextExists(sumOfClicks);
+                // first image
+                isFirstImageExists(sumOfClicks);  // also prints the src. no need for printImage()
+
+                //click to next
+                clickElement(TrueButton);
+                Log.info("V- element 'TrueButton' is clicked");
+                Thread.sleep(1500);
+                sumOfClicks++;
+            }
+        }else{
+            while ( (sumOfClicks < noOfClicks + maxClicks) && sumOfClicks < 10){
+                Log.info("Item " + sumOfClicks + " is: ");
+                // first item
+                isTextExists(sumOfClicks);
+                // first image
+                isFirstImageExists(sumOfClicks);  // also prints the src. no need for printImage()
+
+                //click to next
+                clickElement(FalseButton);
+                Log.info("V- element 'FalseButton' is clicked");
+                Thread.sleep(1500);
+                sumOfClicks++;
+            }
         }
+
         return this;
     }
 
@@ -178,8 +204,9 @@ public class Layout_120_Page extends Page {
         boolean CbolaFirstImg = imgElement.isDisplayed();
         if(CbolaFirstImg) {
             // (same as print img method)
-            String srcOfImage = imgElement.getAttribute("src");
-            Log.info("V - Image " + imgNo + " was displayed: " + srcOfImage);
+          //  String srcOfImage = imgElement.getAttribute("src");
+
+            Log.info("V - Image " + imgNo + " was displayed: " + printImage(imgNo));
             // System.out.println("From Page class: YEAH!- we can see 1st image element:");
         } else {
             Log.info("X - Image " + imgNo + " WASNT displayed");
@@ -189,15 +216,16 @@ public class Layout_120_Page extends Page {
         return CbolaFirstImg;
     }
     // get the src of the img and print it
-    @Step("Print Image")
-    public void printImage(Integer imgNo){
+    @Step("Print Image src url")
+    public String printImage(Integer imgNo){
         WebElement imgSrc = driver.findElement(By.className(Consts.FIRST_IMG_CLASS + imgNo));
         String srcOfImage = imgSrc.getAttribute("src");
-        Log.info("V - Image " + imgNo + " src is: " + srcOfImage);
+        //Log.info("V - Image " + imgNo + " src is: " + srcOfImage);
+        return srcOfImage;
     }
     // check Share btns. passes the specific layer's elements to Method in PAGE
 
-    public void isShareBtnExists(String firm){
+    public void isShareBtnExists(String firm) throws IOException {
         if(firm.equals("FB")){
             findShareBtn(firm, shareFB);
         }else if(firm.equals("Twitter")){

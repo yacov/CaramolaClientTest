@@ -1,6 +1,7 @@
 package il.carambola.pages;
 
 import il.carambola.Consts;
+import il.carambola.GeneralUtils;
 import il.carambola.LogLog4j;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -17,6 +18,7 @@ import java.io.IOException;
 
 import java.math.RoundingMode;
 //import java.time.LocalDateTime; ---------- why cant use it?
+import java.util.Date;
 import java.util.List;
 //import java.util.concurrent.ThreadLocalRandom;
 
@@ -193,11 +195,11 @@ public abstract class Page {
 
       // ~~~ creating file MAY make the test slower ~~~
      // File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-     // FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" + Math.random()*10 + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
+     // FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" + GeneralUtils.sdf.format(new Date()) + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
     } else {
       Log.info("X - Item " + itemNo + " WASN'T displayed");
      // File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-     // FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" +  Math.random()*10 + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
+     // FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" + GeneralUtils.sdf.format(new Date()) + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
     }
     return isText;
   }
@@ -212,16 +214,19 @@ public abstract class Page {
       if(new String(Consts.TEXT_QUESTION).equals(TextString)){
         Log.info("V - Text of Question is Correct: "+ TextString);
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" + Math.random()*10 + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
+        FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "text_question_title_is_correct_" + GeneralUtils.sdf.format(new Date()) + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
+        System.out.println("Screenshot taken");
       }else{
         Log.info("X- Text of Question is NOT correct: "+ TextString);
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" + Math.random()*10 + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
+        FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "text_question_title_is_NOT_correct_" + GeneralUtils.sdf.format(new Date()) + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
+        System.out.println("Screenshot taken");
       }
     } else {
       Log.info("X - score title class WASN'T displayed");
       File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-      FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" +  Math.random()*10 + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
+      FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "text_question_title_WASNT_displayed_" + GeneralUtils.sdf.format(new Date()) + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
+      System.out.println("Screenshot taken");
     }
     return isScoreTitle;
   }
@@ -238,12 +243,12 @@ public abstract class Page {
     } else {
       Log.info("X - Text check- score unit DOESNT match");
       File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-      FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot_NO match between the unit_score texts.png"));
+      FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "NO_match_between_the_unit_score_texts" + GeneralUtils.sdf.format(new Date()) + ".png"));
     }
   }
   @Step("Is share btns exists")
   // Find share btns
-  public void findShareBtn(String firm, WebElement shareBtn){
+  public void findShareBtn(String firm, WebElement shareBtn)throws IOException{
     //select test fb or twitter
     if(firm.equals("FB")){
       boolean ShareFBb = shareBtn.isDisplayed();
@@ -251,6 +256,8 @@ public abstract class Page {
         Log.info("V - FB share btn was displayed");
       } else {
         Log.info("X - FB share btn WASNT displayed");
+        File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "FaceBook_btn_WANST_displayed" + GeneralUtils.sdf.format(new Date()) + ".png"));
       }
     }else if (firm.equals("Twitter")){
       boolean shareTwitterBtn = shareBtn.isDisplayed();
@@ -258,6 +265,8 @@ public abstract class Page {
         Log.info("V - Twitter share btn was displayed");
       } else {
         Log.info("X - Twitter share btn WASNT displayed");
+        File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "Twitter_btn_WANST_displayed" + GeneralUtils.sdf.format(new Date()) + ".png"));
       }
     }else{Log.info("!!! err !!! share btn name is not correct. please adjust argument");}
   }
@@ -271,7 +280,7 @@ public abstract class Page {
     } else {
       Log.info("X - Text check- Title WASNT displayed");
       File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-      FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot_Title WASNT displayed.png"));
+      FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "Title_WASNT_displayed" + GeneralUtils.sdf.format(new Date()) + ".png"));
     }
 
   }
