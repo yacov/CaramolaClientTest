@@ -8,8 +8,8 @@ public class Consts {
     // General
     public static final String inputUrlsTxtFile = "C:\\Projects\\AutomatedRuns\\testing_120\\src\\automationFramework\\URLs4test_layout120.txt";
     public static final String outputLogFile = "C:\\Users\\Yair\\Documents\\yair\\QA\\TestAutomation\\Selenium\\output\\output_Logs_TC";
-    public static final String outputErrorsFile = "C:\\Users\\Yair\\Documents\\yair\\QA\\TestAutomation\\Selenium\\output\\output_Errors_TC";
-    public static final String outputDirectory = "C:\\Users\\Yair\\Documents\\yair\\QA\\TestAutomation\\Selenium\\output\\";
+    public static final String outputErrorsFile = "\\src\\test\\resources\\output\\output_Errors_TC";
+    public static final String outputDirectory = "\\src\\test\\resources\\output";
 
 
     //120
