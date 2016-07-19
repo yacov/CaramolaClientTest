@@ -8,10 +8,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import ru.yandex.qatools.allure.annotations.Step;
 
 import java.io.IOException;
-
-import ru.yandex.qatools.allure.annotations.Step;
 
 /**
  * Created by Iakov Volf
@@ -197,6 +196,7 @@ public class Layout_120_Page extends Page {
     }
     // check Share btns. passes the specific layer's elements to Method in PAGE
 
+    @Step("Check if FB or Twitter exists")
     public void isShareBtnExists(String firm){
         if(firm.equals("FB")){
             findShareBtn(firm, shareFB);
@@ -206,9 +206,12 @@ public class Layout_120_Page extends Page {
 
     }
 
+    @Step("Check if score exists")
     public void isScoreUnitExists() throws IOException {
         isScoreUnit(scoreUnit);
     }
+
+    @Step("Check if Unit Title exists")
     public void isUnitTitleExists()throws IOException{
         findUnitTitle(unitTitle);
     }

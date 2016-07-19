@@ -14,10 +14,9 @@ import ru.yandex.qatools.allure.annotations.Step;
 
 import java.io.File;
 import java.io.IOException;
-
-import java.math.RoundingMode;
-//import java.time.LocalDateTime; ---------- why cant use it?
 import java.util.List;
+
+//import java.time.LocalDateTime; ---------- why cant use it?
 //import java.util.concurrent.ThreadLocalRandom;
 
 /**
@@ -120,6 +119,7 @@ public abstract class Page {
 
   }
 
+  @Step("Is script valid")
   public boolean IsScriptValid1(WebElement script) {
 
     boolean isScriptValid = true;
@@ -140,6 +140,7 @@ public abstract class Page {
 
   }
 
+  @Step("Check layer number")
   public void checkLayerNumber(Integer LayerNum) {
     String layerTypeAttribute = driver.findElement(By.className(Consts.CENTER_WRAPPER_ID)).getAttribute("layertype");
     Integer layerNumber = Integer.parseInt(layerTypeAttribute);
@@ -149,7 +150,7 @@ public abstract class Page {
   }
 
   // Step 4.1 - check if cbola board was displayed (the actual game)
-
+  @Step("is board exists")
   public boolean IsBoardExists(WebElement CbolaBoardStatus) {
     //WebElement CbolaBoardStatus = driver.findElement(By.className(Consts.BOARD_CLASS));
     boolean isBoardValid = true;
@@ -170,6 +171,7 @@ public abstract class Page {
     return isBoardValid;
   }
 
+  @Step("checks if image exists")
   public boolean isImageExists(Integer imageNo , WebElement img){
     boolean CbolaFirstImg = img.isDisplayed();
     if(CbolaFirstImg) {
@@ -184,6 +186,7 @@ public abstract class Page {
     return CbolaFirstImg;
   }
   // check if the text of the item exists, AND print it
+  @Step("find text and print")
   public boolean findText(WebElement Item, Integer itemNo) throws IOException {
 
     boolean isText = Item.isDisplayed();
@@ -203,6 +206,7 @@ public abstract class Page {
   }
 
   // check if the text of the Score Title exists, AND print it
+  @Step("find Score title")
   public boolean findScoreTitle(WebElement scoreTilte) throws IOException {
 
     boolean isScoreTitle = scoreTilte.isDisplayed();
