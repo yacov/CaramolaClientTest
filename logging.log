@@ -4346,3 +4346,532 @@ Build info: version: '2.53.1', revisi
 2016-07-19 18:38:55 INFO  LogLog4j:118 - Item 0 is: 
 2016-07-19 18:38:55 INFO  LogLog4j:194 - V - Item 0 was displayed: When the Pirates beat the Yankees in the 1960 World Series they had been outscored by New York 55-27
 2016-07-19 18:38:56 INFO  LogLog4j:208 - V - Image 0 was displayed: http://media.carambo.la/Images/10380_1_5.jpg
+2016-07-20 14:32:08 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-20 14:32:08 INFO  LogLog4j:38 - time before loaing page
+2016-07-20 14:32:13 INFO  LogLog4j:46 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-20 14:32:15 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:32:15 INFO  LogLog4j:149 - Layer number is OK: 120
+2016-07-20 14:32:25 INFO  LogLog4j:55 - From test: Assert is OK, centerwrapper exists
+2016-07-20 14:32:26 INFO  LogLog4j:209 - V - Image 0 was displayed: http://media.carambo.la/Images/7447_1_5.jpg
+2016-07-20 14:32:26 INFO  LogLog4j:194 - V - Item 0 was displayed: Legendary 49ers quarterback Steve Young became the first left-hand QB ever inducted into the Hall of Fame
+2016-07-20 14:32:26 INFO  LogLog4j:212 - V - Score Title Class was displayed
+2016-07-20 14:32:26 INFO  LogLog4j:215 - V - Text of Question is Correct: Question
+2016-07-20 14:32:27 INFO  LogLog4j:255 - V - FB share btn was displayed
+2016-07-20 14:32:27 INFO  LogLog4j:264 - V - Twitter share btn was displayed
+2016-07-20 14:32:27 INFO  LogLog4j:240 - V - Text check- score unit match
+2016-07-20 14:32:27 INFO  LogLog4j:278 - V - Text check- Title was displayed: How Well Do You Know Your NFL Greats?
+2016-07-20 14:32:27 INFO  LogLog4j:38 - time before loaing page
+2016-07-20 14:32:40 INFO  LogLog4j:46 - 
+-----  From test: Test Case 1 with URL: http://blog.allmyfaves.com/photos/top-20-unusually-stunning-beautiful-hot-models-of-the-world/-----
+2016-07-20 14:32:41 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:32:41 INFO  LogLog4j:149 - Layer number is OK: 120
+2016-07-20 14:32:51 INFO  LogLog4j:55 - From test: Assert is OK, centerwrapper exists
+2016-07-20 14:32:52 INFO  LogLog4j:209 - V - Image 0 was displayed: http://media.carambo.la/Images/7166_1_5.jpg
+2016-07-20 14:32:54 INFO  LogLog4j:194 - V - Item 0 was displayed: A sayaja is a mini skirt that came into fashion in 2010 and was featured in the Fall Versace Italy Fashion Week
+2016-07-20 14:32:54 INFO  LogLog4j:212 - V - Score Title Class was displayed
+2016-07-20 14:32:55 INFO  LogLog4j:215 - V - Text of Question is Correct: Question
+2016-07-20 14:33:27 INFO  LogLog4j:38 - time before loaing page
+2016-07-20 14:33:39 INFO  LogLog4j:46 - 
+-----  From test: Test Case 1 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-20 14:33:39 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:33:39 INFO  LogLog4j:149 - Layer number is OK: 120
+2016-07-20 14:33:49 INFO  LogLog4j:55 - From test: Assert is OK, centerwrapper exists
+2016-07-20 14:33:49 INFO  LogLog4j:209 - V - Image 0 was displayed: http://media.carambo.la/Images/5342_1_5.jpg
+2016-07-20 14:33:49 INFO  LogLog4j:194 - V - Item 0 was displayed: Blowing into buggy NES cartridges was actually a planned solution when the games were first designed
+2016-07-20 14:33:49 INFO  LogLog4j:212 - V - Score Title Class was displayed
+2016-07-20 14:33:49 INFO  LogLog4j:215 - V - Text of Question is Correct: Question
+2016-07-20 14:33:51 INFO  LogLog4j:255 - V - FB share btn was displayed
+2016-07-20 14:33:51 INFO  LogLog4j:264 - V - Twitter share btn was displayed
+2016-07-20 14:33:51 INFO  LogLog4j:240 - V - Text check- score unit match
+2016-07-20 14:33:51 INFO  LogLog4j:278 - V - Text check- Title was displayed: Are You a True Nintendo Nut?
+2016-07-20 14:33:51 INFO  LogLog4j:38 - time before loaing page
+2016-07-20 14:33:58 INFO  LogLog4j:46 - 
+-----  From test: Test Case 1 with URL: http://www.papercraftsquare.com/mikoyan-gurevich-mig-19-farmer-fighter-free-aircraft-paper-model-download.html-----
+2016-07-20 14:33:58 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:33:58 INFO  LogLog4j:38 - time before loaing page
+2016-07-20 14:33:58 INFO  LogLog4j:46 - 
+-----  From test: Test Case 1 with URL: http://www.sports747.com/new/beloved-mlb-employee-hilgefort-dies-in-plane-crash-----
+2016-07-20 14:34:17 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:34:17 INFO  LogLog4j:149 - Layer number is OK: 120
+2016-07-20 14:34:27 INFO  LogLog4j:55 - From test: Assert is OK, centerwrapper exists
+2016-07-20 14:34:27 INFO  LogLog4j:209 - V - Image 0 was displayed: http://media.carambo.la/Images/10380_1_5.jpg
+2016-07-20 14:34:27 INFO  LogLog4j:194 - V - Item 0 was displayed: When the Pirates beat the Yankees in the 1960 World Series they had been outscored by New York 55-27
+2016-07-20 14:34:27 INFO  LogLog4j:212 - V - Score Title Class was displayed
+2016-07-20 14:34:27 INFO  LogLog4j:215 - V - Text of Question is Correct: Question
+2016-07-20 14:34:29 INFO  LogLog4j:255 - V - FB share btn was displayed
+2016-07-20 14:34:29 INFO  LogLog4j:264 - V - Twitter share btn was displayed
+2016-07-20 14:34:29 INFO  LogLog4j:240 - V - Text check- score unit match
+2016-07-20 14:34:29 INFO  LogLog4j:278 - V - Text check- Title was displayed: Are You a World Series Wunderkind?
+2016-07-20 14:34:29 INFO  LogLog4j:75 - 20-07-2016_14-34-29
+2016-07-20 14:34:34 INFO  LogLog4j:78 - -----   Test Case 2 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-20 14:34:34 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:34:35 INFO  LogLog4j:149 - Layer number is OK: 120
+2016-07-20 14:34:35 INFO  LogLog4j:119 - Item 0 is: 
+2016-07-20 14:34:35 INFO  LogLog4j:194 - V - Item 0 was displayed: Legendary 49ers quarterback Steve Young became the first left-hand QB ever inducted into the Hall of Fame
+2016-07-20 14:34:35 INFO  LogLog4j:209 - V - Image 0 was displayed: http://media.carambo.la/Images/7447_1_5.jpg
+2016-07-20 14:34:35 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:34:36 INFO  LogLog4j:119 - Item 1 is: 
+2016-07-20 14:34:37 INFO  LogLog4j:194 - V - Item 1 was displayed: As the most famous Washington Redskin, Joe Theismann had a room in the White House named after him
+2016-07-20 14:34:37 INFO  LogLog4j:209 - V - Image 1 was displayed: http://media.carambo.la/Images/7593_1_5.jpg
+2016-07-20 14:34:37 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:34:38 INFO  LogLog4j:105 - Item 2 is: 
+2016-07-20 14:34:38 INFO  LogLog4j:194 - V - Item 2 was displayed: Terry Bradshaw was so strong that he once popped a football he was clutching as he was being sacked
+2016-07-20 14:34:38 INFO  LogLog4j:209 - V - Image 2 was displayed: http://media.carambo.la/Images/7522_1_5.jpg
+2016-07-20 14:34:38 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:34:40 INFO  LogLog4j:105 - Item 3 is: 
+2016-07-20 14:34:40 INFO  LogLog4j:194 - V - Item 3 was displayed: As a kid, Jerry Rice worked on his hands by catching bricks tossed by his brother from 20 feet below
+2016-07-20 14:34:40 INFO  LogLog4j:209 - V - Image 3 was displayed: http://media.carambo.la/Images/7594_1_5.jpg
+2016-07-20 14:34:40 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:34:42 INFO  LogLog4j:105 - Item 4 is: 
+2016-07-20 14:34:42 INFO  LogLog4j:194 - V - Item 4 was displayed: When playing in college for Syracuse, Jim Brown also kicked extra points in addition to being a back
+2016-07-20 14:34:42 INFO  LogLog4j:209 - V - Image 4 was displayed: http://media.carambo.la/Images/7596_1_5.jpg
+2016-07-20 14:34:42 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:34:43 INFO  LogLog4j:119 - Item 5 is: 
+2016-07-20 14:34:43 INFO  LogLog4j:194 - V - Item 5 was displayed: Emmitt Smith refused payment from the Cowboys until he scored his first touchdown, which took 5 games
+2016-07-20 14:34:44 INFO  LogLog4j:209 - V - Image 5 was displayed: http://media.carambo.la/Images/7543_1_5.jpg
+2016-07-20 14:34:44 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:34:45 INFO  LogLog4j:75 - 20-07-2016_14-34-45
+2016-07-20 14:34:57 INFO  LogLog4j:78 - -----   Test Case 2 with URL: http://blog.allmyfaves.com/photos/top-20-unusually-stunning-beautiful-hot-models-of-the-world/-----
+2016-07-20 14:34:57 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:34:58 INFO  LogLog4j:149 - Layer number is OK: 120
+2016-07-20 14:34:58 INFO  LogLog4j:119 - Item 0 is: 
+2016-07-20 14:34:59 INFO  LogLog4j:194 - V - Item 0 was displayed: A sayaja is a mini skirt that came into fashion in 2010 and was featured in the Fall Versace Italy Fashion Week
+2016-07-20 14:34:59 INFO  LogLog4j:209 - V - Image 0 was displayed: http://media.carambo.la/Images/7166_1_5.jpg
+2016-07-20 14:34:59 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:35:01 INFO  LogLog4j:119 - Item 1 is: 
+2016-07-20 14:35:01 INFO  LogLog4j:194 - V - Item 1 was displayed: Ballet dancer Marie Taglioni was the first to wear a tutu skirt on the Parisian stage in the 1800s
+2016-07-20 14:35:02 INFO  LogLog4j:209 - V - Image 1 was displayed: http://media.carambo.la/Images/7218_1_5.jpg
+2016-07-20 14:35:03 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:35:04 INFO  LogLog4j:105 - Item 2 is: 
+2016-07-20 14:35:05 INFO  LogLog4j:194 - V - Item 2 was displayed: Panniers was a support structure worn around a woman's waist so her dress spread out flat and wide
+2016-07-20 14:35:06 INFO  LogLog4j:209 - V - Image 2 was displayed: http://media.carambo.la/Images/7243_1_5.jpg
+2016-07-20 14:35:06 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:35:08 INFO  LogLog4j:105 - Item 3 is: 
+2016-07-20 14:35:08 INFO  LogLog4j:194 - V - Item 3 was displayed: The famous red bubble dress was designed by Christian Dior in 1956, reflecting his love for architecture
+2016-07-20 14:35:10 INFO  LogLog4j:209 - V - Image 3 was displayed: http://media.carambo.la/Images/7229_1_5.jpg
+2016-07-20 14:35:10 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:35:12 INFO  LogLog4j:105 - Item 4 is: 
+2016-07-20 14:35:13 INFO  LogLog4j:194 - V - Item 4 was displayed: In the 1800s Regency Period, there was a Greek revival of loose dresses, instead of tight corsets
+2016-07-20 14:35:14 INFO  LogLog4j:209 - V - Image 4 was displayed: http://media.carambo.la/Images/7204_1_5.jpg
+2016-07-20 14:35:14 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:35:16 INFO  LogLog4j:119 - Item 5 is: 
+2016-07-20 14:35:17 INFO  LogLog4j:194 - V - Item 5 was displayed: The pencil skirt was created by designer Christian Dior after WWII, calling it an H-line skirt for its shape
+2016-07-20 14:35:18 INFO  LogLog4j:209 - V - Image 5 was displayed: http://media.carambo.la/Images/7175_1_5.jpg
+2016-07-20 14:35:19 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:35:20 INFO  LogLog4j:75 - 20-07-2016_14-35-20
+2016-07-20 14:35:31 INFO  LogLog4j:78 - -----   Test Case 2 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-20 14:35:31 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:35:31 INFO  LogLog4j:149 - Layer number is OK: 120
+2016-07-20 14:35:31 INFO  LogLog4j:119 - Item 0 is: 
+2016-07-20 14:35:32 INFO  LogLog4j:194 - V - Item 0 was displayed: Blowing into buggy NES cartridges was actually a planned solution when the games were first designed
+2016-07-20 14:35:32 INFO  LogLog4j:209 - V - Image 0 was displayed: http://media.carambo.la/Images/5342_1_5.jpg
+2016-07-20 14:35:32 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:35:33 INFO  LogLog4j:119 - Item 1 is: 
+2016-07-20 14:35:33 INFO  LogLog4j:194 - V - Item 1 was displayed: Due to memory limits, Mario was originally colored yellow on the SNES before designers found a solution
+2016-07-20 14:35:33 INFO  LogLog4j:209 - V - Image 1 was displayed: http://media.carambo.la/Images/3844_1_5.jpg
+2016-07-20 14:35:33 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:35:35 INFO  LogLog4j:105 - Item 2 is: 
+2016-07-20 14:35:35 INFO  LogLog4j:194 - V - Item 2 was displayed: N64's Goldeneye was nearly scrapped due to numerous bugs, which halted funding for 3 months
+2016-07-20 14:35:35 INFO  LogLog4j:209 - V - Image 2 was displayed: http://media.carambo.la/Images/3831_1_5.jpg
+2016-07-20 14:35:36 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:35:37 INFO  LogLog4j:105 - Item 3 is: 
+2016-07-20 14:35:37 INFO  LogLog4j:194 - V - Item 3 was displayed: The Game Boy handheld consoles are the most successful of all time, having sold over 400 million units
+2016-07-20 14:35:37 INFO  LogLog4j:209 - V - Image 3 was displayed: http://media.carambo.la/Images/3868_1_5.jpg
+2016-07-20 14:35:37 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:35:39 INFO  LogLog4j:105 - Item 4 is: 
+2016-07-20 14:35:39 INFO  LogLog4j:194 - V - Item 4 was displayed: In 2006, the Wii and its Wiimote were responsible for more property damage than a small tornado
+2016-07-20 14:35:39 INFO  LogLog4j:209 - V - Image 4 was displayed: http://media.carambo.la/Images/3859_1_5.jpg
+2016-07-20 14:35:39 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:35:41 INFO  LogLog4j:119 - Item 5 is: 
+2016-07-20 14:35:41 INFO  LogLog4j:194 - V - Item 5 was displayed: Mario Kart was originally designed to give players the option to choose any character from the Sonic series
+2016-07-20 14:35:41 INFO  LogLog4j:209 - V - Image 5 was displayed: http://media.carambo.la/Images/3822_1_5.jpg
+2016-07-20 14:35:41 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:35:42 INFO  LogLog4j:75 - 20-07-2016_14-35-42
+2016-07-20 14:36:02 INFO  LogLog4j:78 - -----   Test Case 2 with URL: http://www.papercraftsquare.com/mikoyan-gurevich-mig-19-farmer-fighter-free-aircraft-paper-model-download.html-----
+2016-07-20 14:36:02 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:36:44 INFO  LogLog4j:75 - 20-07-2016_14-36-44
+2016-07-20 14:37:51 INFO  LogLog4j:78 - -----   Test Case 2 with URL: http://www.sports747.com/new/beloved-mlb-employee-hilgefort-dies-in-plane-crash-----
+2016-07-20 14:37:51 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:37:51 INFO  LogLog4j:149 - Layer number is OK: 120
+2016-07-20 14:37:51 INFO  LogLog4j:119 - Item 0 is: 
+2016-07-20 14:37:52 INFO  LogLog4j:194 - V - Item 0 was displayed: When the Pirates beat the Yankees in the 1960 World Series they had been outscored by New York 55-27
+2016-07-20 14:37:52 INFO  LogLog4j:209 - V - Image 0 was displayed: http://media.carambo.la/Images/10380_1_5.jpg
+2016-07-20 14:37:52 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:37:53 INFO  LogLog4j:119 - Item 1 is: 
+2016-07-20 14:37:54 INFO  LogLog4j:194 - V - Item 1 was displayed: The Milwaukee Braves got complete game shutouts from their starters in every game of the 1957 World Series
+2016-07-20 14:37:54 INFO  LogLog4j:209 - V - Image 1 was displayed: http://media.carambo.la/Images/10364_1_5.jpg
+2016-07-20 14:37:54 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:37:56 INFO  LogLog4j:105 - Item 2 is: 
+2016-07-20 14:37:56 INFO  LogLog4j:194 - V - Item 2 was displayed: The final out of the 2001 World Series was preempted on Fox for a video sent by Osama Bin Laden
+2016-07-20 14:37:56 INFO  LogLog4j:209 - V - Image 2 was displayed: http://media.carambo.la/Images/10324_1_5.jpg
+2016-07-20 14:37:56 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:37:58 INFO  LogLog4j:105 - Item 3 is: 
+2016-07-20 14:37:58 INFO  LogLog4j:194 - V - Item 3 was displayed: Barry Bonds set a record after he was hit by 11 pitches by Angels’ pitchers during the '02 World Series
+2016-07-20 14:37:58 INFO  LogLog4j:209 - V - Image 3 was displayed: http://media.carambo.la/Images/10267_1_5.jpg
+2016-07-20 14:37:58 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:38:00 INFO  LogLog4j:105 - Item 4 is: 
+2016-07-20 14:38:00 INFO  LogLog4j:194 - V - Item 4 was displayed: In 1907, Game 1 of the Cubs-Tigers World Series ended in a 3-3 tie after 12 innings due to darkness
+2016-07-20 14:38:00 INFO  LogLog4j:209 - V - Image 4 was displayed: http://media.carambo.la/Images/10370_1_5.jpg
+2016-07-20 14:38:00 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:38:02 INFO  LogLog4j:119 - Item 5 is: 
+2016-07-20 14:38:02 INFO  LogLog4j:194 - V - Item 5 was displayed: When Kirk Gibson hit his '88 World Series homer, Dodgers manager Tommy Lasorda had a heart attack
+2016-07-20 14:38:02 INFO  LogLog4j:209 - V - Image 5 was displayed: http://media.carambo.la/Images/10345_1_5.jpg
+2016-07-20 14:38:02 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:38:07 INFO  LogLog4j:60 - 
+
+*** Starting Chrome Browser ***
+
+2016-07-20 14:38:07 INFO  LogLog4j:38 - time before loaing page
+2016-07-20 14:39:07 INFO  LogLog4j:38 - time before loaing page
+2016-07-20 14:40:07 INFO  LogLog4j:38 - time before loaing page
+2016-07-20 14:41:07 INFO  LogLog4j:38 - time before loaing page
+2016-07-20 14:41:47 INFO  LogLog4j:46 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-20 14:42:00 INFO  LogLog4j:46 - 
+-----  From test: Test Case 1 with URL: http://blog.allmyfaves.com/photos/top-20-unusually-stunning-beautiful-hot-models-of-the-world/-----
+2016-07-20 14:42:07 INFO  LogLog4j:38 - time before loaing page
+2016-07-20 14:42:12 INFO  LogLog4j:46 - 
+-----  From test: Test Case 1 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-20 14:42:23 INFO  LogLog4j:46 - 
+-----  From test: Test Case 1 with URL: http://www.papercraftsquare.com/mikoyan-gurevich-mig-19-farmer-fighter-free-aircraft-paper-model-download.html-----
+2016-07-20 14:42:23 INFO  LogLog4j:138 - SHAYSE- unexpected error: stale element reference: element is not attached to the page document
+  (Session info: chrome=51.0.2
+2016-07-20 14:42:23 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:42:37 INFO  LogLog4j:46 - 
+-----  From test: Test Case 1 with URL: http://www.sports747.com/new/beloved-mlb-employee-hilgefort-dies-in-plane-crash-----
+2016-07-20 14:42:37 INFO  LogLog4j:138 - SHAYSE- unexpected error: stale element reference: element is not attached to the page document
+  (Session info: chrome=51.0.2
+2016-07-20 14:42:37 INFO  LogLog4j:138 - SHAYSE- unexpected error: stale element reference: element is not attached to the page document
+  (Session info: chrome=51.0.2
+2016-07-20 14:42:37 INFO  LogLog4j:149 - Layer number is OK: 120
+2016-07-20 14:42:37 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:42:47 INFO  LogLog4j:55 - From test: Assert is OK, centerwrapper exists
+2016-07-20 14:42:47 INFO  LogLog4j:149 - Layer number is OK: 120
+2016-07-20 14:42:57 INFO  LogLog4j:55 - From test: Assert is OK, centerwrapper exists
+2016-07-20 14:42:57 INFO  LogLog4j:209 - V - Image 0 was displayed: http://media.carambo.la/Images/10380_1_5.jpg
+2016-07-20 14:42:57 INFO  LogLog4j:209 - V - Image 0 was displayed: http://media.carambo.la/Images/10380_1_5.jpg
+2016-07-20 14:42:57 INFO  LogLog4j:194 - V - Item 0 was displayed: When the Pirates beat the Yankees in the 1960 World Series they had been outscored by New York 55-27
+2016-07-20 14:42:57 INFO  LogLog4j:212 - V - Score Title Class was displayed
+2016-07-20 14:42:57 INFO  LogLog4j:194 - V - Item 0 was displayed: When the Pirates beat the Yankees in the 1960 World Series they had been outscored by New York 55-27
+2016-07-20 14:42:57 INFO  LogLog4j:215 - V - Text of Question is Correct: Question
+2016-07-20 14:42:58 INFO  LogLog4j:212 - V - Score Title Class was displayed
+2016-07-20 14:42:58 INFO  LogLog4j:215 - V - Text of Question is Correct: Question
+2016-07-20 14:42:59 INFO  LogLog4j:255 - V - FB share btn was displayed
+2016-07-20 14:42:59 INFO  LogLog4j:264 - V - Twitter share btn was displayed
+2016-07-20 14:42:59 INFO  LogLog4j:240 - V - Text check- score unit match
+2016-07-20 14:42:59 INFO  LogLog4j:278 - V - Text check- Title was displayed: Are You a World Series Wunderkind?
+2016-07-20 14:42:59 INFO  LogLog4j:75 - 20-07-2016_14-42-59
+2016-07-20 14:43:27 INFO  LogLog4j:78 - -----   Test Case 2 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-20 14:43:27 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:43:27 INFO  LogLog4j:149 - Layer number is OK: 120
+2016-07-20 14:43:27 INFO  LogLog4j:119 - Item 0 is: 
+2016-07-20 14:43:27 INFO  LogLog4j:194 - V - Item 0 was displayed: Legendary 49ers quarterback Steve Young became the first left-hand QB ever inducted into the Hall of Fame
+2016-07-20 14:43:27 INFO  LogLog4j:209 - V - Image 0 was displayed: http://media.carambo.la/Images/7447_1_5.jpg
+2016-07-20 14:43:27 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:43:29 INFO  LogLog4j:119 - Item 1 is: 
+2016-07-20 14:43:29 INFO  LogLog4j:194 - V - Item 1 was displayed: As the most famous Washington Redskin, Joe Theismann had a room in the White House named after him
+2016-07-20 14:43:29 INFO  LogLog4j:209 - V - Image 1 was displayed: http://media.carambo.la/Images/7593_1_5.jpg
+2016-07-20 14:43:29 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:43:31 INFO  LogLog4j:105 - Item 2 is: 
+2016-07-20 14:43:31 INFO  LogLog4j:194 - V - Item 2 was displayed: Terry Bradshaw was so strong that he once popped a football he was clutching as he was being sacked
+2016-07-20 14:43:31 INFO  LogLog4j:209 - V - Image 2 was displayed: http://media.carambo.la/Images/7522_1_5.jpg
+2016-07-20 14:43:31 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:43:32 INFO  LogLog4j:105 - Item 3 is: 
+2016-07-20 14:43:33 INFO  LogLog4j:194 - V - Item 3 was displayed: As a kid, Jerry Rice worked on his hands by catching bricks tossed by his brother from 20 feet below
+2016-07-20 14:43:34 INFO  LogLog4j:209 - V - Image 3 was displayed: http://media.carambo.la/Images/7594_1_5.jpg
+2016-07-20 14:43:34 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:43:35 INFO  LogLog4j:105 - Item 4 is: 
+2016-07-20 14:43:35 INFO  LogLog4j:194 - V - Item 4 was displayed: When playing in college for Syracuse, Jim Brown also kicked extra points in addition to being a back
+2016-07-20 14:43:35 INFO  LogLog4j:209 - V - Image 4 was displayed: http://media.carambo.la/Images/7596_1_5.jpg
+2016-07-20 14:43:35 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:43:37 INFO  LogLog4j:119 - Item 5 is: 
+2016-07-20 14:43:37 INFO  LogLog4j:194 - V - Item 5 was displayed: Emmitt Smith refused payment from the Cowboys until he scored his first touchdown, which took 5 games
+2016-07-20 14:43:37 INFO  LogLog4j:209 - V - Image 5 was displayed: http://media.carambo.la/Images/7543_1_5.jpg
+2016-07-20 14:43:37 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:43:39 INFO  LogLog4j:75 - 20-07-2016_14-43-39
+2016-07-20 14:43:49 INFO  LogLog4j:78 - -----   Test Case 2 with URL: http://blog.allmyfaves.com/photos/top-20-unusually-stunning-beautiful-hot-models-of-the-world/-----
+2016-07-20 14:43:49 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:43:49 INFO  LogLog4j:149 - Layer number is OK: 120
+2016-07-20 14:43:49 INFO  LogLog4j:119 - Item 0 is: 
+2016-07-20 14:43:49 INFO  LogLog4j:194 - V - Item 0 was displayed: A sayaja is a mini skirt that came into fashion in 2010 and was featured in the Fall Versace Italy Fashion Week
+2016-07-20 14:43:50 INFO  LogLog4j:209 - V - Image 0 was displayed: http://media.carambo.la/Images/7166_1_5.jpg
+2016-07-20 14:43:50 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:43:51 INFO  LogLog4j:119 - Item 1 is: 
+2016-07-20 14:43:51 INFO  LogLog4j:194 - V - Item 1 was displayed: Ballet dancer Marie Taglioni was the first to wear a tutu skirt on the Parisian stage in the 1800s
+2016-07-20 14:43:51 INFO  LogLog4j:209 - V - Image 1 was displayed: http://media.carambo.la/Images/7218_1_5.jpg
+2016-07-20 14:43:52 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:43:53 INFO  LogLog4j:105 - Item 2 is: 
+2016-07-20 14:43:53 INFO  LogLog4j:194 - V - Item 2 was displayed: Panniers was a support structure worn around a woman's waist so her dress spread out flat and wide
+2016-07-20 14:43:54 INFO  LogLog4j:209 - V - Image 2 was displayed: http://media.carambo.la/Images/7243_1_5.jpg
+2016-07-20 14:43:54 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:43:55 INFO  LogLog4j:105 - Item 3 is: 
+2016-07-20 14:43:56 INFO  LogLog4j:194 - V - Item 3 was displayed: The famous red bubble dress was designed by Christian Dior in 1956, reflecting his love for architecture
+2016-07-20 14:43:56 INFO  LogLog4j:209 - V - Image 3 was displayed: http://media.carambo.la/Images/7229_1_5.jpg
+2016-07-20 14:43:56 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:43:58 INFO  LogLog4j:105 - Item 4 is: 
+2016-07-20 14:43:58 INFO  LogLog4j:194 - V - Item 4 was displayed: In the 1800s Regency Period, there was a Greek revival of loose dresses, instead of tight corsets
+2016-07-20 14:43:58 INFO  LogLog4j:209 - V - Image 4 was displayed: http://media.carambo.la/Images/7204_1_5.jpg
+2016-07-20 14:43:59 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:44:00 INFO  LogLog4j:119 - Item 5 is: 
+2016-07-20 14:44:01 INFO  LogLog4j:194 - V - Item 5 was displayed: The pencil skirt was created by designer Christian Dior after WWII, calling it an H-line skirt for its shape
+2016-07-20 14:44:01 INFO  LogLog4j:209 - V - Image 5 was displayed: http://media.carambo.la/Images/7175_1_5.jpg
+2016-07-20 14:44:01 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:44:03 INFO  LogLog4j:75 - 20-07-2016_14-44-03
+2016-07-20 14:44:33 INFO  LogLog4j:78 - -----   Test Case 2 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-20 14:44:33 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:44:33 INFO  LogLog4j:149 - Layer number is OK: 120
+2016-07-20 14:44:33 INFO  LogLog4j:119 - Item 0 is: 
+2016-07-20 14:44:33 INFO  LogLog4j:194 - V - Item 0 was displayed: Blowing into buggy NES cartridges was actually a planned solution when the games were first designed
+2016-07-20 14:44:33 INFO  LogLog4j:209 - V - Image 0 was displayed: http://media.carambo.la/Images/5342_1_5.jpg
+2016-07-20 14:44:34 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:44:35 INFO  LogLog4j:119 - Item 1 is: 
+2016-07-20 14:44:35 INFO  LogLog4j:194 - V - Item 1 was displayed: Due to memory limits, Mario was originally colored yellow on the SNES before designers found a solution
+2016-07-20 14:44:35 INFO  LogLog4j:209 - V - Image 1 was displayed: http://media.carambo.la/Images/3844_1_5.jpg
+2016-07-20 14:44:35 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:44:37 INFO  LogLog4j:105 - Item 2 is: 
+2016-07-20 14:44:37 INFO  LogLog4j:194 - V - Item 2 was displayed: N64's Goldeneye was nearly scrapped due to numerous bugs, which halted funding for 3 months
+2016-07-20 14:44:37 INFO  LogLog4j:209 - V - Image 2 was displayed: http://media.carambo.la/Images/3831_1_5.jpg
+2016-07-20 14:44:38 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:44:40 INFO  LogLog4j:105 - Item 3 is: 
+2016-07-20 14:44:40 INFO  LogLog4j:194 - V - Item 3 was displayed: The Game Boy handheld consoles are the most successful of all time, having sold over 400 million units
+2016-07-20 14:44:40 INFO  LogLog4j:209 - V - Image 3 was displayed: http://media.carambo.la/Images/3868_1_5.jpg
+2016-07-20 14:44:40 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:44:41 INFO  LogLog4j:105 - Item 4 is: 
+2016-07-20 14:44:41 INFO  LogLog4j:194 - V - Item 4 was displayed: In 2006, the Wii and its Wiimote were responsible for more property damage than a small tornado
+2016-07-20 14:44:42 INFO  LogLog4j:209 - V - Image 4 was displayed: http://media.carambo.la/Images/3859_1_5.jpg
+2016-07-20 14:44:43 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:44:44 INFO  LogLog4j:119 - Item 5 is: 
+2016-07-20 14:44:44 INFO  LogLog4j:194 - V - Item 5 was displayed: Mario Kart was originally designed to give players the option to choose any character from the Sonic series
+2016-07-20 14:44:44 INFO  LogLog4j:209 - V - Image 5 was displayed: http://media.carambo.la/Images/3822_1_5.jpg
+2016-07-20 14:44:44 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:44:46 INFO  LogLog4j:75 - 20-07-2016_14-44-46
+2016-07-20 14:44:51 INFO  LogLog4j:78 - -----   Test Case 2 with URL: http://www.papercraftsquare.com/mikoyan-gurevich-mig-19-farmer-fighter-free-aircraft-paper-model-download.html-----
+2016-07-20 14:44:51 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:45:33 INFO  LogLog4j:75 - 20-07-2016_14-45-33
+2016-07-20 14:46:15 INFO  LogLog4j:78 - -----   Test Case 2 with URL: http://www.sports747.com/new/beloved-mlb-employee-hilgefort-dies-in-plane-crash-----
+2016-07-20 14:46:15 INFO  LogLog4j:131 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 14:46:15 INFO  LogLog4j:149 - Layer number is OK: 120
+2016-07-20 14:46:15 INFO  LogLog4j:119 - Item 0 is: 
+2016-07-20 14:46:15 INFO  LogLog4j:194 - V - Item 0 was displayed: When the Pirates beat the Yankees in the 1960 World Series they had been outscored by New York 55-27
+2016-07-20 14:46:15 INFO  LogLog4j:209 - V - Image 0 was displayed: http://media.carambo.la/Images/10380_1_5.jpg
+2016-07-20 14:46:15 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:46:16 INFO  LogLog4j:119 - Item 1 is: 
+2016-07-20 14:46:17 INFO  LogLog4j:194 - V - Item 1 was displayed: The Milwaukee Braves got complete game shutouts from their starters in every game of the 1957 World Series
+2016-07-20 14:46:17 INFO  LogLog4j:209 - V - Image 1 was displayed: http://media.carambo.la/Images/10364_1_5.jpg
+2016-07-20 14:46:17 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 14:46:18 INFO  LogLog4j:105 - Item 2 is: 
+2016-07-20 14:46:18 INFO  LogLog4j:194 - V - Item 2 was displayed: The final out of the 2001 World Series was preempted on Fox for a video sent by Osama Bin Laden
+2016-07-20 14:46:18 INFO  LogLog4j:209 - V - Image 2 was displayed: http://media.carambo.la/Images/10324_1_5.jpg
+2016-07-20 14:46:19 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:46:20 INFO  LogLog4j:105 - Item 3 is: 
+2016-07-20 14:46:20 INFO  LogLog4j:194 - V - Item 3 was displayed: Barry Bonds set a record after he was hit by 11 pitches by Angels’ pitchers during the '02 World Series
+2016-07-20 14:46:20 INFO  LogLog4j:209 - V - Image 3 was displayed: http://media.carambo.la/Images/10267_1_5.jpg
+2016-07-20 14:46:20 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:46:22 INFO  LogLog4j:105 - Item 4 is: 
+2016-07-20 14:46:22 INFO  LogLog4j:194 - V - Item 4 was displayed: In 1907, Game 1 of the Cubs-Tigers World Series ended in a 3-3 tie after 12 innings due to darkness
+2016-07-20 14:46:22 INFO  LogLog4j:209 - V - Image 4 was displayed: http://media.carambo.la/Images/10370_1_5.jpg
+2016-07-20 14:46:22 INFO  LogLog4j:113 - V- element 'TrueButton' is clicked
+2016-07-20 14:46:23 INFO  LogLog4j:119 - Item 5 is: 
+2016-07-20 14:46:23 INFO  LogLog4j:194 - V - Item 5 was displayed: When Kirk Gibson hit his '88 World Series homer, Dodgers manager Tommy Lasorda had a heart attack
+2016-07-20 14:46:24 INFO  LogLog4j:209 - V - Image 5 was displayed: http://media.carambo.la/Images/10345_1_5.jpg
+2016-07-20 14:46:24 INFO  LogLog4j:127 - V- element 'FalseButton' is clicked
+2016-07-20 19:06:50 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-20 19:06:50 INFO  LogLog4j:77 - 20-07-2016_19-06-50
+2016-07-20 19:06:59 INFO  LogLog4j:80 - -----   Test Case 2 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-20 19:06:59 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 19:07:00 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-07-20 19:07:00 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-20 19:07:00 INFO  LogLog4j:196 - V - Item 0 was displayed: Legendary 49ers quarterback Steve Young became the first left-hand QB ever inducted into the Hall of Fame
+2016-07-20 19:07:00 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7447_1_5.jpg
+2016-07-20 19:07:00 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:07:02 INFO  LogLog4j:122 - Item 1 is: 
+2016-07-20 19:07:02 INFO  LogLog4j:196 - V - Item 1 was displayed: As the most famous Washington Redskin, Joe Theismann had a room in the White House named after him
+2016-07-20 19:07:02 INFO  LogLog4j:212 - V - Image 1 was displayed: http://media.carambo.la/Images/7593_1_5.jpg
+2016-07-20 19:07:02 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:07:03 INFO  LogLog4j:122 - Item 2 is: 
+2016-07-20 19:07:04 INFO  LogLog4j:196 - V - Item 2 was displayed: Terry Bradshaw was so strong that he once popped a football he was clutching as he was being sacked
+2016-07-20 19:07:04 INFO  LogLog4j:212 - V - Image 2 was displayed: http://media.carambo.la/Images/7522_1_5.jpg
+2016-07-20 19:07:04 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:07:05 INFO  LogLog4j:108 - Item 3 is: 
+2016-07-20 19:07:05 INFO  LogLog4j:196 - V - Item 3 was displayed: As a kid, Jerry Rice worked on his hands by catching bricks tossed by his brother from 20 feet below
+2016-07-20 19:07:05 INFO  LogLog4j:212 - V - Image 3 was displayed: http://media.carambo.la/Images/7594_1_5.jpg
+2016-07-20 19:07:05 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:07:07 INFO  LogLog4j:108 - Item 4 is: 
+2016-07-20 19:07:07 INFO  LogLog4j:196 - V - Item 4 was displayed: When playing in college for Syracuse, Jim Brown also kicked extra points in addition to being a back
+2016-07-20 19:07:07 INFO  LogLog4j:212 - V - Image 4 was displayed: http://media.carambo.la/Images/7596_1_5.jpg
+2016-07-20 19:07:07 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:07:09 INFO  LogLog4j:108 - Item 5 is: 
+2016-07-20 19:07:09 INFO  LogLog4j:196 - V - Item 5 was displayed: Emmitt Smith refused payment from the Cowboys until he scored his first touchdown, which took 5 games
+2016-07-20 19:07:09 INFO  LogLog4j:212 - V - Image 5 was displayed: http://media.carambo.la/Images/7543_1_5.jpg
+2016-07-20 19:07:09 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:07:10 INFO  LogLog4j:77 - 20-07-2016_19-07-10
+2016-07-20 19:07:24 INFO  LogLog4j:80 - -----   Test Case 2 with URL: http://blog.allmyfaves.com/photos/top-20-unusually-stunning-beautiful-hot-models-of-the-world/-----
+2016-07-20 19:07:24 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 19:07:25 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-07-20 19:07:25 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-20 19:07:25 INFO  LogLog4j:196 - V - Item 0 was displayed: A sayaja is a mini skirt that came into fashion in 2010 and was featured in the Fall Versace Italy Fashion Week
+2016-07-20 19:07:25 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7166_1_5.jpg
+2016-07-20 19:07:25 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:07:27 INFO  LogLog4j:122 - Item 1 is: 
+2016-07-20 19:07:28 INFO  LogLog4j:196 - V - Item 1 was displayed: Ballet dancer Marie Taglioni was the first to wear a tutu skirt on the Parisian stage in the 1800s
+2016-07-20 19:07:29 INFO  LogLog4j:212 - V - Image 1 was displayed: http://media.carambo.la/Images/7218_1_5.jpg
+2016-07-20 19:07:29 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:07:30 INFO  LogLog4j:122 - Item 2 is: 
+2016-07-20 19:07:31 INFO  LogLog4j:196 - V - Item 2 was displayed: Panniers was a support structure worn around a woman's waist so her dress spread out flat and wide
+2016-07-20 19:07:32 INFO  LogLog4j:212 - V - Image 2 was displayed: http://media.carambo.la/Images/7243_1_5.jpg
+2016-07-20 19:07:32 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:07:34 INFO  LogLog4j:108 - Item 3 is: 
+2016-07-20 19:07:34 INFO  LogLog4j:196 - V - Item 3 was displayed: The famous red bubble dress was designed by Christian Dior in 1956, reflecting his love for architecture
+2016-07-20 19:07:35 INFO  LogLog4j:212 - V - Image 3 was displayed: http://media.carambo.la/Images/7229_1_5.jpg
+2016-07-20 19:07:36 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:07:37 INFO  LogLog4j:108 - Item 4 is: 
+2016-07-20 19:07:38 INFO  LogLog4j:196 - V - Item 4 was displayed: In the 1800s Regency Period, there was a Greek revival of loose dresses, instead of tight corsets
+2016-07-20 19:07:39 INFO  LogLog4j:212 - V - Image 4 was displayed: http://media.carambo.la/Images/7204_1_5.jpg
+2016-07-20 19:07:39 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:07:41 INFO  LogLog4j:108 - Item 5 is: 
+2016-07-20 19:07:42 INFO  LogLog4j:196 - V - Item 5 was displayed: The pencil skirt was created by designer Christian Dior after WWII, calling it an H-line skirt for its shape
+2016-07-20 19:07:43 INFO  LogLog4j:212 - V - Image 5 was displayed: http://media.carambo.la/Images/7175_1_5.jpg
+2016-07-20 19:07:43 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:07:45 INFO  LogLog4j:77 - 20-07-2016_19-07-45
+2016-07-20 19:07:54 INFO  LogLog4j:80 - -----   Test Case 2 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-20 19:07:55 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 19:07:55 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-07-20 19:07:55 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-20 19:07:55 INFO  LogLog4j:196 - V - Item 0 was displayed: Blowing into buggy NES cartridges was actually a planned solution when the games were first designed
+2016-07-20 19:07:56 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/5342_1_5.jpg
+2016-07-20 19:07:56 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:07:57 INFO  LogLog4j:122 - Item 1 is: 
+2016-07-20 19:07:57 INFO  LogLog4j:196 - V - Item 1 was displayed: Due to memory limits, Mario was originally colored yellow on the SNES before designers found a solution
+2016-07-20 19:07:57 INFO  LogLog4j:212 - V - Image 1 was displayed: http://media.carambo.la/Images/3844_1_5.jpg
+2016-07-20 19:07:57 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:07:59 INFO  LogLog4j:122 - Item 2 is: 
+2016-07-20 19:07:59 INFO  LogLog4j:196 - V - Item 2 was displayed: N64's Goldeneye was nearly scrapped due to numerous bugs, which halted funding for 3 months
+2016-07-20 19:07:59 INFO  LogLog4j:212 - V - Image 2 was displayed: http://media.carambo.la/Images/3831_1_5.jpg
+2016-07-20 19:07:59 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:08:01 INFO  LogLog4j:108 - Item 3 is: 
+2016-07-20 19:08:01 INFO  LogLog4j:196 - V - Item 3 was displayed: The Game Boy handheld consoles are the most successful of all time, having sold over 400 million units
+2016-07-20 19:08:01 INFO  LogLog4j:212 - V - Image 3 was displayed: http://media.carambo.la/Images/3868_1_5.jpg
+2016-07-20 19:08:01 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:08:02 INFO  LogLog4j:108 - Item 4 is: 
+2016-07-20 19:08:02 INFO  LogLog4j:196 - V - Item 4 was displayed: In 2006, the Wii and its Wiimote were responsible for more property damage than a small tornado
+2016-07-20 19:08:02 INFO  LogLog4j:212 - V - Image 4 was displayed: http://media.carambo.la/Images/3859_1_5.jpg
+2016-07-20 19:08:03 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:08:04 INFO  LogLog4j:108 - Item 5 is: 
+2016-07-20 19:08:04 INFO  LogLog4j:196 - V - Item 5 was displayed: Mario Kart was originally designed to give players the option to choose any character from the Sonic series
+2016-07-20 19:08:04 INFO  LogLog4j:212 - V - Image 5 was displayed: http://media.carambo.la/Images/3822_1_5.jpg
+2016-07-20 19:08:04 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:08:06 INFO  LogLog4j:77 - 20-07-2016_19-08-06
+2016-07-20 19:08:30 INFO  LogLog4j:80 - -----   Test Case 2 with URL: http://www.papercraftsquare.com/mikoyan-gurevich-mig-19-farmer-fighter-free-aircraft-paper-model-download.html-----
+2016-07-20 19:08:30 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 19:09:11 INFO  LogLog4j:77 - 20-07-2016_19-09-11
+2016-07-20 19:09:11 INFO  LogLog4j:80 - -----   Test Case 2 with URL: http://www.sports747.com/new/beloved-mlb-employee-hilgefort-dies-in-plane-crash-----
+2016-07-20 19:09:26 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 19:09:26 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-07-20 19:09:26 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-20 19:09:26 INFO  LogLog4j:196 - V - Item 0 was displayed: When the Pirates beat the Yankees in the 1960 World Series they had been outscored by New York 55-27
+2016-07-20 19:09:26 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/10380_1_5.jpg
+2016-07-20 19:24:39 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-20 19:24:39 INFO  LogLog4j:77 - 20-07-2016_19-24-39
+2016-07-20 19:24:44 INFO  LogLog4j:80 - -----   Test Case 2 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-20 19:24:46 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 19:24:47 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-20 19:24:47 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-20 19:24:47 INFO  LogLog4j:197 - V - Item 0 was displayed: Legendary 49ers quarterback Steve Young became the first left-hand QB ever inducted into the Hall of Fame
+2016-07-20 19:24:47 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7447_1_5.jpg
+2016-07-20 19:24:47 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:24:49 INFO  LogLog4j:122 - Item 1 is: 
+2016-07-20 19:24:49 INFO  LogLog4j:197 - V - Item 1 was displayed: As the most famous Washington Redskin, Joe Theismann had a room in the White House named after him
+2016-07-20 19:24:49 INFO  LogLog4j:212 - V - Image 1 was displayed: http://media.carambo.la/Images/7593_1_5.jpg
+2016-07-20 19:24:49 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:24:50 INFO  LogLog4j:122 - Item 2 is: 
+2016-07-20 19:24:51 INFO  LogLog4j:197 - V - Item 2 was displayed: Terry Bradshaw was so strong that he once popped a football he was clutching as he was being sacked
+2016-07-20 19:24:51 INFO  LogLog4j:212 - V - Image 2 was displayed: http://media.carambo.la/Images/7522_1_5.jpg
+2016-07-20 19:24:51 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:24:52 INFO  LogLog4j:108 - Item 3 is: 
+2016-07-20 19:24:52 INFO  LogLog4j:197 - V - Item 3 was displayed: As a kid, Jerry Rice worked on his hands by catching bricks tossed by his brother from 20 feet below
+2016-07-20 19:24:52 INFO  LogLog4j:212 - V - Image 3 was displayed: http://media.carambo.la/Images/7594_1_5.jpg
+2016-07-20 19:24:52 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:24:54 INFO  LogLog4j:108 - Item 4 is: 
+2016-07-20 19:24:54 INFO  LogLog4j:197 - V - Item 4 was displayed: When playing in college for Syracuse, Jim Brown also kicked extra points in addition to being a back
+2016-07-20 19:24:54 INFO  LogLog4j:212 - V - Image 4 was displayed: http://media.carambo.la/Images/7596_1_5.jpg
+2016-07-20 19:24:54 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:24:56 INFO  LogLog4j:108 - Item 5 is: 
+2016-07-20 19:24:56 INFO  LogLog4j:197 - V - Item 5 was displayed: Emmitt Smith refused payment from the Cowboys until he scored his first touchdown, which took 5 games
+2016-07-20 19:24:56 INFO  LogLog4j:212 - V - Image 5 was displayed: http://media.carambo.la/Images/7543_1_5.jpg
+2016-07-20 19:24:56 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:24:57 INFO  LogLog4j:77 - 20-07-2016_19-24-57
+2016-07-20 19:25:08 INFO  LogLog4j:80 - -----   Test Case 2 with URL: http://blog.allmyfaves.com/photos/top-20-unusually-stunning-beautiful-hot-models-of-the-world/-----
+2016-07-20 19:25:09 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 19:25:09 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-20 19:25:10 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-20 19:25:10 INFO  LogLog4j:197 - V - Item 0 was displayed: A sayaja is a mini skirt that came into fashion in 2010 and was featured in the Fall Versace Italy Fashion Week
+2016-07-20 19:25:10 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7166_1_5.jpg
+2016-07-20 19:25:10 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:25:11 INFO  LogLog4j:122 - Item 1 is: 
+2016-07-20 19:25:12 INFO  LogLog4j:197 - V - Item 1 was displayed: Ballet dancer Marie Taglioni was the first to wear a tutu skirt on the Parisian stage in the 1800s
+2016-07-20 19:25:12 INFO  LogLog4j:212 - V - Image 1 was displayed: http://media.carambo.la/Images/7218_1_5.jpg
+2016-07-20 19:25:12 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:25:14 INFO  LogLog4j:122 - Item 2 is: 
+2016-07-20 19:25:14 INFO  LogLog4j:197 - V - Item 2 was displayed: Panniers was a support structure worn around a woman's waist so her dress spread out flat and wide
+2016-07-20 19:25:15 INFO  LogLog4j:212 - V - Image 2 was displayed: http://media.carambo.la/Images/7243_1_5.jpg
+2016-07-20 19:25:15 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:25:17 INFO  LogLog4j:108 - Item 3 is: 
+2016-07-20 19:25:17 INFO  LogLog4j:197 - V - Item 3 was displayed: The famous red bubble dress was designed by Christian Dior in 1956, reflecting his love for architecture
+2016-07-20 19:25:18 INFO  LogLog4j:212 - V - Image 3 was displayed: http://media.carambo.la/Images/7229_1_5.jpg
+2016-07-20 19:25:18 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:25:20 INFO  LogLog4j:108 - Item 4 is: 
+2016-07-20 19:25:20 INFO  LogLog4j:197 - V - Item 4 was displayed: In the 1800s Regency Period, there was a Greek revival of loose dresses, instead of tight corsets
+2016-07-20 19:25:21 INFO  LogLog4j:212 - V - Image 4 was displayed: http://media.carambo.la/Images/7204_1_5.jpg
+2016-07-20 19:25:22 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:25:23 INFO  LogLog4j:108 - Item 5 is: 
+2016-07-20 19:25:24 INFO  LogLog4j:197 - V - Item 5 was displayed: The pencil skirt was created by designer Christian Dior after WWII, calling it an H-line skirt for its shape
+2016-07-20 19:25:25 INFO  LogLog4j:212 - V - Image 5 was displayed: http://media.carambo.la/Images/7175_1_5.jpg
+2016-07-20 19:25:25 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:25:27 INFO  LogLog4j:77 - 20-07-2016_19-25-27
+2016-07-20 19:25:38 INFO  LogLog4j:80 - -----   Test Case 2 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-20 19:25:39 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 19:25:39 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-20 19:25:39 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-20 19:25:39 INFO  LogLog4j:197 - V - Item 0 was displayed: Blowing into buggy NES cartridges was actually a planned solution when the games were first designed
+2016-07-20 19:25:39 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/5342_1_5.jpg
+2016-07-20 19:25:39 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:25:41 INFO  LogLog4j:122 - Item 1 is: 
+2016-07-20 19:25:41 INFO  LogLog4j:197 - V - Item 1 was displayed: Due to memory limits, Mario was originally colored yellow on the SNES before designers found a solution
+2016-07-20 19:25:41 INFO  LogLog4j:212 - V - Image 1 was displayed: http://media.carambo.la/Images/3844_1_5.jpg
+2016-07-20 19:25:41 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:25:42 INFO  LogLog4j:122 - Item 2 is: 
+2016-07-20 19:25:43 INFO  LogLog4j:197 - V - Item 2 was displayed: N64's Goldeneye was nearly scrapped due to numerous bugs, which halted funding for 3 months
+2016-07-20 19:25:43 INFO  LogLog4j:212 - V - Image 2 was displayed: http://media.carambo.la/Images/3831_1_5.jpg
+2016-07-20 19:25:43 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-20 19:25:44 INFO  LogLog4j:108 - Item 3 is: 
+2016-07-20 19:25:44 INFO  LogLog4j:197 - V - Item 3 was displayed: The Game Boy handheld consoles are the most successful of all time, having sold over 400 million units
+2016-07-20 19:25:44 INFO  LogLog4j:212 - V - Image 3 was displayed: http://media.carambo.la/Images/3868_1_5.jpg
+2016-07-20 19:25:45 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:25:46 INFO  LogLog4j:108 - Item 4 is: 
+2016-07-20 19:25:46 INFO  LogLog4j:197 - V - Item 4 was displayed: In 2006, the Wii and its Wiimote were responsible for more property damage than a small tornado
+2016-07-20 19:25:46 INFO  LogLog4j:212 - V - Image 4 was displayed: http://media.carambo.la/Images/3859_1_5.jpg
+2016-07-20 19:25:46 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:25:48 INFO  LogLog4j:108 - Item 5 is: 
+2016-07-20 19:25:48 INFO  LogLog4j:197 - V - Item 5 was displayed: Mario Kart was originally designed to give players the option to choose any character from the Sonic series
+2016-07-20 19:25:48 INFO  LogLog4j:212 - V - Image 5 was displayed: http://media.carambo.la/Images/3822_1_5.jpg
+2016-07-20 19:25:48 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-20 19:25:50 INFO  LogLog4j:77 - 20-07-2016_19-25-50
+2016-07-20 19:26:56 INFO  LogLog4j:80 - -----   Test Case 2 with URL: http://www.papercraftsquare.com/mikoyan-gurevich-mig-19-farmer-fighter-free-aircraft-paper-model-download.html-----
+2016-07-20 19:27:02 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 19:27:44 INFO  LogLog4j:77 - 20-07-2016_19-27-44
+2016-07-20 19:28:06 INFO  LogLog4j:80 - -----   Test Case 2 with URL: http://www.sports747.com/new/beloved-mlb-employee-hilgefort-dies-in-plane-crash-----
+2016-07-20 19:28:06 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-20 19:28:07 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-20 19:28:07 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-20 19:28:07 INFO  LogLog4j:197 - V - Item 0 was displayed: When the Pirates beat the Yankees in the 1960 World Series they had been outscored by New York 55-27
+2016-07-20 19:28:07 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/10380_1_5.jpg

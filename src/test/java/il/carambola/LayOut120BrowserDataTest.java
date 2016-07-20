@@ -11,7 +11,9 @@ import org.testng.asserts.SoftAssert;
 import ru.yandex.qatools.allure.annotations.Features;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import static org.testng.AssertJUnit.assertTrue;
@@ -90,10 +92,14 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
          * one method that combines true and false btns. define how many clicks to perform
          */
 
-        layout_120_page.pressButtonAndCheckContent(false,2);
+        layout_120_page.pressButtonAndCheckContent(false,3);
         layout_120_page.pressButtonAndCheckContent(true,3);
-        layout_120_page.pressButtonAndCheckContent(false,1);
 
+        // need to improve.. need to add the number of items I want to print (depends on how many clicks I made above)
+        layout_120_page.printItemsList(6);
+
+        // need to clear items List at the end of the @Test otherwise it will save it for the next url and it will have a long list
+        layout_120_page.itemsTemp.clear();
 
           /*layout_120_page.pressYesButton();
           softAssert.assertTrue(layout_120_page.CheckThatYesButtonExists(), "Yes button do not exist");

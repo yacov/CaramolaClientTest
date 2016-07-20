@@ -18,6 +18,7 @@ import java.io.IOException;
 
 import java.math.RoundingMode;
 //import java.time.LocalDateTime; ---------- why cant use it?
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 //import java.util.concurrent.ThreadLocalRandom;
@@ -31,6 +32,8 @@ public abstract class Page {
   public String PAGE_URL;
   public String PAGE_TITLE;
   public WebDriver driver;
+  public List<String> itemsTemp = new ArrayList<String>();
+  public List<String> itemsSave = new ArrayList<String>();
 
 
   /*
@@ -192,6 +195,7 @@ public abstract class Page {
     if (isText) {
       String TextString = Item.getText();
       Log.info("V - Item " + itemNo + " was displayed: " + TextString);
+      itemsTemp.add(TextString);
 
       // ~~~ creating file MAY make the test slower ~~~
      // File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
@@ -201,6 +205,8 @@ public abstract class Page {
      // File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
      // FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" + GeneralUtils.sdf.format(new Date()) + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
     }
+    itemsSave = itemsTemp;
+
     return isText;
   }
 
@@ -283,8 +289,15 @@ public abstract class Page {
     }
 
   }
+ public void printItemsList(Integer max) {
 
+   //print items List
 
+   System.out.println("\n  List of items:");
+   for (Integer j = 0; j < max; j++) {
+     System.out.println(itemsSave.get(j));
+   }
+ }
   // ----------------------------------------------------   Methods not in use   ------------------------------------------------------------------------------------
 
 

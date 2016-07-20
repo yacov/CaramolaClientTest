@@ -10,6 +10,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import ru.yandex.qatools.allure.annotations.Step;
 
@@ -20,6 +22,7 @@ public class Layout_120_Page extends Page {
     private static Logger Log = Logger.getLogger(LogLog4j.class.getName());
     private Integer sumOfClicks = 0;
     private String testUrl = null;
+
 
     @FindBy(id = Consts.SCRIPT_ID)
     WebElement ContentScript;
