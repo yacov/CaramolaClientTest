@@ -2,17 +2,15 @@ package il.carambola;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import ru.yandex.qatools.allure.annotations.Features;
+import ru.yandex.qatools.allure.annotations.Stories;
 
 import java.io.IOException;
 import java.util.Date;
-import java.util.concurrent.TimeUnit;
 
 import static org.testng.AssertJUnit.assertTrue;
 
@@ -31,7 +29,8 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     //This test runs several times, every iteration with new url. Urls are stored in resources/urlList.data file
 // Test Case 1
     @Features("Check if Layer's UI was fully loaded")
-    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls",timeOut = 60000)
+    @Stories({"Check if board exists", "Check if Layer is correct", "Check if First Image Exists"})
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 80)
     // IO Exception added after using File export for screenshot
     public void BasicFullLoad(String url) throws IOException {
 
