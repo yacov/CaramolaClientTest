@@ -232,11 +232,9 @@ public abstract class Page {
   }
 
   public void isScoreUnit(WebElement ScoreUnitElement) throws IOException {
-
     String ScoreUnit = ScoreUnitElement.findElement(By.tagName("span")).getText();
     System.out.println("ref text is: " + Consts.TEXT_YOUR_SCORE);
     System.out.println("text on screen is: " + ScoreUnit);
-
     // score unit- "your score"
     if (new String(Consts.TEXT_YOUR_SCORE).equals(ScoreUnit)) {
       Log.info("V - Text check- score unit match");
@@ -246,6 +244,7 @@ public abstract class Page {
       FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "NO_match_between_the_unit_score_texts" + GeneralUtils.sdf.format(new Date()) + ".png"));
     }
   }
+
   @Step("Is share btns exists")
   // Find share btns
   public void findShareBtn(String firm, WebElement shareBtn)throws IOException{
