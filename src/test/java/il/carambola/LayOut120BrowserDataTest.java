@@ -33,32 +33,32 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     //This test runs several times, every iteration with new url. Urls are stored in resources/urlList.data file
 // Test Case 1
     @Features("Check if Layer's UI was fully loaded")
-    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls",timeOut = 60000)
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 60000)
     // IO Exception added after using File export for screenshot
     public void BasicFullLoad(String url) throws IOException {
 
         Log.info("time before loaing page");
         long maxPageRunTime = (30 + 10); // 30 for page load + 10 for the test
         //driver.manage().timeouts().pageLoadTimeout(maxPageRunTime, TimeUnit.SECONDS); // will work on the pages with synch loading, but this doesn't solve the problem on pages loading stuff in asynch, the tests will fail all the time if we set the pageLoadTimeOut.
-        WebDriverWait wait = new WebDriverWait(driver,10);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
 
         driver.manage().window().maximize();
         driver.get(url);
         // wait.until(ExpectedConditions.titleContains("Rushing")); // nice to have- dont start until element X is on page
         Log.info("\n-----  From test: Test Case 1 with URL: " + url + "-----");
 
-            // step 1
+        // step 1
         assertTrue("From test: Script is not valid on url " + url, layout_120_page.isScriptValidHere());
         //    layout_120_page.WaitUntilLayoutIsLoaded();
-            //step 2
+        //step 2
         layout_120_page.chekLayerisCorrect();
-            //step 3
+        //step 3
         softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "Centerwrapper do not exist");
         Log.info("From test: Assert is OK, centerwrapper exists");
-            //step 4
+        //step 4
         //softAssert.assertTrue(layout_120_page.IsBoardExist(), "From test: Cbola board DOESNT exists");
-            //step 4.2
-        layout_120_page.isFirstImageExists(0);
+        //step 4.2
+        layout_120_page.isImageExists(0);
         // Log.info(layout_120_page.printImage(0)); printImage return String. its already in isFirstImageExists
         layout_120_page.isTextExists(0); // its a boolean in case we will want to make Assert
         layout_120_page.isScoreTitleExists();
@@ -66,23 +66,27 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         layout_120_page.isShareBtnExists("Twitter");
         layout_120_page.isScoreUnitExists();
         layout_120_page.isUnitTitleExists();
+        layout_120_page.checkDuplicateItems();
 
+        layout_120_page.itemsTemp.clear();
     }
 
 
-    @Features("Click buttons")
+    @Features("Click buttons and check items")
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
 // Test Case 2
     public void HalfGame(String url) throws InterruptedException, IOException {
-        Log.info(GeneralUtils.sdf.format(new Date()));
-
         driver.get(url);
         Log.info("-----   Test Case 2 with URL: " + url + "-----");
+
+        // basic tests- is script, is layout, is wrapper
         assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
         layout_120_page.WaitUntilLayoutIsLoaded().chekLayerisCorrect();
-
+        softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "Centerwrapper do not exist");
+        // scroll to unit
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("document.getElementById('InContent-container-centerWrapper0').scrollIntoView(true);");
+        jse.executeScript("window.scrollBy(0,-150)");
         System.out.println("JS scroll executed");
         //jse.executeScript("window.scrollBy(0,-100)"); // (-X) will scroll up
 
@@ -91,33 +95,52 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         /**
          * one method that combines true and false btns. define how many clicks to perform
          */
-
-        layout_120_page.pressButtonAndCheckContent(false,3);
-        layout_120_page.pressButtonAndCheckContent(true,3);
+        // start test:
+        layout_120_page.pressButtonAndCheckContent(false, 2);
+        layout_120_page.pressButtonAndCheckContent(true, 3);
 
         // need to improve.. need to add the number of items I want to print (depends on how many clicks I made above)
         layout_120_page.printItemsList(6);
 
+        layout_120_page.checkDuplicateItems();
+
         // need to clear items List at the end of the @Test otherwise it will save it for the next url and it will have a long list
         layout_120_page.itemsTemp.clear();
 
-          /*layout_120_page.pressYesButton();
-          softAssert.assertTrue(layout_120_page.CheckThatYesButtonExists(), "Yes button do not exist");
-          Log.info("Assert is OK, button Yes exists");
-          layout_120_page.pressNoButton();
-          softAssert.assertTrue(layout_120_page.CheckThatYesButtonExists(), "No button do not exist");
-          Log.info("Assert is OK, button No exists");*/
-
-
         }
-
-        //assertTrue("Yes button do not exist", layout_120_page.CheckThatYesButtonExists());
-
-
 
     /*@AfterClass(alwaysRun = true)
     public void tearDown() {
         this.driver.quit();
     }*/
-}
 
+    @Features("Check ending screen and next game's 1st item")
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
+    public void endingScreen(String url) throws InterruptedException {
+        driver.get(url);
+        Log.info("-----   Test Case 3 with URL: " + url + "-----");
+        // basic tests- is script, is layout, is wrapper
+        assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
+        layout_120_page.WaitUntilLayoutIsLoaded().chekLayerisCorrect();
+        softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "Centerwrapper do not exist");
+        //scroll to unit
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("document.getElementById('InContent-container-centerWrapper0').scrollIntoView(true);");
+        jse.executeScript("window.scrollBy(0,-150)");
+        System.out.println("JS scroll executed");
+        // start test:
+        // Step 2: click until game finishes
+        layout_120_page.pressFalseButton(3);
+        layout_120_page.pressTrueButton(7);
+        Thread.sleep(2000);
+        // Step 3: Ending screen Message Structure- "next quiz"
+        assertTrue("cant find ending screen msg title",layout_120_page.isEndingScreenMsgTitleExists()); // the assert will fail the test if needed
+        //Step 3.1: name of next game
+        assertTrue("cant find ending screen msg name",layout_120_page.findEndingScreenMsgName());
+        //Step 3.2: btn "next"
+        assertTrue("cant find ending screen \'Start\' Button",layout_120_page.isStartNextGameBtnExists());
+        //Step 4: score unit structure - "you scored a__ " if it passes go to next method and check if the title is correct
+        assertTrue("cant find ending screen score unit title",layout_120_page.isScoreUnitTitle());
+
+    }
+}

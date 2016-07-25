@@ -51,6 +51,14 @@ public class Layout_120_Page extends Page {
     WebElement scoreUnit;
     @FindBy(className = Consts.TITLE_CLASS)
     WebElement unitTitle;
+    @FindBy(className = Consts.ENDING_SCREEN_MSG_TITLE_CLASS)
+    WebElement endingScreenMsgTitle;
+    @FindBy(className = Consts.ENDING_SCREEN_MSG_NAME_CLASS)
+    WebElement endingScreenMsgName;
+    @FindBy(className = Consts.ENDING_SCREEN_MSG_BTN_CLASS)
+    WebElement endingScreenMsgBtn;
+    @FindBy(className = Consts.ENDING_SCREEN_SCORE_UNIT_CLASS)
+    WebElement endingScreenScoreUnitText;
     //public ProfilePage profilePag
 
     public Layout_120_Page(WebDriver driver) {
@@ -76,7 +84,7 @@ public class Layout_120_Page extends Page {
         Integer i = 0;
         while ( i < noOfClicks){
             clickElement(TrueButton);
-            Log.info("V- element 'TrueButton' is clicked");
+            Log.info("V- click number: " + (i+1) + " on element 'TrueButton'");
             Thread.sleep(1500);
             i++;
         }
@@ -86,7 +94,7 @@ public class Layout_120_Page extends Page {
         Integer i = 0;
         while ( i < noOfClicks){
             clickElement(FalseButton);
-            Log.info("V- element 'FalseButton' is clicked");
+            Log.info("V- click number: " + (i+1) + " on element 'FalseButton'");
             Thread.sleep(1500);
             i++;
         }
@@ -109,11 +117,11 @@ public class Layout_120_Page extends Page {
                 // first item
                 isTextExists(sumOfClicks);
                 // first image
-                isFirstImageExists(sumOfClicks);  // also prints the src. no need for printImage()
+                isImageExists(sumOfClicks);  // also prints the src. no need for printImage()
 
                 //click to next
                 clickElement(TrueButton);
-                Log.info("V- element 'TrueButton' is clicked");
+                Log.info("V- click number: " + (sumOfClicks + 1) + " on element 'TrueButton'");
                 Thread.sleep(1500);
                 sumOfClicks++;
             }
@@ -123,11 +131,11 @@ public class Layout_120_Page extends Page {
                 // first item
                 isTextExists(sumOfClicks);
                 // first image
-                isFirstImageExists(sumOfClicks);  // also prints the src. no need for printImage()
+                isImageExists(sumOfClicks);  // also prints the src. no need for printImage()
 
                 //click to next
                 clickElement(FalseButton);
-                Log.info("V- element 'FalseButton' is clicked");
+                Log.info("V- click number: " + (sumOfClicks + 1) + " on element 'FalseButton'");
                 Thread.sleep(1500);
                 sumOfClicks++;
             }
@@ -201,22 +209,23 @@ public class Layout_120_Page extends Page {
     }
 
     // Step 4.2 - Verify 1st Image -cbolaContent-imageLoader
-    @Step("Check if First Image Exists")
-    public boolean isFirstImageExists(Integer imgNo){
+    @Step("Check if Image Exists")
+    public boolean isImageExists(Integer imgNo){
         WebElement imgElement = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS + imgNo));
-        boolean CbolaFirstImg = imgElement.isDisplayed();
-        if(CbolaFirstImg) {
+        boolean isCbolaImg = imgElement.isDisplayed();
+        if(isCbolaImg) {
             // (same as print img method)
           //  String srcOfImage = imgElement.getAttribute("src");
 
             Log.info("V - Image " + imgNo + " was displayed: " + printImage(imgNo));
             // System.out.println("From Page class: YEAH!- we can see 1st image element:");
+
         } else {
             Log.info("X - Image " + imgNo + " WASNT displayed");
             //  System.out.println("From Page class: SHAYSE - 1st img element WASNT displayed");
-            CbolaFirstImg = false;
+            isCbolaImg = false;
         }
-        return CbolaFirstImg;
+        return isCbolaImg;
     }
     // get the src of the img and print it
     @Step("Print Image src url")
@@ -242,5 +251,100 @@ public class Layout_120_Page extends Page {
     }
     public void isUnitTitleExists()throws IOException{
         findUnitTitle(unitTitle);
+    }
+    public boolean isEndingScreenMsgTitleExists(){
+        return findEndingScreenMsg(endingScreenMsgTitle);
+    }
+    // find the name of the next game (ONLY GOOD for Trivia layouts- 120, 140, 1400 and therefor the method will be in this class
+    public boolean findEndingScreenMsgName(){
+        boolean isEndingScreenMsgName = endingScreenMsgName.isDisplayed();
+        if(isEndingScreenMsgName){
+            String nextGameName = endingScreenMsgName.getText();
+            Log.info("V- Ending Screen Msg name exists. next game is: " + nextGameName);
+        }else{
+            Log.info("X- Ending Screen Msg name DID NOT exist in page");
+        }
+        return isEndingScreenMsgName;
+    }
+    public boolean isStartNextGameBtnExists(){
+        boolean isStartBtn = endingScreenMsgBtn.isDisplayed();
+        if(isStartBtn){
+            String startBtnText = endingScreenMsgBtn.getText();
+            Log.info("V- Start button exists and it says: " + startBtnText);
+        }else{
+            Log.info("X- Start button DOESNT exists");
+        }
+        return isStartBtn;
+    }
+
+    public boolean isScoreUnitTitle(){
+        boolean isScoreTitle = endingScreenScoreUnitText.isDisplayed();
+        if(isScoreTitle){
+            String scoreText = endingScreenScoreUnitText.getText();
+            Log.info("V- score title was displayed: " + scoreText);
+            isScoreTitleCorrect(scoreText);
+        }else{
+            Log.info("X- score title WASNT displayed");
+        }
+        return isScoreTitle;
+    }
+
+    public void isScoreTitleCorrect(String unitTitle){
+        Integer isScoreNumber = Integer.parseInt(driver.findElement(By.className(Consts.ENDING_SCREEN_SCORE_NUMBER_CLASS)).getText());
+
+        switch(isScoreNumber){
+            case 1:
+            case 2:
+                if(Consts.SCORE_1_2.equals(unitTitle)){
+                    Log.info("V - score unit title is correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_1_2);
+                }else{
+                    System.out.println("score unit title is NOT Correct");
+                    Log.info("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_1_2);
+                }break;
+
+            case 3:
+            case 4:
+                if(Consts.SCORE_3_4.equals(unitTitle)){
+
+                    Log.info("V - score unit title is correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_3_4);
+                }else{
+                    System.out.println("score unit title is NOT Correct");
+                    Log.info("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_3_4);
+                }break;
+
+            case 5:
+            case 6:
+                if(Consts.SCORE_5_6.equals(unitTitle)){
+                    Log.info("V - score unit title is correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_5_6);
+                }else{
+                    System.out.println("score unit title is NOT Correct");
+                    Log.info("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_5_6);
+                }break;
+
+            case 7:
+            case 8:
+                if(Consts.SCORE_7_8.equals(unitTitle)){
+                    Log.info("V - score unit title is correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_7_8);
+                }else{
+                    System.out.println("score unit title is NOT Correct");
+                    Log.info("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_7_8);
+                }break;
+
+            case 9:
+                if(Consts.SCORE_9.equals(unitTitle)){
+                    Log.info("V - score unit title is correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_9);
+                }else{
+                    System.out.println("score unit title is NOT Correct");
+                    Log.info("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_9);
+                }break;
+            case 10:
+                if(Consts.SCORE_10.equals(unitTitle)){
+                    Log.info("V - score unit title is correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_10);
+                }else{
+                    System.out.println("score unit title is NOT Correct");
+                    Log.info("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_10);
+                }break;
+        }
+
     }
 }

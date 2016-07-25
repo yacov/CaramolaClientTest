@@ -4875,3 +4875,887 @@ Build info: version: '2.53.1', revisi
 2016-07-20 19:28:07 INFO  LogLog4j:122 - Item 0 is: 
 2016-07-20 19:28:07 INFO  LogLog4j:197 - V - Item 0 was displayed: When the Pirates beat the Yankees in the 1960 World Series they had been outscored by New York 55-27
 2016-07-20 19:28:07 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/10380_1_5.jpg
+2016-07-21 18:34:25 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-21 18:34:26 INFO  LogLog4j:40 - time before loaing page
+2016-07-21 18:34:40 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-21 18:34:41 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-21 18:34:41 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-21 18:34:52 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-21 18:34:52 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7447_1_5.jpg
+2016-07-21 18:34:52 INFO  LogLog4j:197 - V - Item 0 was displayed: Legendary 49ers quarterback Steve Young became the first left-hand QB ever inducted into the Hall of Fame
+2016-07-21 18:34:52 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-21 18:34:52 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-21 18:34:53 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-21 18:34:53 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-21 18:34:53 INFO  LogLog4j:246 - V - Text check- score unit match
+2016-07-21 18:34:53 INFO  LogLog4j:284 - V - Text check- Title was displayed: How Well Do You Know Your NFL Greats?
+2016-07-21 18:34:53 INFO  LogLog4j:40 - time before loaing page
+2016-07-21 18:35:05 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://blog.allmyfaves.com/photos/top-20-unusually-stunning-beautiful-hot-models-of-the-world/-----
+2016-07-21 18:35:06 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-21 18:35:06 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-21 18:35:17 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-21 18:35:18 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7166_1_5.jpg
+2016-07-21 18:35:19 INFO  LogLog4j:197 - V - Item 0 was displayed: A sayaja is a mini skirt that came into fashion in 2010 and was featured in the Fall Versace Italy Fashion Week
+2016-07-21 18:35:20 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-21 18:35:20 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-21 18:35:53 INFO  LogLog4j:40 - time before loaing page
+2016-07-21 18:36:13 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-21 18:36:13 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-21 18:36:13 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-21 18:36:24 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-21 18:36:24 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/5342_1_5.jpg
+2016-07-21 18:36:24 INFO  LogLog4j:197 - V - Item 0 was displayed: Blowing into buggy NES cartridges was actually a planned solution when the games were first designed
+2016-07-21 18:36:24 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-21 18:36:24 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-21 18:36:25 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-21 18:36:26 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-21 18:36:26 INFO  LogLog4j:246 - V - Text check- score unit match
+2016-07-21 18:36:26 INFO  LogLog4j:284 - V - Text check- Title was displayed: Are You a True Nintendo Nut?
+2016-07-21 18:36:26 INFO  LogLog4j:40 - time before loaing page
+2016-07-21 18:36:33 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.papercraftsquare.com/mikoyan-gurevich-mig-19-farmer-fighter-free-aircraft-paper-model-download.html-----
+2016-07-21 18:36:47 INFO  LogLog4j:141 - SHAYSE- unexpected error: Unable to locate element: {"method":"id","selector":"InContentScript0"}
+Command duration or timeout:
+2016-07-21 18:36:47 INFO  LogLog4j:40 - time before loaing page
+2016-07-21 18:37:02 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.sports747.com/new/beloved-mlb-employee-hilgefort-dies-in-plane-crash-----
+2016-07-21 18:37:02 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-21 18:37:02 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-21 18:37:12 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-21 18:37:12 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/10380_1_5.jpg
+2016-07-21 18:37:12 INFO  LogLog4j:197 - V - Item 0 was displayed: When the Pirates beat the Yankees in the 1960 World Series they had been outscored by New York 55-27
+2016-07-21 18:37:13 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-21 18:37:13 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-21 18:37:15 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-21 18:37:16 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-21 18:37:16 INFO  LogLog4j:246 - V - Text check- score unit match
+2016-07-21 18:37:16 INFO  LogLog4j:284 - V - Text check- Title was displayed: Are You a World Series Wunderkind?
+2016-07-24 15:31:18 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-24 15:31:18 INFO  LogLog4j:40 - time before loaing page
+2016-07-24 15:31:23 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-24 15:31:24 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:31:24 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:31:34 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-24 15:31:34 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7605_1_5.jpg
+2016-07-24 15:31:34 INFO  LogLog4j:197 - V - Item 0 was displayed: The day after the Seattle Seahwaks won Super Bowl XLVIII, Starbucks gave out free espresso shots
+2016-07-24 15:31:34 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-24 15:31:34 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-24 15:31:36 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-24 15:31:36 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-24 15:31:36 INFO  LogLog4j:246 - V - Text check- score unit match
+2016-07-24 15:31:36 INFO  LogLog4j:284 - V - Text check- Title was displayed: Are You a Super Bowl Super Freak?
+2016-07-24 15:31:36 INFO  LogLog4j:40 - time before loaing page
+2016-07-24 15:31:50 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://blog.allmyfaves.com/photos/top-20-unusually-stunning-beautiful-hot-models-of-the-world/-----
+2016-07-24 15:31:51 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:31:51 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:32:01 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-24 15:32:02 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7166_1_5.jpg
+2016-07-24 15:32:03 INFO  LogLog4j:197 - V - Item 0 was displayed: A sayaja is a mini skirt that came into fashion in 2010 and was featured in the Fall Versace Italy Fashion Week
+2016-07-24 15:32:04 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-24 15:32:04 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-24 15:32:36 INFO  LogLog4j:40 - time before loaing page
+2016-07-24 15:32:44 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-24 15:32:44 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:32:44 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:32:55 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-24 15:32:55 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/8462_1_5.jpg
+2016-07-24 15:32:55 INFO  LogLog4j:197 - V - Item 0 was displayed: Among other suggestions, Sonic beat out a caricature of President Teddy Roosevelt to be Sega’s mascot
+2016-07-24 15:32:55 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-24 15:32:55 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-24 15:32:56 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-24 15:32:56 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-24 15:32:56 INFO  LogLog4j:246 - V - Text check- score unit match
+2016-07-24 15:32:56 INFO  LogLog4j:284 - V - Text check- Title was displayed: Are You a Sonic the Hedgehog Savant?
+2016-07-24 15:32:56 INFO  LogLog4j:40 - time before loaing page
+2016-07-24 15:33:04 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.papercraftsquare.com/mikoyan-gurevich-mig-19-farmer-fighter-free-aircraft-paper-model-download.html-----
+2016-07-24 15:33:04 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:33:04 INFO  LogLog4j:40 - time before loaing page
+2016-07-24 15:33:04 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.sports747.com/new/beloved-mlb-employee-hilgefort-dies-in-plane-crash-----
+2016-07-24 15:33:14 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:33:14 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:33:24 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-24 15:33:25 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/10380_1_5.jpg
+2016-07-24 15:33:25 INFO  LogLog4j:197 - V - Item 0 was displayed: When the Pirates beat the Yankees in the 1960 World Series they had been outscored by New York 55-27
+2016-07-24 15:33:25 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-24 15:33:25 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-24 15:33:27 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-24 15:33:27 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-24 15:33:27 INFO  LogLog4j:246 - V - Text check- score unit match
+2016-07-24 15:33:27 INFO  LogLog4j:284 - V - Text check- Title was displayed: Are You a World Series Wunderkind?
+2016-07-24 15:36:38 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-24 15:36:38 INFO  LogLog4j:40 - time before loaing page
+2016-07-24 15:36:42 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-24 15:36:44 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:36:44 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:36:55 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-24 15:36:55 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7605_1_5.jpg
+2016-07-24 15:36:55 INFO  LogLog4j:197 - V - Item 0 was displayed: The day after the Seattle Seahwaks won Super Bowl XLVIII, Starbucks gave out free espresso shots
+2016-07-24 15:36:55 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-24 15:36:55 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-24 15:36:56 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-24 15:36:56 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-24 15:36:56 INFO  LogLog4j:246 - V - Text check- score unit match
+2016-07-24 15:36:56 INFO  LogLog4j:284 - V - Text check- Title was displayed: Are You a Super Bowl Super Freak?
+2016-07-24 15:36:56 INFO  LogLog4j:40 - time before loaing page
+2016-07-24 15:37:09 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://blog.allmyfaves.com/photos/top-20-unusually-stunning-beautiful-hot-models-of-the-world/-----
+2016-07-24 15:37:10 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:37:10 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:37:20 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-24 15:37:21 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7166_1_5.jpg
+2016-07-24 15:37:22 INFO  LogLog4j:197 - V - Item 0 was displayed: A sayaja is a mini skirt that came into fashion in 2010 and was featured in the Fall Versace Italy Fashion Week
+2016-07-24 15:37:23 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-24 15:37:23 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-24 15:37:56 INFO  LogLog4j:40 - time before loaing page
+2016-07-24 15:38:05 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-24 15:38:06 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:38:06 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:38:16 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-24 15:38:16 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/8462_1_5.jpg
+2016-07-24 15:38:16 INFO  LogLog4j:197 - V - Item 0 was displayed: Among other suggestions, Sonic beat out a caricature of President Teddy Roosevelt to be Sega’s mascot
+2016-07-24 15:38:16 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-24 15:38:16 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-24 15:38:18 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-24 15:38:18 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-24 15:38:18 INFO  LogLog4j:246 - V - Text check- score unit match
+2016-07-24 15:38:18 INFO  LogLog4j:284 - V - Text check- Title was displayed: Are You a Sonic the Hedgehog Savant?
+2016-07-24 15:38:18 INFO  LogLog4j:40 - time before loaing page
+2016-07-24 15:38:27 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.papercraftsquare.com/mikoyan-gurevich-mig-19-farmer-fighter-free-aircraft-paper-model-download.html-----
+2016-07-24 15:38:27 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:38:27 INFO  LogLog4j:40 - time before loaing page
+2016-07-24 15:38:28 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.sports747.com/new/beloved-mlb-employee-hilgefort-dies-in-plane-crash-----
+2016-07-24 15:38:37 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:38:37 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:38:47 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-24 15:38:47 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/10380_1_5.jpg
+2016-07-24 15:38:47 INFO  LogLog4j:197 - V - Item 0 was displayed: When the Pirates beat the Yankees in the 1960 World Series they had been outscored by New York 55-27
+2016-07-24 15:38:47 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-24 15:38:47 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-24 15:38:49 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-24 15:38:49 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-24 15:38:49 INFO  LogLog4j:246 - V - Text check- score unit match
+2016-07-24 15:38:49 INFO  LogLog4j:284 - V - Text check- Title was displayed: Are You a World Series Wunderkind?
+2016-07-24 15:41:54 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-24 15:41:54 INFO  LogLog4j:40 - time before loaing page
+2016-07-24 15:41:58 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-24 15:42:00 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:42:00 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:42:10 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-24 15:42:10 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7605_1_5.jpg
+2016-07-24 15:42:10 INFO  LogLog4j:197 - V - Item 0 was displayed: The day after the Seattle Seahwaks won Super Bowl XLVIII, Starbucks gave out free espresso shots
+2016-07-24 15:42:10 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-24 15:42:10 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-24 15:42:11 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-24 15:42:11 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-24 15:42:11 INFO  LogLog4j:246 - V - Text check- score unit match
+2016-07-24 15:42:11 INFO  LogLog4j:284 - V - Text check- Title was displayed: Are You a Super Bowl Super Freak?
+2016-07-24 15:42:11 INFO  LogLog4j:40 - time before loaing page
+2016-07-24 15:42:23 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://blog.allmyfaves.com/photos/top-20-unusually-stunning-beautiful-hot-models-of-the-world/-----
+2016-07-24 15:42:23 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:42:23 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:42:33 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-24 15:42:33 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7166_1_5.jpg
+2016-07-24 15:42:34 INFO  LogLog4j:197 - V - Item 0 was displayed: A sayaja is a mini skirt that came into fashion in 2010 and was featured in the Fall Versace Italy Fashion Week
+2016-07-24 15:42:34 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-24 15:42:34 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-24 15:42:48 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-24 15:42:49 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-24 15:42:49 INFO  LogLog4j:246 - V - Text check- score unit match
+2016-07-24 15:42:49 INFO  LogLog4j:284 - V - Text check- Title was displayed: Do You Feel Flirty in Your Favorite Skirt?
+2016-07-24 15:42:49 INFO  LogLog4j:40 - time before loaing page
+2016-07-24 15:43:03 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-24 15:43:04 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:43:04 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:43:14 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-24 15:43:14 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/8462_1_5.jpg
+2016-07-24 15:43:14 INFO  LogLog4j:197 - V - Item 0 was displayed: Among other suggestions, Sonic beat out a caricature of President Teddy Roosevelt to be Sega’s mascot
+2016-07-24 15:43:14 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-24 15:43:14 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-24 15:43:16 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-24 15:43:16 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-24 15:43:16 INFO  LogLog4j:246 - V - Text check- score unit match
+2016-07-24 15:43:16 INFO  LogLog4j:284 - V - Text check- Title was displayed: Are You a Sonic the Hedgehog Savant?
+2016-07-24 15:43:16 INFO  LogLog4j:40 - time before loaing page
+2016-07-24 15:43:22 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.papercraftsquare.com/mikoyan-gurevich-mig-19-farmer-fighter-free-aircraft-paper-model-download.html-----
+2016-07-24 15:43:22 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:43:22 INFO  LogLog4j:40 - time before loaing page
+2016-07-24 15:43:22 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.sports747.com/new/beloved-mlb-employee-hilgefort-dies-in-plane-crash-----
+2016-07-24 15:43:32 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:43:33 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:43:43 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-24 15:43:43 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/10380_1_5.jpg
+2016-07-24 15:43:43 INFO  LogLog4j:197 - V - Item 0 was displayed: When the Pirates beat the Yankees in the 1960 World Series they had been outscored by New York 55-27
+2016-07-24 15:43:43 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-24 15:43:43 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-24 15:43:45 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-24 15:43:45 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-24 15:43:45 INFO  LogLog4j:246 - V - Text check- score unit match
+2016-07-24 15:43:45 INFO  LogLog4j:284 - V - Text check- Title was displayed: Are You a World Series Wunderkind?
+2016-07-24 15:45:04 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-24 15:45:04 INFO  LogLog4j:79 - 24-07-2016_15-45-04
+2016-07-24 15:45:10 INFO  LogLog4j:82 - -----   Test Case 2 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-24 15:45:12 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:45:13 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:45:13 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-24 15:45:13 INFO  LogLog4j:197 - V - Item 0 was displayed: The day after the Seattle Seahwaks won Super Bowl XLVIII, Starbucks gave out free espresso shots
+2016-07-24 15:45:13 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7605_1_5.jpg
+2016-07-24 15:45:13 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-24 15:45:15 INFO  LogLog4j:122 - Item 1 is: 
+2016-07-24 15:45:15 INFO  LogLog4j:197 - V - Item 1 was displayed: There is no footage of Super Bowl I in existence, as both NBC and CBS taped over it to save costs
+2016-07-24 15:45:15 INFO  LogLog4j:212 - V - Image 1 was displayed: http://media.carambo.la/Images/7611_1_5.jpg
+2016-07-24 15:45:15 INFO  LogLog4j:79 - 24-07-2016_15-45-15
+2016-07-24 15:45:15 INFO  LogLog4j:82 - -----   Test Case 2 with URL: http://blog.allmyfaves.com/photos/top-20-unusually-stunning-beautiful-hot-models-of-the-world/-----
+2016-07-24 15:45:28 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:45:28 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:45:28 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-24 15:45:28 INFO  LogLog4j:197 - V - Item 0 was displayed: A sayaja is a mini skirt that came into fashion in 2010 and was featured in the Fall Versace Italy Fashion Week
+2016-07-24 15:45:28 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7166_1_5.jpg
+2016-07-24 15:45:28 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-24 15:45:30 INFO  LogLog4j:122 - Item 1 is: 
+2016-07-24 15:45:30 INFO  LogLog4j:197 - V - Item 1 was displayed: Ballet dancer Marie Taglioni was the first to wear a tutu skirt on the Parisian stage in the 1800s
+2016-07-24 15:45:30 INFO  LogLog4j:212 - V - Image 1 was displayed: http://media.carambo.la/Images/7218_1_5.jpg
+2016-07-24 15:45:30 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-24 15:45:32 INFO  LogLog4j:122 - Item 2 is: 
+2016-07-24 15:45:32 INFO  LogLog4j:197 - V - Item 2 was displayed: Panniers was a support structure worn around a woman's waist so her dress spread out flat and wide
+2016-07-24 15:45:32 INFO  LogLog4j:212 - V - Image 2 was displayed: http://media.carambo.la/Images/7243_1_5.jpg
+2016-07-24 15:45:32 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-24 15:45:34 INFO  LogLog4j:108 - Item 3 is: 
+2016-07-24 15:45:34 INFO  LogLog4j:197 - V - Item 3 was displayed: The famous red bubble dress was designed by Christian Dior in 1956, reflecting his love for architecture
+2016-07-24 15:45:34 INFO  LogLog4j:212 - V - Image 3 was displayed: http://media.carambo.la/Images/7229_1_5.jpg
+2016-07-24 15:45:34 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-24 15:45:35 INFO  LogLog4j:108 - Item 4 is: 
+2016-07-24 15:45:35 INFO  LogLog4j:197 - V - Item 4 was displayed: In the 1800s Regency Period, there was a Greek revival of loose dresses, instead of tight corsets
+2016-07-24 15:45:35 INFO  LogLog4j:212 - V - Image 4 was displayed: http://media.carambo.la/Images/7204_1_5.jpg
+2016-07-24 15:45:36 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-24 15:45:37 INFO  LogLog4j:108 - Item 5 is: 
+2016-07-24 15:45:37 INFO  LogLog4j:197 - V - Item 5 was displayed: The pencil skirt was created by designer Christian Dior after WWII, calling it an H-line skirt for its shape
+2016-07-24 15:45:37 INFO  LogLog4j:212 - V - Image 5 was displayed: http://media.carambo.la/Images/7175_1_5.jpg
+2016-07-24 15:45:37 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-24 15:45:39 INFO  LogLog4j:79 - 24-07-2016_15-45-39
+2016-07-24 15:45:50 INFO  LogLog4j:82 - -----   Test Case 2 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-24 15:45:51 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:45:51 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:45:51 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-24 15:45:51 INFO  LogLog4j:197 - V - Item 0 was displayed: Among other suggestions, Sonic beat out a caricature of President Teddy Roosevelt to be Sega’s mascot
+2016-07-24 15:45:51 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/8462_1_5.jpg
+2016-07-24 15:45:51 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-24 15:45:53 INFO  LogLog4j:122 - Item 1 is: 
+2016-07-24 15:45:54 INFO  LogLog4j:197 - V - Item 1 was displayed: From 1994 until 2006, Sonic was the third most popular baby name in Japan
+2016-07-24 15:45:54 INFO  LogLog4j:212 - V - Image 1 was displayed: http://media.carambo.la/Images/8452_1_5.jpg
+2016-07-24 15:45:54 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-24 15:45:55 INFO  LogLog4j:122 - Item 2 is: 
+2016-07-24 15:45:55 INFO  LogLog4j:197 - V - Item 2 was displayed: The sound of people singing Sega at the begging of the original Sonic took up 1/8 the game’s memory
+2016-07-24 15:45:55 INFO  LogLog4j:212 - V - Image 2 was displayed: http://media.carambo.la/Images/6422_1_5.jpg
+2016-07-24 15:45:55 INFO  LogLog4j:130 - V- element 'FalseButton' is clicked
+2016-07-24 15:45:57 INFO  LogLog4j:108 - Item 3 is: 
+2016-07-24 15:45:57 INFO  LogLog4j:197 - V - Item 3 was displayed: Sonic’s famous red and white shoes are actually All-Stars, and the famous logo can even be seen
+2016-07-24 15:45:57 INFO  LogLog4j:212 - V - Image 3 was displayed: http://media.carambo.la/Images/8432_1_5.jpg
+2016-07-24 15:45:57 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-24 15:45:59 INFO  LogLog4j:108 - Item 4 is: 
+2016-07-24 15:45:59 INFO  LogLog4j:197 - V - Item 4 was displayed: Before “Sonic the Hedgehog” was released, he could be seen as an air freshener in the game “Rad Mobile”
+2016-07-24 15:45:59 INFO  LogLog4j:212 - V - Image 4 was displayed: http://media.carambo.la/Images/6413_1_5.jpg
+2016-07-24 15:45:59 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-24 15:46:01 INFO  LogLog4j:108 - Item 5 is: 
+2016-07-24 15:46:01 INFO  LogLog4j:197 - V - Item 5 was displayed: Sega claims that Sonic was designed as a combination of Mickey Mouse and Felix the Cat
+2016-07-24 15:46:01 INFO  LogLog4j:212 - V - Image 5 was displayed: http://media.carambo.la/Images/8455_1_5.jpg
+2016-07-24 15:46:01 INFO  LogLog4j:116 - V- element 'TrueButton' is clicked
+2016-07-24 15:46:02 INFO  LogLog4j:79 - 24-07-2016_15-46-02
+2016-07-24 15:46:02 INFO  LogLog4j:82 - -----   Test Case 2 with URL: http://www.papercraftsquare.com/mikoyan-gurevich-mig-19-farmer-fighter-free-aircraft-paper-model-download.html-----
+2016-07-24 15:46:12 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:46:53 INFO  LogLog4j:79 - 24-07-2016_15-46-53
+2016-07-24 15:47:11 INFO  LogLog4j:82 - -----   Test Case 2 with URL: http://www.sports747.com/new/beloved-mlb-employee-hilgefort-dies-in-plane-crash-----
+2016-07-24 15:47:11 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 15:47:11 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 15:47:12 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-24 15:47:12 INFO  LogLog4j:197 - V - Item 0 was displayed: When the Pirates beat the Yankees in the 1960 World Series they had been outscored by New York 55-27
+2016-07-24 15:47:12 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/10380_1_5.jpg
+2016-07-24 18:46:42 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-24 18:46:42 INFO  LogLog4j:79 - 24-07-2016_18-46-42
+2016-07-24 18:46:46 INFO  LogLog4j:82 - -----   Test Case 2 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-24 18:46:49 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 18:46:50 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 18:46:50 INFO  LogLog4j:89 - V- click number: 1 on element 'FalseButton'
+2016-07-24 18:46:51 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-24 18:46:51 INFO  LogLog4j:204 - X - Item 0 WASN'T displayed
+2016-07-24 18:46:51 INFO  LogLog4j:216 - X - Image 0 WASNT displayed
+2016-07-24 18:46:51 INFO  LogLog4j:130 - V- click number: 1 on element 'FalseButton'
+2016-07-24 18:46:53 INFO  LogLog4j:122 - Item 1 is: 
+2016-07-24 18:46:53 INFO  LogLog4j:204 - X - Item 1 WASN'T displayed
+2016-07-24 18:46:53 INFO  LogLog4j:216 - X - Image 1 WASNT displayed
+2016-07-24 18:46:53 INFO  LogLog4j:130 - V- click number: 2 on element 'FalseButton'
+2016-07-24 18:46:55 INFO  LogLog4j:108 - Item 2 is: 
+2016-07-24 18:46:55 INFO  LogLog4j:204 - X - Item 2 WASN'T displayed
+2016-07-24 18:46:55 INFO  LogLog4j:216 - X - Image 2 WASNT displayed
+2016-07-24 18:46:55 INFO  LogLog4j:116 - V- click number: 3 on element 'TrueButton'
+2016-07-24 18:46:56 INFO  LogLog4j:108 - Item 3 is: 
+2016-07-24 18:46:56 INFO  LogLog4j:204 - X - Item 3 WASN'T displayed
+2016-07-24 18:46:56 INFO  LogLog4j:216 - X - Image 3 WASNT displayed
+2016-07-24 18:46:57 INFO  LogLog4j:116 - V- click number: 4 on element 'TrueButton'
+2016-07-24 18:46:58 INFO  LogLog4j:108 - Item 4 is: 
+2016-07-24 18:46:58 INFO  LogLog4j:204 - X - Item 4 WASN'T displayed
+2016-07-24 18:46:58 INFO  LogLog4j:216 - X - Image 4 WASNT displayed
+2016-07-24 18:46:58 INFO  LogLog4j:116 - V- click number: 5 on element 'TrueButton'
+2016-07-24 18:47:00 INFO  LogLog4j:79 - 24-07-2016_18-47-00
+2016-07-24 18:47:00 INFO  LogLog4j:82 - -----   Test Case 2 with URL: http://blog.allmyfaves.com/photos/top-20-unusually-stunning-beautiful-hot-models-of-the-world/-----
+2016-07-24 18:47:13 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 18:47:14 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 18:47:14 INFO  LogLog4j:89 - V- click number: 1 on element 'FalseButton'
+2016-07-24 18:47:16 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-24 18:47:16 INFO  LogLog4j:204 - X - Item 0 WASN'T displayed
+2016-07-24 18:47:16 INFO  LogLog4j:216 - X - Image 0 WASNT displayed
+2016-07-24 18:47:17 INFO  LogLog4j:130 - V- click number: 1 on element 'FalseButton'
+2016-07-24 18:47:18 INFO  LogLog4j:122 - Item 1 is: 
+2016-07-24 18:47:19 INFO  LogLog4j:204 - X - Item 1 WASN'T displayed
+2016-07-24 18:47:19 INFO  LogLog4j:216 - X - Image 1 WASNT displayed
+2016-07-24 18:47:19 INFO  LogLog4j:130 - V- click number: 2 on element 'FalseButton'
+2016-07-24 18:47:21 INFO  LogLog4j:108 - Item 2 is: 
+2016-07-24 18:47:21 INFO  LogLog4j:204 - X - Item 2 WASN'T displayed
+2016-07-24 18:47:22 INFO  LogLog4j:216 - X - Image 2 WASNT displayed
+2016-07-24 18:47:22 INFO  LogLog4j:116 - V- click number: 3 on element 'TrueButton'
+2016-07-24 18:47:24 INFO  LogLog4j:108 - Item 3 is: 
+2016-07-24 18:47:24 INFO  LogLog4j:204 - X - Item 3 WASN'T displayed
+2016-07-24 18:47:25 INFO  LogLog4j:216 - X - Image 3 WASNT displayed
+2016-07-24 18:47:25 INFO  LogLog4j:116 - V- click number: 4 on element 'TrueButton'
+2016-07-24 18:47:27 INFO  LogLog4j:108 - Item 4 is: 
+2016-07-24 18:47:27 INFO  LogLog4j:204 - X - Item 4 WASN'T displayed
+2016-07-24 18:47:28 INFO  LogLog4j:216 - X - Image 4 WASNT displayed
+2016-07-24 18:47:28 INFO  LogLog4j:116 - V- click number: 5 on element 'TrueButton'
+2016-07-24 18:47:30 INFO  LogLog4j:79 - 24-07-2016_18-47-30
+2016-07-24 18:47:39 INFO  LogLog4j:82 - -----   Test Case 2 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-24 18:47:39 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 18:47:39 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 18:47:40 INFO  LogLog4j:89 - V- click number: 1 on element 'FalseButton'
+2016-07-24 18:47:42 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-24 18:47:42 INFO  LogLog4j:204 - X - Item 0 WASN'T displayed
+2016-07-24 18:47:42 INFO  LogLog4j:216 - X - Image 0 WASNT displayed
+2016-07-24 18:47:42 INFO  LogLog4j:130 - V- click number: 1 on element 'FalseButton'
+2016-07-24 18:47:43 INFO  LogLog4j:122 - Item 1 is: 
+2016-07-24 18:47:44 INFO  LogLog4j:204 - X - Item 1 WASN'T displayed
+2016-07-24 18:47:44 INFO  LogLog4j:216 - X - Image 1 WASNT displayed
+2016-07-24 18:47:44 INFO  LogLog4j:130 - V- click number: 2 on element 'FalseButton'
+2016-07-24 18:47:46 INFO  LogLog4j:108 - Item 2 is: 
+2016-07-24 18:47:46 INFO  LogLog4j:204 - X - Item 2 WASN'T displayed
+2016-07-24 18:47:46 INFO  LogLog4j:216 - X - Image 2 WASNT displayed
+2016-07-24 18:47:46 INFO  LogLog4j:116 - V- click number: 3 on element 'TrueButton'
+2016-07-24 18:47:47 INFO  LogLog4j:108 - Item 3 is: 
+2016-07-24 18:48:07 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-24 18:48:07 INFO  LogLog4j:79 - 24-07-2016_18-48-07
+2016-07-24 18:48:17 INFO  LogLog4j:82 - -----   Test Case 2 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-24 18:48:17 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 18:48:18 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 18:48:18 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-24 18:48:18 INFO  LogLog4j:197 - V - Item 0 was displayed: The day after the Seattle Seahwaks won Super Bowl XLVIII, Starbucks gave out free espresso shots
+2016-07-24 18:48:18 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7605_1_5.jpg
+2016-07-24 18:48:18 INFO  LogLog4j:130 - V- click number: 1 on element 'FalseButton'
+2016-07-24 18:48:19 INFO  LogLog4j:122 - Item 1 is: 
+2016-07-24 18:48:20 INFO  LogLog4j:197 - V - Item 1 was displayed: There is no footage of Super Bowl I in existence, as both NBC and CBS taped over it to save costs
+2016-07-24 18:48:20 INFO  LogLog4j:212 - V - Image 1 was displayed: http://media.carambo.la/Images/7611_1_5.jpg
+2016-07-24 18:48:20 INFO  LogLog4j:130 - V- click number: 2 on element 'FalseButton'
+2016-07-24 18:48:21 INFO  LogLog4j:108 - Item 2 is: 
+2016-07-24 18:48:21 INFO  LogLog4j:197 - V - Item 2 was displayed: In 1982, the US Congress passed a bill making Super Bowl Sunday a National Holiday
+2016-07-24 18:48:21 INFO  LogLog4j:212 - V - Image 2 was displayed: http://media.carambo.la/Images/7600_1_5.jpg
+2016-07-24 18:48:21 INFO  LogLog4j:116 - V- click number: 3 on element 'TrueButton'
+2016-07-24 18:48:23 INFO  LogLog4j:108 - Item 3 is: 
+2016-07-24 18:48:23 INFO  LogLog4j:197 - V - Item 3 was displayed: The NFL raffles off every ball used in the Super Bowl, with the money used to pay player playoff bonuses
+2016-07-24 18:48:23 INFO  LogLog4j:212 - V - Image 3 was displayed: http://media.carambo.la/Images/7622_1_5.jpg
+2016-07-24 18:48:23 INFO  LogLog4j:116 - V- click number: 4 on element 'TrueButton'
+2016-07-24 18:48:25 INFO  LogLog4j:108 - Item 4 is: 
+2016-07-24 18:48:25 INFO  LogLog4j:197 - V - Item 4 was displayed: The final pick in the NFL draft, also known as “Mr. Irrelevant,” did not play in the Super Bowl until 1997
+2016-07-24 18:48:25 INFO  LogLog4j:212 - V - Image 4 was displayed: http://media.carambo.la/Images/7616_1_5.jpg
+2016-07-24 18:48:25 INFO  LogLog4j:116 - V- click number: 5 on element 'TrueButton'
+2016-07-24 18:48:27 INFO  LogLog4j:79 - 24-07-2016_18-48-27
+2016-07-24 18:48:27 INFO  LogLog4j:82 - -----   Test Case 2 with URL: http://blog.allmyfaves.com/photos/top-20-unusually-stunning-beautiful-hot-models-of-the-world/-----
+2016-07-24 18:48:35 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 18:48:36 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 18:48:36 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-24 18:48:36 INFO  LogLog4j:197 - V - Item 0 was displayed: A sayaja is a mini skirt that came into fashion in 2010 and was featured in the Fall Versace Italy Fashion Week
+2016-07-24 18:48:36 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/7166_1_5.jpg
+2016-07-24 18:48:38 INFO  LogLog4j:130 - V- click number: 1 on element 'FalseButton'
+2016-07-24 18:48:40 INFO  LogLog4j:122 - Item 1 is: 
+2016-07-24 18:48:40 INFO  LogLog4j:197 - V - Item 1 was displayed: Ballet dancer Marie Taglioni was the first to wear a tutu skirt on the Parisian stage in the 1800s
+2016-07-24 18:48:40 INFO  LogLog4j:212 - V - Image 1 was displayed: http://media.carambo.la/Images/7218_1_5.jpg
+2016-07-24 18:48:40 INFO  LogLog4j:130 - V- click number: 2 on element 'FalseButton'
+2016-07-24 18:48:42 INFO  LogLog4j:108 - Item 2 is: 
+2016-07-24 18:48:42 INFO  LogLog4j:197 - V - Item 2 was displayed: Panniers was a support structure worn around a woman's waist so her dress spread out flat and wide
+2016-07-24 18:48:42 INFO  LogLog4j:212 - V - Image 2 was displayed: http://media.carambo.la/Images/7243_1_5.jpg
+2016-07-24 18:48:42 INFO  LogLog4j:116 - V- click number: 3 on element 'TrueButton'
+2016-07-24 18:48:44 INFO  LogLog4j:108 - Item 3 is: 
+2016-07-24 18:48:44 INFO  LogLog4j:197 - V - Item 3 was displayed: The famous red bubble dress was designed by Christian Dior in 1956, reflecting his love for architecture
+2016-07-24 18:48:45 INFO  LogLog4j:212 - V - Image 3 was displayed: http://media.carambo.la/Images/7229_1_5.jpg
+2016-07-24 18:48:45 INFO  LogLog4j:116 - V- click number: 4 on element 'TrueButton'
+2016-07-24 18:48:47 INFO  LogLog4j:108 - Item 4 is: 
+2016-07-24 18:48:47 INFO  LogLog4j:197 - V - Item 4 was displayed: In the 1800s Regency Period, there was a Greek revival of loose dresses, instead of tight corsets
+2016-07-24 18:48:48 INFO  LogLog4j:212 - V - Image 4 was displayed: http://media.carambo.la/Images/7204_1_5.jpg
+2016-07-24 18:48:49 INFO  LogLog4j:116 - V- click number: 5 on element 'TrueButton'
+2016-07-24 18:48:50 INFO  LogLog4j:79 - 24-07-2016_18-48-50
+2016-07-24 18:48:59 INFO  LogLog4j:82 - -----   Test Case 2 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-24 18:49:00 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 18:49:00 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 18:49:00 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-24 18:49:00 INFO  LogLog4j:197 - V - Item 0 was displayed: Among other suggestions, Sonic beat out a caricature of President Teddy Roosevelt to be Sega’s mascot
+2016-07-24 18:49:00 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/8462_1_5.jpg
+2016-07-24 18:49:00 INFO  LogLog4j:130 - V- click number: 1 on element 'FalseButton'
+2016-07-24 18:49:02 INFO  LogLog4j:122 - Item 1 is: 
+2016-07-24 18:49:02 INFO  LogLog4j:197 - V - Item 1 was displayed: From 1994 until 2006, Sonic was the third most popular baby name in Japan
+2016-07-24 18:49:02 INFO  LogLog4j:212 - V - Image 1 was displayed: http://media.carambo.la/Images/8452_1_5.jpg
+2016-07-24 18:49:02 INFO  LogLog4j:130 - V- click number: 2 on element 'FalseButton'
+2016-07-24 18:49:04 INFO  LogLog4j:108 - Item 2 is: 
+2016-07-24 18:49:04 INFO  LogLog4j:197 - V - Item 2 was displayed: The sound of people singing Sega at the begging of the original Sonic took up 1/8 the game’s memory
+2016-07-24 18:49:04 INFO  LogLog4j:212 - V - Image 2 was displayed: http://media.carambo.la/Images/6422_1_5.jpg
+2016-07-24 18:49:04 INFO  LogLog4j:116 - V- click number: 3 on element 'TrueButton'
+2016-07-24 18:49:05 INFO  LogLog4j:108 - Item 3 is: 
+2016-07-24 18:49:05 INFO  LogLog4j:197 - V - Item 3 was displayed: Sonic’s famous red and white shoes are actually All-Stars, and the famous logo can even be seen
+2016-07-24 18:49:05 INFO  LogLog4j:212 - V - Image 3 was displayed: http://media.carambo.la/Images/8432_1_5.jpg
+2016-07-24 18:49:06 INFO  LogLog4j:116 - V- click number: 4 on element 'TrueButton'
+2016-07-24 18:49:07 INFO  LogLog4j:108 - Item 4 is: 
+2016-07-24 18:49:07 INFO  LogLog4j:197 - V - Item 4 was displayed: Before “Sonic the Hedgehog” was released, he could be seen as an air freshener in the game “Rad Mobile”
+2016-07-24 18:49:07 INFO  LogLog4j:212 - V - Image 4 was displayed: http://media.carambo.la/Images/6413_1_5.jpg
+2016-07-24 18:49:07 INFO  LogLog4j:116 - V- click number: 5 on element 'TrueButton'
+2016-07-24 18:49:09 INFO  LogLog4j:79 - 24-07-2016_18-49-09
+2016-07-24 18:49:20 INFO  LogLog4j:82 - -----   Test Case 2 with URL: http://www.papercraftsquare.com/mikoyan-gurevich-mig-19-farmer-fighter-free-aircraft-paper-model-download.html-----
+2016-07-24 18:49:20 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 18:50:01 INFO  LogLog4j:79 - 24-07-2016_18-50-01
+2016-07-24 18:50:12 INFO  LogLog4j:82 - -----   Test Case 2 with URL: http://www.sports747.com/new/beloved-mlb-employee-hilgefort-dies-in-plane-crash-----
+2016-07-24 18:50:12 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 18:50:12 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 18:50:13 INFO  LogLog4j:122 - Item 0 is: 
+2016-07-24 18:50:13 INFO  LogLog4j:197 - V - Item 0 was displayed: When the Pirates beat the Yankees in the 1960 World Series they had been outscored by New York 55-27
+2016-07-24 18:50:13 INFO  LogLog4j:212 - V - Image 0 was displayed: http://media.carambo.la/Images/10380_1_5.jpg
+2016-07-24 19:39:29 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-24 19:39:34 INFO  LogLog4j:125 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-24 19:39:36 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 19:39:36 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 19:39:47 INFO  LogLog4j:91 - V- click number: 1 on element 'FalseButton'
+2016-07-24 19:39:48 INFO  LogLog4j:91 - V- click number: 2 on element 'FalseButton'
+2016-07-24 19:39:50 INFO  LogLog4j:91 - V- click number: 3 on element 'FalseButton'
+2016-07-24 19:39:52 INFO  LogLog4j:91 - V- click number: 4 on element 'FalseButton'
+2016-07-24 19:39:53 INFO  LogLog4j:91 - V- click number: 5 on element 'FalseButton'
+2016-07-24 19:39:55 INFO  LogLog4j:91 - V- click number: 6 on element 'FalseButton'
+2016-07-24 19:39:56 INFO  LogLog4j:91 - V- click number: 7 on element 'FalseButton'
+2016-07-24 19:39:58 INFO  LogLog4j:91 - V- click number: 8 on element 'FalseButton'
+2016-07-24 19:40:00 INFO  LogLog4j:91 - V- click number: 9 on element 'FalseButton'
+2016-07-24 19:40:01 INFO  LogLog4j:91 - V- click number: 10 on element 'FalseButton'
+2016-07-24 19:40:03 INFO  LogLog4j:322 - X- message title WASNT displayed
+2016-07-24 19:40:03 INFO  LogLog4j:125 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-24 19:40:11 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 19:40:11 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 19:40:22 INFO  LogLog4j:91 - V- click number: 1 on element 'FalseButton'
+2016-07-24 19:40:23 INFO  LogLog4j:91 - V- click number: 2 on element 'FalseButton'
+2016-07-24 19:40:25 INFO  LogLog4j:91 - V- click number: 3 on element 'FalseButton'
+2016-07-24 19:40:26 INFO  LogLog4j:91 - V- click number: 4 on element 'FalseButton'
+2016-07-24 19:40:28 INFO  LogLog4j:91 - V- click number: 5 on element 'FalseButton'
+2016-07-24 19:40:30 INFO  LogLog4j:91 - V- click number: 6 on element 'FalseButton'
+2016-07-24 19:40:31 INFO  LogLog4j:91 - V- click number: 7 on element 'FalseButton'
+2016-07-24 19:40:33 INFO  LogLog4j:91 - V- click number: 8 on element 'FalseButton'
+2016-07-24 19:40:34 INFO  LogLog4j:91 - V- click number: 9 on element 'FalseButton'
+2016-07-24 19:40:36 INFO  LogLog4j:91 - V- click number: 10 on element 'FalseButton'
+2016-07-24 19:40:38 INFO  LogLog4j:322 - X- message title WASNT displayed
+2016-07-24 19:40:59 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-24 19:41:03 INFO  LogLog4j:125 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-24 19:41:05 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 19:41:05 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 19:41:16 INFO  LogLog4j:91 - V- click number: 1 on element 'FalseButton'
+2016-07-24 19:41:17 INFO  LogLog4j:91 - V- click number: 2 on element 'FalseButton'
+2016-07-24 19:41:19 INFO  LogLog4j:91 - V- click number: 3 on element 'FalseButton'
+2016-07-24 19:41:20 INFO  LogLog4j:91 - V- click number: 4 on element 'FalseButton'
+2016-07-24 19:41:22 INFO  LogLog4j:91 - V- click number: 5 on element 'FalseButton'
+2016-07-24 19:41:24 INFO  LogLog4j:91 - V- click number: 6 on element 'FalseButton'
+2016-07-24 19:41:25 INFO  LogLog4j:91 - V- click number: 7 on element 'FalseButton'
+2016-07-24 19:41:27 INFO  LogLog4j:91 - V- click number: 8 on element 'FalseButton'
+2016-07-24 19:41:28 INFO  LogLog4j:91 - V- click number: 9 on element 'FalseButton'
+2016-07-24 19:41:30 INFO  LogLog4j:91 - V- click number: 10 on element 'FalseButton'
+2016-07-24 19:41:34 INFO  LogLog4j:320 - V- message title was displayed: Next quiz
+2016-07-24 19:41:34 INFO  LogLog4j:125 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-24 19:41:42 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 19:41:42 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 19:41:52 INFO  LogLog4j:91 - V- click number: 1 on element 'FalseButton'
+2016-07-24 19:41:54 INFO  LogLog4j:91 - V- click number: 2 on element 'FalseButton'
+2016-07-24 19:41:56 INFO  LogLog4j:91 - V- click number: 3 on element 'FalseButton'
+2016-07-24 19:41:57 INFO  LogLog4j:91 - V- click number: 4 on element 'FalseButton'
+2016-07-24 19:41:59 INFO  LogLog4j:91 - V- click number: 5 on element 'FalseButton'
+2016-07-24 19:42:01 INFO  LogLog4j:91 - V- click number: 6 on element 'FalseButton'
+2016-07-24 19:42:02 INFO  LogLog4j:91 - V- click number: 7 on element 'FalseButton'
+2016-07-24 19:42:04 INFO  LogLog4j:91 - V- click number: 8 on element 'FalseButton'
+2016-07-24 19:42:05 INFO  LogLog4j:91 - V- click number: 9 on element 'FalseButton'
+2016-07-24 19:42:07 INFO  LogLog4j:91 - V- click number: 10 on element 'FalseButton'
+2016-07-24 19:42:11 INFO  LogLog4j:320 - V- message title was displayed: Next quiz
+2016-07-24 19:47:35 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-24 19:47:40 INFO  LogLog4j:125 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-24 19:47:42 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 19:47:42 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 19:47:53 INFO  LogLog4j:91 - V- click number: 1 on element 'FalseButton'
+2016-07-24 19:47:55 INFO  LogLog4j:91 - V- click number: 2 on element 'FalseButton'
+2016-07-24 19:47:56 INFO  LogLog4j:91 - V- click number: 3 on element 'FalseButton'
+2016-07-24 19:47:58 INFO  LogLog4j:91 - V- click number: 4 on element 'FalseButton'
+2016-07-24 19:48:00 INFO  LogLog4j:91 - V- click number: 5 on element 'FalseButton'
+2016-07-24 19:48:01 INFO  LogLog4j:91 - V- click number: 6 on element 'FalseButton'
+2016-07-24 19:48:03 INFO  LogLog4j:91 - V- click number: 7 on element 'FalseButton'
+2016-07-24 19:48:04 INFO  LogLog4j:91 - V- click number: 8 on element 'FalseButton'
+2016-07-24 19:48:06 INFO  LogLog4j:91 - V- click number: 9 on element 'FalseButton'
+2016-07-24 19:48:08 INFO  LogLog4j:91 - V- click number: 10 on element 'FalseButton'
+2016-07-24 19:48:09 INFO  LogLog4j:322 - X- message title WASNT displayed
+2016-07-24 19:48:09 INFO  LogLog4j:125 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-24 19:48:18 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-24 19:48:18 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-24 19:48:29 INFO  LogLog4j:91 - V- click number: 1 on element 'FalseButton'
+2016-07-24 19:48:30 INFO  LogLog4j:91 - V- click number: 2 on element 'FalseButton'
+2016-07-24 19:48:32 INFO  LogLog4j:91 - V- click number: 3 on element 'FalseButton'
+2016-07-24 19:48:33 INFO  LogLog4j:91 - V- click number: 4 on element 'FalseButton'
+2016-07-24 19:48:35 INFO  LogLog4j:91 - V- click number: 5 on element 'FalseButton'
+2016-07-24 19:48:37 INFO  LogLog4j:91 - V- click number: 6 on element 'FalseButton'
+2016-07-24 19:48:38 INFO  LogLog4j:91 - V- click number: 7 on element 'FalseButton'
+2016-07-24 19:48:40 INFO  LogLog4j:91 - V- click number: 8 on element 'FalseButton'
+2016-07-24 19:48:41 INFO  LogLog4j:91 - V- click number: 9 on element 'FalseButton'
+2016-07-24 19:48:43 INFO  LogLog4j:91 - V- click number: 10 on element 'FalseButton'
+2016-07-24 19:48:45 INFO  LogLog4j:322 - X- message title WASNT displayed
+2016-07-25 14:13:08 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-25 14:13:13 INFO  LogLog4j:125 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-25 14:13:15 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 14:13:16 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 14:13:26 INFO  LogLog4j:93 - V- click number: 1 on element 'FalseButton'
+2016-07-25 14:13:28 INFO  LogLog4j:93 - V- click number: 2 on element 'FalseButton'
+2016-07-25 14:13:29 INFO  LogLog4j:93 - V- click number: 3 on element 'FalseButton'
+2016-07-25 14:13:31 INFO  LogLog4j:93 - V- click number: 4 on element 'FalseButton'
+2016-07-25 14:13:33 INFO  LogLog4j:93 - V- click number: 5 on element 'FalseButton'
+2016-07-25 14:13:34 INFO  LogLog4j:93 - V- click number: 6 on element 'FalseButton'
+2016-07-25 14:13:36 INFO  LogLog4j:93 - V- click number: 7 on element 'FalseButton'
+2016-07-25 14:13:38 INFO  LogLog4j:93 - V- click number: 8 on element 'FalseButton'
+2016-07-25 14:13:39 INFO  LogLog4j:93 - V- click number: 9 on element 'FalseButton'
+2016-07-25 14:13:41 INFO  LogLog4j:93 - V- click number: 10 on element 'FalseButton'
+2016-07-25 14:13:45 INFO  LogLog4j:320 - V- message title was displayed: Next quiz
+2016-07-25 14:13:45 INFO  LogLog4j:259 - V- Ending Screen Msg name exists. next game is: NFL Rules
+2016-07-25 14:13:45 INFO  LogLog4j:125 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-25 14:13:56 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 14:13:56 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 14:14:06 INFO  LogLog4j:93 - V- click number: 1 on element 'FalseButton'
+2016-07-25 14:14:08 INFO  LogLog4j:93 - V- click number: 2 on element 'FalseButton'
+2016-07-25 14:14:09 INFO  LogLog4j:93 - V- click number: 3 on element 'FalseButton'
+2016-07-25 14:14:11 INFO  LogLog4j:93 - V- click number: 4 on element 'FalseButton'
+2016-07-25 14:14:13 INFO  LogLog4j:93 - V- click number: 5 on element 'FalseButton'
+2016-07-25 14:14:14 INFO  LogLog4j:93 - V- click number: 6 on element 'FalseButton'
+2016-07-25 14:14:16 INFO  LogLog4j:93 - V- click number: 7 on element 'FalseButton'
+2016-07-25 14:14:17 INFO  LogLog4j:93 - V- click number: 8 on element 'FalseButton'
+2016-07-25 14:14:19 INFO  LogLog4j:93 - V- click number: 9 on element 'FalseButton'
+2016-07-25 14:14:21 INFO  LogLog4j:93 - V- click number: 10 on element 'FalseButton'
+2016-07-25 14:14:24 INFO  LogLog4j:320 - V- message title was displayed: Next quiz
+2016-07-25 14:14:24 INFO  LogLog4j:259 - V- Ending Screen Msg name exists. next game is: Voices in Gaming
+2016-07-25 14:16:13 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-25 14:16:17 INFO  LogLog4j:125 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-25 14:16:18 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 14:16:18 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 14:16:29 INFO  LogLog4j:93 - V- click number: 1 on element 'FalseButton'
+2016-07-25 14:16:30 INFO  LogLog4j:93 - V- click number: 2 on element 'FalseButton'
+2016-07-25 14:16:32 INFO  LogLog4j:93 - V- click number: 3 on element 'FalseButton'
+2016-07-25 14:16:34 INFO  LogLog4j:93 - V- click number: 4 on element 'FalseButton'
+2016-07-25 14:16:35 INFO  LogLog4j:93 - V- click number: 5 on element 'FalseButton'
+2016-07-25 14:16:37 INFO  LogLog4j:93 - V- click number: 6 on element 'FalseButton'
+2016-07-25 14:16:39 INFO  LogLog4j:93 - V- click number: 7 on element 'FalseButton'
+2016-07-25 14:16:40 INFO  LogLog4j:93 - V- click number: 8 on element 'FalseButton'
+2016-07-25 14:16:42 INFO  LogLog4j:93 - V- click number: 9 on element 'FalseButton'
+2016-07-25 14:16:43 INFO  LogLog4j:93 - V- click number: 10 on element 'FalseButton'
+2016-07-25 14:16:47 INFO  LogLog4j:320 - V- message title was displayed: Next quiz
+2016-07-25 14:16:47 INFO  LogLog4j:259 - V- Ending Screen Msg name exists. next game is: Super Bowl Rings
+2016-07-25 14:16:47 INFO  LogLog4j:125 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-25 14:16:54 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 14:16:54 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 14:17:05 INFO  LogLog4j:93 - V- click number: 1 on element 'FalseButton'
+2016-07-25 14:17:07 INFO  LogLog4j:93 - V- click number: 2 on element 'FalseButton'
+2016-07-25 14:17:08 INFO  LogLog4j:93 - V- click number: 3 on element 'FalseButton'
+2016-07-25 14:17:10 INFO  LogLog4j:93 - V- click number: 4 on element 'FalseButton'
+2016-07-25 14:17:12 INFO  LogLog4j:93 - V- click number: 5 on element 'FalseButton'
+2016-07-25 14:17:13 INFO  LogLog4j:93 - V- click number: 6 on element 'FalseButton'
+2016-07-25 14:17:15 INFO  LogLog4j:93 - V- click number: 7 on element 'FalseButton'
+2016-07-25 14:17:16 INFO  LogLog4j:93 - V- click number: 8 on element 'FalseButton'
+2016-07-25 14:17:18 INFO  LogLog4j:93 - V- click number: 9 on element 'FalseButton'
+2016-07-25 14:17:20 INFO  LogLog4j:93 - V- click number: 10 on element 'FalseButton'
+2016-07-25 14:17:23 INFO  LogLog4j:320 - V- message title was displayed: Next quiz
+2016-07-25 14:17:23 INFO  LogLog4j:259 - V- Ending Screen Msg name exists. next game is: Celeb Gamers
+2016-07-25 14:50:15 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-25 14:50:26 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-25 14:50:27 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 14:50:27 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 14:50:38 INFO  LogLog4j:95 - V- click number: 1 on element 'FalseButton'
+2016-07-25 14:50:39 INFO  LogLog4j:95 - V- click number: 2 on element 'FalseButton'
+2016-07-25 14:50:41 INFO  LogLog4j:95 - V- click number: 3 on element 'FalseButton'
+2016-07-25 14:50:43 INFO  LogLog4j:95 - V- click number: 4 on element 'FalseButton'
+2016-07-25 14:50:44 INFO  LogLog4j:95 - V- click number: 5 on element 'FalseButton'
+2016-07-25 14:50:46 INFO  LogLog4j:95 - V- click number: 6 on element 'FalseButton'
+2016-07-25 14:50:47 INFO  LogLog4j:95 - V- click number: 7 on element 'FalseButton'
+2016-07-25 14:50:49 INFO  LogLog4j:95 - V- click number: 8 on element 'FalseButton'
+2016-07-25 14:50:51 INFO  LogLog4j:95 - V- click number: 9 on element 'FalseButton'
+2016-07-25 14:50:52 INFO  LogLog4j:95 - V- click number: 10 on element 'FalseButton'
+2016-07-25 14:50:56 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-25 14:50:56 INFO  LogLog4j:261 - V- Ending Screen Msg name exists. next game is: Super Bowl Rings
+2016-07-25 14:50:56 INFO  LogLog4j:271 - V- Start button exists and it says: START
+2016-07-25 14:50:56 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-25 14:51:11 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 14:51:11 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 14:51:21 INFO  LogLog4j:95 - V- click number: 1 on element 'FalseButton'
+2016-07-25 14:51:23 INFO  LogLog4j:95 - V- click number: 2 on element 'FalseButton'
+2016-07-25 14:51:24 INFO  LogLog4j:95 - V- click number: 3 on element 'FalseButton'
+2016-07-25 14:51:26 INFO  LogLog4j:95 - V- click number: 4 on element 'FalseButton'
+2016-07-25 14:51:28 INFO  LogLog4j:95 - V- click number: 5 on element 'FalseButton'
+2016-07-25 14:51:29 INFO  LogLog4j:95 - V- click number: 6 on element 'FalseButton'
+2016-07-25 14:51:31 INFO  LogLog4j:95 - V- click number: 7 on element 'FalseButton'
+2016-07-25 14:51:33 INFO  LogLog4j:95 - V- click number: 8 on element 'FalseButton'
+2016-07-25 14:51:34 INFO  LogLog4j:95 - V- click number: 9 on element 'FalseButton'
+2016-07-25 14:51:36 INFO  LogLog4j:95 - V- click number: 10 on element 'FalseButton'
+2016-07-25 14:51:39 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-25 14:51:39 INFO  LogLog4j:261 - V- Ending Screen Msg name exists. next game is: Gaming Tales
+2016-07-25 14:51:40 INFO  LogLog4j:271 - V- Start button exists and it says: START
+2016-07-25 15:57:08 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-25 15:57:12 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-25 15:57:16 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 15:57:16 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 15:57:27 INFO  LogLog4j:97 - V- click number: 1 on element 'FalseButton'
+2016-07-25 15:57:28 INFO  LogLog4j:97 - V- click number: 2 on element 'FalseButton'
+2016-07-25 15:57:30 INFO  LogLog4j:97 - V- click number: 3 on element 'FalseButton'
+2016-07-25 15:57:32 INFO  LogLog4j:97 - V- click number: 4 on element 'FalseButton'
+2016-07-25 15:57:33 INFO  LogLog4j:97 - V- click number: 5 on element 'FalseButton'
+2016-07-25 15:57:35 INFO  LogLog4j:97 - V- click number: 6 on element 'FalseButton'
+2016-07-25 15:57:37 INFO  LogLog4j:97 - V- click number: 7 on element 'FalseButton'
+2016-07-25 15:57:38 INFO  LogLog4j:97 - V- click number: 8 on element 'FalseButton'
+2016-07-25 15:57:40 INFO  LogLog4j:97 - V- click number: 9 on element 'FalseButton'
+2016-07-25 15:57:41 INFO  LogLog4j:97 - V- click number: 10 on element 'FalseButton'
+2016-07-25 15:57:45 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-25 15:57:45 INFO  LogLog4j:263 - V- Ending Screen Msg name exists. next game is: QB Hotshots
+2016-07-25 15:57:45 INFO  LogLog4j:273 - V- Start button exists and it says: START
+2016-07-25 15:57:45 INFO  LogLog4j:284 - V- score title was displayed: You Scored a Fair
+2016-07-25 15:57:45 INFO  LogLog4j:318 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-25 15:57:46 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-25 15:57:54 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 15:57:54 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 15:58:04 INFO  LogLog4j:97 - V- click number: 1 on element 'FalseButton'
+2016-07-25 15:58:06 INFO  LogLog4j:97 - V- click number: 2 on element 'FalseButton'
+2016-07-25 15:58:07 INFO  LogLog4j:97 - V- click number: 3 on element 'FalseButton'
+2016-07-25 15:58:09 INFO  LogLog4j:97 - V- click number: 4 on element 'FalseButton'
+2016-07-25 15:58:11 INFO  LogLog4j:97 - V- click number: 5 on element 'FalseButton'
+2016-07-25 15:58:12 INFO  LogLog4j:97 - V- click number: 6 on element 'FalseButton'
+2016-07-25 15:58:14 INFO  LogLog4j:97 - V- click number: 7 on element 'FalseButton'
+2016-07-25 15:58:16 INFO  LogLog4j:97 - V- click number: 8 on element 'FalseButton'
+2016-07-25 15:58:17 INFO  LogLog4j:97 - V- click number: 9 on element 'FalseButton'
+2016-07-25 15:58:19 INFO  LogLog4j:97 - V- click number: 10 on element 'FalseButton'
+2016-07-25 15:58:22 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-25 15:58:22 INFO  LogLog4j:263 - V- Ending Screen Msg name exists. next game is: Gaming Easter Eggs
+2016-07-25 15:58:23 INFO  LogLog4j:273 - V- Start button exists and it says: START
+2016-07-25 15:58:23 INFO  LogLog4j:284 - V- score title was displayed: You Scored a Fair
+2016-07-25 15:58:23 INFO  LogLog4j:318 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-25 15:59:07 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-25 15:59:12 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-25 15:59:14 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 15:59:15 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 15:59:25 INFO  LogLog4j:97 - V- click number: 1 on element 'FalseButton'
+2016-07-25 15:59:27 INFO  LogLog4j:97 - V- click number: 2 on element 'FalseButton'
+2016-07-25 15:59:28 INFO  LogLog4j:97 - V- click number: 3 on element 'FalseButton'
+2016-07-25 15:59:30 INFO  LogLog4j:97 - V- click number: 4 on element 'FalseButton'
+2016-07-25 15:59:32 INFO  LogLog4j:97 - V- click number: 5 on element 'FalseButton'
+2016-07-25 15:59:33 INFO  LogLog4j:87 - V- click number: 1 on element 'TrueButton'
+2016-07-25 15:59:35 INFO  LogLog4j:87 - V- click number: 2 on element 'TrueButton'
+2016-07-25 15:59:37 INFO  LogLog4j:87 - V- click number: 3 on element 'TrueButton'
+2016-07-25 15:59:38 INFO  LogLog4j:87 - V- click number: 4 on element 'TrueButton'
+2016-07-25 15:59:40 INFO  LogLog4j:87 - V- click number: 5 on element 'TrueButton'
+2016-07-25 15:59:43 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-25 15:59:44 INFO  LogLog4j:263 - V- Ending Screen Msg name exists. next game is: NCAAF Coaches
+2016-07-25 15:59:44 INFO  LogLog4j:273 - V- Start button exists and it says: START
+2016-07-25 15:59:44 INFO  LogLog4j:284 - V- score title was displayed: You Scored a Fair
+2016-07-25 15:59:44 INFO  LogLog4j:318 - V - score unit title is correct. CABA scored: 6 and got this title: You Scored a Fair
+2016-07-25 15:59:44 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-25 15:59:51 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 15:59:51 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 16:00:02 INFO  LogLog4j:97 - V- click number: 1 on element 'FalseButton'
+2016-07-25 16:00:04 INFO  LogLog4j:97 - V- click number: 2 on element 'FalseButton'
+2016-07-25 16:00:05 INFO  LogLog4j:97 - V- click number: 3 on element 'FalseButton'
+2016-07-25 16:00:07 INFO  LogLog4j:97 - V- click number: 4 on element 'FalseButton'
+2016-07-25 16:00:09 INFO  LogLog4j:97 - V- click number: 5 on element 'FalseButton'
+2016-07-25 16:00:10 INFO  LogLog4j:87 - V- click number: 1 on element 'TrueButton'
+2016-07-25 16:00:12 INFO  LogLog4j:87 - V- click number: 2 on element 'TrueButton'
+2016-07-25 16:00:13 INFO  LogLog4j:87 - V- click number: 3 on element 'TrueButton'
+2016-07-25 16:00:15 INFO  LogLog4j:87 - V- click number: 4 on element 'TrueButton'
+2016-07-25 16:00:17 INFO  LogLog4j:87 - V- click number: 5 on element 'TrueButton'
+2016-07-25 16:00:20 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-25 16:00:20 INFO  LogLog4j:263 - V- Ending Screen Msg name exists. next game is: Gaming History
+2016-07-25 16:00:20 INFO  LogLog4j:273 - V- Start button exists and it says: START
+2016-07-25 16:00:20 INFO  LogLog4j:284 - V- score title was displayed: You Scored a Fair
+2016-07-25 16:00:20 INFO  LogLog4j:318 - V - score unit title is correct. CABA scored: 6 and got this title: You Scored a Fair
+2016-07-25 16:00:40 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-25 16:00:45 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-25 16:00:47 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 16:00:47 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 16:00:58 INFO  LogLog4j:97 - V- click number: 1 on element 'FalseButton'
+2016-07-25 16:00:59 INFO  LogLog4j:97 - V- click number: 2 on element 'FalseButton'
+2016-07-25 16:01:01 INFO  LogLog4j:97 - V- click number: 3 on element 'FalseButton'
+2016-07-25 16:01:03 INFO  LogLog4j:97 - V- click number: 4 on element 'FalseButton'
+2016-07-25 16:01:04 INFO  LogLog4j:87 - V- click number: 1 on element 'TrueButton'
+2016-07-25 16:01:06 INFO  LogLog4j:87 - V- click number: 2 on element 'TrueButton'
+2016-07-25 16:01:07 INFO  LogLog4j:87 - V- click number: 3 on element 'TrueButton'
+2016-07-25 16:01:09 INFO  LogLog4j:87 - V- click number: 4 on element 'TrueButton'
+2016-07-25 16:01:11 INFO  LogLog4j:87 - V- click number: 5 on element 'TrueButton'
+2016-07-25 16:01:12 INFO  LogLog4j:87 - V- click number: 6 on element 'TrueButton'
+2016-07-25 16:01:16 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-25 16:01:16 INFO  LogLog4j:263 - V- Ending Screen Msg name exists. next game is: NCAAF Programs
+2016-07-25 16:01:16 INFO  LogLog4j:273 - V- Start button exists and it says: START
+2016-07-25 16:01:16 INFO  LogLog4j:284 - V- score title was displayed: You Scored a Fair
+2016-07-25 16:01:16 INFO  LogLog4j:318 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-25 16:01:16 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-25 16:01:23 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 16:01:24 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 16:01:34 INFO  LogLog4j:97 - V- click number: 1 on element 'FalseButton'
+2016-07-25 16:01:36 INFO  LogLog4j:97 - V- click number: 2 on element 'FalseButton'
+2016-07-25 16:01:37 INFO  LogLog4j:97 - V- click number: 3 on element 'FalseButton'
+2016-07-25 16:01:39 INFO  LogLog4j:97 - V- click number: 4 on element 'FalseButton'
+2016-07-25 16:01:41 INFO  LogLog4j:87 - V- click number: 1 on element 'TrueButton'
+2016-07-25 16:01:42 INFO  LogLog4j:87 - V- click number: 2 on element 'TrueButton'
+2016-07-25 16:01:44 INFO  LogLog4j:87 - V- click number: 3 on element 'TrueButton'
+2016-07-25 16:01:46 INFO  LogLog4j:87 - V- click number: 4 on element 'TrueButton'
+2016-07-25 16:01:47 INFO  LogLog4j:87 - V- click number: 5 on element 'TrueButton'
+2016-07-25 16:01:49 INFO  LogLog4j:87 - V- click number: 6 on element 'TrueButton'
+2016-07-25 16:01:52 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-25 16:01:52 INFO  LogLog4j:263 - V- Ending Screen Msg name exists. next game is: Gaming Easter Eggs
+2016-07-25 16:01:52 INFO  LogLog4j:273 - V- Start button exists and it says: START
+2016-07-25 16:01:53 INFO  LogLog4j:284 - V- score title was displayed: You Scored a Fair
+2016-07-25 16:01:53 INFO  LogLog4j:318 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-25 16:03:09 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-25 16:03:20 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-25 16:03:21 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 16:03:21 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 16:03:31 INFO  LogLog4j:97 - V- click number: 1 on element 'FalseButton'
+2016-07-25 16:03:33 INFO  LogLog4j:97 - V- click number: 2 on element 'FalseButton'
+2016-07-25 16:03:34 INFO  LogLog4j:97 - V- click number: 3 on element 'FalseButton'
+2016-07-25 16:03:36 INFO  LogLog4j:97 - V- click number: 4 on element 'FalseButton'
+2016-07-25 16:03:38 INFO  LogLog4j:87 - V- click number: 1 on element 'TrueButton'
+2016-07-25 16:03:39 INFO  LogLog4j:87 - V- click number: 2 on element 'TrueButton'
+2016-07-25 16:03:41 INFO  LogLog4j:87 - V- click number: 3 on element 'TrueButton'
+2016-07-25 16:03:43 INFO  LogLog4j:87 - V- click number: 4 on element 'TrueButton'
+2016-07-25 16:03:44 INFO  LogLog4j:87 - V- click number: 5 on element 'TrueButton'
+2016-07-25 16:03:46 INFO  LogLog4j:87 - V- click number: 6 on element 'TrueButton'
+2016-07-25 16:03:49 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-25 16:03:50 INFO  LogLog4j:263 - V- Ending Screen Msg name exists. next game is: Football History
+2016-07-25 16:03:50 INFO  LogLog4j:273 - V- Start button exists and it says: START
+2016-07-25 16:03:50 INFO  LogLog4j:284 - V- score title was displayed: You Scored a Fair
+2016-07-25 16:03:50 INFO  LogLog4j:318 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-25 16:03:50 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-25 16:03:58 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 16:03:58 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 16:04:09 INFO  LogLog4j:97 - V- click number: 1 on element 'FalseButton'
+2016-07-25 16:04:10 INFO  LogLog4j:97 - V- click number: 2 on element 'FalseButton'
+2016-07-25 16:04:12 INFO  LogLog4j:97 - V- click number: 3 on element 'FalseButton'
+2016-07-25 16:04:14 INFO  LogLog4j:97 - V- click number: 4 on element 'FalseButton'
+2016-07-25 16:04:15 INFO  LogLog4j:87 - V- click number: 1 on element 'TrueButton'
+2016-07-25 16:04:17 INFO  LogLog4j:87 - V- click number: 2 on element 'TrueButton'
+2016-07-25 16:04:18 INFO  LogLog4j:87 - V- click number: 3 on element 'TrueButton'
+2016-07-25 16:04:20 INFO  LogLog4j:87 - V- click number: 4 on element 'TrueButton'
+2016-07-25 16:04:22 INFO  LogLog4j:87 - V- click number: 5 on element 'TrueButton'
+2016-07-25 16:04:23 INFO  LogLog4j:87 - V- click number: 6 on element 'TrueButton'
+2016-07-25 16:04:27 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-25 16:04:27 INFO  LogLog4j:263 - V- Ending Screen Msg name exists. next game is: Console Crazy
+2016-07-25 16:04:27 INFO  LogLog4j:273 - V- Start button exists and it says: START
+2016-07-25 16:04:27 INFO  LogLog4j:284 - V- score title was displayed: You Scored a Fair
+2016-07-25 16:04:27 INFO  LogLog4j:318 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-25 16:04:41 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-25 16:04:46 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-25 16:04:48 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 16:04:49 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 16:04:59 INFO  LogLog4j:97 - V- click number: 1 on element 'FalseButton'
+2016-07-25 16:05:01 INFO  LogLog4j:97 - V- click number: 2 on element 'FalseButton'
+2016-07-25 16:05:03 INFO  LogLog4j:97 - V- click number: 3 on element 'FalseButton'
+2016-07-25 16:05:04 INFO  LogLog4j:87 - V- click number: 1 on element 'TrueButton'
+2016-07-25 16:05:06 INFO  LogLog4j:87 - V- click number: 2 on element 'TrueButton'
+2016-07-25 16:05:07 INFO  LogLog4j:87 - V- click number: 3 on element 'TrueButton'
+2016-07-25 16:05:09 INFO  LogLog4j:87 - V- click number: 4 on element 'TrueButton'
+2016-07-25 16:05:11 INFO  LogLog4j:87 - V- click number: 5 on element 'TrueButton'
+2016-07-25 16:05:12 INFO  LogLog4j:87 - V- click number: 6 on element 'TrueButton'
+2016-07-25 16:05:14 INFO  LogLog4j:87 - V- click number: 7 on element 'TrueButton'
+2016-07-25 16:05:18 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-25 16:05:18 INFO  LogLog4j:263 - V- Ending Screen Msg name exists. next game is: QB Hotshots
+2016-07-25 16:05:18 INFO  LogLog4j:273 - V- Start button exists and it says: START
+2016-07-25 16:05:18 INFO  LogLog4j:284 - V- score title was displayed: You Scored a Fair
+2016-07-25 16:05:18 INFO  LogLog4j:318 - V - score unit title is correct. CABA scored: 6 and got this title: You Scored a Fair
+2016-07-25 16:05:18 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-25 16:05:26 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 16:05:26 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 16:05:37 INFO  LogLog4j:97 - V- click number: 1 on element 'FalseButton'
+2016-07-25 16:05:38 INFO  LogLog4j:97 - V- click number: 2 on element 'FalseButton'
+2016-07-25 16:05:40 INFO  LogLog4j:97 - V- click number: 3 on element 'FalseButton'
+2016-07-25 16:05:42 INFO  LogLog4j:87 - V- click number: 1 on element 'TrueButton'
+2016-07-25 16:05:43 INFO  LogLog4j:87 - V- click number: 2 on element 'TrueButton'
+2016-07-25 16:05:45 INFO  LogLog4j:87 - V- click number: 3 on element 'TrueButton'
+2016-07-25 16:05:46 INFO  LogLog4j:87 - V- click number: 4 on element 'TrueButton'
+2016-07-25 16:05:48 INFO  LogLog4j:87 - V- click number: 5 on element 'TrueButton'
+2016-07-25 16:05:50 INFO  LogLog4j:87 - V- click number: 6 on element 'TrueButton'
+2016-07-25 16:05:51 INFO  LogLog4j:87 - V- click number: 7 on element 'TrueButton'
+2016-07-25 16:05:55 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-25 16:05:55 INFO  LogLog4j:263 - V- Ending Screen Msg name exists. next game is: Game Premises
+2016-07-25 16:05:55 INFO  LogLog4j:273 - V- Start button exists and it says: START
+2016-07-25 16:05:55 INFO  LogLog4j:284 - V- score title was displayed: You Scored a Lame
+2016-07-25 16:05:55 INFO  LogLog4j:309 - V - score unit title is correct. CABA scored: 4 and got this title: You Scored a Lame

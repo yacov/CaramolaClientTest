@@ -298,6 +298,33 @@ public abstract class Page {
      System.out.println(itemsSave.get(j));
    }
  }
+  public void checkDuplicateItems() throws IOException {
+    for(Integer j = 0; j < itemsTemp.size(); j++){
+      for(Integer k = j+1; k < itemsTemp.size(); k++){
+        if(itemsTemp.get(k) != null && itemsTemp.get(j).equals(itemsTemp.get(k))){
+          System.out.println("xx SHAYSE xx item no." + j + " and item no." + k + " are similar");
+          File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+          FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot_item no."+j+" and item no."+k+" are similar.png"));
+        }else{
+          System.out.println("-- YEAHH -- item no."+j+" and item no."+k+" are NOT similar");
+          //System.out.println(itemsTemp.get(j) + itemsTemp.get(k));  // test
+        }
+      }
+    }
+  }
+
+  public boolean findEndingScreenMsg(WebElement element){
+    boolean isMsgTitle = element.isDisplayed();
+    if(isMsgTitle){
+      String scoreUnit = element.getText();
+      Log.info("V- Ending Screen Msg title was displayed: " + scoreUnit);
+    }else{
+      Log.info("X- Ending Screen Msg title WASNT displayed");
+      isMsgTitle = false;
+    }
+    return isMsgTitle;
+
+  }
   // ----------------------------------------------------   Methods not in use   ------------------------------------------------------------------------------------
 
 
