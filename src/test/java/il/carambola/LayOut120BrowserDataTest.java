@@ -141,6 +141,10 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         assertTrue("cant find ending screen \'Start\' Button",layout_120_page.isStartNextGameBtnExists());
         //Step 4: score unit structure - "you scored a__ " if it passes go to next method and check if the title is correct
         assertTrue("cant find ending screen score unit title",layout_120_page.isScoreUnitTitle());
+        //Step 4.2:
+        assertTrue("cant find ending screen share title",layout_120_page.isEndingScreenShareTitleExists());
+        //Step 4.3:
+        assertTrue("cant find ending screen share title 2",layout_120_page.isEndingScreenShareTitle2Exists());
 
     }
 }

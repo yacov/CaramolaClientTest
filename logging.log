@@ -5759,3 +5759,47 @@ Command duration or timeout:
 2016-07-25 16:05:55 INFO  LogLog4j:273 - V- Start button exists and it says: START
 2016-07-25 16:05:55 INFO  LogLog4j:284 - V- score title was displayed: You Scored a Lame
 2016-07-25 16:05:55 INFO  LogLog4j:309 - V - score unit title is correct. CABA scored: 4 and got this title: You Scored a Lame
+2016-07-25 18:23:52 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-25 18:23:57 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-25 18:23:58 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 18:23:59 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 18:24:09 INFO  LogLog4j:101 - V- click number: 1 on element 'FalseButton'
+2016-07-25 18:24:11 INFO  LogLog4j:101 - V- click number: 2 on element 'FalseButton'
+2016-07-25 18:24:12 INFO  LogLog4j:101 - V- click number: 3 on element 'FalseButton'
+2016-07-25 18:24:14 INFO  LogLog4j:91 - V- click number: 1 on element 'TrueButton'
+2016-07-25 18:24:16 INFO  LogLog4j:91 - V- click number: 2 on element 'TrueButton'
+2016-07-25 18:24:17 INFO  LogLog4j:91 - V- click number: 3 on element 'TrueButton'
+2016-07-25 18:24:19 INFO  LogLog4j:91 - V- click number: 4 on element 'TrueButton'
+2016-07-25 18:24:21 INFO  LogLog4j:91 - V- click number: 5 on element 'TrueButton'
+2016-07-25 18:24:22 INFO  LogLog4j:91 - V- click number: 6 on element 'TrueButton'
+2016-07-25 18:24:24 INFO  LogLog4j:91 - V- click number: 7 on element 'TrueButton'
+2016-07-25 18:24:28 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-25 18:24:28 INFO  LogLog4j:266 - V- Ending Screen Msg name exists. next game is: NCAAF Programs
+2016-07-25 18:24:28 INFO  LogLog4j:276 - V- Start button exists and it says: START
+2016-07-25 18:24:28 INFO  LogLog4j:287 - V- score title was displayed: You Scored a Fair
+2016-07-25 18:24:28 INFO  LogLog4j:321 - V - score unit title is correct. CABA scored: 6 and got this title: You Scored a Fair
+2016-07-25 18:24:28 INFO  LogLog4j:358 - V- ending screen share title exists: CHALLENGE
+2016-07-25 18:24:28 INFO  LogLog4j:368 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-25 18:24:28 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-25 18:24:36 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-25 18:24:36 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-25 18:24:46 INFO  LogLog4j:101 - V- click number: 1 on element 'FalseButton'
+2016-07-25 18:24:48 INFO  LogLog4j:101 - V- click number: 2 on element 'FalseButton'
+2016-07-25 18:24:50 INFO  LogLog4j:101 - V- click number: 3 on element 'FalseButton'
+2016-07-25 18:24:51 INFO  LogLog4j:91 - V- click number: 1 on element 'TrueButton'
+2016-07-25 18:24:53 INFO  LogLog4j:91 - V- click number: 2 on element 'TrueButton'
+2016-07-25 18:24:54 INFO  LogLog4j:91 - V- click number: 3 on element 'TrueButton'
+2016-07-25 18:24:56 INFO  LogLog4j:91 - V- click number: 4 on element 'TrueButton'
+2016-07-25 18:24:58 INFO  LogLog4j:91 - V- click number: 5 on element 'TrueButton'
+2016-07-25 18:24:59 INFO  LogLog4j:91 - V- click number: 6 on element 'TrueButton'
+2016-07-25 18:25:01 INFO  LogLog4j:91 - V- click number: 7 on element 'TrueButton'
+2016-07-25 18:25:05 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-25 18:25:05 INFO  LogLog4j:266 - V- Ending Screen Msg name exists. next game is: Gaming Records
+2016-07-25 18:25:05 INFO  LogLog4j:276 - V- Start button exists and it says: START
+2016-07-25 18:25:05 INFO  LogLog4j:287 - V- score title was displayed: You Scored a Lame
+2016-07-25 18:25:05 INFO  LogLog4j:312 - V - score unit title is correct. CABA scored: 4 and got this title: You Scored a Lame
+2016-07-25 18:25:05 INFO  LogLog4j:358 - V- ending screen share title exists: CHALLENGE
+2016-07-25 18:25:05 INFO  LogLog4j:368 - V- ending screen share title 2 exists: YOUR FRIENDS

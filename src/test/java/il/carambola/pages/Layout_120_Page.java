@@ -59,6 +59,10 @@ public class Layout_120_Page extends Page {
     WebElement endingScreenMsgBtn;
     @FindBy(className = Consts.ENDING_SCREEN_SCORE_UNIT_CLASS)
     WebElement endingScreenScoreUnitText;
+    @FindBy(className = Consts.ENDING_SCREEN_SHARE_TITLE_CLASS)
+    WebElement endingScreenShareTitle;
+    @FindBy(className = Consts.ENDING_SCREEN_SHARE_TITLE2_CLASS)
+    WebElement endingScreenShareTitle2;
     //public ProfilePage profilePag
 
     public Layout_120_Page(WebDriver driver) {
@@ -193,7 +197,6 @@ public class Layout_120_Page extends Page {
         return isBoardValid;
     }
 
-    //ToDo - create element locator and write method
     public Layout_120_Page pressNoButton() {
         return this;
     }
@@ -346,5 +349,26 @@ public class Layout_120_Page extends Page {
                 }break;
         }
 
+    }
+
+    public boolean isEndingScreenShareTitleExists(){
+        boolean isEndingScreenShareTitle = endingScreenShareTitle.isDisplayed();
+        if(isEndingScreenShareTitle){
+            String shareTitle = endingScreenShareTitle.getText();
+            Log.info("V- ending screen share title exists: " + shareTitle);
+        }else{
+            Log.info("X- ending screen share title DOESNT exists");
+        }
+        return isEndingScreenShareTitle;
+    }
+    public boolean isEndingScreenShareTitle2Exists(){
+        boolean isEndingScreenShareTitle2 = endingScreenShareTitle2.isDisplayed();
+        if(isEndingScreenShareTitle2){
+            String shareTitle = endingScreenShareTitle2.getText();
+            Log.info("V- ending screen share title 2 exists: " + shareTitle);
+        }else{
+            Log.info("X- ending screen share title 2 DOESNT exists");
+        }
+        return isEndingScreenShareTitle2;
     }
 }
