@@ -16,6 +16,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import static org.testng.AssertJUnit.assertFalse;
 import static org.testng.AssertJUnit.assertTrue;
 
 public class LayOut120BrowserDataTest extends TestNgTestBase {
@@ -48,6 +49,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         Log.info("\n-----  From test: Test Case 1 with URL: " + url + "-----");
 
         // step 1
+        //** make sure the method is TRUE. if not- log a message
         assertTrue("From test: Script is not valid on url " + url, layout_120_page.isScriptValidHere());
         //    layout_120_page.WaitUntilLayoutIsLoaded();
         //step 2
@@ -69,6 +71,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         layout_120_page.checkDuplicateItems();
 
         layout_120_page.itemsTemp.clear();
+        System.out.println("## END OF TEST ##");
     }
 
 
@@ -104,9 +107,9 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
 
         layout_120_page.checkDuplicateItems();
 
-        // need to clear items List at the end of the @Test otherwise it will save it for the next url and it will have a long list
+        //** need to clear items List at the end of the @Test otherwise it will save it for the next url and it will have a long list
         layout_120_page.itemsTemp.clear();
-
+        System.out.println("## END OF TEST ##");
         }
 
     /*@AfterClass(alwaysRun = true)
@@ -116,7 +119,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
 
     @Features("Check ending screen and next game's 1st item")
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
-    public void endingScreen(String url) throws InterruptedException {
+    public void endingScreen(String url) throws InterruptedException, IOException {
         driver.get(url);
         Log.info("-----   Test Case 3 with URL: " + url + "-----");
         // basic tests- is script, is layout, is wrapper
@@ -130,8 +133,8 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         System.out.println("JS scroll executed");
         // start test:
         // Step 2: click until game finishes
-        layout_120_page.pressFalseButton(3);
-        layout_120_page.pressTrueButton(7);
+        layout_120_page.pressFalseButton(10);
+        //layout_120_page.pressTrueButton(7);
         Thread.sleep(2000);
         // Step 3: Ending screen Message Structure- "next quiz"
         assertTrue("cant find ending screen msg title",layout_120_page.isEndingScreenMsgTitleExists()); // the assert will fail the test if needed
@@ -145,6 +148,18 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         assertTrue("cant find ending screen share title",layout_120_page.isEndingScreenShareTitleExists());
         //Step 4.3:
         assertTrue("cant find ending screen share title 2",layout_120_page.isEndingScreenShareTitle2Exists());
+        //Step 5: share btns
+        layout_120_page.isShareBtnEndingScreenExists("FB");
+        layout_120_page.isShareBtnEndingScreenExists("Twitter");
+        //Step 6: image 10 appears (next game's image)
+        layout_120_page.isImageExists(10);
+        //Step 7: is item 10 displayed? mustNOT because Ending screen covers it
+        assertFalse("X- text of item 10 WAS displayed ending screen covers it",layout_120_page.isTextExists(10));
+        //Step 8: click START (new game)
+        layout_120_page.pressStartBtn();
+        //Step 9: is item 10 displayed?
+        assertTrue("X- text of item 10 WASNT displayed ending screen covers it",layout_120_page.isTextExists(10));
+        System.out.println("## END OF TEST ##");
 
     }
 }

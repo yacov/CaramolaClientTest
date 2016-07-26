@@ -30,6 +30,9 @@ public class Consts {
     public static final String ENDING_SCREEN_SHARE_TITLE_CLASS = "cbolaContent-scoreUnitShareTitle";
     public static final String ENDING_SCREEN_SHARE_TITLE2_CLASS = "cbolaContent-scoreUnitShareTitle2";
     public static final String ENDING_SCREEN_SHARE_ICONS_CLASS = "cbolaContent-scoreUnitShareIcons";
+    public static final String ENDING_SCREEN_SHARE_FB_CLASS = "cbola-fa cbola-fa-facebook cbolaContent-scoreShareIcon";
+    public static final String ENDING_SCREEN_SHARE_TWITTER_CLASS = "cbola-fa cbola-fa-twitter cbolaContent-scoreShareIcon";
+    public static final String ENDING_SCREEN_START_BTN_CLASS = "cbolaContent-finalGameMessageButton";
 
     // HTML IDs
     public static final String SCRIPT_ID = "InContentScript0";

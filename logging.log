@@ -5803,3 +5803,540 @@ Command duration or timeout:
 2016-07-25 18:25:05 INFO  LogLog4j:312 - V - score unit title is correct. CABA scored: 4 and got this title: You Scored a Lame
 2016-07-25 18:25:05 INFO  LogLog4j:358 - V- ending screen share title exists: CHALLENGE
 2016-07-25 18:25:05 INFO  LogLog4j:368 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 14:26:26 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-26 14:26:31 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-26 14:26:34 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 14:26:34 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 14:26:45 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 14:26:46 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 14:26:48 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 14:26:50 INFO  LogLog4j:95 - V- click number: 1 on element 'TrueButton'
+2016-07-26 14:26:51 INFO  LogLog4j:95 - V- click number: 2 on element 'TrueButton'
+2016-07-26 14:26:53 INFO  LogLog4j:95 - V- click number: 3 on element 'TrueButton'
+2016-07-26 14:26:55 INFO  LogLog4j:95 - V- click number: 4 on element 'TrueButton'
+2016-07-26 14:26:56 INFO  LogLog4j:95 - V- click number: 5 on element 'TrueButton'
+2016-07-26 14:26:58 INFO  LogLog4j:95 - V- click number: 6 on element 'TrueButton'
+2016-07-26 14:27:00 INFO  LogLog4j:95 - V- click number: 7 on element 'TrueButton'
+2016-07-26 14:27:03 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 14:27:03 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: NCAAF Programs
+2016-07-26 14:27:04 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 14:27:04 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Fair
+2016-07-26 14:27:04 INFO  LogLog4j:330 - V - score unit title is correct. CABA scored: 6 and got this title: You Scored a Fair
+2016-07-26 14:27:04 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 14:27:04 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 14:27:04 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-26 14:27:13 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 14:27:13 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 14:27:24 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 14:27:26 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 14:27:27 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 14:27:29 INFO  LogLog4j:95 - V- click number: 1 on element 'TrueButton'
+2016-07-26 14:27:31 INFO  LogLog4j:95 - V- click number: 2 on element 'TrueButton'
+2016-07-26 14:27:32 INFO  LogLog4j:95 - V- click number: 3 on element 'TrueButton'
+2016-07-26 14:27:34 INFO  LogLog4j:95 - V- click number: 4 on element 'TrueButton'
+2016-07-26 14:27:36 INFO  LogLog4j:95 - V- click number: 5 on element 'TrueButton'
+2016-07-26 14:27:37 INFO  LogLog4j:95 - V- click number: 6 on element 'TrueButton'
+2016-07-26 14:27:39 INFO  LogLog4j:95 - V- click number: 7 on element 'TrueButton'
+2016-07-26 14:27:43 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 14:27:43 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: Celeb Gamers
+2016-07-26 14:27:43 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 14:27:43 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Lame
+2016-07-26 14:27:43 INFO  LogLog4j:321 - V - score unit title is correct. CABA scored: 4 and got this title: You Scored a Lame
+2016-07-26 14:27:43 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 14:27:43 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 14:31:36 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-26 14:31:41 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-26 14:31:43 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 14:31:43 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 14:31:54 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 14:31:55 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 14:31:57 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 14:31:59 INFO  LogLog4j:95 - V- click number: 1 on element 'TrueButton'
+2016-07-26 14:32:00 INFO  LogLog4j:95 - V- click number: 2 on element 'TrueButton'
+2016-07-26 14:32:02 INFO  LogLog4j:95 - V- click number: 3 on element 'TrueButton'
+2016-07-26 14:32:04 INFO  LogLog4j:95 - V- click number: 4 on element 'TrueButton'
+2016-07-26 14:32:05 INFO  LogLog4j:95 - V- click number: 5 on element 'TrueButton'
+2016-07-26 14:32:07 INFO  LogLog4j:95 - V- click number: 6 on element 'TrueButton'
+2016-07-26 14:32:08 INFO  LogLog4j:95 - V- click number: 7 on element 'TrueButton'
+2016-07-26 14:32:12 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 14:32:12 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: QB Hotshots
+2016-07-26 14:32:12 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 14:32:12 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Fair
+2016-07-26 14:32:12 INFO  LogLog4j:330 - V - score unit title is correct. CABA scored: 6 and got this title: You Scored a Fair
+2016-07-26 14:32:12 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 14:32:12 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 14:32:13 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 14:32:13 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 14:32:13 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-26 14:32:21 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 14:32:21 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 14:32:32 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 14:32:33 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 14:32:35 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 14:32:37 INFO  LogLog4j:95 - V- click number: 1 on element 'TrueButton'
+2016-07-26 14:32:38 INFO  LogLog4j:95 - V- click number: 2 on element 'TrueButton'
+2016-07-26 14:32:40 INFO  LogLog4j:95 - V- click number: 3 on element 'TrueButton'
+2016-07-26 14:32:42 INFO  LogLog4j:95 - V- click number: 4 on element 'TrueButton'
+2016-07-26 14:32:43 INFO  LogLog4j:95 - V- click number: 5 on element 'TrueButton'
+2016-07-26 14:32:45 INFO  LogLog4j:95 - V- click number: 6 on element 'TrueButton'
+2016-07-26 14:32:46 INFO  LogLog4j:95 - V- click number: 7 on element 'TrueButton'
+2016-07-26 14:32:50 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 14:32:50 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: Celeb Gamers
+2016-07-26 14:32:50 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 14:32:50 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Lame
+2016-07-26 14:32:50 INFO  LogLog4j:321 - V - score unit title is correct. CABA scored: 4 and got this title: You Scored a Lame
+2016-07-26 14:32:50 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 14:32:50 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 14:32:50 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 14:32:51 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 14:50:02 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-26 14:50:17 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-26 14:50:18 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 14:50:18 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 14:50:28 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 14:50:30 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 14:50:31 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 14:50:33 INFO  LogLog4j:95 - V- click number: 1 on element 'TrueButton'
+2016-07-26 14:50:35 INFO  LogLog4j:95 - V- click number: 2 on element 'TrueButton'
+2016-07-26 14:50:36 INFO  LogLog4j:95 - V- click number: 3 on element 'TrueButton'
+2016-07-26 14:50:38 INFO  LogLog4j:95 - V- click number: 4 on element 'TrueButton'
+2016-07-26 14:50:39 INFO  LogLog4j:95 - V- click number: 5 on element 'TrueButton'
+2016-07-26 14:50:41 INFO  LogLog4j:95 - V- click number: 6 on element 'TrueButton'
+2016-07-26 14:50:43 INFO  LogLog4j:95 - V- click number: 7 on element 'TrueButton'
+2016-07-26 14:50:46 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 14:50:46 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: Super Bowl 411
+2016-07-26 14:50:46 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 14:50:46 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Fair
+2016-07-26 14:50:47 INFO  LogLog4j:330 - V - score unit title is correct. CABA scored: 6 and got this title: You Scored a Fair
+2016-07-26 14:50:47 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 14:50:47 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 14:50:47 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 14:50:47 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 14:50:47 INFO  LogLog4j:231 - X - Image 10 WASNT displayed
+2016-07-26 14:50:47 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-26 14:51:04 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 14:51:04 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 14:51:15 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 14:51:16 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 14:51:18 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 14:51:20 INFO  LogLog4j:95 - V- click number: 1 on element 'TrueButton'
+2016-07-26 14:51:21 INFO  LogLog4j:95 - V- click number: 2 on element 'TrueButton'
+2016-07-26 14:51:23 INFO  LogLog4j:95 - V- click number: 3 on element 'TrueButton'
+2016-07-26 14:51:24 INFO  LogLog4j:95 - V- click number: 4 on element 'TrueButton'
+2016-07-26 14:51:26 INFO  LogLog4j:95 - V- click number: 5 on element 'TrueButton'
+2016-07-26 14:51:28 INFO  LogLog4j:95 - V- click number: 6 on element 'TrueButton'
+2016-07-26 14:51:29 INFO  LogLog4j:95 - V- click number: 7 on element 'TrueButton'
+2016-07-26 14:51:33 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 14:51:33 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: Console Crazy
+2016-07-26 14:51:33 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 14:51:33 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Lame
+2016-07-26 14:51:33 INFO  LogLog4j:321 - V - score unit title is correct. CABA scored: 4 and got this title: You Scored a Lame
+2016-07-26 14:51:33 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 14:51:33 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 14:51:33 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 14:51:33 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 14:51:33 INFO  LogLog4j:231 - X - Image 10 WASNT displayed
+2016-07-26 14:52:02 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-26 14:52:14 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-26 14:52:14 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 14:52:14 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 14:52:24 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 14:52:26 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 14:52:28 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 14:52:29 INFO  LogLog4j:105 - V- click number: 4 on element 'FalseButton'
+2016-07-26 14:52:31 INFO  LogLog4j:105 - V- click number: 5 on element 'FalseButton'
+2016-07-26 14:52:32 INFO  LogLog4j:105 - V- click number: 6 on element 'FalseButton'
+2016-07-26 14:52:34 INFO  LogLog4j:105 - V- click number: 7 on element 'FalseButton'
+2016-07-26 14:52:36 INFO  LogLog4j:105 - V- click number: 8 on element 'FalseButton'
+2016-07-26 14:52:37 INFO  LogLog4j:105 - V- click number: 9 on element 'FalseButton'
+2016-07-26 14:52:39 INFO  LogLog4j:105 - V- click number: 10 on element 'FalseButton'
+2016-07-26 14:52:42 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 14:52:43 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: NCAAF Coaches
+2016-07-26 14:52:43 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 14:52:43 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Fair
+2016-07-26 14:52:43 INFO  LogLog4j:330 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-26 14:52:43 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 14:52:43 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 14:52:43 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 14:52:43 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 14:52:43 INFO  LogLog4j:231 - X - Image 10 WASNT displayed
+2016-07-26 14:52:43 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-26 14:52:50 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 14:52:51 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 14:53:01 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 14:53:03 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 14:53:04 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 14:53:06 INFO  LogLog4j:105 - V- click number: 4 on element 'FalseButton'
+2016-07-26 14:53:07 INFO  LogLog4j:105 - V- click number: 5 on element 'FalseButton'
+2016-07-26 14:53:09 INFO  LogLog4j:105 - V- click number: 6 on element 'FalseButton'
+2016-07-26 14:53:11 INFO  LogLog4j:105 - V- click number: 7 on element 'FalseButton'
+2016-07-26 14:53:12 INFO  LogLog4j:105 - V- click number: 8 on element 'FalseButton'
+2016-07-26 14:53:14 INFO  LogLog4j:105 - V- click number: 9 on element 'FalseButton'
+2016-07-26 14:53:15 INFO  LogLog4j:105 - V- click number: 10 on element 'FalseButton'
+2016-07-26 14:53:19 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 14:53:19 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: Gaming Records
+2016-07-26 14:53:19 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 14:53:19 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Fair
+2016-07-26 14:53:19 INFO  LogLog4j:330 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-26 14:53:19 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 14:53:19 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 14:53:19 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 14:53:20 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 14:53:20 INFO  LogLog4j:231 - X - Image 10 WASNT displayed
+2016-07-26 14:53:42 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-26 14:53:46 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-26 14:53:48 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 14:53:48 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 14:53:59 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 14:54:00 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 14:54:02 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 14:54:04 INFO  LogLog4j:105 - V- click number: 4 on element 'FalseButton'
+2016-07-26 14:54:05 INFO  LogLog4j:105 - V- click number: 5 on element 'FalseButton'
+2016-07-26 14:54:07 INFO  LogLog4j:105 - V- click number: 6 on element 'FalseButton'
+2016-07-26 14:54:08 INFO  LogLog4j:105 - V- click number: 7 on element 'FalseButton'
+2016-07-26 14:54:10 INFO  LogLog4j:105 - V- click number: 8 on element 'FalseButton'
+2016-07-26 14:54:12 INFO  LogLog4j:105 - V- click number: 9 on element 'FalseButton'
+2016-07-26 14:54:13 INFO  LogLog4j:105 - V- click number: 10 on element 'FalseButton'
+2016-07-26 14:54:17 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 14:54:17 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: QB Hotshots
+2016-07-26 14:54:17 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 14:54:17 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Fair
+2016-07-26 14:54:17 INFO  LogLog4j:330 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-26 14:54:17 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 14:54:17 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 14:54:17 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 14:54:17 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 14:54:17 INFO  LogLog4j:231 - X - Image 11 WASNT displayed
+2016-07-26 14:54:17 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-26 14:54:26 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 14:54:26 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 14:54:36 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 14:54:38 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 14:54:40 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 14:54:41 INFO  LogLog4j:105 - V- click number: 4 on element 'FalseButton'
+2016-07-26 14:54:43 INFO  LogLog4j:105 - V- click number: 5 on element 'FalseButton'
+2016-07-26 14:54:44 INFO  LogLog4j:105 - V- click number: 6 on element 'FalseButton'
+2016-07-26 14:54:46 INFO  LogLog4j:105 - V- click number: 7 on element 'FalseButton'
+2016-07-26 14:54:48 INFO  LogLog4j:105 - V- click number: 8 on element 'FalseButton'
+2016-07-26 14:54:49 INFO  LogLog4j:105 - V- click number: 9 on element 'FalseButton'
+2016-07-26 14:54:51 INFO  LogLog4j:105 - V- click number: 10 on element 'FalseButton'
+2016-07-26 14:54:54 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 14:54:55 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: Gaming Easter Eggs
+2016-07-26 14:54:55 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 14:54:55 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Fair
+2016-07-26 14:54:55 INFO  LogLog4j:330 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-26 14:54:55 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 14:54:55 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 14:54:55 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 14:54:55 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 14:54:55 INFO  LogLog4j:231 - X - Image 11 WASNT displayed
+2016-07-26 14:57:45 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-26 14:57:50 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-26 14:57:51 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 14:57:51 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 14:58:02 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 14:58:04 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 14:58:05 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 14:58:07 INFO  LogLog4j:105 - V- click number: 4 on element 'FalseButton'
+2016-07-26 14:58:08 INFO  LogLog4j:105 - V- click number: 5 on element 'FalseButton'
+2016-07-26 14:58:10 INFO  LogLog4j:105 - V- click number: 6 on element 'FalseButton'
+2016-07-26 14:58:12 INFO  LogLog4j:105 - V- click number: 7 on element 'FalseButton'
+2016-07-26 14:58:13 INFO  LogLog4j:105 - V- click number: 8 on element 'FalseButton'
+2016-07-26 14:58:15 INFO  LogLog4j:105 - V- click number: 9 on element 'FalseButton'
+2016-07-26 14:58:16 INFO  LogLog4j:105 - V- click number: 10 on element 'FalseButton'
+2016-07-26 14:58:20 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 14:58:20 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: Heisman Winners
+2016-07-26 14:58:20 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 14:58:20 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Fair
+2016-07-26 14:58:20 INFO  LogLog4j:330 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-26 14:58:20 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 14:58:20 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 14:58:20 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 14:58:20 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 14:58:51 INFO  LogLog4j:231 - X - Image 11 WASNT displayed
+2016-07-26 15:01:11 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-26 15:01:16 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-26 15:01:17 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 15:01:18 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 15:01:29 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 15:01:30 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 15:01:32 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 15:01:34 INFO  LogLog4j:105 - V- click number: 4 on element 'FalseButton'
+2016-07-26 15:01:35 INFO  LogLog4j:105 - V- click number: 5 on element 'FalseButton'
+2016-07-26 15:01:37 INFO  LogLog4j:105 - V- click number: 6 on element 'FalseButton'
+2016-07-26 15:01:38 INFO  LogLog4j:105 - V- click number: 7 on element 'FalseButton'
+2016-07-26 15:01:40 INFO  LogLog4j:105 - V- click number: 8 on element 'FalseButton'
+2016-07-26 15:01:42 INFO  LogLog4j:105 - V- click number: 9 on element 'FalseButton'
+2016-07-26 15:01:43 INFO  LogLog4j:105 - V- click number: 10 on element 'FalseButton'
+2016-07-26 15:01:47 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 15:01:47 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: NCAAF Coaches
+2016-07-26 15:01:47 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 15:01:47 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Fair
+2016-07-26 15:01:47 INFO  LogLog4j:330 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-26 15:01:47 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 15:01:47 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 15:01:47 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 15:01:48 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 15:31:19 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-26 15:31:24 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-26 15:31:25 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 15:31:26 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 15:31:36 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 15:31:38 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 15:31:39 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 15:31:41 INFO  LogLog4j:105 - V- click number: 4 on element 'FalseButton'
+2016-07-26 15:31:43 INFO  LogLog4j:105 - V- click number: 5 on element 'FalseButton'
+2016-07-26 15:31:44 INFO  LogLog4j:105 - V- click number: 6 on element 'FalseButton'
+2016-07-26 15:31:46 INFO  LogLog4j:105 - V- click number: 7 on element 'FalseButton'
+2016-07-26 15:31:47 INFO  LogLog4j:105 - V- click number: 8 on element 'FalseButton'
+2016-07-26 15:31:49 INFO  LogLog4j:105 - V- click number: 9 on element 'FalseButton'
+2016-07-26 15:31:51 INFO  LogLog4j:105 - V- click number: 10 on element 'FalseButton'
+2016-07-26 15:31:54 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 15:31:54 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: Super Bowl 411
+2016-07-26 15:31:54 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 15:31:55 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Fair
+2016-07-26 15:31:55 INFO  LogLog4j:330 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-26 15:31:55 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 15:31:55 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 15:31:55 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 15:31:55 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 15:31:55 INFO  LogLog4j:227 - V - Image 10 was displayed: http://media.carambo.la/Images/7605_1_5.jpg
+2016-07-26 15:31:55 INFO  LogLog4j:121 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-26 15:32:02 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 15:32:03 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 15:32:13 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 15:32:15 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 15:32:17 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 15:32:18 INFO  LogLog4j:105 - V- click number: 4 on element 'FalseButton'
+2016-07-26 15:32:20 INFO  LogLog4j:105 - V- click number: 5 on element 'FalseButton'
+2016-07-26 15:32:22 INFO  LogLog4j:105 - V- click number: 6 on element 'FalseButton'
+2016-07-26 15:32:23 INFO  LogLog4j:105 - V- click number: 7 on element 'FalseButton'
+2016-07-26 15:32:25 INFO  LogLog4j:105 - V- click number: 8 on element 'FalseButton'
+2016-07-26 15:32:26 INFO  LogLog4j:105 - V- click number: 9 on element 'FalseButton'
+2016-07-26 15:32:28 INFO  LogLog4j:105 - V- click number: 10 on element 'FalseButton'
+2016-07-26 15:32:32 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 15:32:32 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: Game Premises
+2016-07-26 15:32:32 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 15:32:32 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Fair
+2016-07-26 15:32:32 INFO  LogLog4j:330 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-26 15:32:32 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 15:32:32 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 15:32:32 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 15:32:32 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 15:32:32 INFO  LogLog4j:227 - V - Image 10 was displayed: http://media.carambo.la/Images/8459_1_5.jpg
+2016-07-26 15:33:12 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-26 15:33:13 INFO  LogLog4j:40 - time before loaing page
+2016-07-26 15:33:49 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-26 15:33:50 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 15:33:50 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 15:34:00 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-26 15:34:00 INFO  LogLog4j:227 - V - Image 0 was displayed: http://media.carambo.la/Images/7595_1_5.jpg
+2016-07-26 15:34:00 INFO  LogLog4j:197 - V - Item 0 was displayed: Tim Tebow is the owner of a small chain of Southern restaurants that offer Bible sermons twice a day
+2016-07-26 15:34:00 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-26 15:34:00 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-26 15:34:01 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 15:34:01 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 15:34:01 INFO  LogLog4j:246 - V - Text check- score unit match
+2016-07-26 15:34:02 INFO  LogLog4j:284 - V - Text check- Title was displayed: Do You Know Your NFL Player Side Jobs?
+2016-07-26 15:34:02 INFO  LogLog4j:40 - time before loaing page
+2016-07-26 15:34:27 INFO  LogLog4j:48 - 
+-----  From test: Test Case 1 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-26 15:34:27 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 15:34:27 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 15:34:37 INFO  LogLog4j:57 - From test: Assert is OK, centerwrapper exists
+2016-07-26 15:34:37 INFO  LogLog4j:227 - V - Image 0 was displayed: http://media.carambo.la/Images/17718_1_5.jpg
+2016-07-26 15:34:37 INFO  LogLog4j:197 - V - Item 0 was displayed: It's possible to play Resident Evil 2 as Ryu from Street Fighter, the star of another Capcom franchise
+2016-07-26 15:34:37 INFO  LogLog4j:218 - V - Score Title Class was displayed
+2016-07-26 15:34:37 INFO  LogLog4j:221 - V - Text of Question is Correct: Question
+2016-07-26 15:34:39 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 15:34:39 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 15:34:39 INFO  LogLog4j:246 - V - Text check- score unit match
+2016-07-26 15:34:39 INFO  LogLog4j:284 - V - Text check- Title was displayed: Did You Find These Hidden Gaming Easter Eggs?
+2016-07-26 16:29:26 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-26 16:29:42 INFO  LogLog4j:122 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-26 16:29:43 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 16:29:43 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 16:29:53 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 16:29:55 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 16:29:56 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 16:29:58 INFO  LogLog4j:105 - V- click number: 4 on element 'FalseButton'
+2016-07-26 16:30:00 INFO  LogLog4j:105 - V- click number: 5 on element 'FalseButton'
+2016-07-26 16:30:01 INFO  LogLog4j:105 - V- click number: 6 on element 'FalseButton'
+2016-07-26 16:30:03 INFO  LogLog4j:105 - V- click number: 7 on element 'FalseButton'
+2016-07-26 16:30:04 INFO  LogLog4j:105 - V- click number: 8 on element 'FalseButton'
+2016-07-26 16:30:06 INFO  LogLog4j:105 - V- click number: 9 on element 'FalseButton'
+2016-07-26 16:30:08 INFO  LogLog4j:105 - V- click number: 10 on element 'FalseButton'
+2016-07-26 16:30:11 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 16:30:11 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: Heisman Historian
+2016-07-26 16:30:11 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 16:30:12 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Fair
+2016-07-26 16:30:12 INFO  LogLog4j:330 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-26 16:30:12 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 16:30:12 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 16:30:12 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 16:30:12 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 16:30:12 INFO  LogLog4j:227 - V - Image 10 was displayed: http://media.carambo.la/Images/10515_1_5.jpg
+2016-07-26 16:30:12 INFO  LogLog4j:204 - X - Item 10 WASN'T displayed
+2016-07-26 16:30:12 INFO  LogLog4j:122 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-26 16:30:20 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 16:30:20 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 16:30:31 INFO  LogLog4j:105 - V- click number: 1 on element 'FalseButton'
+2016-07-26 16:30:33 INFO  LogLog4j:105 - V- click number: 2 on element 'FalseButton'
+2016-07-26 16:30:34 INFO  LogLog4j:105 - V- click number: 3 on element 'FalseButton'
+2016-07-26 16:30:36 INFO  LogLog4j:105 - V- click number: 4 on element 'FalseButton'
+2016-07-26 16:30:38 INFO  LogLog4j:105 - V- click number: 5 on element 'FalseButton'
+2016-07-26 16:30:39 INFO  LogLog4j:105 - V- click number: 6 on element 'FalseButton'
+2016-07-26 16:30:41 INFO  LogLog4j:105 - V- click number: 7 on element 'FalseButton'
+2016-07-26 16:30:43 INFO  LogLog4j:105 - V- click number: 8 on element 'FalseButton'
+2016-07-26 16:30:44 INFO  LogLog4j:105 - V- click number: 9 on element 'FalseButton'
+2016-07-26 16:30:46 INFO  LogLog4j:105 - V- click number: 10 on element 'FalseButton'
+2016-07-26 16:30:49 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 16:30:49 INFO  LogLog4j:275 - V- Ending Screen Msg name exists. next game is: Mobile Gamer
+2016-07-26 16:30:49 INFO  LogLog4j:285 - V- Start button exists and it says: START
+2016-07-26 16:30:50 INFO  LogLog4j:296 - V- score title was displayed: You Scored a Fair
+2016-07-26 16:30:50 INFO  LogLog4j:330 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-26 16:30:50 INFO  LogLog4j:367 - V- ending screen share title exists: CHALLENGE
+2016-07-26 16:30:50 INFO  LogLog4j:377 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 16:30:50 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 16:30:50 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 16:30:50 INFO  LogLog4j:227 - V - Image 10 was displayed: http://media.carambo.la/Images/3834_1_5.jpg
+2016-07-26 16:30:50 INFO  LogLog4j:204 - X - Item 10 WASN'T displayed
+2016-07-26 16:50:34 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-26 16:50:38 INFO  LogLog4j:124 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-26 16:50:40 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 16:50:40 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 16:50:50 INFO  LogLog4j:107 - V- click number: 1 on element 'FalseButton'
+2016-07-26 16:50:56 INFO  LogLog4j:107 - V- click number: 2 on element 'FalseButton'
+2016-07-26 16:50:58 INFO  LogLog4j:107 - V- click number: 3 on element 'FalseButton'
+2016-07-26 16:51:00 INFO  LogLog4j:107 - V- click number: 4 on element 'FalseButton'
+2016-07-26 16:51:01 INFO  LogLog4j:107 - V- click number: 5 on element 'FalseButton'
+2016-07-26 16:51:03 INFO  LogLog4j:107 - V- click number: 6 on element 'FalseButton'
+2016-07-26 16:51:05 INFO  LogLog4j:107 - V- click number: 7 on element 'FalseButton'
+2016-07-26 16:51:06 INFO  LogLog4j:107 - V- click number: 8 on element 'FalseButton'
+2016-07-26 16:51:08 INFO  LogLog4j:107 - V- click number: 9 on element 'FalseButton'
+2016-07-26 16:51:09 INFO  LogLog4j:107 - V- click number: 10 on element 'FalseButton'
+2016-07-26 16:51:13 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 16:51:13 INFO  LogLog4j:277 - V- Ending Screen Msg name exists. next game is: NFL Rules
+2016-07-26 16:51:13 INFO  LogLog4j:287 - V- Start button exists and it says: START
+2016-07-26 16:51:13 INFO  LogLog4j:298 - V- score title was displayed: You Scored a Fair
+2016-07-26 16:51:13 INFO  LogLog4j:332 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-26 16:51:13 INFO  LogLog4j:369 - V- ending screen share title exists: CHALLENGE
+2016-07-26 16:51:13 INFO  LogLog4j:379 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 16:51:13 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 16:51:14 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 16:51:14 INFO  LogLog4j:229 - V - Image 10 was displayed: http://media.carambo.la/Images/7530_1_5.jpg
+2016-07-26 16:51:14 INFO  LogLog4j:204 - X - Item 10 WASN'T displayed
+2016-07-26 16:51:14 INFO  LogLog4j:197 - V - Item 10 was displayed: If every NFL team finishes the season with the same record, the playoffs are determined by a coin toss
+2016-07-26 16:51:14 INFO  LogLog4j:124 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-26 16:51:22 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 16:51:22 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 16:51:33 INFO  LogLog4j:107 - V- click number: 1 on element 'FalseButton'
+2016-07-26 16:51:34 INFO  LogLog4j:107 - V- click number: 2 on element 'FalseButton'
+2016-07-26 16:51:36 INFO  LogLog4j:107 - V- click number: 3 on element 'FalseButton'
+2016-07-26 16:51:38 INFO  LogLog4j:107 - V- click number: 4 on element 'FalseButton'
+2016-07-26 16:51:39 INFO  LogLog4j:107 - V- click number: 5 on element 'FalseButton'
+2016-07-26 16:51:41 INFO  LogLog4j:107 - V- click number: 6 on element 'FalseButton'
+2016-07-26 16:51:42 INFO  LogLog4j:107 - V- click number: 7 on element 'FalseButton'
+2016-07-26 16:51:44 INFO  LogLog4j:107 - V- click number: 8 on element 'FalseButton'
+2016-07-26 16:51:46 INFO  LogLog4j:107 - V- click number: 9 on element 'FalseButton'
+2016-07-26 16:51:47 INFO  LogLog4j:107 - V- click number: 10 on element 'FalseButton'
+2016-07-26 16:51:51 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 16:51:51 INFO  LogLog4j:277 - V- Ending Screen Msg name exists. next game is: Mobile Gamer
+2016-07-26 16:51:51 INFO  LogLog4j:287 - V- Start button exists and it says: START
+2016-07-26 16:51:51 INFO  LogLog4j:298 - V- score title was displayed: You Scored a Fair
+2016-07-26 16:51:51 INFO  LogLog4j:332 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-26 16:51:51 INFO  LogLog4j:369 - V- ending screen share title exists: CHALLENGE
+2016-07-26 16:51:51 INFO  LogLog4j:379 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 16:51:51 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 16:51:51 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 16:51:51 INFO  LogLog4j:229 - V - Image 10 was displayed: http://media.carambo.la/Images/3834_1_5.jpg
+2016-07-26 16:51:52 INFO  LogLog4j:204 - X - Item 10 WASN'T displayed
+2016-07-26 16:51:52 INFO  LogLog4j:197 - V - Item 10 was displayed: On average, people around the world play a total of 200 million hours of Angry Birds every day
+2016-07-26 16:52:19 INFO  LogLog4j:48 - 
+
+*** Starting FireFox Browser ***
+
+2016-07-26 16:52:30 INFO  LogLog4j:124 - -----   Test Case 3 with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-07-26 16:52:30 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 16:52:31 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 16:52:41 INFO  LogLog4j:107 - V- click number: 1 on element 'FalseButton'
+2016-07-26 16:52:43 INFO  LogLog4j:107 - V- click number: 2 on element 'FalseButton'
+2016-07-26 16:52:44 INFO  LogLog4j:107 - V- click number: 3 on element 'FalseButton'
+2016-07-26 16:52:46 INFO  LogLog4j:107 - V- click number: 4 on element 'FalseButton'
+2016-07-26 16:52:48 INFO  LogLog4j:107 - V- click number: 5 on element 'FalseButton'
+2016-07-26 16:52:49 INFO  LogLog4j:107 - V- click number: 6 on element 'FalseButton'
+2016-07-26 16:52:51 INFO  LogLog4j:107 - V- click number: 7 on element 'FalseButton'
+2016-07-26 16:52:52 INFO  LogLog4j:107 - V- click number: 8 on element 'FalseButton'
+2016-07-26 16:52:54 INFO  LogLog4j:107 - V- click number: 9 on element 'FalseButton'
+2016-07-26 16:52:56 INFO  LogLog4j:107 - V- click number: 10 on element 'FalseButton'
+2016-07-26 16:52:59 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 16:52:59 INFO  LogLog4j:277 - V- Ending Screen Msg name exists. next game is: Football History
+2016-07-26 16:52:59 INFO  LogLog4j:287 - V- Start button exists and it says: START
+2016-07-26 16:52:59 INFO  LogLog4j:298 - V- score title was displayed: You Scored a Fair
+2016-07-26 16:53:00 INFO  LogLog4j:332 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-26 16:53:00 INFO  LogLog4j:369 - V- ending screen share title exists: CHALLENGE
+2016-07-26 16:53:00 INFO  LogLog4j:379 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 16:53:00 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 16:53:00 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 16:53:00 INFO  LogLog4j:229 - V - Image 10 was displayed: http://media.carambo.la/Images/7598_1_5.jpg
+2016-07-26 16:53:00 INFO  LogLog4j:204 - X - Item 10 WASN'T displayed
+2016-07-26 16:53:00 INFO  LogLog4j:197 - V - Item 10 was displayed: The NFL banned the Boston Patriots from becoming the Bay State Patriots as its initials would be “B.S.”
+2016-07-26 16:53:00 INFO  LogLog4j:124 - -----   Test Case 3 with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-07-26 16:53:07 INFO  LogLog4j:134 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-07-26 16:53:07 INFO  LogLog4j:152 - Layer number is OK: 120
+2016-07-26 16:53:18 INFO  LogLog4j:107 - V- click number: 1 on element 'FalseButton'
+2016-07-26 16:53:19 INFO  LogLog4j:107 - V- click number: 2 on element 'FalseButton'
+2016-07-26 16:53:21 INFO  LogLog4j:107 - V- click number: 3 on element 'FalseButton'
+2016-07-26 16:53:23 INFO  LogLog4j:107 - V- click number: 4 on element 'FalseButton'
+2016-07-26 16:53:24 INFO  LogLog4j:107 - V- click number: 5 on element 'FalseButton'
+2016-07-26 16:53:26 INFO  LogLog4j:107 - V- click number: 6 on element 'FalseButton'
+2016-07-26 16:53:28 INFO  LogLog4j:107 - V- click number: 7 on element 'FalseButton'
+2016-07-26 16:53:29 INFO  LogLog4j:107 - V- click number: 8 on element 'FalseButton'
+2016-07-26 16:53:31 INFO  LogLog4j:107 - V- click number: 9 on element 'FalseButton'
+2016-07-26 16:53:32 INFO  LogLog4j:107 - V- click number: 10 on element 'FalseButton'
+2016-07-26 16:53:36 INFO  LogLog4j:320 - V- Ending Screen Msg title was displayed: Next quiz
+2016-07-26 16:53:36 INFO  LogLog4j:277 - V- Ending Screen Msg name exists. next game is: Gaming Tales
+2016-07-26 16:53:36 INFO  LogLog4j:287 - V- Start button exists and it says: START
+2016-07-26 16:53:36 INFO  LogLog4j:298 - V- score title was displayed: You Scored a Fair
+2016-07-26 16:53:36 INFO  LogLog4j:332 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-07-26 16:53:36 INFO  LogLog4j:369 - V- ending screen share title exists: CHALLENGE
+2016-07-26 16:53:36 INFO  LogLog4j:379 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-07-26 16:53:36 INFO  LogLog4j:261 - V - FB share btn was displayed
+2016-07-26 16:53:36 INFO  LogLog4j:270 - V - Twitter share btn was displayed
+2016-07-26 16:53:36 INFO  LogLog4j:229 - V - Image 10 was displayed: http://media.carambo.la/Images/8519_1_5.jpg
+2016-07-26 16:53:36 INFO  LogLog4j:204 - X - Item 10 WASN'T displayed
+2016-07-26 16:53:37 INFO  LogLog4j:197 - V - Item 10 was displayed: The popular restaurant franchise Chuck E. Cheese was created by Atari to get kids to play their games

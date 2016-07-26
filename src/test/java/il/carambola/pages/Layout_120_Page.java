@@ -45,8 +45,12 @@ public class Layout_120_Page extends Page {
     WebElement img0;
     @FindBy(className = Consts.SHARE_FB_CLASS)
     WebElement shareFB;
+    @FindBy(xpath = ".//*[@id='InContent-container-centerWrapper0']/div/div/div[1]/div[2]/div[3]/div[5]/i[1]")
+    WebElement shareFBEndingScreen;
     @FindBy(className = Consts.SHARE_TWITTER_CLASS)
     WebElement shareTwitter;
+    @FindBy(xpath = ".//*[@id='InContent-container-centerWrapper0']/div/div/div[1]/div[2]/div[3]/div[5]/i[2]")
+    WebElement shareTwitterEndingScreen;
     @FindBy(className = Consts.SCORE_UNIT_CLASS)
     WebElement scoreUnit;
     @FindBy(className = Consts.TITLE_CLASS)
@@ -63,6 +67,8 @@ public class Layout_120_Page extends Page {
     WebElement endingScreenShareTitle;
     @FindBy(className = Consts.ENDING_SCREEN_SHARE_TITLE2_CLASS)
     WebElement endingScreenShareTitle2;
+    @FindBy(className = Consts.ENDING_SCREEN_START_BTN_CLASS)
+    WebElement startBtn;
     //public ProfilePage profilePag
 
     public Layout_120_Page(WebDriver driver) {
@@ -214,7 +220,7 @@ public class Layout_120_Page extends Page {
     // Step 4.2 - Verify 1st Image -cbolaContent-imageLoader
     @Step("Check if Image Exists")
     public boolean isImageExists(Integer imgNo){
-        WebElement imgElement = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS + imgNo));
+        WebElement imgElement = driver.findElement(By.className(Consts.FIRST_IMG_CLASS + imgNo));
         boolean isCbolaImg = imgElement.isDisplayed();
         if(isCbolaImg) {
             // (same as print img method)
@@ -246,9 +252,14 @@ public class Layout_120_Page extends Page {
         }else if(firm.equals("Twitter")){
             findShareBtn(firm, shareTwitter);
         }
-
     }
-
+    public void isShareBtnEndingScreenExists(String firm) throws IOException {
+        if(firm.equals("FB")){
+            findShareBtn(firm, shareFBEndingScreen);
+        }else if(firm.equals("Twitter")){
+            findShareBtn(firm, shareTwitterEndingScreen);
+        }
+    }
     public void isScoreUnitExists() throws IOException {
         isScoreUnit(scoreUnit);
     }
@@ -370,5 +381,8 @@ public class Layout_120_Page extends Page {
             Log.info("X- ending screen share title 2 DOESNT exists");
         }
         return isEndingScreenShareTitle2;
+    }
+    public void pressStartBtn(){
+        clickElement(startBtn);
     }
 }
