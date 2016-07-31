@@ -16,7 +16,7 @@
         <groupId>ru.yandex.qatools.allure</groupId>
         <artifactId>allure-maven-plugin</artifactId>
         <configuration>
-          <reportDirectory>allure-report</reportDirectory>
+          <reportDirectory>target/allure-report</reportDirectory>
         </configuration>
       </plugin>
     </plugins>

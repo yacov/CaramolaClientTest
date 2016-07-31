@@ -16,12 +16,11 @@ import ru.yandex.qatools.allure.annotations.Step;
 
 import java.io.File;
 import java.io.IOException;
-
-import java.math.RoundingMode;
-//import java.time.LocalDateTime; ---------- why cant use it?
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+//import java.time.LocalDateTime; ---------- why cant use it?
 //import java.util.concurrent.ThreadLocalRandom;
 
 /**
@@ -314,6 +313,7 @@ public abstract class Page {
     }
   }
 
+  @Step("Find Ending Screen msg")
   public boolean findEndingScreenMsg(WebElement element){
     boolean isMsgTitle = element.isDisplayed();
     if(isMsgTitle){

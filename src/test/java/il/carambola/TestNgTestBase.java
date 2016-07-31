@@ -16,6 +16,7 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import ru.stqa.selenium.factory.WebDriverFactory;
 import ru.stqa.selenium.factory.WebDriverFactoryMode;
+import ru.yandex.qatools.allure.annotations.Parameter;
 
 import java.util.concurrent.TimeUnit;
 
@@ -33,7 +34,7 @@ public class TestNgTestBase {
 
   @Parameters({"browser_name"})
   @BeforeTest(alwaysRun = true)
-  public void setuptestNg(@Optional("Firefox") String browser) throws Exception {
+  public void setuptestNg(@Optional("Firefox") @Parameter("Browser") String browser) throws Exception {
     baseUrl = PropertyLoader.loadProperty("site.url");
 
     WebDriverFactory.setMode(WebDriverFactoryMode.THREADLOCAL_SINGLETON);
@@ -76,7 +77,7 @@ public class TestNgTestBase {
       }
 
       // driver = WebDriverFactory.getDriver(capabilities);
-      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+      driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
       layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
     } catch (Exception e) {
       Log.info(e);

@@ -1,11 +1,7 @@
 package il.carambola;
 
-import org.apache.commons.mail.DefaultAuthenticator;
-import org.apache.commons.mail.Email;
 import org.apache.commons.mail.EmailException;
-import org.apache.commons.mail.SimpleEmail;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -14,7 +10,6 @@ import ru.yandex.qatools.allure.annotations.Features;
 
 import java.io.IOException;
 
-import static org.testng.AssertJUnit.assertFalse;
 import static org.testng.AssertJUnit.assertTrue;
 
 public class Layout120_Ads_Tests extends TestNgTestBase {
@@ -32,7 +27,7 @@ public class Layout120_Ads_Tests extends TestNgTestBase {
     //This test runs several times, every iteration with new url. Urls are stored in resources/urlList.data file
 // Test Case 1
     @Features("Ads tests")
-    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 60000)
+    @Test(groups = {"ADS", "positive"}, dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 60000)
     // IO Exception added after using File export for screenshot
     public void BasicFullLoad(String url) throws IOException, InterruptedException, EmailException {
 
