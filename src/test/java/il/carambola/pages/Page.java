@@ -7,6 +7,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.Color;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -35,7 +36,7 @@ public abstract class Page {
   public List<String> itemsTemp = new ArrayList<String>();
   public List<String> itemsSave = new ArrayList<String>();
 
-
+  @FindBy(id = Consts.BUNNER_STRUCTURE_ID) WebElement bannerStructure;
   /*
    * Constructor injecting the WebDriver interface
    *
@@ -133,12 +134,12 @@ public abstract class Page {
       if (LayerStatus) {
         Log.info("YEAH!- cbola SCRIPT was loaded successfuly inside the HTML");
       } else {
-        Log.info("SHAYSE- cbola SCRIPT WASNT LOADED...");
+        Log.error("SHAYSE- cbola SCRIPT WASNT LOADED...");
         //errors.add("Browser: " + browserName + " URL: " + (i + 1) + " ");
         isScriptValid = false;
       }
     } catch (Exception e) {
-      Log.info("SHAYSE- unexpected error: " + e.getMessage().substring(0, 100));
+      Log.error("SHAYSE- unexpected error: " + e.getMessage().substring(0, 100));
       isScriptValid = false;
     }
     return isScriptValid;
@@ -162,12 +163,12 @@ public abstract class Page {
       Log.info("V - cbola board displayed");
       System.out.println("YEAH!- cbola board was displayed");
     } else {
-      Log.info("X - cbola board WASNT displayed");
+      Log.error("X - cbola board WASNT displayed");
       //errors.add("\nBrowser: " + browserName + " URL: " + (i + 1) + " SHAYSE- cbola borad is NOT displayed");
       //testRunSuccessfull = false;
       isBoardValid = false;
       if (CbolaBoardStatus == null) {
-        Log.info("X - cbola board WASNT loaded");
+        Log.error("X - cbola board WASNT loaded");
         //testRunSuccessfull = false;  // NEED TO CONSIDER if it fails..
 
       }
@@ -182,7 +183,7 @@ public abstract class Page {
       System.out.println("YEAH!- we can see image element no "+ imageNo +":"); // the element will get printed in method "printImage"
 
     } else {
-      Log.info("X - Image "+ imageNo +" WASNT displayed");
+      Log.error("X - Image "+ imageNo +" WASNT displayed");
       System.out.println("SHAYSE- img element no "+ imageNo +" WASNT displayed");
       CbolaFirstImg = false;
     }
@@ -201,7 +202,7 @@ public abstract class Page {
      // File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
      // FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" + GeneralUtils.sdf.format(new Date()) + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
     } else {
-      Log.info("X - Item " + itemNo + " WASN'T displayed");
+      Log.error("X - Item " + itemNo + " WASN'T displayed");
      // File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
      // FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" + GeneralUtils.sdf.format(new Date()) + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
     }
@@ -223,13 +224,13 @@ public abstract class Page {
         FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "text_question_title_is_correct_" + GeneralUtils.sdf.format(new Date()) + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
         System.out.println("Screenshot taken");
       }else{
-        Log.info("X- Text of Question is NOT correct: "+ TextString);
+        Log.error("X- Text of Question is NOT correct: "+ TextString);
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "text_question_title_is_NOT_correct_" + GeneralUtils.sdf.format(new Date()) + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
         System.out.println("Screenshot taken");
       }
     } else {
-      Log.info("X - score title class WASN'T displayed");
+      Log.error("X - score title class WASN'T displayed");
       File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
       FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "text_question_title_WASNT_displayed_" + GeneralUtils.sdf.format(new Date()) + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
       System.out.println("Screenshot taken");
@@ -245,7 +246,7 @@ public abstract class Page {
     if (new String(Consts.TEXT_YOUR_SCORE).equals(ScoreUnit)) {
       Log.info("V - Text check- score unit match");
     } else {
-      Log.info("X - Text check- score unit DOESNT match");
+      Log.error("X - Text check- score unit DOESNT match");
       File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
       FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "NO_match_between_the_unit_score_texts" + GeneralUtils.sdf.format(new Date()) + ".png"));
     }
@@ -260,7 +261,7 @@ public abstract class Page {
       if (ShareFBb) {
         Log.info("V - FB share btn was displayed");
       } else {
-        Log.info("X - FB share btn WASNT displayed");
+        Log.error("X - FB share btn WASNT displayed");
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "FaceBook_btn_WANST_displayed" + GeneralUtils.sdf.format(new Date()) + ".png"));
       }
@@ -269,7 +270,7 @@ public abstract class Page {
       if (shareTwitterBtn) {
         Log.info("V - Twitter share btn was displayed");
       } else {
-        Log.info("X - Twitter share btn WASNT displayed");
+        Log.error("X - Twitter share btn WASNT displayed");
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "Twitter_btn_WANST_displayed" + GeneralUtils.sdf.format(new Date()) + ".png"));
       }
@@ -283,7 +284,7 @@ public abstract class Page {
       String title = unitTitle.getText();
       Log.info("V - Text check- Title was displayed: " + title);
     } else {
-      Log.info("X - Text check- Title WASNT displayed");
+      Log.error("X - Text check- Title WASNT displayed");
       File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
       FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "Title_WASNT_displayed" + GeneralUtils.sdf.format(new Date()) + ".png"));
     }
@@ -319,12 +320,33 @@ public abstract class Page {
       String scoreUnit = element.getText();
       Log.info("V- Ending Screen Msg title was displayed: " + scoreUnit);
     }else{
-      Log.info("X- Ending Screen Msg title WASNT displayed");
+      Log.error("X- Ending Screen Msg title WASNT displayed");
       isMsgTitle = false;
     }
     return isMsgTitle;
-
   }
+
+  @Step("Ad appearance")
+  public boolean isAdAppearance(Integer trigger, Integer waitTime) throws InterruptedException {
+      boolean isAppearance = false;
+      try {
+          WebElement bannerStructure = driver.findElement(By.id(Consts.BUNNER_STRUCTURE_ID + trigger));
+          Thread.sleep(waitTime);
+          if (bannerStructure != null && bannerStructure.isDisplayed()) {
+              System.out.println("YEAH! -AD Trigger "+ trigger +" was loaded and displayed on screen after waiting: " + waitTime + " seconds");
+              //return true;
+              isAppearance = true;
+          } else {
+            System.out.println("SHAYSE- AD " + trigger + " WASNT displayed on sec "+ GeneralUtils.sdf.format(new Date()) +", but its in the page");
+          }
+       } catch (Exception e) {
+        //bannerStructure = null;
+        System.out.println("SHAYSE - " + Consts.BUNNER_STRUCTURE_ID + trigger + " not found! either: \n(1) the page loads slowly \n(2) the ad was shown and deleted \n(3) no such appearance in GetAds. \n Error: " + e.getMessage().substring(0,80));
+       }
+      return isAppearance;
+    }
+
+
   // ----------------------------------------------------   Methods not in use   ------------------------------------------------------------------------------------
 
 

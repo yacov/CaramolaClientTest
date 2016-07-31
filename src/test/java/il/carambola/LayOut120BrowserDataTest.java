@@ -37,7 +37,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 60000)
     // IO Exception added after using File export for screenshot
     public void BasicFullLoad(String url) throws IOException {
-
+        LogLog4j.startTestCase("START TEST CASE");
         Log.info("time before loaing page");
         long maxPageRunTime = (30 + 10); // 30 for page load + 10 for the test
         //driver.manage().timeouts().pageLoadTimeout(maxPageRunTime, TimeUnit.SECONDS); // will work on the pages with synch loading, but this doesn't solve the problem on pages loading stuff in asynch, the tests will fail all the time if we set the pageLoadTimeOut.
@@ -46,7 +46,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         driver.manage().window().maximize();
         driver.get(url);
         // wait.until(ExpectedConditions.titleContains("Rushing")); // nice to have- dont start until element X is on page
-        Log.info("\n-----  From test: Test Case 1 with URL: " + url + "-----");
+        Log.info("\n-----  Test Case 1: ** UI test ** with URL: " + url + "-----");
 
         // step 1
         //** make sure the method is TRUE. if not- log a message
@@ -55,8 +55,8 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         //step 2
         layout_120_page.chekLayerisCorrect();
         //step 3
-        softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "Centerwrapper do not exist");
-        Log.info("From test: Assert is OK, centerwrapper exists");
+        softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "CenterWrapper do not exist");
+        Log.info("From test: Assert is OK, centerWrapper exists");
         //step 4
         //softAssert.assertTrue(layout_120_page.IsBoardExist(), "From test: Cbola board DOESNT exists");
         //step 4.2
@@ -71,7 +71,9 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         layout_120_page.checkDuplicateItems();
 
         layout_120_page.itemsTemp.clear();
-        System.out.println("## END OF TEST ##");
+
+        LogLog4j.endTestCase("test case ended");
+
     }
 
 
@@ -80,7 +82,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
 // Test Case 2
     public void HalfGame(String url) throws InterruptedException, IOException {
         driver.get(url);
-        Log.info("-----   Test Case 2 with URL: " + url + "-----");
+        Log.info("\n-----  Test Case 2: ** FUNCTIONALITY test ** with URL: " + url + "-----");
 
         // basic tests- is script, is layout, is wrapper
         assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
@@ -110,6 +112,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         //** need to clear items List at the end of the @Test otherwise it will save it for the next url and it will have a long list
         layout_120_page.itemsTemp.clear();
         System.out.println("## END OF TEST ##");
+        LogLog4j.endTestCase("test case ended");
         }
 
     /*@AfterClass(alwaysRun = true)
@@ -121,7 +124,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
     public void endingScreen(String url) throws InterruptedException, IOException {
         driver.get(url);
-        Log.info("-----   Test Case 3 with URL: " + url + "-----");
+        Log.info("\n-----  Test Case 3: ** CONTENT test ** with URL: " + url + "-----");
         // basic tests- is script, is layout, is wrapper
         assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
         layout_120_page.WaitUntilLayoutIsLoaded().chekLayerisCorrect();
@@ -160,6 +163,6 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         //Step 9: is item 10 displayed?
         assertTrue("X- text of item 10 WASNT displayed ending screen covers it",layout_120_page.isTextExists(10));
         System.out.println("## END OF TEST ##");
-
+        LogLog4j.endTestCase("test case ended");
     }
 }

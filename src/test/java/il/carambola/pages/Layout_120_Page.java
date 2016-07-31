@@ -192,12 +192,12 @@ public class Layout_120_Page extends Page {
             Log.info("V - cbola board displayed");
             System.out.println("YEAH!- cbola board was displayed");
         } else {
-            Log.info("X - cbola board WASNT displayed");
+            Log.error("X - cbola board WASNT displayed");
             //errors.add("\nBrowser: " + browserName + " URL: " + (i + 1) + " SHAYSE- cbola borad is NOT displayed");
             //testRunSuccessfull = false;
             isBoardValid = false;
             if (CbolaBoard == null) {
-                Log.info("X - cbola board WASNT loaded");
+                Log.error("X - cbola board WASNT loaded");
             }
         }
         return isBoardValid;
@@ -230,7 +230,7 @@ public class Layout_120_Page extends Page {
             // System.out.println("From Page class: YEAH!- we can see 1st image element:");
 
         } else {
-            Log.info("X - Image " + imgNo + " WASNT displayed");
+            Log.error("X - Image " + imgNo + " WASNT displayed");
             //  System.out.println("From Page class: SHAYSE - 1st img element WASNT displayed");
             isCbolaImg = false;
         }
@@ -276,7 +276,7 @@ public class Layout_120_Page extends Page {
             String nextGameName = endingScreenMsgName.getText();
             Log.info("V- Ending Screen Msg name exists. next game is: " + nextGameName);
         }else{
-            Log.info("X- Ending Screen Msg name DID NOT exist in page");
+            Log.error("X- Ending Screen Msg name DID NOT exist in page");
         }
         return isEndingScreenMsgName;
     }
@@ -286,7 +286,7 @@ public class Layout_120_Page extends Page {
             String startBtnText = endingScreenMsgBtn.getText();
             Log.info("V- Start button exists and it says: " + startBtnText);
         }else{
-            Log.info("X- Start button DOESNT exists");
+            Log.error("X- Start button DOESNT exists");
         }
         return isStartBtn;
     }
@@ -298,7 +298,7 @@ public class Layout_120_Page extends Page {
             Log.info("V- score title was displayed: " + scoreText);
             isScoreTitleCorrect(scoreText);
         }else{
-            Log.info("X- score title WASNT displayed");
+            Log.error("X- score title WASNT displayed");
         }
         return isScoreTitle;
     }
@@ -313,7 +313,7 @@ public class Layout_120_Page extends Page {
                     Log.info("V - score unit title is correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_1_2);
                 }else{
                     System.out.println("score unit title is NOT Correct");
-                    Log.info("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_1_2);
+                    Log.error("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_1_2);
                 }break;
 
             case 3:
@@ -323,7 +323,7 @@ public class Layout_120_Page extends Page {
                     Log.info("V - score unit title is correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_3_4);
                 }else{
                     System.out.println("score unit title is NOT Correct");
-                    Log.info("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_3_4);
+                    Log.error("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_3_4);
                 }break;
 
             case 5:
@@ -332,7 +332,7 @@ public class Layout_120_Page extends Page {
                     Log.info("V - score unit title is correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_5_6);
                 }else{
                     System.out.println("score unit title is NOT Correct");
-                    Log.info("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_5_6);
+                    Log.error("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_5_6);
                 }break;
 
             case 7:
@@ -341,7 +341,7 @@ public class Layout_120_Page extends Page {
                     Log.info("V - score unit title is correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_7_8);
                 }else{
                     System.out.println("score unit title is NOT Correct");
-                    Log.info("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_7_8);
+                    Log.error("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_7_8);
                 }break;
 
             case 9:
@@ -349,14 +349,14 @@ public class Layout_120_Page extends Page {
                     Log.info("V - score unit title is correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_9);
                 }else{
                     System.out.println("score unit title is NOT Correct");
-                    Log.info("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_9);
+                    Log.error("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_9);
                 }break;
             case 10:
                 if(Consts.SCORE_10.equals(unitTitle)){
                     Log.info("V - score unit title is correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_10);
                 }else{
                     System.out.println("score unit title is NOT Correct");
-                    Log.info("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_10);
+                    Log.error("X - score unit title is NOT correct. CABA scored: " + isScoreNumber + " and got this title: " + Consts.SCORE_10);
                 }break;
         }
 
@@ -368,7 +368,7 @@ public class Layout_120_Page extends Page {
             String shareTitle = endingScreenShareTitle.getText();
             Log.info("V- ending screen share title exists: " + shareTitle);
         }else{
-            Log.info("X- ending screen share title DOESNT exists");
+            Log.error("X- ending screen share title DOESNT exists");
         }
         return isEndingScreenShareTitle;
     }
@@ -378,7 +378,7 @@ public class Layout_120_Page extends Page {
             String shareTitle = endingScreenShareTitle2.getText();
             Log.info("V- ending screen share title 2 exists: " + shareTitle);
         }else{
-            Log.info("X- ending screen share title 2 DOESNT exists");
+            Log.error("X- ending screen share title 2 DOESNT exists");
         }
         return isEndingScreenShareTitle2;
     }

@@ -2,6 +2,7 @@ package il.carambola;
 
 import il.carambola.pages.Layout_120_Page;
 import il.carambola.util.PropertyLoader;
+import org.apache.commons.mail.EmailException;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
@@ -84,7 +85,8 @@ public class TestNgTestBase {
 
 
   @AfterTest(alwaysRun = true)
-  public void tearDown() {
+  public void tearDown() throws EmailException {
     this.driver.quit();
+    GeneralUtils.emailer("TEST FINISHED you moth@# fuc!@#%");
   }
 }

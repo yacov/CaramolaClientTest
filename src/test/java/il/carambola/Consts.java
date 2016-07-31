@@ -39,6 +39,7 @@ public class Consts {
     public static final String CENTER_WRAPPER_ID = "InContent-container-centerWrapper";
     public static final String TRUE_BTN_ID = "cbolaContent-leftButton0";
     public static final String FALSE_BTN_ID = "cbolaContent-rightButton0";
+    public static final String BUNNER_STRUCTURE_ID = "cbolaBannerStructure0_"; // ORIGINAL: cbolaBannerStructure0_1
 
 
     //texts
