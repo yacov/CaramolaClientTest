@@ -1810,3 +1810,318 @@ Command duration or timeout:
 2016-09-08 17:12:34 INFO  LogLog4j:52 - From test: Assert is OK, centerWrapper exists
 2016-09-08 17:12:35 INFO  LogLog4j:366 - x btn exists for trigger 4
 2016-09-08 17:12:36 INFO  LogLog4j:369 - x btn clicked for trigger4
+2016-09-11 14:17:57 INFO  LogLog4j:50 - 
+
+*** Starting FireFox Browser ***
+
+2016-09-11 14:17:58 INFO  LogLog4j:74 - time before loaing page
+2016-09-11 14:18:34 INFO  LogLog4j:82 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015-----
+2016-09-11 14:18:34 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 14:18:34 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 14:18:39 INFO  LogLog4j:90 - From test: Assert is OK, centerWrapper exists
+2016-09-11 14:18:41 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 14:18:42 INFO  LogLog4j:74 - time before loaing page
+2016-09-11 14:18:43 INFO  LogLog4j:82 - 
+-----  Test Case 2: ** ADS test ** with URL: http://qa1.carambo.la/inimage/TestPages/kava/layouts/layout_120.html-----
+2016-09-11 14:18:46 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 14:18:46 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 14:18:51 INFO  LogLog4j:90 - From test: Assert is OK, centerWrapper exists
+2016-09-11 14:20:13 INFO  LogLog4j:50 - 
+
+*** Starting FireFox Browser ***
+
+2016-09-11 14:20:14 INFO  LogLog4j:74 - time before loaing page
+2016-09-11 14:20:17 INFO  LogLog4j:82 - 
+-----  Test Case 2: ** ADS test ** with URL: http://qa1.carambo.la/inimage/TestPages/kava/layouts/layout_120.html-----
+2016-09-11 14:20:18 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 14:20:18 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 14:20:23 INFO  LogLog4j:90 - From test: Assert is OK, centerWrapper exists
+2016-09-11 14:20:25 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 14:21:34 INFO  LogLog4j:50 - 
+
+*** Starting FireFox Browser ***
+
+2016-09-11 14:21:35 INFO  LogLog4j:74 - time before loaing page
+2016-09-11 14:21:38 INFO  LogLog4j:82 - 
+-----  Test Case 2: ** ADS test ** with URL: http://qa1.carambo.la/inimage/TestPages/kava/layouts/layout_120.html-----
+2016-09-11 14:21:39 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 14:21:39 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 14:21:44 INFO  LogLog4j:90 - From test: Assert is OK, centerWrapper exists
+2016-09-11 14:21:45 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 15:49:12 INFO  LogLog4j:50 - 
+
+*** Starting FireFox Browser ***
+
+2016-09-11 15:49:12 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 15:49:16 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://qa1.carambo.la/inimage/TestPages/kava/layouts/layout_120.html-----
+2016-09-11 15:49:16 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 15:49:17 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 15:49:22 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 15:50:46 INFO  LogLog4j:50 - 
+
+*** Starting FireFox Browser ***
+
+2016-09-11 15:50:46 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 15:50:49 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://qa1.carambo.la/inimage/TestPages/kava/layouts/layout_120.html-----
+2016-09-11 15:50:51 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 15:50:51 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 15:50:56 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 15:50:56 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 15:54:49 INFO  LogLog4j:50 - 
+
+*** Starting FireFox Browser ***
+
+2016-09-11 15:54:49 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 15:54:53 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://qa1.carambo.la/inimage/TestPages/kava/layouts/layout_120.html-----
+2016-09-11 15:54:54 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 15:54:54 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 15:54:59 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 15:55:00 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 15:55:00 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 15:55:01 INFO  LogLog4j:103 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click
+2016-09-11 16:02:50 INFO  LogLog4j:50 - 
+
+*** Starting FireFox Browser ***
+
+2016-09-11 16:02:50 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:02:54 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://qa1.carambo.la/inimage/TestPages/kava/layouts/layout_120.html-----
+2016-09-11 16:02:56 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 16:02:56 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 16:03:01 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 16:03:01 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 16:03:01 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 16:03:03 INFO  LogLog4j:103 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click
+2016-09-11 16:03:03 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:03:03 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-09-11 16:03:09 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 16:03:09 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 16:03:14 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 16:03:15 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:03:15 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.viralnova.com/great-white-bites-camera/-----
+2016-09-11 16:03:25 ERROR LogLog4j:140 - SHAYSE- unexpected error: Unable to locate element: {"method":"id","selector":"InContentScript0"}
+Command duration or timeout:
+2016-09-11 16:03:25 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:03:26 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-09-11 16:03:33 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 16:03:33 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 16:03:38 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 16:03:38 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 16:03:38 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 16:03:40 INFO  LogLog4j:103 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click
+2016-09-11 16:03:40 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:03:40 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.gocomics.com/mike-lester-----
+2016-09-11 16:04:05 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 16:04:05 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 16:04:10 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 16:04:11 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:04:48 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://sportsfascination.com/2015/10/28/25-fascinating-facts-about-fantasy-football-week-7/-----
+2016-09-11 16:04:53 ERROR LogLog4j:140 - SHAYSE- unexpected error: Unable to locate element: {"method":"id","selector":"InContentScript0"}
+Command duration or timeout:
+2016-09-11 16:04:53 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:05:03 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.freemalaysiatoday.com/category/business/2015/06/28/apple-bets-on-radio-splash-in-streaming-bid/-----
+2016-09-11 16:05:04 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 16:05:04 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 16:05:09 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 16:05:09 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 16:05:09 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 16:05:11 INFO  LogLog4j:103 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click
+2016-09-11 16:05:11 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:06:11 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:06:11 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://quizly.co/can-you-guess-what-happens-next/-----
+2016-09-11 16:06:11 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://rumorfix.com/2016/08/lindsey-vonn-herpes-std-rumor-false/-----
+2016-09-11 16:06:21 ERROR LogLog4j:140 - SHAYSE- unexpected error: Unable to locate element: {"method":"id","selector":"InContentScript0"}
+Command duration or timeout:
+2016-09-11 16:06:21 ERROR LogLog4j:140 - SHAYSE- unexpected error: Unable to locate element: {"method":"id","selector":"InContentScript0"}
+Command duration or timeout:
+2016-09-11 16:06:21 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:06:22 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.favecrafts.com/Knit-Bags/Thrifty-Market-Bag-from-Lily-Sugar-n-Cream-----
+2016-09-11 16:06:27 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 16:06:27 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 16:06:32 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 16:06:33 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 16:14:55 INFO  LogLog4j:50 - 
+
+*** Starting FireFox Browser ***
+
+2016-09-11 16:14:56 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:15:10 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.freemalaysiatoday.com/category/business/2015/06/28/apple-bets-on-radio-splash-in-streaming-bid/-----
+2016-09-11 16:15:11 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 16:15:11 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 16:15:16 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 16:15:16 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 16:15:17 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 16:15:18 INFO  LogLog4j:103 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click
+2016-09-11 16:15:19 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:15:19 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://quizly.co/can-you-guess-what-happens-next/-----
+2016-09-11 16:15:22 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 16:15:22 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 16:15:27 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 16:15:27 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 16:15:36 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 16:15:43 INFO  LogLog4j:103 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click
+2016-09-11 16:15:43 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:15:56 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://rumorfix.com/2016/08/lindsey-vonn-herpes-std-rumor-false/-----
+2016-09-11 16:16:02 ERROR LogLog4j:140 - SHAYSE- unexpected error: Unable to locate element: {"method":"id","selector":"InContentScript0"}
+Command duration or timeout:
+2016-09-11 16:16:02 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:16:02 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.favecrafts.com/Knit-Bags/Thrifty-Market-Bag-from-Lily-Sugar-n-Cream-----
+2016-09-11 16:16:07 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 16:16:07 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 16:16:12 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 16:16:13 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 16:22:07 INFO  LogLog4j:50 - 
+
+*** Starting FireFox Browser ***
+
+2016-09-11 16:22:07 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:22:56 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.favecrafts.com/Knit-Bags/Thrifty-Market-Bag-from-Lily-Sugar-n-Cream-----
+2016-09-11 16:22:57 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 16:22:57 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 16:23:02 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 16:23:03 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 16:46:42 INFO  LogLog4j:50 - 
+
+*** Starting FireFox Browser ***
+
+2016-09-11 16:46:42 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:47:29 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.favecrafts.com/Knit-Bags/Thrifty-Market-Bag-from-Lily-Sugar-n-Cream-----
+2016-09-11 16:47:31 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 16:47:32 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 16:47:37 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 16:47:37 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 16:47:37 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 16:51:24 INFO  LogLog4j:50 - 
+
+*** Starting FireFox Browser ***
+
+2016-09-11 16:51:24 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:52:14 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.favecrafts.com/Knit-Bags/Thrifty-Market-Bag-from-Lily-Sugar-n-Cream-----
+2016-09-11 16:52:14 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 16:52:15 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 16:52:20 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 16:52:20 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 16:52:21 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 16:52:23 INFO  LogLog4j:103 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click
+2016-09-11 16:53:59 INFO  LogLog4j:50 - 
+
+*** Starting FireFox Browser ***
+
+2016-09-11 16:53:59 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:54:50 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.favecrafts.com/Knit-Bags/Thrifty-Market-Bag-from-Lily-Sugar-n-Cream-----
+2016-09-11 16:54:51 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 16:54:51 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 16:54:56 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 16:54:56 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 16:54:56 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 16:54:58 INFO  LogLog4j:103 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click
+2016-09-11 16:55:41 INFO  LogLog4j:50 - 
+
+*** Starting FireFox Browser ***
+
+2016-09-11 16:55:41 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:56:02 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-09-11 16:56:02 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 16:56:02 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 16:56:07 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 16:56:12 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:56:23 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.viralnova.com/great-white-bites-camera/-----
+2016-09-11 16:56:30 ERROR LogLog4j:140 - SHAYSE- unexpected error: Unable to locate element: {"method":"id","selector":"InContentScript0"}
+Command duration or timeout:
+2016-09-11 16:56:30 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:58:10 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 16:59:50 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 17:01:16 INFO  LogLog4j:50 - 
+
+*** Starting FireFox Browser ***
+
+2016-09-11 17:01:17 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 17:01:33 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-09-11 17:01:34 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 17:01:34 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 17:01:39 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 17:01:44 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 17:01:59 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.viralnova.com/great-white-bites-camera/-----
+2016-09-11 17:02:05 ERROR LogLog4j:140 - SHAYSE- unexpected error: Unable to locate element: {"method":"id","selector":"InContentScript0"}
+Command duration or timeout:
+2016-09-11 17:02:05 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 17:02:05 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.co-optimus.com/game/4169/playstation-4/7-days-to-die.html-----
+2016-09-11 17:02:14 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 17:02:14 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 17:02:19 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 17:02:19 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 17:02:19 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 17:02:21 INFO  LogLog4j:103 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click
+2016-09-11 17:02:21 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 17:02:30 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.gocomics.com/mike-lester-----
+2016-09-11 17:02:31 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 17:02:31 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 17:02:36 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 17:02:37 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 17:02:37 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 17:02:38 INFO  LogLog4j:103 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click
+2016-09-11 17:02:38 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 17:02:38 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://sportsfascination.com/2015/10/28/25-fascinating-facts-about-fantasy-football-week-7/-----
+2016-09-11 17:03:17 ERROR LogLog4j:140 - SHAYSE- unexpected error: Unable to locate element: {"method":"id","selector":"InContentScript0"}
+Command duration or timeout:
+2016-09-11 17:03:17 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 17:03:31 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.freemalaysiatoday.com/category/business/2015/06/28/apple-bets-on-radio-splash-in-streaming-bid/-----
+2016-09-11 17:03:32 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 17:03:32 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 17:03:37 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 17:03:38 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 17:03:38 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 17:03:40 INFO  LogLog4j:103 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click
+2016-09-11 17:03:40 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 17:04:22 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://quizly.co/can-you-guess-what-happens-next/-----
+2016-09-11 17:04:22 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 17:04:22 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 17:04:27 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 17:04:27 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 17:04:27 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 17:04:29 INFO  LogLog4j:103 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click
+2016-09-11 17:04:29 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 17:06:09 INFO  LogLog4j:75 - time before loaing page
+2016-09-11 17:06:09 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://rumorfix.com/2016/08/lindsey-vonn-herpes-std-rumor-false/-----
+2016-09-11 17:06:09 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** with URL: http://www.favecrafts.com/Knit-Bags/Thrifty-Market-Bag-from-Lily-Sugar-n-Cream-----
+2016-09-11 17:06:15 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 17:06:15 INFO  LogLog4j:133 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-09-11 17:06:15 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 17:06:15 INFO  LogLog4j:151 - Layer number is OK: 120
+2016-09-11 17:06:20 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 17:06:20 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-09-11 17:06:20 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-09-11 17:06:28 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-09-11 17:06:30 INFO  LogLog4j:103 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click

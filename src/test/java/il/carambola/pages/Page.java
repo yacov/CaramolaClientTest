@@ -342,18 +342,19 @@ public abstract class Page {
           WebElement bannerStructure = driver.findElement(By.id(Consts.BUNNER_STRUCTURE_ID + trigger));
           Thread.sleep(waitTime);
           if (bannerStructure != null && bannerStructure.isDisplayed()) {
-              System.out.println("YEAH! -AD Trigger "+ trigger +" was loaded and displayed on screen after waiting: " + waitTime + " seconds");
+              //System.out.println("YEAH! -AD Trigger "+ trigger +" was loaded and displayed on screen after waiting: " + waitTime + " seconds");
               //return true;
               isAppearance = true;
           } else {
-            System.out.println("SHAYSE- AD " + trigger + " WASNT displayed on sec "+ GeneralUtils.sdf.format(new Date()) +", but its in the page");
+            //System.out.println("SHAYSE- AD " + trigger + " WASNT displayed on sec "+ GeneralUtils.sdf.format(new Date()) +", but its in the page");
+            isAppearance = false;
           }
        } catch (Exception e) {
         //bannerStructure = null;
         System.out.println("SHAYSE - " + Consts.BUNNER_STRUCTURE_ID + trigger + " wasn't found! either: \n" +
-                "(1) the page loaded slowly and the test started too late\n" +
-                "(2) the ad was shown and deleted \n" +
-                "(3) no such appearance in GetAds. \n " +
+                "(1) Ad closed on Timer - the page loaded slowly and the test started too late\n" +
+                "(2) Ad closed on Viewability - the ad was shown and deleted cause the unit was above the fold\n" +
+                "(3) No such appearance in GetAds. \n " +
                 "Error: " + e.getMessage().substring(0,80));
        }
       return isAppearance;
@@ -440,7 +441,19 @@ public abstract class Page {
 
   public void clickElement(WebElement element) {
     // Log.info("clicking on element " + element + "");
-    element.click();
+    try{
+      element.click();
+    }catch(Exception e){
+      if(driver.getCurrentUrl().startsWith("http://www.favecrafts.com/")){
+        System.out.print(driver.getCurrentUrl());
+        System.out.print(driver.getCurrentUrl().startsWith("http://www.favecrafts.com/"));
+        WebElement popupWindowCloseBtn = driver.findElement(By.id("newsletterSignUpDivAnimeCloseLink"));
+        popupWindowCloseBtn.click();
+        System.out.print("pop up clicked");
+      }
+      element.click();
+    }
+
   }
 
   public void waitUntilIsLoadedCustomTime(WebElement element, int time) {
