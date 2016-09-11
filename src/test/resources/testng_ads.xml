@@ -16,11 +16,5 @@
     </classes>
   </test>
 
-  <test name="IE">
-    <parameter name="browser_name" value="IE"/>
-    <classes>
-      <class name="il.carambola.Layout120_Ads_Tests"/>
-    </classes>
-  </test>
 
 </suite>

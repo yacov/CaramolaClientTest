@@ -3,9 +3,7 @@ package il.carambola.pages;
 import il.carambola.Consts;
 import il.carambola.LogLog4j;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -78,18 +76,21 @@ public class Layout_120_Page extends Page {
         PageFactory.initElements(driver, this);
     }
 
+    @Step("Find text of item")
     public boolean isTextExists(Integer itemNo) throws IOException {
         // must declare the WebElement here so we can use the "itemNo" (its a dynamic class)
         WebElement Item = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS + itemNo));
         return findText(Item, itemNo);
     }
 
+    @Step("Find the word 'Question'")
     public boolean isScoreTitleExists() throws IOException {
         // must declare the WebElement here so we can use the "itemNo" (its a dynamic class)
         WebElement scoreTitle = driver.findElement(By.className(Consts.SCORE_TITLE_CLASS));
         return findScoreTitle(scoreTitle);
     }
 
+    @Step("Click True")
     public Layout_120_Page pressTrueButton(Integer noOfClicks) throws InterruptedException {
         Integer i = 0;
         while ( i < noOfClicks){
@@ -100,6 +101,7 @@ public class Layout_120_Page extends Page {
         }
         return this;
     }
+    @Step("Click False")
     public Layout_120_Page pressFalseButton(Integer noOfClicks) throws InterruptedException {
         Integer i = 0;
         while ( i < noOfClicks){
@@ -111,6 +113,7 @@ public class Layout_120_Page extends Page {
         return this;
     }
 
+    @Step("Click Btn and check its content")
     public Layout_120_Page pressButtonAndCheckContent(boolean tf, Integer noOfClicks) throws InterruptedException, IOException {
         //Integer i = 0; // made a global parameter at the top of the Class
         // check if url was changed. if it did, init sum of clicks to 0
@@ -165,7 +168,7 @@ public class Layout_120_Page extends Page {
 
 
     public Layout_120_Page WaitUntilLayoutIsLoaded() {
-        waitUntilIsLoadedCustomTime(CbolaBoard, 30);
+        waitUntilIsLoadedCustomTime(CbolaBoard, 160);
 
         return this;  // ?? why like this?
     }
@@ -179,10 +182,81 @@ public class Layout_120_Page extends Page {
         return exists(centerWrapper);
 
     }
-
-    public boolean isScriptValidHere() {
-//        waitUntilIsLoadedCustomTime(ContentScript, 30);
+    public boolean isScriptValidHere(){
         return IsScriptValid1(ContentScript);
+    }
+
+    public boolean isScriptValidHere2() {
+//        waitUntilIsLoadedCustomTime(ContentScript, 30);
+        boolean isScript = false;
+        if(IsScriptValid1(ContentScript)){
+            isScript = true;
+        }else{ //search iFrame- maybe we are inside one
+            // find all iframes in page
+            List<WebElement> iframes = driver.findElements(By.tagName("iframe"));
+            Integer maxFrames = iframes.size();
+            System.out.println(maxFrames);
+
+            for(WebElement iFrame : iframes) {
+                System.out.println("loop starts");
+                driver.switchTo().frame(iFrame);
+                System.out.println("switched to frame" + iFrame);
+
+                Dimension size = iFrame.getSize();
+                System.out.println("size of iFrame: " + size);
+
+                try {
+                    WebElement scriptTagTemp = driver.findElement(By.id(Consts.SCRIPT_ID));
+
+                    String b = scriptTagTemp.toString();
+                    System.out.println(b);
+
+                    isScript = true;
+                    continue;
+                } catch (Exception e) {
+                    System.out.println("Carambola WASN'T found in iFrame: " + iFrame);
+                }
+
+               driver.switchTo().parentFrame();
+
+
+            }
+            //WebElement iframeGoogle = driver.findElement(By.name("google_ads_iframe_/37886402/VN_PG_DBS6_BTF_0"));
+        /*    driver.switchTo().frame(driver.findElement(By.name("google_ads_iframe_/37886402/VN_PG_DBS6_BTF_0")));
+            //driver.switchTo().frame(iframeGoogle);
+            WebElement scriptTagTemp = driver.findElement(By.id(Consts.SCRIPT_ID));
+            String a = scriptTagTemp.toString();
+            System.out.println(a);
+            isScript = true;*/
+/*
+            System.out.println(maxFrames);
+            System.out.println(driver.getTitle());
+
+            System.out.println(driver.getTitle());
+
+            String currentFrameName = (String)((JavascriptExecutor) driver).executeScript("return window.frameElement.name");
+            System.out.println(currentFrameName); // ok until here
+            System.out.println(driver.getTitle());
+            driver.switchTo().frame(3);
+            System.out.println(driver.getTitle());
+*/
+
+
+            //case(a.getSize()){isScript=true;}
+
+
+//            Integer i = 0;
+//            while(i < maxFrames ){
+//                driver.switchTo().frame(i);
+//                System.out.println("Switched to frame no."+ i + " with URL: " + driver.getCurrentUrl());
+//                if(IsScriptValid1(ContentScript)){
+//                    isScript = true;
+//                    i = 4;
+//                }
+//            i++;
+//            }
+        }
+        return isScript;
     }
 
     @Step("Check if board exists")
@@ -230,7 +304,7 @@ public class Layout_120_Page extends Page {
             // System.out.println("From Page class: YEAH!- we can see 1st image element:");
 
         } else {
-            Log.error("X - Image " + imgNo + " WASNT displayed");
+            Log.error("X - Image " + imgNo + " WASN'T displayed");
             //  System.out.println("From Page class: SHAYSE - 1st img element WASNT displayed");
             isCbolaImg = false;
         }
@@ -245,7 +319,7 @@ public class Layout_120_Page extends Page {
         return srcOfImage;
     }
     // check Share btns. passes the specific layer's elements to Method in PAGE
-
+    @Step("Is share btns exists")
     public void isShareBtnExists(String firm) throws IOException {
         if(firm.equals("FB")){
             findShareBtn(firm, shareFB);
@@ -253,6 +327,7 @@ public class Layout_120_Page extends Page {
             findShareBtn(firm, shareTwitter);
         }
     }
+    @Step("Is share btns Ending Screen exists")
     public void isShareBtnEndingScreenExists(String firm) throws IOException {
         if(firm.equals("FB")){
             findShareBtn(firm, shareFBEndingScreen);
@@ -260,16 +335,21 @@ public class Layout_120_Page extends Page {
             findShareBtn(firm, shareTwitterEndingScreen);
         }
     }
+    @Step("Is the score unit match the Consts")
     public void isScoreUnitExists() throws IOException {
         isScoreUnit(scoreUnit);
     }
+    @Step("Find Unit Title")
     public void isUnitTitleExists()throws IOException{
         findUnitTitle(unitTitle);
     }
+    @Step("Find Ending Screen msg- title")
     public boolean isEndingScreenMsgTitleExists(){
         return findEndingScreenMsg(endingScreenMsgTitle);
     }
+
     // find the name of the next game (ONLY GOOD for Trivia layouts- 120, 140, 1400 and therefor the method will be in this class
+    @Step("Find Ending Screen msg- name of next game")
     public boolean findEndingScreenMsgName(){
         boolean isEndingScreenMsgName = endingScreenMsgName.isDisplayed();
         if(isEndingScreenMsgName){
@@ -280,17 +360,18 @@ public class Layout_120_Page extends Page {
         }
         return isEndingScreenMsgName;
     }
+    @Step("Find 'Start' btn")
     public boolean isStartNextGameBtnExists(){
         boolean isStartBtn = endingScreenMsgBtn.isDisplayed();
         if(isStartBtn){
             String startBtnText = endingScreenMsgBtn.getText();
             Log.info("V- Start button exists and it says: " + startBtnText);
         }else{
-            Log.error("X- Start button DOESNT exists");
+            Log.error("X- Start button DOESN'T exists");
         }
         return isStartBtn;
     }
-
+    @Step("You scored a...")
     public boolean isScoreUnitTitle(){
         boolean isScoreTitle = endingScreenScoreUnitText.isDisplayed();
         if(isScoreTitle){
@@ -361,7 +442,7 @@ public class Layout_120_Page extends Page {
         }
 
     }
-
+    @Step("Find ES text- CHALLENGE")
     public boolean isEndingScreenShareTitleExists(){
         boolean isEndingScreenShareTitle = endingScreenShareTitle.isDisplayed();
         if(isEndingScreenShareTitle){
@@ -372,6 +453,7 @@ public class Layout_120_Page extends Page {
         }
         return isEndingScreenShareTitle;
     }
+    @Step("Find ES text- YOUR FRIENDS")
     public boolean isEndingScreenShareTitle2Exists(){
         boolean isEndingScreenShareTitle2 = endingScreenShareTitle2.isDisplayed();
         if(isEndingScreenShareTitle2){
@@ -382,6 +464,7 @@ public class Layout_120_Page extends Page {
         }
         return isEndingScreenShareTitle2;
     }
+    @Step("Click START")
     public void pressStartBtn(){
         clickElement(startBtn);
     }

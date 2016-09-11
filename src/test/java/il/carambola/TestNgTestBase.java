@@ -77,7 +77,7 @@ public class TestNgTestBase {
       }
 
       // driver = WebDriverFactory.getDriver(capabilities);
-      driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+      driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
       layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
     } catch (Exception e) {
       Log.info(e);
@@ -88,6 +88,6 @@ public class TestNgTestBase {
   @AfterTest(alwaysRun = true)
   public void tearDown() throws EmailException {
     this.driver.quit();
-    GeneralUtils.emailer("TEST FINISHED you moth@# fuc!@#%");
+    //GeneralUtils.emailer("TEST FINISHED");
   }
 }

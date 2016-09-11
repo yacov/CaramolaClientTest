@@ -4,7 +4,7 @@ package il.carambola;
  * Created by Yair on 19/05/2016.
  */
 public class Consts {
-
+//** use FINAL if the string WONT change anywhere in the project when it is used. indicator that the variable is a constant.
     // General
     public static final String inputUrlsTxtFile = "C:\\Projects\\AutomatedRuns\\testing_120\\src\\automationFramework\\URLs4test_layout120.txt";
     public static final String outputLogFile = "C:\\Users\\Yair\\Documents\\yair\\QA\\TestAutomation\\Selenium\\output\\output_Logs_TC";
@@ -33,6 +33,10 @@ public class Consts {
     public static final String ENDING_SCREEN_SHARE_FB_CLASS = "cbola-fa cbola-fa-facebook cbolaContent-scoreShareIcon";
     public static final String ENDING_SCREEN_SHARE_TWITTER_CLASS = "cbola-fa cbola-fa-twitter cbolaContent-scoreShareIcon";
     public static final String ENDING_SCREEN_START_BTN_CLASS = "cbolaContent-finalGameMessageButton";
+    public static final String POWERED_BY_CLASS = "cbolaContent-poweredByTitleImage";
+    public static final String AD_CLOSE_BTN = "hideAdButton";
+    public static final String AD_CLOSE_BTN_XPATH = ".//*[@id='cbolaBannerTitle0_4']/div[1]";
+
 
     // HTML IDs
     public static final String SCRIPT_ID = "InContentScript0";

@@ -6,6 +6,7 @@ import il.carambola.LogLog4j;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -16,9 +17,7 @@ import ru.yandex.qatools.allure.annotations.Step;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 //import java.time.LocalDateTime; ---------- why cant use it?
 //import java.util.concurrent.ThreadLocalRandom;
@@ -153,8 +152,8 @@ public abstract class Page {
     //System.out.println(layerTypeAttribute);
   }
 
+  @Step("Find Board")
   // Step 4.1 - check if cbola board was displayed (the actual game)
-
   public boolean IsBoardExists(WebElement CbolaBoardStatus) {
     //WebElement CbolaBoardStatus = driver.findElement(By.className(Consts.BOARD_CLASS));
     boolean isBoardValid = true;
@@ -174,7 +173,18 @@ public abstract class Page {
     }
     return isBoardValid;
   }
+  public void sizeOfWrapper(){
+    // get size of wrapper
+    WebElement wrapper = driver.findElement(By.id(Consts.CENTER_WRAPPER_ID + 0));
+    Dimension dimWrapper = wrapper.getSize();
+    System.out.println("height is: "+ dimWrapper.getHeight() + ". width is: " + dimWrapper.getWidth());
 
+
+    // convert element to string
+    //String dimWrapperString = dimWrapper.toString();
+    //System.out.println("this is the dim element converted to string: " + dimWrapperString);
+  }
+  @Step("Find image")
   public boolean isImageExists(Integer imageNo , WebElement img){
     boolean CbolaFirstImg = img.isDisplayed();
     if(CbolaFirstImg) {
@@ -251,7 +261,6 @@ public abstract class Page {
     }
   }
 
-  @Step("Is share btns exists")
   // Find share btns
   public void findShareBtn(String firm, WebElement shareBtn)throws IOException{
     //select test fb or twitter
@@ -275,7 +284,7 @@ public abstract class Page {
       }
     }else{Log.info("!!! err !!! share btn name is not correct. please adjust argument");}
   }
-  @Step("Find Unit Title")
+
   public void findUnitTitle(WebElement unitTitle) throws IOException {
     // Step 5.4- verify items Title
     boolean isTitle = unitTitle.isDisplayed();
@@ -298,6 +307,7 @@ public abstract class Page {
      System.out.println(itemsSave.get(j));
    }
  }
+  @Step("check for duplicate items")
   public void checkDuplicateItems() throws IOException {
     for(Integer j = 0; j < itemsTemp.size(); j++){
       for(Integer k = j+1; k < itemsTemp.size(); k++){
@@ -313,20 +323,19 @@ public abstract class Page {
     }
   }
 
-  @Step("Find Ending Screen msg")
   public boolean findEndingScreenMsg(WebElement element){
     boolean isMsgTitle = element.isDisplayed();
     if(isMsgTitle){
       String scoreUnit = element.getText();
-      Log.info("V- Ending Screen Msg title was displayed: " + scoreUnit);
+      Log.info("V - Ending Screen Msg title was displayed: " + scoreUnit);
     }else{
-      Log.error("X- Ending Screen Msg title WASNT displayed");
+      Log.error("X - Ending Screen Msg title WASNT displayed");
       isMsgTitle = false;
     }
     return isMsgTitle;
   }
 
-  @Step("Ad appearance")
+  @Step("Find Ad appearance")
   public boolean isAdAppearance(Integer trigger, Integer waitTime) throws InterruptedException {
       boolean isAppearance = false;
       try {
@@ -341,10 +350,80 @@ public abstract class Page {
           }
        } catch (Exception e) {
         //bannerStructure = null;
-        System.out.println("SHAYSE - " + Consts.BUNNER_STRUCTURE_ID + trigger + " not found! either: \n(1) the page loads slowly \n(2) the ad was shown and deleted \n(3) no such appearance in GetAds. \n Error: " + e.getMessage().substring(0,80));
+        System.out.println("SHAYSE - " + Consts.BUNNER_STRUCTURE_ID + trigger + " wasn't found! either: \n" +
+                "(1) the page loaded slowly and the test started too late\n" +
+                "(2) the ad was shown and deleted \n" +
+                "(3) no such appearance in GetAds. \n " +
+                "Error: " + e.getMessage().substring(0,80));
        }
       return isAppearance;
     }
+   public boolean isAdCloseBtnExists(Integer trigger, Boolean click){
+     Boolean isXBtn = false;
+     WebElement xBtn = driver.findElement(By.xpath(Consts.AD_CLOSE_BTN_XPATH));
+     Integer triggerInPage = Integer.valueOf(xBtn.getAttribute("apperance"));
+     if(trigger.equals(triggerInPage)){
+       Log.info("x btn exists for trigger " + trigger);
+       if(click){
+         xBtn.click();
+         Log.info("x btn clicked for trigger" + trigger);
+         // check if banner got closed
+       }
+       isXBtn = true;
+     }else{Log.info("SHAYSE - input trigger is not correct. input is " + trigger + " but trigger in page is " + triggerInPage);}
+
+     return isXBtn;
+   }
+  public boolean isPoweredByExists(){
+    WebElement poweredBy = driver.findElement(By.className(Consts.POWERED_BY_CLASS + 0));
+    boolean isPoweredBy = poweredBy.isDisplayed();
+    if(isPoweredBy){
+      Log.info("V - Powered By Carambola btn was displayed");
+    }else{
+      Log.info("X - Powered By Carambola btn WASNT displayed");
+    }
+    return isPoweredBy;
+  }
+  public void closePopupWindow(String mwh, String mTitle){
+    String newWindow = null;
+    Set<String> handlers = driver.getWindowHandles();
+    //this method will gives you the handles of all opened windows
+    // the newer form of a FOR LOOP
+    for (String window : handlers) {
+      if (!window.equals(mwh)) {
+        newWindow = window;
+      }
+    }
+    // the focus is on the main page. need to switchTo new page and close it
+    driver.switchTo().window(newWindow);
+    String newTitle = driver.getTitle();
+    System.out.println(newTitle);
+    if(!newTitle.equals(mTitle)){
+      System.out.println("The focus now is on the NEW window");
+      if(newTitle.equals("Carambola")){
+        Log.info("V - The window that was opened by click is CORRECT. its title is: " + newTitle);
+      }else{
+        Log.info("X - The window that was opened by click is NOT CORRECT. its title is: " + newTitle);
+      }
+      driver.close();
+      driver.switchTo().window(mwh);
+    }
+
+    //** didnt worked for me...:
+    //Iterator ite = s.iterator();
+   /* while(ite.hasNext())
+    {
+      String popupHandle = ite.next().toString();
+      if(!popupHandle.contains(mwh))
+      {
+        //driver.switchTo().window(popupHandle);
+        //here you can perform operation in pop-up window**
+        //After finished your operation in pop-up just select the main window again
+        driver.switchTo().window(mwh);
+        driver.close();
+      }
+    }*/
+  }
 
 
   // ----------------------------------------------------   Methods not in use   ------------------------------------------------------------------------------------

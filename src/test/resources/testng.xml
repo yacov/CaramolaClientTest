@@ -4,18 +4,27 @@
 
   <test name="FirefoxTests">
     <parameter name="browser_name" value="Firefox"/>
+    <!-- <groups>
+          <run>
+              <include name="ADS"/>
+          </run>
+      </groups> -->
     <classes>
       <class name="il.carambola.LayOut120BrowserDataTest"/>
-        <class name="il.carambola.Layout120_Ads_Tests"/>
-
+      <class name="il.carambola.Layout120_Ads_Tests"/>
     </classes>
   </test>
 
   <test name="ChromeTests">
     <parameter name="browser_name" value="Chrome"/>
+     <!-- <groups>
+          <run>
+              <include name="ADS"/>
+          </run>
+      </groups> -->
     <classes>
       <class name="il.carambola.LayOut120BrowserDataTest"/>
-        <class name="il.carambola.Layout120_Ads_Tests"/>
+      <class name="il.carambola.Layout120_Ads_Tests"/>
     </classes>
   </test>
 

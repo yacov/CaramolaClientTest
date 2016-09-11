@@ -42,9 +42,9 @@ public class GeneralUtils {
        Email email = new SimpleEmail();
        email.setHostName("smtp.googlemail.com");
        email.setSmtpPort(465);
-       //email.setAuthenticator(new DefaultAuthenticator("",""));
+       email.setAuthenticator(new DefaultAuthenticator("",""));
        email.setSSLOnConnect(true);
-       //email.setFrom("");
+       email.setFrom("");
        email.setSubject("Kava's Emailer");
        email.setMsg(msg);
        email.addTo("yair@carambo.la");

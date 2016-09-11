@@ -1,8 +1,8 @@
 package il.carambola;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
+import org.openqa.selenium.remote.server.handler.SwitchToWindow;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
@@ -11,9 +11,7 @@ import org.testng.asserts.SoftAssert;
 import ru.yandex.qatools.allure.annotations.Features;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 import static org.testng.AssertJUnit.assertFalse;
@@ -34,11 +32,11 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     //This test runs several times, every iteration with new url. Urls are stored in resources/urlList.data file
 // Test Case 1
     @Features("Check if Layer's UI was fully loaded")
-    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 60000)
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 600000)
     // IO Exception added after using File export for screenshot
     public void BasicFullLoad(String url) throws IOException {
         LogLog4j.startTestCase("START TEST CASE");
-        Log.info("time before loaing page");
+        Log.info("tc1 time before loaing page");
         long maxPageRunTime = (30 + 10); // 30 for page load + 10 for the test
         //driver.manage().timeouts().pageLoadTimeout(maxPageRunTime, TimeUnit.SECONDS); // will work on the pages with synch loading, but this doesn't solve the problem on pages loading stuff in asynch, the tests will fail all the time if we set the pageLoadTimeOut.
         WebDriverWait wait = new WebDriverWait(driver, 10);
@@ -57,6 +55,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         //step 3
         softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "CenterWrapper do not exist");
         Log.info("From test: Assert is OK, centerWrapper exists");
+        //layout_120_page.sizeOfWrapper();
         //step 4
         //softAssert.assertTrue(layout_120_page.IsBoardExist(), "From test: Cbola board DOESNT exists");
         //step 4.2
@@ -69,7 +68,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         layout_120_page.isScoreUnitExists();
         layout_120_page.isUnitTitleExists();
         layout_120_page.checkDuplicateItems();
-
+        layout_120_page.isPoweredByExists();
         layout_120_page.itemsTemp.clear();
 
         LogLog4j.endTestCase("test case ended");
@@ -138,7 +137,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         // Step 2: click until game finishes
         layout_120_page.pressFalseButton(10);
         //layout_120_page.pressTrueButton(7);
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         // Step 3: Ending screen Message Structure- "next quiz"
         assertTrue("cant find ending screen msg title",layout_120_page.isEndingScreenMsgTitleExists()); // the assert will fail the test if needed
         //Step 3.1: name of next game
@@ -147,9 +146,9 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         assertTrue("cant find ending screen \'Start\' Button",layout_120_page.isStartNextGameBtnExists());
         //Step 4: score unit structure - "you scored a__ " if it passes go to next method and check if the title is correct
         assertTrue("cant find ending screen score unit title",layout_120_page.isScoreUnitTitle());
-        //Step 4.2:
+        //Step 4.2: challange
         assertTrue("cant find ending screen share title",layout_120_page.isEndingScreenShareTitleExists());
-        //Step 4.3:
+        //Step 4.3: your friends
         assertTrue("cant find ending screen share title 2",layout_120_page.isEndingScreenShareTitle2Exists());
         //Step 5: share btns
         layout_120_page.isShareBtnEndingScreenExists("FB");
@@ -164,5 +163,51 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         assertTrue("X- text of item 10 WASNT displayed ending screen covers it",layout_120_page.isTextExists(10));
         System.out.println("## END OF TEST ##");
         LogLog4j.endTestCase("test case ended");
+    }
+    @Features("Click on Powered by Icon and open new window")
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
+    public void clickPoweredByIcon(String url) throws InterruptedException {
+        driver.manage().window().maximize();
+        driver.get(url);
+        Log.info("\n-----  Test Case 4: ** FUNCTIONALITY test ** with URL: " + url + "-----");
+
+        String mwh = driver.getWindowHandle();
+        System.out.println("Main window handler: " + mwh);
+        String mainTtile = driver.getTitle();
+        System.out.println("Main window TITLE: " + mainTtile);
+
+        // need to scroll to avoid bug that cant find the button
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("document.getElementById('InContent-container-centerWrapper0').scrollIntoView(true);");
+        jse.executeScript("window.scrollBy(0,-150)");
+        System.out.println("JS scroll executed");
+        layout_120_page.pressTrueButton(1); // close the 300*250 Ad that blocks the "powered by" icon
+        Thread.sleep(2000); // wait for ad to close
+        // click icon
+        WebElement poweredBy = driver.findElement(By.className(Consts.POWERED_BY_CLASS + 0));
+        poweredBy.click();
+        System.out.println("waiting 4 sec for new window to open...");
+        Thread.sleep(4000);
+        //** send the Main Window's Handler and title
+        layout_120_page.closePopupWindow(mwh, mainTtile);
+
+    }
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", enabled = false)
+
+    public void testSeleniumCommands(String url) throws InterruptedException {
+
+        driver.manage().window().maximize();
+        driver.get(url);
+
+        // need to scroll to avoid bug that cant find the button
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("document.getElementById('InContent-container-centerWrapper0').scrollIntoView(true);");
+        jse.executeScript("window.scrollBy(0,-150)");
+        System.out.println("JS scroll executed");
+        layout_120_page.pressTrueButton(1);
+        Thread.sleep(2000);
+
+
+
     }
 }
