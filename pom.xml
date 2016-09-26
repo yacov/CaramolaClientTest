@@ -88,7 +88,7 @@
         <groupId>ru.yandex.qatools.allure</groupId>
         <artifactId>allure-maven-plugin</artifactId>
         <configuration>
-          <reportDirectory>allure-report</reportDirectory>
+          <reportDirectory>target/allure-report</reportDirectory>
         </configuration>
       </plugin>
       <plugin>
@@ -106,7 +106,15 @@
               <name>listener</name>
               <value>ru.yandex.qatools.allure.testng.AllureTestListener</value>
             </property>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
           </properties>
+          <forkMode>always</forkMode>
+          <systemPropertyVariables>
+            <reporter.debug>false</reporter.debug>
+          </systemPropertyVariables>
+          <suiteXmlFiles>
+            <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+          </suiteXmlFiles>
         </configuration>
         <dependencies>
           <dependency>

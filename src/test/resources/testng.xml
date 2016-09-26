@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="TestAllClasses" verbose="0">
+<suite name="TestAllClasses" verbose="5">
 
   <test name="FirefoxTests">
     <parameter name="browser_name" value="Firefox"/>
@@ -11,7 +11,6 @@
       </groups> -->
     <classes>
       <class name="il.carambola.LayOut120BrowserDataTest"/>
-      <class name="il.carambola.Layout120_Ads_Tests"/>
     </classes>
   </test>
 
@@ -24,7 +23,6 @@
       </groups> -->
     <classes>
       <class name="il.carambola.LayOut120BrowserDataTest"/>
-      <class name="il.carambola.Layout120_Ads_Tests"/>
     </classes>
   </test>
 
