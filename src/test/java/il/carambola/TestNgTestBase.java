@@ -21,6 +21,8 @@ import ru.stqa.selenium.factory.WebDriverFactory;
 import ru.stqa.selenium.factory.WebDriverFactoryMode;
 import ru.yandex.qatools.allure.annotations.Parameter;
 
+import java.net.InetAddress;
+import java.rmi.UnknownHostException;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -96,8 +98,13 @@ public class TestNgTestBase {
   }
 
   @AfterTest(alwaysRun = true)
-  public void tearDown() throws EmailException {
+  public void tearDown() throws EmailException, java.net.UnknownHostException {
     this.driver.quit();
-    GeneralUtils.emailer(" Holly Shmoly! a HUGE mother FU@#$ing Automated TEST was just FINISHED !!");
+    String hostname = "Unknown";
+
+    InetAddress addr;
+    addr = InetAddress.getLocalHost();
+    hostname = addr.getHostName();
+    GeneralUtils.emailer(" Holly Shmoly! a HUGE mother FU@#$ing Automated TEST was just FINISHED !! on hostname: " + hostname);
   }
 }
