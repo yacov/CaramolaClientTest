@@ -42,13 +42,14 @@ public class GeneralUtils {
        Email email = new SimpleEmail();
        email.setHostName("smtp.googlemail.com");
        email.setSmtpPort(465);
-       email.setAuthenticator(new DefaultAuthenticator("",""));
+       email.setAuthenticator(new DefaultAuthenticator("admin@carambo.la","CbolaADM13"));
        email.setSSLOnConnect(true);
-       email.setFrom("");
-       email.setSubject("Kava's Emailer");
+       email.setFrom("yair@carambo.la");
+       email.setSubject("Kava's tests Emailer");
        email.setMsg(msg);
+       //email.sendMimeMessage();  // makes ERROR in Tear Down (@after class)
        email.addTo("yair@carambo.la");
-       //email.addTo("liran@carambo.la");
+       //email.addTo("yuval@carambo.la");
 
 
 

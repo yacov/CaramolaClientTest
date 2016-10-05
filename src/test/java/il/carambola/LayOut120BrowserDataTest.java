@@ -26,15 +26,15 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     @BeforeMethod
     public void initPageObjects() {
         //layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
-
     }
 
     //This test runs several times, every iteration with new url. Urls are stored in resources/urlList.data file
 // Test Case 1
     @Features("Check if Layer's UI was fully loaded")
-    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 600000)
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 60000)
     // IO Exception added after using File export for screenshot
     public void BasicFullLoad(String url) throws IOException {
+
         LogLog4j.startTestCase("START TEST CASE");
         Log.info("tc1 time before loaing page");
         long maxPageRunTime = (30 + 10); // 30 for page load + 10 for the test
@@ -45,10 +45,10 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         driver.get(url);
         // wait.until(ExpectedConditions.titleContains("Rushing")); // nice to have- dont start until element X is on page
         Log.info("\n-----  Test Case 1: ** UI test ** with URL: " + url + "-----");
-
+        driver.findElement(By.tagName("body")).sendKeys("Keys.ESCAPE");
         // step 1
         //** make sure the method is TRUE. if not- log a message
-        assertTrue("From test: Script is not valid on url " + url, layout_120_page.isScriptValidHere());
+        assertTrue("From test: Script is not valid on url " + url, layout_120_page.isScriptValidHere2());
         //    layout_120_page.WaitUntilLayoutIsLoaded();
         //step 2
         layout_120_page.chekLayerisCorrect();
@@ -67,7 +67,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         layout_120_page.isShareBtnExists("Twitter");
         layout_120_page.isScoreUnitExists();
         layout_120_page.isUnitTitleExists();
-        layout_120_page.checkDuplicateItems();
+        //layout_120_page.checkDuplicateItems();  // why was it here? it doesnt seem to work here cause there are no clicks
         layout_120_page.isPoweredByExists();
         layout_120_page.itemsTemp.clear();
 
@@ -77,22 +77,22 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
 
 
     @Features("Click buttons and check items")
-    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 60000)
 // Test Case 2
     public void HalfGame(String url) throws InterruptedException, IOException {
+        System.out.println("from test: getting url.." + GeneralUtils.date);
+        //driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
+
         driver.get(url);
         Log.info("\n-----  Test Case 2: ** FUNCTIONALITY test ** with URL: " + url + "-----");
-
+        //driver.findElement(By.tagName("body")).sendKeys("Keys.ESCAPE");
         // basic tests- is script, is layout, is wrapper
-        assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
+        assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere2());
         layout_120_page.WaitUntilLayoutIsLoaded().chekLayerisCorrect();
         softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "Centerwrapper do not exist");
         // scroll to unit
-        JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("document.getElementById('InContent-container-centerWrapper0').scrollIntoView(true);");
-        jse.executeScript("window.scrollBy(0,-150)");
-        System.out.println("JS scroll executed");
         //jse.executeScript("window.scrollBy(0,-100)"); // (-X) will scroll up
+        layout_120_page.scrollUnit();
 
         //layout_120_page.pressTrueButton(1);
         //layout_120_page.pressFalseButton(2);
@@ -104,7 +104,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         layout_120_page.pressButtonAndCheckContent(true, 3);
 
         // need to improve.. need to add the number of items I want to print (depends on how many clicks I made above)
-        layout_120_page.printItemsList(6);
+        layout_120_page.printItemsList(4); // 5 clicks ==> 6 items
 
         layout_120_page.checkDuplicateItems();
 
@@ -120,18 +120,20 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     }*/
 
     @Features("Check ending screen and next game's 1st item")
-    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 80000)
     public void endingScreen(String url) throws InterruptedException, IOException {
         driver.get(url);
         Log.info("\n-----  Test Case 3: ** CONTENT test ** with URL: " + url + "-----");
+        driver.findElement(By.tagName("body")).sendKeys("Keys.ESCAPE");
         // basic tests- is script, is layout, is wrapper
-        assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere());
+        assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere2());
         layout_120_page.WaitUntilLayoutIsLoaded().chekLayerisCorrect();
         softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "Centerwrapper do not exist");
         //scroll to unit
-        JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("document.getElementById('InContent-container-centerWrapper0').scrollIntoView(true);");
-        jse.executeScript("window.scrollBy(0,-150)");
+       // JavascriptExecutor jse = (JavascriptExecutor) driver;
+       // jse.executeScript("document.getElementById('InContent-container-centerWrapper0').scrollIntoView(true);");
+       // jse.executeScript("window.scrollBy(0,-150)");
+        layout_120_page.scrollUnit();
         System.out.println("JS scroll executed");
         // start test:
         // Step 2: click until game finishes
@@ -158,18 +160,31 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         //Step 7: is item 10 displayed? mustNOT because Ending screen covers it
         assertFalse("X- text of item 10 WAS displayed ending screen covers it",layout_120_page.isTextExists(10));
         //Step 8: click START (new game)
-        layout_120_page.pressStartBtn();
+        if(layout_120_page.isAdAppearance(1,0)) {
+            Log.info("Can't click. trigger 1 blocks the way. Need to wait for it to close...waiting 8 sec...");
+            Thread.sleep(8000);
+            layout_120_page.pressStartBtn();
+            Thread.sleep(1000);
+        }else{
+            layout_120_page.pressStartBtn();
+            Thread.sleep(1000);
+        }
         //Step 9: is item 10 displayed?
         assertTrue("X- text of item 10 WASNT displayed ending screen covers it",layout_120_page.isTextExists(10));
         System.out.println("## END OF TEST ##");
         LogLog4j.endTestCase("test case ended");
     }
     @Features("Click on Powered by Icon and open new window")
-    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls")
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 60000)
     public void clickPoweredByIcon(String url) throws InterruptedException {
         driver.manage().window().maximize();
         driver.get(url);
         Log.info("\n-----  Test Case 4: ** FUNCTIONALITY test ** with URL: " + url + "-----");
+        driver.findElement(By.tagName("body")).sendKeys("Keys.ESCAPE");
+        // basic tests- is script, is layout, is wrapper
+        assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere2());
+        layout_120_page.WaitUntilLayoutIsLoaded().chekLayerisCorrect();
+        softAssert.assertTrue(layout_120_page.CheckThatCenterWrapperExists(), "Centerwrapper do not exist");
 
         String mwh = driver.getWindowHandle();
         System.out.println("Main window handler: " + mwh);
@@ -177,14 +192,12 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         System.out.println("Main window TITLE: " + mainTtile);
 
         // need to scroll to avoid bug that cant find the button
-        JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("document.getElementById('InContent-container-centerWrapper0').scrollIntoView(true);");
-        jse.executeScript("window.scrollBy(0,-150)");
-        System.out.println("JS scroll executed");
+        layout_120_page.scrollUnit();
+
         layout_120_page.pressTrueButton(1); // close the 300*250 Ad that blocks the "powered by" icon
         Thread.sleep(2000); // wait for ad to close
         // click icon
-        WebElement poweredBy = driver.findElement(By.className(Consts.POWERED_BY_CLASS + 0));
+        WebElement poweredBy = driver.findElement(By.xpath(Consts.POWERED_BY_XPATH));
         poweredBy.click();
         System.out.println("waiting 4 sec for new window to open...");
         Thread.sleep(4000);
@@ -200,10 +213,8 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         driver.get(url);
 
         // need to scroll to avoid bug that cant find the button
-        JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("document.getElementById('InContent-container-centerWrapper0').scrollIntoView(true);");
-        jse.executeScript("window.scrollBy(0,-150)");
-        System.out.println("JS scroll executed");
+        layout_120_page.scrollUnit();
+
         layout_120_page.pressTrueButton(1);
         Thread.sleep(2000);
 

@@ -26,11 +26,10 @@ public class DataProviders {
         in.close();
         return userData.iterator();
     }
-
+    // ----------------    CARAMBOLA -------------------
     @DataProvider
     public static Iterator<Object[]> Urls() throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(
-                DataProviders.class.getResourceAsStream("/urlList.data")));
+        BufferedReader in = new BufferedReader(new InputStreamReader(DataProviders.class.getResourceAsStream("/urlList.data")));
 
         List<Object[]> userData = new ArrayList<Object[]>(); //the Tilde <~> is just a shorthand for "same as in declaration"
         String line = in.readLine();
@@ -42,7 +41,35 @@ public class DataProviders {
         return userData.iterator();
 
     }
+    @DataProvider
+    public static Iterator<Object[]> Urls1() throws IOException {
+        BufferedReader in = new BufferedReader(new InputStreamReader(DataProviders.class.getResourceAsStream("/urlList.data")));
 
+        List<Object[]> userData = new ArrayList<Object[]>(); //the Tilde <~> is just a shorthand for "same as in declaration"
+        String line = in.readLine().concat("?clientpath=1");
+        while (line != null) {
+            userData.add(line.split(";"));
+            line = in.readLine();
+        }
+        in.close();
+        return userData.iterator();
+
+    }
+    @DataProvider
+    public static Iterator<Object[]> Urls12() throws IOException {
+        BufferedReader in = new BufferedReader(new InputStreamReader(DataProviders.class.getResourceAsStream("/urlList.data")));
+
+        List<Object[]> userData = new ArrayList<Object[]>(); //the Tilde <~> is just a shorthand for "same as in declaration"
+        String line = in.readLine().concat("?clientpath=12");
+        while (line != null) {
+            userData.add(line.split(";"));
+            line = in.readLine();
+        }
+        in.close();
+        return userData.iterator();
+
+    }
+    // ----------------    CARAMBOLA end  -------------------
     @DataProvider
     public static Iterator<Object[]> UrlsAndBrowsers() throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(

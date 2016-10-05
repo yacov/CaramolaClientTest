@@ -26,4 +26,16 @@
     </classes>
   </test>
 
+  <test name="HeadlessTests">
+    <parameter name="browser_name" value="Headless"/>
+    <!-- <groups>
+         <run>
+             <include name="ADS"/>
+         </run>
+     </groups> -->
+    <classes>
+      <class name="il.carambola.LayOut120BrowserDataTest"/>
+      <class name="il.carambola.Layout120_Ads_Tests"/>
+    </classes>
+  </test>
 </suite>

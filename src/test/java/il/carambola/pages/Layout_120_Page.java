@@ -53,6 +53,8 @@ public class Layout_120_Page extends Page {
     WebElement scoreUnit;
     @FindBy(className = Consts.TITLE_CLASS)
     WebElement unitTitle;
+    @FindBy(xpath = Consts.TITLE_XPATH)
+    WebElement unitTitleX;
     @FindBy(className = Consts.ENDING_SCREEN_MSG_TITLE_CLASS)
     WebElement endingScreenMsgTitle;
     @FindBy(className = Consts.ENDING_SCREEN_MSG_NAME_CLASS)
@@ -153,7 +155,6 @@ public class Layout_120_Page extends Page {
                 sumOfClicks++;
             }
         }
-
         return this;
     }
 
@@ -195,15 +196,15 @@ public class Layout_120_Page extends Page {
             // find all iframes in page
             List<WebElement> iframes = driver.findElements(By.tagName("iframe"));
             Integer maxFrames = iframes.size();
+
             System.out.println(maxFrames);
+            System.out.println();
 
-            for(WebElement iFrame : iframes) {
-                System.out.println("loop starts");
-                driver.switchTo().frame(iFrame);
-                System.out.println("switched to frame" + iFrame);
-
-                Dimension size = iFrame.getSize();
-                System.out.println("size of iFrame: " + size);
+            for(int i = 0; i < maxFrames -1 ; i++) {
+                //   String frameId = iframes.get(i).getAttribute("id");
+                // System.out.println(frameId);
+                System.out.println("switched to frame" + i);
+                driver.switchTo().frame(i);
 
                 try {
                     WebElement scriptTagTemp = driver.findElement(By.id(Consts.SCRIPT_ID));
@@ -212,49 +213,18 @@ public class Layout_120_Page extends Page {
                     System.out.println(b);
 
                     isScript = true;
-                    continue;
+                    System.out.println(" YES - Carambola WAS found in iFrame: " + i);
+
+                    //   break;
                 } catch (Exception e) {
-                    System.out.println("Carambola WASN'T found in iFrame: " + iFrame);
+                    System.out.println("Carambola WASN'T found in iFrame: " + i);
                 }
-
-               driver.switchTo().parentFrame();
-
+                if (isScript) {
+                    //continue; not good
+                    i = maxFrames - 1;
+                }else{driver.switchTo().defaultContent();}
 
             }
-            //WebElement iframeGoogle = driver.findElement(By.name("google_ads_iframe_/37886402/VN_PG_DBS6_BTF_0"));
-        /*    driver.switchTo().frame(driver.findElement(By.name("google_ads_iframe_/37886402/VN_PG_DBS6_BTF_0")));
-            //driver.switchTo().frame(iframeGoogle);
-            WebElement scriptTagTemp = driver.findElement(By.id(Consts.SCRIPT_ID));
-            String a = scriptTagTemp.toString();
-            System.out.println(a);
-            isScript = true;*/
-/*
-            System.out.println(maxFrames);
-            System.out.println(driver.getTitle());
-
-            System.out.println(driver.getTitle());
-
-            String currentFrameName = (String)((JavascriptExecutor) driver).executeScript("return window.frameElement.name");
-            System.out.println(currentFrameName); // ok until here
-            System.out.println(driver.getTitle());
-            driver.switchTo().frame(3);
-            System.out.println(driver.getTitle());
-*/
-
-
-            //case(a.getSize()){isScript=true;}
-
-
-//            Integer i = 0;
-//            while(i < maxFrames ){
-//                driver.switchTo().frame(i);
-//                System.out.println("Switched to frame no."+ i + " with URL: " + driver.getCurrentUrl());
-//                if(IsScriptValid1(ContentScript)){
-//                    isScript = true;
-//                    i = 4;
-//                }
-//            i++;
-//            }
         }
         return isScript;
     }
@@ -299,7 +269,6 @@ public class Layout_120_Page extends Page {
         if(isCbolaImg) {
             // (same as print img method)
           //  String srcOfImage = imgElement.getAttribute("src");
-
             Log.info("V - Image " + imgNo + " was displayed: " + printImage(imgNo));
             // System.out.println("From Page class: YEAH!- we can see 1st image element:");
 
@@ -341,7 +310,7 @@ public class Layout_120_Page extends Page {
     }
     @Step("Find Unit Title")
     public void isUnitTitleExists()throws IOException{
-        findUnitTitle(unitTitle);
+        findUnitTitle(unitTitleX); // trying the Xpath. if it works, possible to delete findBy class
     }
     @Step("Find Ending Screen msg- title")
     public boolean isEndingScreenMsgTitleExists(){

@@ -13,7 +13,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import ru.yandex.qatools.allure.annotations.Severity;
 import ru.yandex.qatools.allure.annotations.Step;
+import ru.yandex.qatools.allure.model.SeverityLevel;
 
 import java.io.File;
 import java.io.IOException;
@@ -124,6 +126,7 @@ public abstract class Page {
 
   }
 
+  @Severity(SeverityLevel.TRIVIAL)
   public boolean IsScriptValid1(WebElement script) {
 
     boolean isScriptValid = true;
@@ -152,6 +155,7 @@ public abstract class Page {
     //System.out.println(layerTypeAttribute);
   }
 
+  @Severity(SeverityLevel.CRITICAL)
   @Step("Find Board")
   // Step 4.1 - check if cbola board was displayed (the actual game)
   public boolean IsBoardExists(WebElement CbolaBoardStatus) {
@@ -211,7 +215,8 @@ public abstract class Page {
      // File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
      // FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" + GeneralUtils.sdf.format(new Date()) + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
     } else {
-      Log.error("X - Item " + itemNo + " WASN'T displayed");
+      Log.info("X - Item " + itemNo + " WASN'T displayed");
+      scrollUnit();
      // File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
      // FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot" + GeneralUtils.sdf.format(new Date()) + ".png")); //+ browserName +"_url_"+ i +"_1st text WASNT displayed.png"));
     }
@@ -298,15 +303,15 @@ public abstract class Page {
     }
 
   }
- public void printItemsList(Integer max) {
-
-   //print items List
-
-   System.out.println("\n  List of items:");
-   for (Integer j = 0; j < max; j++) {
-     System.out.println(itemsSave.get(j));
+  @Severity(SeverityLevel.TRIVIAL)
+   public void printItemsList(Integer max) {
+     //print items List
+     System.out.println("\n  List of items:");
+     for (Integer j = 0; j < max; j++) {
+       System.out.println(itemsSave.get(j));
+     }
    }
- }
+  @Severity(SeverityLevel.MINOR)
   @Step("check for duplicate items")
   public void checkDuplicateItems() throws IOException {
     for(Integer j = 0; j < itemsTemp.size(); j++){
@@ -336,17 +341,17 @@ public abstract class Page {
   }
 
   @Step("Find Ad appearance")
-  public boolean isAdAppearance(Integer trigger, Integer waitTime) throws InterruptedException {
+  public boolean isAdAppearance(Integer trigger, Integer waitTime_ms) throws InterruptedException {
       boolean isAppearance = false;
       try {
           WebElement bannerStructure = driver.findElement(By.id(Consts.BUNNER_STRUCTURE_ID + trigger));
-          Thread.sleep(waitTime);
+          Thread.sleep(waitTime_ms * 1000);
           if (bannerStructure != null && bannerStructure.isDisplayed()) {
-              //System.out.println("YEAH! -AD Trigger "+ trigger +" was loaded and displayed on screen after waiting: " + waitTime + " seconds");
+              Log.info("AD Trigger "+ trigger +" was loaded and displayed on screen after waiting: " + waitTime_ms + " seconds");
               //return true;
               isAppearance = true;
           } else {
-            //System.out.println("SHAYSE- AD " + trigger + " WASNT displayed on sec "+ GeneralUtils.sdf.format(new Date()) +", but its in the page");
+           Log.info("AD Trigger " + trigger + " is in the page, BUT WASN'T displayed on sec " + GeneralUtils.sdf.format(new Date()));
             isAppearance = false;
           }
        } catch (Exception e) {
@@ -356,7 +361,8 @@ public abstract class Page {
                 "(2) Ad closed on Viewability - the ad was shown and deleted cause the unit was above the fold\n" +
                 "(3) No such appearance in GetAds. \n " +
                 "Error: " + e.getMessage().substring(0,80));
-       }
+        Log.info("Banner structure: " + Consts.BUNNER_STRUCTURE_ID + trigger + " was NOT found in page");
+      }
       return isAppearance;
     }
    public boolean isAdCloseBtnExists(Integer trigger, Boolean click){
@@ -367,7 +373,7 @@ public abstract class Page {
        Log.info("x btn exists for trigger " + trigger);
        if(click){
          xBtn.click();
-         Log.info("x btn clicked for trigger" + trigger);
+         Log.info("x btn clicked for trigger " + trigger);
          // check if banner got closed
        }
        isXBtn = true;
@@ -376,7 +382,8 @@ public abstract class Page {
      return isXBtn;
    }
   public boolean isPoweredByExists(){
-    WebElement poweredBy = driver.findElement(By.className(Consts.POWERED_BY_CLASS + 0));
+    //WebElement poweredBy = driver.findElement(By.className(Consts.POWERED_BY_CLASS + 0));
+    WebElement poweredBy = driver.findElement(By.xpath(Consts.POWERED_BY_XPATH));
     boolean isPoweredBy = poweredBy.isDisplayed();
     if(isPoweredBy){
       Log.info("V - Powered By Carambola btn was displayed");
@@ -385,7 +392,7 @@ public abstract class Page {
     }
     return isPoweredBy;
   }
-  public void closePopupWindow(String mwh, String mTitle){
+  public void closePopupWindow(String mwh, String mTitle) {
     String newWindow = null;
     Set<String> handlers = driver.getWindowHandles();
     //this method will gives you the handles of all opened windows
@@ -399,16 +406,27 @@ public abstract class Page {
     driver.switchTo().window(newWindow);
     String newTitle = driver.getTitle();
     System.out.println(newTitle);
-    if(!newTitle.equals(mTitle)){
+    if (!newTitle.equals(mTitle)) {
       System.out.println("The focus now is on the NEW window");
-      if(newTitle.equals("Carambola")){
+      if (newTitle.equals("Carambola")) {
         Log.info("V - The window that was opened by click is CORRECT. its title is: " + newTitle);
-      }else{
+      } else {
         Log.info("X - The window that was opened by click is NOT CORRECT. its title is: " + newTitle);
       }
       driver.close();
       driver.switchTo().window(mwh);
     }
+  }
+  public void scrollUnit(){
+    Integer screenHeight = driver.manage().window().getSize().getHeight();
+    System.out.println(screenHeight);
+
+    Integer scroll = (screenHeight - 200) / 2 ;
+    System.out.println(scroll);
+    JavascriptExecutor jse = (JavascriptExecutor) driver;
+    jse.executeScript("document.getElementById('InContent-container-centerWrapper0').scrollIntoView(true);");
+    jse.executeScript("window.scrollBy(0,-" + scroll + ")");
+  }
 
     //** didnt worked for me...:
     //Iterator ite = s.iterator();
@@ -424,7 +442,7 @@ public abstract class Page {
         driver.close();
       }
     }*/
-  }
+
 
 
   // ----------------------------------------------------   Methods not in use   ------------------------------------------------------------------------------------
@@ -443,17 +461,26 @@ public abstract class Page {
     // Log.info("clicking on element " + element + "");
     try{
       element.click();
-    }catch(Exception e){
-      if(driver.getCurrentUrl().startsWith("http://www.favecrafts.com/")){
-        System.out.print(driver.getCurrentUrl());
-        System.out.print(driver.getCurrentUrl().startsWith("http://www.favecrafts.com/"));
-        WebElement popupWindowCloseBtn = driver.findElement(By.id("newsletterSignUpDivAnimeCloseLink"));
+    }catch(Exception e) {
+      if (driver.getCurrentUrl().startsWith("http://www.favecrafts.com/")) {
+        WebElement popupWindowCloseBtn = driver.findElement(By.id("newsletterSignUpDivAnimeCloseLink")); // OR: .//*[@id='newsletterSignUpDivAnimeCloseLink']/a
         popupWindowCloseBtn.click();
         System.out.print("pop up clicked");
+      } else if (driver.getCurrentUrl().startsWith("http://www.todby.com")) {
+        WebElement popupWindowCloseBtn = driver.findElement(By.xpath(".//*[@id='newsletterSignUpDivAnimeCloseLink']/a"));
+        popupWindowCloseBtn.click();
+        System.out.print("pop up clicked");
+      } else if (driver.getCurrentUrl().startsWith("http://www.mrfood.com")) {
+        WebElement popupWindowCloseBtn = driver.findElement(By.xpath(".//*[@id='newsletterSignUpDivAnimeCloseLink']/a"));
+        popupWindowCloseBtn.click();
+        System.out.print("pop up clicked");
+      } else if (driver.getCurrentUrl().startsWith("http://www.allfreeknitting.com")) {
+        WebElement popupWindowCloseBtn = driver.findElement(By.xpath(".//*[@id='newsletterSignUpDivAnimeCloseLink']/a"));
+        popupWindowCloseBtn.click();
+        System.out.print("pop up clicked");
+        element.click();
       }
-      element.click();
     }
-
   }
 
   public void waitUntilIsLoadedCustomTime(WebElement element, int time) {

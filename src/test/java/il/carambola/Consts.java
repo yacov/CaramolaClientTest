@@ -22,6 +22,7 @@ public class Consts {
     public static final String SCORE_TITLE_CLASS = "cbolaContent-scoreTitle";
     public static final String SCORE_UNIT_CLASS = "cbolaContent-scoreUnit";
     public static final String TITLE_CLASS = "cbolaContent-itemsTitle0";
+    public static final String TITLE_XPATH = ".//*[@id='InContent-container-centerWrapper0']/div/div/div[1]/div[2]/div[1]/div";//"html/body/center/div/div/div[1]/div[1]/div[6]";
     public static final String ENDING_SCREEN_MSG_TITLE_CLASS = "cbolaContent-finalGameMessageTitle";
     public static final String ENDING_SCREEN_MSG_NAME_CLASS = "cbolaContent-finalGameMessageName";
     public static final String ENDING_SCREEN_MSG_BTN_CLASS = "cbolaContent-finalGameMessageButton";
@@ -34,6 +35,7 @@ public class Consts {
     public static final String ENDING_SCREEN_SHARE_TWITTER_CLASS = "cbola-fa cbola-fa-twitter cbolaContent-scoreShareIcon";
     public static final String ENDING_SCREEN_START_BTN_CLASS = "cbolaContent-finalGameMessageButton";
     public static final String POWERED_BY_CLASS = "cbolaContent-poweredByTitleImage";
+    public static final String POWERED_BY_XPATH = ".//*[@id='InContent-container-centerWrapper0']/div/div/div[1]/div[2]/div[1]/div"; //"html/body/center/div/div/div[1]/div[2]/div[1]";
     public static final String AD_CLOSE_BTN = "hideAdButton";
     public static final String AD_CLOSE_BTN_XPATH = ".//*[@id='cbolaBannerTitle0_4']/div[1]";
 
