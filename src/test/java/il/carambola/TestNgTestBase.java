@@ -13,10 +13,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 import ru.stqa.selenium.factory.WebDriverFactory;
 import ru.stqa.selenium.factory.WebDriverFactoryMode;
 import ru.yandex.qatools.allure.annotations.Parameter;
@@ -24,6 +22,7 @@ import ru.yandex.qatools.allure.annotations.Parameter;
 import java.net.InetAddress;
 import java.rmi.UnknownHostException;
 import java.util.concurrent.TimeUnit;
+import java.util.Date;
 
 /**
  * Base class for TestNG-based test classes
@@ -37,11 +36,16 @@ public class TestNgTestBase {
 
   public WebDriver driver;
   public HtmlUnitDriver unitDriver;
+  public String startTime = GeneralUtils.sdf.format(new Date());
+  public Long startTimeMls = System.currentTimeMillis();
+  public Integer counterSuccess = 0;
+  public Integer counterFails = 0;
 
   @Parameters({"browser_name"})
-  @BeforeTest(alwaysRun = true)
+  @BeforeClass(alwaysRun = true)
   public void setuptestNg(@Optional("Chrome") @Parameter("Browser") String browser) throws Exception {
     baseUrl = PropertyLoader.loadProperty("site.url");
+
 
     WebDriverFactory.setMode(WebDriverFactoryMode.THREADLOCAL_SINGLETON);
     //Check if parameter passed from TestNG is 'firefox'
@@ -97,14 +101,57 @@ public class TestNgTestBase {
     }
   }
 
-  @AfterTest(alwaysRun = true)
-  public void tearDown() throws EmailException, java.net.UnknownHostException {
-    this.driver.quit();
-    String hostname = "Unknown";
+  @AfterMethod
+  public void afterMethod(ITestResult result)
+  {
+    try
+    {
+      if(result.getStatus() == ITestResult.SUCCESS)
+      {
+        counterSuccess++;
+        //Do something here
+        System.out.println("passed **********");
+      }
 
+      else if(result.getStatus() == ITestResult.FAILURE)
+      {
+        counterFails++;
+        //Do something here
+        System.out.println("Failed ***********");
+
+      }
+
+      else if(result.getStatus() == ITestResult.SKIP ){
+
+        System.out.println("Skiped***********");
+
+      }
+    }
+    catch(Exception e)
+    {
+      e.printStackTrace();
+    }
+
+  }
+  // tearDown after test
+  @AfterClass(alwaysRun = true)
+  public void tearDown() throws EmailException, java.net.UnknownHostException {
+    String endTime = GeneralUtils.sdf.format(new Date());
+    this.driver.quit();
+
+    String hostname = "Unknown";
     InetAddress addr;
     addr = InetAddress.getLocalHost();
     hostname = addr.getHostName();
-    GeneralUtils.emailer(" Holly Shmoly! a HUGE mother FU@#$ing Automated TEST was just FINISHED !! on hostname: " + hostname);
+
+    Long testTimeSec = (System.currentTimeMillis() - startTimeMls) / 1000;
+    //GeneralUtils.emailer(" Holly Shmoly! a HUGE mother FU@#$ing Automated TEST was just FINISHED !! on hostname: " + hostname);
+    GeneralUtils.emailer("Holly Shmoly! a mother FU@#$ing Automated TEST was just FINISHED !!" +
+            "\nStarted at:  "+ startTime +"" +
+            "\nFinished at: "+ endTime +"" +
+            "\nOn Hostname: "+ hostname +"" +
+            "\nTotal time:  " + testTimeSec +"" +
+            "\nTotal success: "+ counterSuccess + "" +
+            "\nTotal Failures: " + counterFails);
   }
 }

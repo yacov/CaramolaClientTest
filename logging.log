@@ -7150,3 +7150,817 @@ Command duration or timeout:
 2016-10-05 14:49:15 INFO  LogLog4j:40 - X
 2016-10-05 14:49:15 INFO  LogLog4j:42 - X
 2016-10-05 14:49:15 INFO  LogLog4j:44 - X
+2016-10-05 16:07:28 INFO  LogLog4j:65 - 
+
+*** Starting Chrome Browser ***
+
+2016-10-05 16:07:29 INFO  LogLog4j:42 - from test: before get.url
+2016-10-05 16:08:06 INFO  LogLog4j:50 - 
+-----  Test Case 1: ** ADS test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-05 16:08:07 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-05 16:08:07 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-05 16:08:12 INFO  LogLog4j:58 - From test: Assert is OK, centerWrapper exists
+2016-10-05 16:08:23 INFO  LogLog4j:350 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-10-05 16:08:27 INFO  LogLog4j:350 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
+2016-10-05 16:08:27 INFO  LogLog4j:373 - x btn exists for trigger 4
+2016-10-05 16:08:28 INFO  LogLog4j:376 - x btn clicked for trigger 4
+2016-10-05 16:13:41 INFO  LogLog4j:55 - 
+
+*** Starting FireFox Browser ***
+
+2016-10-05 16:13:42 INFO  LogLog4j:20 - ****************************************************************************************
+2016-10-05 16:13:42 INFO  LogLog4j:22 - ****************************************************************************************
+2016-10-05 16:13:42 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-10-05 16:13:42 INFO  LogLog4j:26 - ****************************************************************************************
+2016-10-05 16:13:42 INFO  LogLog4j:28 - ****************************************************************************************
+2016-10-05 16:13:42 INFO  LogLog4j:39 - tc1 time before loaing page
+2016-10-05 16:14:12 INFO  LogLog4j:47 - 
+-----  Test Case 1: ** UI test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-05 16:14:14 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-05 16:14:15 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-05 16:14:20 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
+2016-10-05 16:14:20 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/3523_1_5.jpg
+2016-10-05 16:14:20 INFO  LogLog4j:211 - V - Item 0 was displayed: Marilyn Monroe: "A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left"
+2016-10-05 16:14:20 INFO  LogLog4j:233 - V - Score Title Class was displayed
+2016-10-05 16:14:20 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
+2016-10-05 16:14:24 INFO  LogLog4j:275 - V - FB share btn was displayed
+2016-10-05 16:14:24 INFO  LogLog4j:284 - V - Twitter share btn was displayed
+2016-10-05 16:14:24 INFO  LogLog4j:261 - V - Text check- score unit match
+2016-10-05 16:14:24 INFO  LogLog4j:298 - V - Text check- Title was displayed: 
+2016-10-05 16:14:24 INFO  LogLog4j:389 - V - Powered By Carambola btn was displayed
+2016-10-05 16:14:24 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-05 16:14:24 INFO  LogLog4j:38 - X
+2016-10-05 16:14:24 INFO  LogLog4j:40 - X
+2016-10-05 16:14:24 INFO  LogLog4j:42 - X
+2016-10-05 16:14:24 INFO  LogLog4j:44 - X
+2016-10-05 16:15:25 INFO  LogLog4j:182 - 
+-----  Test Case 4: ** FUNCTIONALITY test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-05 16:15:25 INFO  LogLog4j:87 - 
+-----  Test Case 2: ** FUNCTIONALITY test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-05 16:15:30 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-05 16:15:33 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-05 16:15:33 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-05 16:15:33 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-05 16:15:41 INFO  LogLog4j:145 - Item 0 is: 
+2016-10-05 16:15:42 INFO  LogLog4j:100 - V- click number: 1 on element 'TrueButton'
+2016-10-05 16:15:42 INFO  LogLog4j:211 - V - Item 0 was displayed: Marilyn Monroe: "A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left"
+2016-10-05 16:15:43 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/3523_1_5.jpg
+2016-10-05 16:15:44 INFO  LogLog4j:153 - V- click number: 1 on element 'FalseButton'
+2016-10-05 16:15:52 INFO  LogLog4j:412 - V - The window that was opened by click is CORRECT. its title is: Carambola
+2016-10-05 16:15:52 INFO  LogLog4j:126 - 
+-----  Test Case 3: ** CONTENT test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-05 16:16:00 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-05 16:16:00 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-05 16:16:09 INFO  LogLog4j:111 - V- click number: 1 on element 'FalseButton'
+2016-10-05 16:16:12 INFO  LogLog4j:111 - V- click number: 2 on element 'FalseButton'
+2016-10-05 16:16:14 INFO  LogLog4j:111 - V- click number: 3 on element 'FalseButton'
+2016-10-05 16:16:16 INFO  LogLog4j:111 - V- click number: 4 on element 'FalseButton'
+2016-10-05 16:16:18 INFO  LogLog4j:111 - V- click number: 5 on element 'FalseButton'
+2016-10-05 16:16:20 INFO  LogLog4j:111 - V- click number: 6 on element 'FalseButton'
+2016-10-05 16:16:22 INFO  LogLog4j:111 - V- click number: 7 on element 'FalseButton'
+2016-10-05 16:16:24 INFO  LogLog4j:111 - V- click number: 8 on element 'FalseButton'
+2016-10-05 16:16:26 INFO  LogLog4j:111 - V- click number: 9 on element 'FalseButton'
+2016-10-05 16:16:27 INFO  LogLog4j:111 - V- click number: 10 on element 'FalseButton'
+2016-10-05 16:16:32 INFO  LogLog4j:335 - V - Ending Screen Msg title was displayed: Next quiz
+2016-10-05 16:16:32 INFO  LogLog4j:326 - V- Ending Screen Msg name exists. next game is: Literature Love
+2016-10-05 16:16:32 INFO  LogLog4j:337 - V- Start button exists and it says: START
+2016-10-05 16:16:32 INFO  LogLog4j:348 - V- score title was displayed: You Scored a Lame
+2016-10-05 16:16:33 INFO  LogLog4j:373 - V - score unit title is correct. CABA scored: 4 and got this title: You Scored a Lame
+2016-10-05 16:16:33 INFO  LogLog4j:419 - V- ending screen share title exists: CHALLENGE
+2016-10-05 16:16:33 INFO  LogLog4j:430 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-10-05 16:16:33 INFO  LogLog4j:275 - V - FB share btn was displayed
+2016-10-05 16:16:33 INFO  LogLog4j:284 - V - Twitter share btn was displayed
+2016-10-05 16:16:33 INFO  LogLog4j:272 - V - Image 10 was displayed: http://media.carambo.la/Images/15619_1_5.jpg
+2016-10-05 16:16:33 INFO  LogLog4j:218 - X - Item 10 WASN'T displayed
+2016-10-05 16:16:39 INFO  LogLog4j:364 - Banner structure: cbolaBannerStructure0_1 was NOT found in page
+2016-10-05 16:16:40 INFO  LogLog4j:211 - V - Item 10 was displayed: Antony and Cleopatra fell in love at first sight but their powerful love ended tragically
+2016-10-05 16:16:40 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-05 16:16:40 INFO  LogLog4j:38 - X
+2016-10-05 16:16:40 INFO  LogLog4j:40 - X
+2016-10-05 16:16:40 INFO  LogLog4j:42 - X
+2016-10-05 16:16:40 INFO  LogLog4j:44 - X
+2016-10-05 16:16:45 INFO  LogLog4j:65 - 
+
+*** Starting Chrome Browser ***
+
+2016-10-05 16:16:45 INFO  LogLog4j:20 - ****************************************************************************************
+2016-10-05 16:16:45 INFO  LogLog4j:22 - ****************************************************************************************
+2016-10-05 16:16:45 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-10-05 16:16:45 INFO  LogLog4j:26 - ****************************************************************************************
+2016-10-05 16:16:45 INFO  LogLog4j:28 - ****************************************************************************************
+2016-10-05 16:16:45 INFO  LogLog4j:39 - tc1 time before loaing page
+2016-10-05 16:17:20 INFO  LogLog4j:47 - 
+-----  Test Case 1: ** UI test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-05 16:17:20 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-05 16:17:20 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-05 16:17:46 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
+2016-10-05 16:18:16 INFO  LogLog4j:87 - 
+-----  Test Case 2: ** FUNCTIONALITY test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-05 16:18:16 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-05 16:18:16 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/3523_1_5.jpg
+2016-10-05 16:18:17 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-05 16:18:17 INFO  LogLog4j:211 - V - Item 0 was displayed: Marilyn Monroe: "A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left"
+2016-10-05 16:18:22 INFO  LogLog4j:233 - V - Score Title Class was displayed
+2016-10-05 16:18:22 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
+2016-10-05 16:18:32 INFO  LogLog4j:145 - Item 0 is: 
+2016-10-05 16:18:32 INFO  LogLog4j:211 - V - Item 0 was displayed: Marilyn Monroe: "A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left"
+2016-10-05 16:18:32 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/3523_1_5.jpg
+2016-10-05 16:18:32 INFO  LogLog4j:153 - V- click number: 1 on element 'FalseButton'
+2016-10-05 16:18:34 INFO  LogLog4j:145 - Item 1 is: 
+2016-10-05 16:18:34 INFO  LogLog4j:211 - V - Item 1 was displayed: Elvis Presley: "All of the sudden, in a big crowd of women, you spot your one true love and that's it"
+2016-10-05 16:18:35 INFO  LogLog4j:272 - V - Image 1 was displayed: http://media.carambo.la/Images/12823_1_5.jpg
+2016-10-05 16:18:35 INFO  LogLog4j:153 - V- click number: 2 on element 'FalseButton'
+2016-10-05 16:18:37 INFO  LogLog4j:131 - Item 2 is: 
+2016-10-05 16:18:37 INFO  LogLog4j:211 - V - Item 2 was displayed: Madonna: "To be brave is to love unconditionally without expecting anything in return"
+2016-10-05 16:18:37 INFO  LogLog4j:272 - V - Image 2 was displayed: http://media.carambo.la/Images/636_1_5.jpg
+2016-10-05 16:18:37 INFO  LogLog4j:139 - V- click number: 3 on element 'TrueButton'
+2016-10-05 16:18:39 INFO  LogLog4j:131 - Item 3 is: 
+2016-10-05 16:18:39 INFO  LogLog4j:211 - V - Item 3 was displayed: John Lennon: "It doesn't matter what shape or form it comes in, love transcends space and time"
+2016-10-05 16:18:40 INFO  LogLog4j:272 - V - Image 3 was displayed: http://media.carambo.la/Images/1821_1_5.jpg
+2016-10-05 16:18:40 INFO  LogLog4j:139 - V- click number: 4 on element 'TrueButton'
+2016-10-05 16:18:41 INFO  LogLog4j:131 - Item 4 is: 
+2016-10-05 16:18:42 INFO  LogLog4j:211 - V - Item 4 was displayed: Kanye West: "The bigger the booty, the more love I have in my heart. Love the booty and it will grow"
+2016-10-05 16:18:42 INFO  LogLog4j:272 - V - Image 4 was displayed: http://media.carambo.la/Images/2004_1_5.jpg
+2016-10-05 16:18:42 INFO  LogLog4j:139 - V- click number: 5 on element 'TrueButton'
+2016-10-05 16:18:44 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-05 16:18:44 INFO  LogLog4j:38 - X
+2016-10-05 16:18:44 INFO  LogLog4j:40 - X
+2016-10-05 16:18:44 INFO  LogLog4j:42 - X
+2016-10-05 16:18:44 INFO  LogLog4j:44 - X
+2016-10-05 16:19:14 INFO  LogLog4j:182 - 
+-----  Test Case 4: ** FUNCTIONALITY test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-05 16:19:15 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-05 16:19:15 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-05 16:19:20 INFO  LogLog4j:100 - V- click number: 1 on element 'TrueButton'
+2016-10-05 16:19:30 INFO  LogLog4j:412 - V - The window that was opened by click is CORRECT. its title is: Carambola
+2016-10-05 16:19:38 INFO  LogLog4j:126 - 
+-----  Test Case 3: ** CONTENT test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-05 16:19:38 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-05 16:19:38 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-05 16:19:47 INFO  LogLog4j:111 - V- click number: 1 on element 'FalseButton'
+2016-10-05 16:19:51 INFO  LogLog4j:111 - V- click number: 2 on element 'FalseButton'
+2016-10-05 16:19:53 INFO  LogLog4j:111 - V- click number: 3 on element 'FalseButton'
+2016-10-05 16:19:54 INFO  LogLog4j:111 - V- click number: 4 on element 'FalseButton'
+2016-10-05 16:19:56 INFO  LogLog4j:111 - V- click number: 5 on element 'FalseButton'
+2016-10-05 16:19:58 INFO  LogLog4j:111 - V- click number: 6 on element 'FalseButton'
+2016-10-05 16:20:00 INFO  LogLog4j:111 - V- click number: 7 on element 'FalseButton'
+2016-10-05 16:20:01 INFO  LogLog4j:111 - V- click number: 8 on element 'FalseButton'
+2016-10-05 16:20:03 INFO  LogLog4j:111 - V- click number: 9 on element 'FalseButton'
+2016-10-05 16:20:04 INFO  LogLog4j:111 - V- click number: 10 on element 'FalseButton'
+2016-10-05 16:20:09 INFO  LogLog4j:335 - V - Ending Screen Msg title was displayed: Next quiz
+2016-10-05 16:20:09 INFO  LogLog4j:326 - V- Ending Screen Msg name exists. next game is: Power of Love
+2016-10-05 16:20:09 INFO  LogLog4j:337 - V- Start button exists and it says: START
+2016-10-05 16:20:09 INFO  LogLog4j:348 - V- score title was displayed: You Scored a Lame
+2016-10-05 16:20:10 INFO  LogLog4j:373 - V - score unit title is correct. CABA scored: 4 and got this title: You Scored a Lame
+2016-10-05 16:20:10 INFO  LogLog4j:419 - V- ending screen share title exists: CHALLENGE
+2016-10-05 16:20:10 INFO  LogLog4j:430 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-10-05 16:20:10 INFO  LogLog4j:275 - V - FB share btn was displayed
+2016-10-05 16:20:10 INFO  LogLog4j:284 - V - Twitter share btn was displayed
+2016-10-05 16:20:10 INFO  LogLog4j:272 - V - Image 10 was displayed: http://media.carambo.la/Images/8652_1_5.jpg
+2016-10-05 16:20:10 INFO  LogLog4j:218 - X - Item 10 WASN'T displayed
+2016-10-05 16:20:15 INFO  LogLog4j:364 - Banner structure: cbolaBannerStructure0_1 was NOT found in page
+2016-10-05 16:20:16 INFO  LogLog4j:211 - V - Item 10 was displayed: A study showed that even looking at a picture of a loved one relieves physical pain
+2016-10-05 16:20:16 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-05 16:20:16 INFO  LogLog4j:38 - X
+2016-10-05 16:20:16 INFO  LogLog4j:40 - X
+2016-10-05 16:20:16 INFO  LogLog4j:42 - X
+2016-10-05 16:20:16 INFO  LogLog4j:44 - X
+2016-10-05 16:20:21 INFO  LogLog4j:20 - ****************************************************************************************
+2016-10-05 16:20:21 INFO  LogLog4j:22 - ****************************************************************************************
+2016-10-05 16:20:21 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-10-05 16:20:21 INFO  LogLog4j:26 - ****************************************************************************************
+2016-10-05 16:20:21 INFO  LogLog4j:28 - ****************************************************************************************
+2016-10-05 16:20:21 INFO  LogLog4j:39 - tc1 time before loaing page
+2016-10-05 16:20:21 INFO  LogLog4j:112 - time before loading page
+2016-10-05 16:20:21 INFO  LogLog4j:76 - time before loaing page
+2016-10-05 16:20:21 INFO  LogLog4j:42 - from test: before get.url
+2016-10-05 16:21:04 INFO  LogLog4j:55 - 
+
+*** Starting FireFox Browser ***
+
+2016-10-05 16:21:04 INFO  LogLog4j:112 - time before loading page
+2016-10-05 16:21:18 INFO  LogLog4j:120 - 
+-----  Test Case 3: ** ADS test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-05 16:21:20 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-05 16:21:20 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-05 16:21:25 INFO  LogLog4j:128 - From test: Assert is OK, centerWrapper exists
+2016-10-05 16:21:27 INFO  LogLog4j:350 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-10-05 16:21:28 INFO  LogLog4j:111 - V- click number: 1 on element 'FalseButton'
+2016-10-05 16:21:30 INFO  LogLog4j:354 - AD Trigger 1 is in the page, BUT WASN'T displayed on sec 05-10-2016_16-21-30
+2016-10-05 16:21:30 INFO  LogLog4j:136 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click
+2016-10-05 16:21:30 INFO  LogLog4j:76 - time before loaing page
+2016-10-05 16:21:31 INFO  LogLog4j:84 - 
+-----  Test Case 2: ** ADS test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-05 16:21:36 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-05 16:21:36 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-05 16:21:41 INFO  LogLog4j:92 - From test: Assert is OK, centerWrapper exists
+2016-10-05 16:21:47 INFO  LogLog4j:350 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-10-05 16:21:47 INFO  LogLog4j:350 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
+2016-10-05 16:22:01 INFO  LogLog4j:364 - Banner structure: cbolaBannerStructure0_1 was NOT found in page
+2016-10-05 16:22:01 INFO  LogLog4j:101 - YEAH! -AD Trigger 1 was NOT displayed on screen after waiting 9 sec in viewability
+2016-10-05 16:22:01 INFO  LogLog4j:350 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
+2016-10-05 16:22:01 INFO  LogLog4j:42 - from test: before get.url
+2016-10-05 16:22:01 INFO  LogLog4j:50 - 
+-----  Test Case 1: ** ADS test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-05 16:22:07 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-05 16:22:07 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-05 16:22:12 INFO  LogLog4j:58 - From test: Assert is OK, centerWrapper exists
+2016-10-05 16:22:15 INFO  LogLog4j:350 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-10-05 16:22:15 INFO  LogLog4j:350 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
+2016-10-05 16:22:16 INFO  LogLog4j:373 - x btn exists for trigger 4
+2016-10-05 16:22:16 INFO  LogLog4j:376 - x btn clicked for trigger 4
+2016-10-05 16:22:21 INFO  LogLog4j:65 - 
+
+*** Starting Chrome Browser ***
+
+2016-10-05 16:22:21 INFO  LogLog4j:112 - time before loading page
+2016-10-05 16:22:58 INFO  LogLog4j:120 - 
+-----  Test Case 3: ** ADS test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-05 16:22:58 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-05 16:22:58 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-05 16:23:10 INFO  LogLog4j:128 - From test: Assert is OK, centerWrapper exists
+2016-10-05 16:23:11 INFO  LogLog4j:350 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-10-05 16:23:11 INFO  LogLog4j:111 - V- click number: 1 on element 'FalseButton'
+2016-10-05 16:23:17 INFO  LogLog4j:354 - AD Trigger 1 is in the page, BUT WASN'T displayed on sec 05-10-2016_16-23-17
+2016-10-05 16:23:17 INFO  LogLog4j:136 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click
+2016-10-05 16:23:17 INFO  LogLog4j:76 - time before loaing page
+2016-10-05 16:23:46 INFO  LogLog4j:84 - 
+-----  Test Case 2: ** ADS test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-05 16:23:46 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-05 16:23:46 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-05 16:23:51 INFO  LogLog4j:92 - From test: Assert is OK, centerWrapper exists
+2016-10-05 16:24:00 INFO  LogLog4j:354 - AD Trigger 1 is in the page, BUT WASN'T displayed on sec 05-10-2016_16-24-00
+2016-10-05 16:24:00 INFO  LogLog4j:42 - from test: before get.url
+2016-10-05 16:24:31 INFO  LogLog4j:50 - 
+-----  Test Case 1: ** ADS test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-05 16:24:31 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-05 16:24:31 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-05 16:24:36 INFO  LogLog4j:58 - From test: Assert is OK, centerWrapper exists
+2016-10-05 16:24:37 INFO  LogLog4j:350 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-10-05 16:24:37 INFO  LogLog4j:350 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
+2016-10-05 16:24:37 INFO  LogLog4j:373 - x btn exists for trigger 4
+2016-10-05 16:24:38 INFO  LogLog4j:376 - x btn clicked for trigger 4
+2016-10-06 11:23:57 INFO  LogLog4j:62 - 
+
+*** Starting Chrome Browser ***
+
+2016-10-06 11:23:57 INFO  LogLog4j:20 - ****************************************************************************************
+2016-10-06 11:23:57 INFO  LogLog4j:22 - ****************************************************************************************
+2016-10-06 11:23:57 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-10-06 11:23:57 INFO  LogLog4j:26 - ****************************************************************************************
+2016-10-06 11:23:57 INFO  LogLog4j:28 - ****************************************************************************************
+2016-10-06 11:23:57 INFO  LogLog4j:39 - tc1 time before loaing page
+2016-10-06 11:24:17 INFO  LogLog4j:47 - 
+-----  Test Case 1: ** UI test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-06 11:24:17 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:24:18 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:24:23 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
+2016-10-06 11:24:23 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/3523_1_5.jpg
+2016-10-06 11:24:23 INFO  LogLog4j:211 - V - Item 0 was displayed: Marilyn Monroe: "A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left"
+2016-10-06 11:24:23 INFO  LogLog4j:233 - V - Score Title Class was displayed
+2016-10-06 11:24:23 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
+2016-10-06 11:24:24 INFO  LogLog4j:275 - V - FB share btn was displayed
+2016-10-06 11:24:24 INFO  LogLog4j:284 - V - Twitter share btn was displayed
+2016-10-06 11:24:24 INFO  LogLog4j:261 - V - Text check- score unit match
+2016-10-06 11:24:24 INFO  LogLog4j:298 - V - Text check- Title was displayed: 
+2016-10-06 11:24:24 INFO  LogLog4j:389 - V - Powered By Carambola btn was displayed
+2016-10-06 11:24:24 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 11:24:24 INFO  LogLog4j:38 - X
+2016-10-06 11:24:24 INFO  LogLog4j:40 - X
+2016-10-06 11:24:24 INFO  LogLog4j:42 - X
+2016-10-06 11:24:24 INFO  LogLog4j:44 - X
+2016-10-06 11:24:24 INFO  LogLog4j:20 - ****************************************************************************************
+2016-10-06 11:24:24 INFO  LogLog4j:22 - ****************************************************************************************
+2016-10-06 11:24:24 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-10-06 11:24:24 INFO  LogLog4j:26 - ****************************************************************************************
+2016-10-06 11:24:24 INFO  LogLog4j:28 - ****************************************************************************************
+2016-10-06 11:24:24 INFO  LogLog4j:39 - tc1 time before loaing page
+2016-10-06 11:24:56 INFO  LogLog4j:47 - 
+-----  Test Case 1: ** UI test ** with URL: http://www.gocomics.com/luann-----
+2016-10-06 11:24:56 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:24:56 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:25:01 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
+2016-10-06 11:25:01 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/10237_1_5.jpg
+2016-10-06 11:25:01 INFO  LogLog4j:211 - V - Item 0 was displayed: Close to Home's John McPherson began drawing cartoons at age five on his dining room wall.
+2016-10-06 11:25:01 INFO  LogLog4j:233 - V - Score Title Class was displayed
+2016-10-06 11:25:01 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
+2016-10-06 11:25:02 INFO  LogLog4j:275 - V - FB share btn was displayed
+2016-10-06 11:25:02 INFO  LogLog4j:284 - V - Twitter share btn was displayed
+2016-10-06 11:25:02 INFO  LogLog4j:261 - V - Text check- score unit match
+2016-10-06 11:25:02 INFO  LogLog4j:298 - V - Text check- Title was displayed: 
+2016-10-06 11:25:02 INFO  LogLog4j:389 - V - Powered By Carambola btn was displayed
+2016-10-06 11:25:02 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 11:25:02 INFO  LogLog4j:38 - X
+2016-10-06 11:25:02 INFO  LogLog4j:40 - X
+2016-10-06 11:25:02 INFO  LogLog4j:42 - X
+2016-10-06 11:25:02 INFO  LogLog4j:44 - X
+2016-10-06 11:25:02 INFO  LogLog4j:20 - ****************************************************************************************
+2016-10-06 11:25:02 INFO  LogLog4j:22 - ****************************************************************************************
+2016-10-06 11:25:02 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-10-06 11:25:02 INFO  LogLog4j:26 - ****************************************************************************************
+2016-10-06 11:25:02 INFO  LogLog4j:28 - ****************************************************************************************
+2016-10-06 11:25:02 INFO  LogLog4j:39 - tc1 time before loaing page
+2016-10-06 11:25:24 INFO  LogLog4j:47 - 
+-----  Test Case 1: ** UI test ** with URL: http://quizly.co/can-you-name-these-1950s-tv-shows/2/-----
+2016-10-06 11:25:24 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:25:24 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:25:29 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
+2016-10-06 11:25:30 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/15553_1_5.jpg
+2016-10-06 11:25:30 INFO  LogLog4j:211 - V - Item 0 was displayed: In "Iron Man," a prototype of Captain America’s shield can be seen in Tony Stark’s workshop
+2016-10-06 11:25:30 INFO  LogLog4j:233 - V - Score Title Class was displayed
+2016-10-06 11:25:30 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
+2016-10-06 11:25:30 INFO  LogLog4j:275 - V - FB share btn was displayed
+2016-10-06 11:25:30 INFO  LogLog4j:284 - V - Twitter share btn was displayed
+2016-10-06 11:25:30 INFO  LogLog4j:261 - V - Text check- score unit match
+2016-10-06 11:25:30 INFO  LogLog4j:298 - V - Text check- Title was displayed: 
+2016-10-06 11:25:30 INFO  LogLog4j:389 - V - Powered By Carambola btn was displayed
+2016-10-06 11:25:30 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 11:25:30 INFO  LogLog4j:38 - X
+2016-10-06 11:25:30 INFO  LogLog4j:40 - X
+2016-10-06 11:25:30 INFO  LogLog4j:42 - X
+2016-10-06 11:25:30 INFO  LogLog4j:44 - X
+2016-10-06 11:25:46 INFO  LogLog4j:87 - 
+-----  Test Case 2: ** FUNCTIONALITY test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-06 11:25:46 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:25:46 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:26:12 INFO  LogLog4j:145 - Item 0 is: 
+2016-10-06 11:26:13 INFO  LogLog4j:211 - V - Item 0 was displayed: Marilyn Monroe: "A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left"
+2016-10-06 11:26:13 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/3523_1_5.jpg
+2016-10-06 11:26:14 INFO  LogLog4j:153 - V- click number: 1 on element 'FalseButton'
+2016-10-06 11:26:15 INFO  LogLog4j:145 - Item 1 is: 
+2016-10-06 11:26:15 INFO  LogLog4j:211 - V - Item 1 was displayed: Elvis Presley: "All of the sudden, in a big crowd of women, you spot your one true love and that's it"
+2016-10-06 11:26:15 INFO  LogLog4j:272 - V - Image 1 was displayed: http://media.carambo.la/Images/12823_1_5.jpg
+2016-10-06 11:26:15 INFO  LogLog4j:153 - V- click number: 2 on element 'FalseButton'
+2016-10-06 11:26:17 INFO  LogLog4j:131 - Item 2 is: 
+2016-10-06 11:26:17 INFO  LogLog4j:211 - V - Item 2 was displayed: Madonna: "To be brave is to love unconditionally without expecting anything in return"
+2016-10-06 11:26:17 INFO  LogLog4j:272 - V - Image 2 was displayed: http://media.carambo.la/Images/636_1_5.jpg
+2016-10-06 11:26:17 INFO  LogLog4j:139 - V- click number: 3 on element 'TrueButton'
+2016-10-06 11:26:19 INFO  LogLog4j:131 - Item 3 is: 
+2016-10-06 11:26:19 INFO  LogLog4j:211 - V - Item 3 was displayed: John Lennon: "It doesn't matter what shape or form it comes in, love transcends space and time"
+2016-10-06 11:26:19 INFO  LogLog4j:272 - V - Image 3 was displayed: http://media.carambo.la/Images/1821_1_5.jpg
+2016-10-06 11:26:19 INFO  LogLog4j:139 - V- click number: 4 on element 'TrueButton'
+2016-10-06 11:26:21 INFO  LogLog4j:131 - Item 4 is: 
+2016-10-06 11:26:21 INFO  LogLog4j:211 - V - Item 4 was displayed: Kanye West: "The bigger the booty, the more love I have in my heart. Love the booty and it will grow"
+2016-10-06 11:26:21 INFO  LogLog4j:272 - V - Image 4 was displayed: http://media.carambo.la/Images/2004_1_5.jpg
+2016-10-06 11:26:21 INFO  LogLog4j:139 - V- click number: 5 on element 'TrueButton'
+2016-10-06 11:26:22 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 11:26:22 INFO  LogLog4j:38 - X
+2016-10-06 11:26:22 INFO  LogLog4j:40 - X
+2016-10-06 11:26:22 INFO  LogLog4j:42 - X
+2016-10-06 11:26:22 INFO  LogLog4j:44 - X
+2016-10-06 11:26:39 INFO  LogLog4j:87 - 
+-----  Test Case 2: ** FUNCTIONALITY test ** with URL: http://www.gocomics.com/luann-----
+2016-10-06 11:26:39 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:26:39 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:26:50 INFO  LogLog4j:145 - Item 0 is: 
+2016-10-06 11:26:50 INFO  LogLog4j:211 - V - Item 0 was displayed: Close to Home's John McPherson began drawing cartoons at age five on his dining room wall.
+2016-10-06 11:26:50 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/10237_1_5.jpg
+2016-10-06 11:26:51 INFO  LogLog4j:153 - V- click number: 1 on element 'FalseButton'
+2016-10-06 11:26:52 INFO  LogLog4j:145 - Item 1 is: 
+2016-10-06 11:26:52 INFO  LogLog4j:211 - V - Item 1 was displayed: John McPherson has a B.S. in mechanical engineering and worked for seven years as a design engineer.
+2016-10-06 11:26:52 INFO  LogLog4j:272 - V - Image 1 was displayed: http://media.carambo.la/Images/10233_1_5.jpg
+2016-10-06 11:26:52 INFO  LogLog4j:153 - V- click number: 2 on element 'FalseButton'
+2016-10-06 11:26:54 INFO  LogLog4j:131 - Item 2 is: 
+2016-10-06 11:26:54 INFO  LogLog4j:211 - V - Item 2 was displayed: Last Kiss' John Lustig has a toy collection of over 120 ducks from his Donald Duck days.
+2016-10-06 11:26:54 INFO  LogLog4j:272 - V - Image 2 was displayed: http://media.carambo.la/Images/10206_1_5.jpg
+2016-10-06 11:26:54 INFO  LogLog4j:139 - V- click number: 3 on element 'TrueButton'
+2016-10-06 11:26:55 INFO  LogLog4j:131 - Item 3 is: 
+2016-10-06 11:26:56 INFO  LogLog4j:211 - V - Item 3 was displayed: Stone Soup characters don’t age. Thus, the creator now has grandkids as old as some characters.
+2016-10-06 11:26:56 INFO  LogLog4j:272 - V - Image 3 was displayed: http://media.carambo.la/Images/10231_1_5.jpg
+2016-10-06 11:26:56 INFO  LogLog4j:139 - V- click number: 4 on element 'TrueButton'
+2016-10-06 11:26:57 INFO  LogLog4j:131 - Item 4 is: 
+2016-10-06 11:26:57 INFO  LogLog4j:211 - V - Item 4 was displayed: In 2001, Scott Adams collaborated with a company to design the "perfect cubicle" in real life.
+2016-10-06 11:26:57 INFO  LogLog4j:272 - V - Image 4 was displayed: http://media.carambo.la/Images/10219_1_5.jpg
+2016-10-06 11:26:57 INFO  LogLog4j:139 - V- click number: 5 on element 'TrueButton'
+2016-10-06 11:26:59 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 11:26:59 INFO  LogLog4j:38 - X
+2016-10-06 11:26:59 INFO  LogLog4j:40 - X
+2016-10-06 11:26:59 INFO  LogLog4j:42 - X
+2016-10-06 11:26:59 INFO  LogLog4j:44 - X
+2016-10-06 11:27:09 INFO  LogLog4j:87 - 
+-----  Test Case 2: ** FUNCTIONALITY test ** with URL: http://quizly.co/can-you-name-these-1950s-tv-shows/2/-----
+2016-10-06 11:27:09 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:27:09 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:27:14 INFO  LogLog4j:145 - Item 0 is: 
+2016-10-06 11:27:14 INFO  LogLog4j:211 - V - Item 0 was displayed: In "Iron Man," a prototype of Captain America’s shield can be seen in Tony Stark’s workshop
+2016-10-06 11:27:14 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/15553_1_5.jpg
+2016-10-06 11:27:14 INFO  LogLog4j:153 - V- click number: 1 on element 'FalseButton'
+2016-10-06 11:27:15 INFO  LogLog4j:145 - Item 1 is: 
+2016-10-06 11:27:16 INFO  LogLog4j:211 - V - Item 1 was displayed: To get the effect of having blades coming out of his knuckles, Jackman had to spend over 6 hours in makeup
+2016-10-06 11:27:16 INFO  LogLog4j:272 - V - Image 1 was displayed: http://media.carambo.la/Images/15491_1_5.jpg
+2016-10-06 11:27:16 INFO  LogLog4j:153 - V- click number: 2 on element 'FalseButton'
+2016-10-06 11:27:17 INFO  LogLog4j:131 - Item 2 is: 
+2016-10-06 11:27:17 INFO  LogLog4j:211 - V - Item 2 was displayed: Michael Jackson once tried to buy Marvel Comics because he wanted to play Spider-Man in a film
+2016-10-06 11:27:17 INFO  LogLog4j:272 - V - Image 2 was displayed: http://media.carambo.la/Images/1744_1_5.jpg
+2016-10-06 11:27:17 INFO  LogLog4j:139 - V- click number: 3 on element 'TrueButton'
+2016-10-06 11:27:19 INFO  LogLog4j:131 - Item 3 is: 
+2016-10-06 11:27:19 INFO  LogLog4j:211 - V - Item 3 was displayed: Downey Jr. wanted to play Captain America originally, but producers felt he looked more like Iron Man
+2016-10-06 11:27:19 INFO  LogLog4j:272 - V - Image 3 was displayed: http://media.carambo.la/Images/15496_1_5.jpg
+2016-10-06 11:27:19 INFO  LogLog4j:139 - V- click number: 4 on element 'TrueButton'
+2016-10-06 11:27:21 INFO  LogLog4j:131 - Item 4 is: 
+2016-10-06 11:27:21 INFO  LogLog4j:211 - V - Item 4 was displayed: Dr. Strange was almost a woman, but the producers liked Benedict Cumberbatch, so they changed it
+2016-10-06 11:27:21 INFO  LogLog4j:272 - V - Image 4 was displayed: http://media.carambo.la/Images/15487_1_5.jpg
+2016-10-06 11:27:21 INFO  LogLog4j:139 - V- click number: 5 on element 'TrueButton'
+2016-10-06 11:27:22 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 11:27:22 INFO  LogLog4j:38 - X
+2016-10-06 11:27:22 INFO  LogLog4j:40 - X
+2016-10-06 11:27:22 INFO  LogLog4j:42 - X
+2016-10-06 11:27:22 INFO  LogLog4j:44 - X
+2016-10-06 11:27:29 INFO  LogLog4j:182 - 
+-----  Test Case 4: ** FUNCTIONALITY test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-06 11:27:29 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:27:29 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:27:37 INFO  LogLog4j:100 - V- click number: 1 on element 'TrueButton'
+2016-10-06 11:27:47 INFO  LogLog4j:412 - V - The window that was opened by click is CORRECT. its title is: Carambola
+2016-10-06 11:28:25 INFO  LogLog4j:182 - 
+-----  Test Case 4: ** FUNCTIONALITY test ** with URL: http://www.gocomics.com/luann-----
+2016-10-06 11:28:25 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:28:25 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:28:30 INFO  LogLog4j:100 - V- click number: 1 on element 'TrueButton'
+2016-10-06 11:28:38 INFO  LogLog4j:412 - V - The window that was opened by click is CORRECT. its title is: Carambola
+2016-10-06 11:28:47 INFO  LogLog4j:182 - 
+-----  Test Case 4: ** FUNCTIONALITY test ** with URL: http://quizly.co/can-you-name-these-1950s-tv-shows/2/-----
+2016-10-06 11:28:47 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:28:47 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:28:52 INFO  LogLog4j:100 - V- click number: 1 on element 'TrueButton'
+2016-10-06 11:29:00 INFO  LogLog4j:412 - V - The window that was opened by click is CORRECT. its title is: Carambola
+2016-10-06 11:29:17 INFO  LogLog4j:126 - 
+-----  Test Case 3: ** CONTENT test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-06 11:29:17 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:29:17 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:29:30 INFO  LogLog4j:111 - V- click number: 1 on element 'FalseButton'
+2016-10-06 11:29:33 INFO  LogLog4j:111 - V- click number: 2 on element 'FalseButton'
+2016-10-06 11:29:35 INFO  LogLog4j:111 - V- click number: 3 on element 'FalseButton'
+2016-10-06 11:29:37 INFO  LogLog4j:111 - V- click number: 4 on element 'FalseButton'
+2016-10-06 11:29:38 INFO  LogLog4j:111 - V- click number: 5 on element 'FalseButton'
+2016-10-06 11:29:40 INFO  LogLog4j:111 - V- click number: 6 on element 'FalseButton'
+2016-10-06 11:29:42 INFO  LogLog4j:111 - V- click number: 7 on element 'FalseButton'
+2016-10-06 11:29:43 INFO  LogLog4j:111 - V- click number: 8 on element 'FalseButton'
+2016-10-06 11:29:45 INFO  LogLog4j:111 - V- click number: 9 on element 'FalseButton'
+2016-10-06 11:29:47 INFO  LogLog4j:111 - V- click number: 10 on element 'FalseButton'
+2016-10-06 11:29:51 INFO  LogLog4j:335 - V - Ending Screen Msg title was displayed: Next quiz
+2016-10-06 11:29:51 INFO  LogLog4j:326 - V- Ending Screen Msg name exists. next game is: Man's Mating Game
+2016-10-06 11:29:52 INFO  LogLog4j:337 - V- Start button exists and it says: START
+2016-10-06 11:29:52 INFO  LogLog4j:348 - V- score title was displayed: You Scored a Fair
+2016-10-06 11:29:52 INFO  LogLog4j:382 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-10-06 11:29:52 INFO  LogLog4j:419 - V- ending screen share title exists: CHALLENGE
+2016-10-06 11:29:52 INFO  LogLog4j:430 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-10-06 11:29:52 INFO  LogLog4j:275 - V - FB share btn was displayed
+2016-10-06 11:29:52 INFO  LogLog4j:284 - V - Twitter share btn was displayed
+2016-10-06 11:29:52 INFO  LogLog4j:272 - V - Image 10 was displayed: http://media.carambo.la/Images/15816_1_5.jpg
+2016-10-06 11:29:52 INFO  LogLog4j:218 - X - Item 10 WASN'T displayed
+2016-10-06 11:29:58 INFO  LogLog4j:364 - Banner structure: cbolaBannerStructure0_1 was NOT found in page
+2016-10-06 11:29:59 INFO  LogLog4j:211 - V - Item 10 was displayed: According to a study, unfaithful men have lower IQs than men that are faithful
+2016-10-06 11:29:59 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 11:29:59 INFO  LogLog4j:38 - X
+2016-10-06 11:29:59 INFO  LogLog4j:40 - X
+2016-10-06 11:29:59 INFO  LogLog4j:42 - X
+2016-10-06 11:29:59 INFO  LogLog4j:44 - X
+2016-10-06 11:30:11 INFO  LogLog4j:126 - 
+-----  Test Case 3: ** CONTENT test ** with URL: http://www.gocomics.com/luann-----
+2016-10-06 11:30:11 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:32:02 INFO  LogLog4j:126 - 
+-----  Test Case 3: ** CONTENT test ** with URL: http://quizly.co/can-you-name-these-1950s-tv-shows/2/-----
+2016-10-06 11:32:02 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:32:07 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:32:07 INFO  LogLog4j:111 - V- click number: 1 on element 'FalseButton'
+2016-10-06 11:32:07 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:32:12 INFO  LogLog4j:111 - V- click number: 1 on element 'FalseButton'
+2016-10-06 11:32:14 INFO  LogLog4j:111 - V- click number: 2 on element 'FalseButton'
+2016-10-06 11:32:15 INFO  LogLog4j:111 - V- click number: 3 on element 'FalseButton'
+2016-10-06 11:32:17 INFO  LogLog4j:111 - V- click number: 4 on element 'FalseButton'
+2016-10-06 11:32:18 INFO  LogLog4j:111 - V- click number: 5 on element 'FalseButton'
+2016-10-06 11:32:20 INFO  LogLog4j:111 - V- click number: 6 on element 'FalseButton'
+2016-10-06 11:32:21 INFO  LogLog4j:111 - V- click number: 7 on element 'FalseButton'
+2016-10-06 11:32:23 INFO  LogLog4j:111 - V- click number: 8 on element 'FalseButton'
+2016-10-06 11:32:25 INFO  LogLog4j:111 - V- click number: 9 on element 'FalseButton'
+2016-10-06 11:32:26 INFO  LogLog4j:111 - V- click number: 10 on element 'FalseButton'
+2016-10-06 11:32:31 INFO  LogLog4j:335 - V - Ending Screen Msg title was displayed: Next quiz
+2016-10-06 11:32:31 INFO  LogLog4j:326 - V- Ending Screen Msg name exists. next game is: Weird Phobias
+2016-10-06 11:32:31 INFO  LogLog4j:337 - V- Start button exists and it says: START
+2016-10-06 11:32:31 INFO  LogLog4j:348 - V- score title was displayed: You Scored a Lame
+2016-10-06 11:32:31 INFO  LogLog4j:373 - V - score unit title is correct. CABA scored: 4 and got this title: You Scored a Lame
+2016-10-06 11:32:31 INFO  LogLog4j:419 - V- ending screen share title exists: CHALLENGE
+2016-10-06 11:32:31 INFO  LogLog4j:430 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-10-06 11:32:32 INFO  LogLog4j:275 - V - FB share btn was displayed
+2016-10-06 11:32:32 INFO  LogLog4j:284 - V - Twitter share btn was displayed
+2016-10-06 11:32:32 INFO  LogLog4j:272 - V - Image 10 was displayed: http://media.carambo.la/Images/16048_1_5.jpg
+2016-10-06 11:32:32 INFO  LogLog4j:218 - X - Item 10 WASN'T displayed
+2016-10-06 11:32:37 INFO  LogLog4j:364 - Banner structure: cbolaBannerStructure0_1 was NOT found in page
+2016-10-06 11:32:38 INFO  LogLog4j:211 - V - Item 10 was displayed: People who suffer from Arachibutyrophobia are afraid of peanut butter sticking to their palate
+2016-10-06 11:32:38 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 11:32:38 INFO  LogLog4j:38 - X
+2016-10-06 11:32:38 INFO  LogLog4j:40 - X
+2016-10-06 11:32:38 INFO  LogLog4j:42 - X
+2016-10-06 11:32:38 INFO  LogLog4j:44 - X
+2016-10-06 11:46:24 INFO  LogLog4j:65 - 
+
+*** Starting Chrome Browser ***
+
+2016-10-06 11:46:52 INFO  LogLog4j:87 - 
+-----  Test Case 2: ** FUNCTIONALITY test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-06 11:46:52 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:46:52 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:46:59 INFO  LogLog4j:145 - Item 0 is: 
+2016-10-06 11:46:59 INFO  LogLog4j:211 - V - Item 0 was displayed: Marilyn Monroe: "A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left"
+2016-10-06 11:47:14 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/3523_1_5.jpg
+2016-10-06 11:47:14 INFO  LogLog4j:153 - V- click number: 1 on element 'FalseButton'
+2016-10-06 11:47:16 INFO  LogLog4j:145 - Item 1 is: 
+2016-10-06 11:47:16 INFO  LogLog4j:211 - V - Item 1 was displayed: Elvis Presley: "All of the sudden, in a big crowd of women, you spot your one true love and that's it"
+2016-10-06 11:47:17 INFO  LogLog4j:272 - V - Image 1 was displayed: http://media.carambo.la/Images/12823_1_5.jpg
+2016-10-06 11:47:18 INFO  LogLog4j:153 - V- click number: 2 on element 'FalseButton'
+2016-10-06 11:47:19 INFO  LogLog4j:131 - Item 2 is: 
+2016-10-06 11:47:20 INFO  LogLog4j:211 - V - Item 2 was displayed: Madonna: "To be brave is to love unconditionally without expecting anything in return"
+2016-10-06 11:47:20 INFO  LogLog4j:272 - V - Image 2 was displayed: http://media.carambo.la/Images/636_1_5.jpg
+2016-10-06 11:47:21 INFO  LogLog4j:139 - V- click number: 3 on element 'TrueButton'
+2016-10-06 11:47:22 INFO  LogLog4j:131 - Item 3 is: 
+2016-10-06 11:47:23 INFO  LogLog4j:211 - V - Item 3 was displayed: John Lennon: "It doesn't matter what shape or form it comes in, love transcends space and time"
+2016-10-06 11:47:23 INFO  LogLog4j:272 - V - Image 3 was displayed: http://media.carambo.la/Images/1821_1_5.jpg
+2016-10-06 11:47:24 INFO  LogLog4j:139 - V- click number: 4 on element 'TrueButton'
+2016-10-06 11:48:01 INFO  LogLog4j:87 - 
+-----  Test Case 2: ** FUNCTIONALITY test ** with URL: http://www.gocomics.com/luann-----
+2016-10-06 11:48:01 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:48:01 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:48:06 INFO  LogLog4j:145 - Item 0 is: 
+2016-10-06 11:48:06 INFO  LogLog4j:211 - V - Item 0 was displayed: Close to Home's John McPherson began drawing cartoons at age five on his dining room wall.
+2016-10-06 11:48:06 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/10237_1_5.jpg
+2016-10-06 11:48:07 INFO  LogLog4j:153 - V- click number: 1 on element 'FalseButton'
+2016-10-06 11:48:08 INFO  LogLog4j:145 - Item 1 is: 
+2016-10-06 11:48:08 INFO  LogLog4j:211 - V - Item 1 was displayed: John McPherson has a B.S. in mechanical engineering and worked for seven years as a design engineer.
+2016-10-06 11:48:08 INFO  LogLog4j:272 - V - Image 1 was displayed: http://media.carambo.la/Images/10233_1_5.jpg
+2016-10-06 11:48:08 INFO  LogLog4j:153 - V- click number: 2 on element 'FalseButton'
+2016-10-06 11:48:10 INFO  LogLog4j:131 - Item 2 is: 
+2016-10-06 11:48:10 INFO  LogLog4j:211 - V - Item 2 was displayed: Last Kiss' John Lustig has a toy collection of over 120 ducks from his Donald Duck days.
+2016-10-06 11:48:10 INFO  LogLog4j:272 - V - Image 2 was displayed: http://media.carambo.la/Images/10206_1_5.jpg
+2016-10-06 11:48:10 INFO  LogLog4j:139 - V- click number: 3 on element 'TrueButton'
+2016-10-06 11:48:11 INFO  LogLog4j:131 - Item 3 is: 
+2016-10-06 11:48:12 INFO  LogLog4j:211 - V - Item 3 was displayed: Stone Soup characters don’t age. Thus, the creator now has grandkids as old as some characters.
+2016-10-06 11:48:12 INFO  LogLog4j:272 - V - Image 3 was displayed: http://media.carambo.la/Images/10231_1_5.jpg
+2016-10-06 11:48:12 INFO  LogLog4j:139 - V- click number: 4 on element 'TrueButton'
+2016-10-06 11:48:13 INFO  LogLog4j:131 - Item 4 is: 
+2016-10-06 11:48:13 INFO  LogLog4j:211 - V - Item 4 was displayed: In 2001, Scott Adams collaborated with a company to design the "perfect cubicle" in real life.
+2016-10-06 11:48:13 INFO  LogLog4j:272 - V - Image 4 was displayed: http://media.carambo.la/Images/10219_1_5.jpg
+2016-10-06 11:48:13 INFO  LogLog4j:139 - V- click number: 5 on element 'TrueButton'
+2016-10-06 11:48:15 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 11:48:15 INFO  LogLog4j:38 - X
+2016-10-06 11:48:15 INFO  LogLog4j:40 - X
+2016-10-06 11:48:15 INFO  LogLog4j:42 - X
+2016-10-06 11:48:15 INFO  LogLog4j:44 - X
+2016-10-06 11:48:33 INFO  LogLog4j:87 - 
+-----  Test Case 2: ** FUNCTIONALITY test ** with URL: http://quizly.co/can-you-name-these-1950s-tv-shows/2/-----
+2016-10-06 11:48:34 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:48:34 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:48:39 INFO  LogLog4j:145 - Item 0 is: 
+2016-10-06 11:48:39 INFO  LogLog4j:211 - V - Item 0 was displayed: In "Iron Man," a prototype of Captain America’s shield can be seen in Tony Stark’s workshop
+2016-10-06 11:48:39 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/15553_1_5.jpg
+2016-10-06 11:48:39 INFO  LogLog4j:153 - V- click number: 1 on element 'FalseButton'
+2016-10-06 11:48:40 INFO  LogLog4j:145 - Item 1 is: 
+2016-10-06 11:48:41 INFO  LogLog4j:211 - V - Item 1 was displayed: To get the effect of having blades coming out of his knuckles, Jackman had to spend over 6 hours in makeup
+2016-10-06 11:48:41 INFO  LogLog4j:272 - V - Image 1 was displayed: http://media.carambo.la/Images/15491_1_5.jpg
+2016-10-06 11:48:41 INFO  LogLog4j:153 - V- click number: 2 on element 'FalseButton'
+2016-10-06 11:48:42 INFO  LogLog4j:131 - Item 2 is: 
+2016-10-06 11:48:42 INFO  LogLog4j:211 - V - Item 2 was displayed: Michael Jackson once tried to buy Marvel Comics because he wanted to play Spider-Man in a film
+2016-10-06 11:48:42 INFO  LogLog4j:272 - V - Image 2 was displayed: http://media.carambo.la/Images/1744_1_5.jpg
+2016-10-06 11:48:42 INFO  LogLog4j:139 - V- click number: 3 on element 'TrueButton'
+2016-10-06 11:48:44 INFO  LogLog4j:131 - Item 3 is: 
+2016-10-06 11:48:44 INFO  LogLog4j:211 - V - Item 3 was displayed: Downey Jr. wanted to play Captain America originally, but producers felt he looked more like Iron Man
+2016-10-06 11:48:44 INFO  LogLog4j:272 - V - Image 3 was displayed: http://media.carambo.la/Images/15496_1_5.jpg
+2016-10-06 11:48:44 INFO  LogLog4j:139 - V- click number: 4 on element 'TrueButton'
+2016-10-06 11:48:46 INFO  LogLog4j:131 - Item 4 is: 
+2016-10-06 11:48:46 INFO  LogLog4j:211 - V - Item 4 was displayed: Dr. Strange was almost a woman, but the producers liked Benedict Cumberbatch, so they changed it
+2016-10-06 11:48:46 INFO  LogLog4j:272 - V - Image 4 was displayed: http://media.carambo.la/Images/15487_1_5.jpg
+2016-10-06 11:48:46 INFO  LogLog4j:139 - V- click number: 5 on element 'TrueButton'
+2016-10-06 11:48:47 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 11:48:47 INFO  LogLog4j:38 - X
+2016-10-06 11:48:47 INFO  LogLog4j:40 - X
+2016-10-06 11:48:47 INFO  LogLog4j:42 - X
+2016-10-06 11:48:47 INFO  LogLog4j:44 - X
+2016-10-06 11:57:38 INFO  LogLog4j:65 - 
+
+*** Starting Chrome Browser ***
+
+2016-10-06 11:57:59 INFO  LogLog4j:87 - 
+-----  Test Case 2: ** FUNCTIONALITY test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-06 11:57:59 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 11:57:59 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 11:58:06 INFO  LogLog4j:145 - Item 0 is: 
+2016-10-06 11:58:06 INFO  LogLog4j:211 - V - Item 0 was displayed: Marilyn Monroe: "A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left"
+2016-10-06 11:58:16 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/3523_1_5.jpg
+2016-10-06 11:58:23 INFO  LogLog4j:153 - V- click number: 1 on element 'FalseButton'
+2016-10-06 11:58:24 INFO  LogLog4j:145 - Item 1 is: 
+2016-10-06 11:58:25 INFO  LogLog4j:211 - V - Item 1 was displayed: Elvis Presley: "All of the sudden, in a big crowd of women, you spot your one true love and that's it"
+2016-10-06 11:58:25 INFO  LogLog4j:272 - V - Image 1 was displayed: http://media.carambo.la/Images/12823_1_5.jpg
+2016-10-06 11:58:26 INFO  LogLog4j:153 - V- click number: 2 on element 'FalseButton'
+2016-10-06 11:58:27 INFO  LogLog4j:131 - Item 2 is: 
+2016-10-06 11:58:28 INFO  LogLog4j:211 - V - Item 2 was displayed: Madonna: "To be brave is to love unconditionally without expecting anything in return"
+2016-10-06 11:58:29 INFO  LogLog4j:272 - V - Image 2 was displayed: http://media.carambo.la/Images/636_1_5.jpg
+2016-10-06 11:58:29 INFO  LogLog4j:139 - V- click number: 3 on element 'TrueButton'
+2016-10-06 11:58:31 INFO  LogLog4j:131 - Item 3 is: 
+2016-10-06 11:58:32 INFO  LogLog4j:211 - V - Item 3 was displayed: John Lennon: "It doesn't matter what shape or form it comes in, love transcends space and time"
+2016-10-06 11:58:32 INFO  LogLog4j:272 - V - Image 3 was displayed: http://media.carambo.la/Images/1821_1_5.jpg
+2016-10-06 11:58:32 INFO  LogLog4j:139 - V- click number: 4 on element 'TrueButton'
+2016-10-06 11:58:34 INFO  LogLog4j:131 - Item 4 is: 
+2016-10-06 11:58:34 INFO  LogLog4j:211 - V - Item 4 was displayed: Kanye West: "The bigger the booty, the more love I have in my heart. Love the booty and it will grow"
+2016-10-06 11:58:35 INFO  LogLog4j:272 - V - Image 4 was displayed: http://media.carambo.la/Images/2004_1_5.jpg
+2016-10-06 11:58:36 INFO  LogLog4j:139 - V- click number: 5 on element 'TrueButton'
+2016-10-06 11:58:37 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 11:58:37 INFO  LogLog4j:38 - X
+2016-10-06 11:58:37 INFO  LogLog4j:40 - X
+2016-10-06 11:58:37 INFO  LogLog4j:42 - X
+2016-10-06 11:58:37 INFO  LogLog4j:44 - X
+2016-10-06 16:46:36 INFO  LogLog4j:66 - 
+
+*** Starting Chrome Browser ***
+
+2016-10-06 16:46:36 INFO  LogLog4j:20 - ****************************************************************************************
+2016-10-06 16:46:36 INFO  LogLog4j:22 - ****************************************************************************************
+2016-10-06 16:46:36 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-10-06 16:46:36 INFO  LogLog4j:26 - ****************************************************************************************
+2016-10-06 16:46:36 INFO  LogLog4j:28 - ****************************************************************************************
+2016-10-06 16:46:36 INFO  LogLog4j:39 - tc1 time before loaing page
+2016-10-06 16:47:05 INFO  LogLog4j:47 - 
+-----  Test Case 1: ** UI test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-06 16:47:06 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 16:47:06 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 16:47:11 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
+2016-10-06 16:47:11 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/3523_1_5.jpg
+2016-10-06 16:47:11 INFO  LogLog4j:211 - V - Item 0 was displayed: Marilyn Monroe: "A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left"
+2016-10-06 16:47:12 INFO  LogLog4j:233 - V - Score Title Class was displayed
+2016-10-06 16:47:12 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
+2016-10-06 16:47:12 INFO  LogLog4j:275 - V - FB share btn was displayed
+2016-10-06 16:47:12 INFO  LogLog4j:284 - V - Twitter share btn was displayed
+2016-10-06 16:47:12 INFO  LogLog4j:261 - V - Text check- score unit match
+2016-10-06 16:47:12 INFO  LogLog4j:298 - V - Text check- Title was displayed: 
+2016-10-06 16:47:12 INFO  LogLog4j:389 - V - Powered By Carambola btn was displayed
+2016-10-06 16:47:12 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 16:47:12 INFO  LogLog4j:38 - X
+2016-10-06 16:47:12 INFO  LogLog4j:40 - X
+2016-10-06 16:47:12 INFO  LogLog4j:42 - X
+2016-10-06 16:47:12 INFO  LogLog4j:44 - X
+2016-10-06 16:49:56 INFO  LogLog4j:66 - 
+
+*** Starting Chrome Browser ***
+
+2016-10-06 16:49:56 INFO  LogLog4j:20 - ****************************************************************************************
+2016-10-06 16:49:56 INFO  LogLog4j:22 - ****************************************************************************************
+2016-10-06 16:49:56 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-10-06 16:49:56 INFO  LogLog4j:26 - ****************************************************************************************
+2016-10-06 16:49:56 INFO  LogLog4j:28 - ****************************************************************************************
+2016-10-06 16:49:56 INFO  LogLog4j:39 - tc1 time before loaing page
+2016-10-06 16:50:15 INFO  LogLog4j:47 - 
+-----  Test Case 1: ** UI test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-06 16:50:15 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 16:50:16 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 16:50:21 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
+2016-10-06 16:50:21 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/3523_1_5.jpg
+2016-10-06 16:50:21 INFO  LogLog4j:211 - V - Item 0 was displayed: Marilyn Monroe: "A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left"
+2016-10-06 16:50:21 INFO  LogLog4j:233 - V - Score Title Class was displayed
+2016-10-06 16:50:21 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
+2016-10-06 16:50:22 INFO  LogLog4j:275 - V - FB share btn was displayed
+2016-10-06 16:50:22 INFO  LogLog4j:284 - V - Twitter share btn was displayed
+2016-10-06 16:50:22 INFO  LogLog4j:261 - V - Text check- score unit match
+2016-10-06 16:50:22 INFO  LogLog4j:298 - V - Text check- Title was displayed: 
+2016-10-06 16:50:23 INFO  LogLog4j:389 - V - Powered By Carambola btn was displayed
+2016-10-06 16:50:23 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 16:50:23 INFO  LogLog4j:38 - X
+2016-10-06 16:50:23 INFO  LogLog4j:40 - X
+2016-10-06 16:50:23 INFO  LogLog4j:42 - X
+2016-10-06 16:50:23 INFO  LogLog4j:44 - X
+2016-10-06 16:50:53 INFO  LogLog4j:87 - 
+-----  Test Case 2: ** FUNCTIONALITY test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-06 16:50:53 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 16:50:53 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 16:51:08 INFO  LogLog4j:145 - Item 0 is: 
+2016-10-06 16:51:08 INFO  LogLog4j:211 - V - Item 0 was displayed: Marilyn Monroe: "A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left"
+2016-10-06 16:51:08 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/3523_1_5.jpg
+2016-10-06 16:51:09 INFO  LogLog4j:153 - V- click number: 1 on element 'FalseButton'
+2016-10-06 16:51:10 INFO  LogLog4j:145 - Item 1 is: 
+2016-10-06 16:51:11 INFO  LogLog4j:211 - V - Item 1 was displayed: Elvis Presley: "All of the sudden, in a big crowd of women, you spot your one true love and that's it"
+2016-10-06 16:51:11 INFO  LogLog4j:272 - V - Image 1 was displayed: http://media.carambo.la/Images/12823_1_5.jpg
+2016-10-06 16:51:11 INFO  LogLog4j:153 - V- click number: 2 on element 'FalseButton'
+2016-10-06 16:51:13 INFO  LogLog4j:131 - Item 2 is: 
+2016-10-06 16:51:13 INFO  LogLog4j:211 - V - Item 2 was displayed: Madonna: "To be brave is to love unconditionally without expecting anything in return"
+2016-10-06 16:51:13 INFO  LogLog4j:272 - V - Image 2 was displayed: http://media.carambo.la/Images/636_1_5.jpg
+2016-10-06 16:51:13 INFO  LogLog4j:139 - V- click number: 3 on element 'TrueButton'
+2016-10-06 16:51:14 INFO  LogLog4j:131 - Item 3 is: 
+2016-10-06 16:51:15 INFO  LogLog4j:211 - V - Item 3 was displayed: John Lennon: "It doesn't matter what shape or form it comes in, love transcends space and time"
+2016-10-06 16:51:15 INFO  LogLog4j:272 - V - Image 3 was displayed: http://media.carambo.la/Images/1821_1_5.jpg
+2016-10-06 16:51:15 INFO  LogLog4j:139 - V- click number: 4 on element 'TrueButton'
+2016-10-06 16:51:17 INFO  LogLog4j:131 - Item 4 is: 
+2016-10-06 16:51:17 INFO  LogLog4j:211 - V - Item 4 was displayed: Kanye West: "The bigger the booty, the more love I have in my heart. Love the booty and it will grow"
+2016-10-06 16:51:17 INFO  LogLog4j:272 - V - Image 4 was displayed: http://media.carambo.la/Images/2004_1_5.jpg
+2016-10-06 16:51:18 INFO  LogLog4j:139 - V- click number: 5 on element 'TrueButton'
+2016-10-06 16:51:19 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 16:51:19 INFO  LogLog4j:38 - X
+2016-10-06 16:51:19 INFO  LogLog4j:40 - X
+2016-10-06 16:51:19 INFO  LogLog4j:42 - X
+2016-10-06 16:51:19 INFO  LogLog4j:44 - X
+2016-10-06 16:51:44 INFO  LogLog4j:182 - 
+-----  Test Case 4: ** FUNCTIONALITY test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-06 16:51:45 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 16:51:45 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 16:51:51 INFO  LogLog4j:100 - V- click number: 1 on element 'TrueButton'
+2016-10-06 16:51:59 INFO  LogLog4j:412 - V - The window that was opened by click is CORRECT. its title is: Carambola
+2016-10-06 16:52:10 INFO  LogLog4j:126 - 
+-----  Test Case 3: ** CONTENT test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-06 16:52:10 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 16:52:10 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 16:52:16 INFO  LogLog4j:111 - V- click number: 1 on element 'FalseButton'
+2016-10-06 16:52:20 INFO  LogLog4j:111 - V- click number: 2 on element 'FalseButton'
+2016-10-06 16:52:22 INFO  LogLog4j:111 - V- click number: 3 on element 'FalseButton'
+2016-10-06 16:52:25 INFO  LogLog4j:111 - V- click number: 4 on element 'FalseButton'
+2016-10-06 16:52:26 INFO  LogLog4j:111 - V- click number: 5 on element 'FalseButton'
+2016-10-06 16:52:28 INFO  LogLog4j:111 - V- click number: 6 on element 'FalseButton'
+2016-10-06 16:52:30 INFO  LogLog4j:111 - V- click number: 7 on element 'FalseButton'
+2016-10-06 16:52:31 INFO  LogLog4j:111 - V- click number: 8 on element 'FalseButton'
+2016-10-06 16:52:33 INFO  LogLog4j:111 - V- click number: 9 on element 'FalseButton'
+2016-10-06 16:52:35 INFO  LogLog4j:111 - V- click number: 10 on element 'FalseButton'
+2016-10-06 16:52:39 INFO  LogLog4j:335 - V - Ending Screen Msg title was displayed: Next quiz
+2016-10-06 16:52:39 INFO  LogLog4j:326 - V- Ending Screen Msg name exists. next game is: Kissing & The Body
+2016-10-06 16:52:40 INFO  LogLog4j:337 - V- Start button exists and it says: START
+2016-10-06 16:52:40 INFO  LogLog4j:348 - V- score title was displayed: You Scored a Fair
+2016-10-06 16:52:40 INFO  LogLog4j:382 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-10-06 16:52:40 INFO  LogLog4j:419 - V- ending screen share title exists: CHALLENGE
+2016-10-06 16:52:40 INFO  LogLog4j:430 - V- ending screen share title 2 exists: YOUR FRIENDS
+2016-10-06 16:52:40 INFO  LogLog4j:275 - V - FB share btn was displayed
+2016-10-06 16:52:40 INFO  LogLog4j:284 - V - Twitter share btn was displayed
+2016-10-06 16:52:40 INFO  LogLog4j:272 - V - Image 10 was displayed: http://media.carambo.la/Images/9414_1_5.jpg
+2016-10-06 16:52:40 INFO  LogLog4j:218 - X - Item 10 WASN'T displayed
+2016-10-06 16:52:45 INFO  LogLog4j:364 - Banner structure: cbolaBannerStructure0_1 was NOT found in page
+2016-10-06 16:52:46 INFO  LogLog4j:211 - V - Item 10 was displayed: Kissing someone for 1 minute burns about 2 calories. If done for an hour, you can burn about 120 calories
+2016-10-06 16:52:46 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 16:52:46 INFO  LogLog4j:38 - X
+2016-10-06 16:52:46 INFO  LogLog4j:40 - X
+2016-10-06 16:52:46 INFO  LogLog4j:42 - X
+2016-10-06 16:52:46 INFO  LogLog4j:44 - X
+2016-10-06 17:03:49 INFO  LogLog4j:69 - 
+
+*** Starting Chrome Browser ***
+
+2016-10-06 17:03:49 INFO  LogLog4j:20 - ****************************************************************************************
+2016-10-06 17:03:49 INFO  LogLog4j:22 - ****************************************************************************************
+2016-10-06 17:03:49 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-10-06 17:03:49 INFO  LogLog4j:26 - ****************************************************************************************
+2016-10-06 17:03:49 INFO  LogLog4j:28 - ****************************************************************************************
+2016-10-06 17:03:49 INFO  LogLog4j:39 - tc1 time before loaing page
+2016-10-06 17:04:17 INFO  LogLog4j:47 - 
+-----  Test Case 1: ** UI test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-06 17:04:17 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 17:04:17 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 17:04:22 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
+2016-10-06 17:04:22 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/3523_1_5.jpg
+2016-10-06 17:04:22 INFO  LogLog4j:211 - V - Item 0 was displayed: Marilyn Monroe: "A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left"
+2016-10-06 17:04:22 INFO  LogLog4j:233 - V - Score Title Class was displayed
+2016-10-06 17:04:22 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
+2016-10-06 17:04:23 INFO  LogLog4j:275 - V - FB share btn was displayed
+2016-10-06 17:04:23 INFO  LogLog4j:284 - V - Twitter share btn was displayed
+2016-10-06 17:04:23 INFO  LogLog4j:261 - V - Text check- score unit match
+2016-10-06 17:04:23 INFO  LogLog4j:298 - V - Text check- Title was displayed: 
+2016-10-06 17:04:23 INFO  LogLog4j:389 - V - Powered By Carambola btn was displayed
+2016-10-06 17:04:23 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 17:04:23 INFO  LogLog4j:38 - X
+2016-10-06 17:04:23 INFO  LogLog4j:40 - X
+2016-10-06 17:04:23 INFO  LogLog4j:42 - X
+2016-10-06 17:04:23 INFO  LogLog4j:44 - X
+2016-10-06 17:11:40 INFO  LogLog4j:69 - 
+
+*** Starting Chrome Browser ***
+
+2016-10-06 17:11:40 INFO  LogLog4j:20 - ****************************************************************************************
+2016-10-06 17:11:40 INFO  LogLog4j:22 - ****************************************************************************************
+2016-10-06 17:11:40 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-10-06 17:11:40 INFO  LogLog4j:26 - ****************************************************************************************
+2016-10-06 17:11:40 INFO  LogLog4j:28 - ****************************************************************************************
+2016-10-06 17:11:40 INFO  LogLog4j:39 - tc1 time before loaing page
+2016-10-06 17:12:07 INFO  LogLog4j:47 - 
+-----  Test Case 1: ** UI test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-06 17:12:07 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 17:12:07 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 17:12:12 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
+2016-10-06 17:12:12 INFO  LogLog4j:272 - V - Image 0 was displayed: http://media.carambo.la/Images/3523_1_5.jpg
+2016-10-06 17:12:12 INFO  LogLog4j:211 - V - Item 0 was displayed: Marilyn Monroe: "A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left"
+2016-10-06 17:12:12 INFO  LogLog4j:233 - V - Score Title Class was displayed
+2016-10-06 17:12:12 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
+2016-10-06 17:12:13 INFO  LogLog4j:275 - V - FB share btn was displayed
+2016-10-06 17:12:13 INFO  LogLog4j:284 - V - Twitter share btn was displayed
+2016-10-06 17:12:13 INFO  LogLog4j:261 - V - Text check- score unit match
+2016-10-06 17:12:13 INFO  LogLog4j:298 - V - Text check- Title was displayed: 
+2016-10-06 17:12:13 INFO  LogLog4j:389 - V - Powered By Carambola btn was displayed
+2016-10-06 17:12:13 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-10-06 17:12:13 INFO  LogLog4j:38 - X
+2016-10-06 17:12:13 INFO  LogLog4j:40 - X
+2016-10-06 17:12:13 INFO  LogLog4j:42 - X
+2016-10-06 17:12:13 INFO  LogLog4j:44 - X
+2016-10-06 17:13:07 INFO  LogLog4j:87 - 
+-----  Test Case 2: ** FUNCTIONALITY test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-06 17:13:07 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 17:13:08 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 17:13:13 INFO  LogLog4j:145 - Item 0 is: 
+2016-10-06 17:13:25 INFO  LogLog4j:182 - 
+-----  Test Case 4: ** FUNCTIONALITY test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
+2016-10-06 17:13:25 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-10-06 17:13:25 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-10-06 17:13:31 INFO  LogLog4j:100 - V- click number: 1 on element 'TrueButton'
+2016-10-06 17:13:41 INFO  LogLog4j:412 - V - The window that was opened by click is CORRECT. its title is: Carambola
+2016-10-06 17:15:26 INFO  LogLog4j:126 - 
+-----  Test Case 3: ** CONTENT test ** with URL: http://astralandopal.com/lists/10-things-you-ll-understand-if-you-re-in-a-long-term-relationship-----
