@@ -42,8 +42,8 @@ public class TestNgTestBase {
   public Integer counterFails = 0;
 
   @Parameters({"browser_name"})
-  @BeforeClass(alwaysRun = true)
-  public void setuptestNg(@Optional("Chrome") @Parameter("Browser") String browser) throws Exception {
+  @BeforeTest(alwaysRun = true)
+  public void setuptestNg(@Optional("Firefox") @Parameter("Browser") String browser) throws Exception {
     baseUrl = PropertyLoader.loadProperty("site.url");
 
 
@@ -134,7 +134,7 @@ public class TestNgTestBase {
 
   }
   // tearDown after test
-  @AfterClass(alwaysRun = true)
+  @AfterTest(alwaysRun = true)
   public void tearDown() throws EmailException, java.net.UnknownHostException {
     String endTime = GeneralUtils.sdf.format(new Date());
     this.driver.quit();
@@ -144,13 +144,14 @@ public class TestNgTestBase {
     addr = InetAddress.getLocalHost();
     hostname = addr.getHostName();
 
-    Long testTimeSec = (System.currentTimeMillis() - startTimeMls) / 1000;
+    double testTimeMin = ((System.currentTimeMillis()) - startTimeMls) / 1000.d / 60;
     //GeneralUtils.emailer(" Holly Shmoly! a HUGE mother FU@#$ing Automated TEST was just FINISHED !! on hostname: " + hostname);
     GeneralUtils.emailer("Holly Shmoly! a mother FU@#$ing Automated TEST was just FINISHED !!" +
+            "\nClass name:  "+ this.getClass().getName() +"" +
             "\nStarted at:  "+ startTime +"" +
             "\nFinished at: "+ endTime +"" +
             "\nOn Hostname: "+ hostname +"" +
-            "\nTotal time:  " + testTimeSec +"" +
+            "\nTotal time:  " + testTimeMin +"" +
             "\nTotal success: "+ counterSuccess + "" +
             "\nTotal Failures: " + counterFails);
   }

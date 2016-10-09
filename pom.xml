@@ -106,11 +106,11 @@
           </argLine>
           <!--only for 1.3.* TestNG adapters. Since 1.4.0.RC4, the listener adds via ServiceLoader-->
           <properties>
-            <property>
+           <!-- <property>
               <name>listener</name>
               <value>ru.yandex.qatools.allure.testng.AllureTestListener</value>
-            </property>
-            <suiteXmlFile>testng_ads_.xml</suiteXmlFile>
+            </property> -->
+            <!-- <suiteXmlFile>testng_ads_.xml</suiteXmlFile>    ?????  whats that -->
           </properties>
           <forkMode>always</forkMode>
           <systemPropertyVariables>

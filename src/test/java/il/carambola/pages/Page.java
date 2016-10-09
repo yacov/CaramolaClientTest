@@ -125,7 +125,7 @@ public abstract class Page {
     return isScriptValid;
 
   }
-
+  @Step("Check if script exists. severity: Trivial")
   @Severity(SeverityLevel.TRIVIAL)
   public boolean IsScriptValid1(WebElement script) {
 
@@ -421,7 +421,7 @@ public abstract class Page {
     Integer screenHeight = driver.manage().window().getSize().getHeight();
     System.out.println(screenHeight);
 
-    Integer scroll = (screenHeight - 200) / 2 ;
+    Integer scroll = (screenHeight - 150) / 2 ; // was 200 and was ok, but a bit low in the screen
     System.out.println(scroll);
     JavascriptExecutor jse = (JavascriptExecutor) driver;
     jse.executeScript("document.getElementById('InContent-container-centerWrapper0').scrollIntoView(true);");
