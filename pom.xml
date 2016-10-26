@@ -117,7 +117,7 @@
             <reporter.debug>false</reporter.debug>
           </systemPropertyVariables>
           <suiteXmlFiles>
-           <!-- <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> -->
+            <!--<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>-->
           </suiteXmlFiles>
         </configuration>
         <dependencies>
