@@ -59,9 +59,9 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         //step 4
         //softAssert.assertTrue(layout_120_page.IsBoardExist(), "From test: Cbola board DOESNT exists");
         //step 4.2
-        layout_120_page.isImageExists();
+        layout_120_page.isImageExists(0);
         // Log.info(layout_120_page.printImage(0)); printImage return String. its already in isFirstImageExists
-        layout_120_page.isTextExists(); // its a boolean in case we will want to make Assert
+        layout_120_page.isTextExists(0); // its a boolean in case we will want to make Assert
         layout_120_page.isScoreTitleExists();
         layout_120_page.isShareBtnExists("FB"); // excepts "FB" or "Twitter"
         layout_120_page.isShareBtnExists("Twitter");
@@ -137,7 +137,8 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         System.out.println("JS scroll executed");
         // start test:
         // Step 2: click until game finishes
-        layout_120_page.pressFalseButton(10);
+        Integer noClicks = 10;
+        layout_120_page.pressFalseButton(noClicks);
         //layout_120_page.pressTrueButton(7);
         Thread.sleep(3000);
         // Step 3: Ending screen Message Structure- "next quiz"
@@ -156,9 +157,9 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         layout_120_page.isShareBtnEndingScreenExists("FB");
         layout_120_page.isShareBtnEndingScreenExists("Twitter");
         //Step 6: image 10 appears (next game's image)
-        layout_120_page.isImageExists();
+        layout_120_page.isImageExists(11);
         //Step 7: is item 10 displayed? mustNOT because Ending screen covers it
-        assertFalse("X- text of item 10 WAS displayed ending screen covers it",layout_120_page.isTextExists());
+        assertFalse("X- text of item 10 WAS displayed ending screen covers it",layout_120_page.isTextExists(noClicks));
         //Step 8: click START (new game)
         if(layout_120_page.isAdAppearance(1,0)) {
             Log.info("Can't click. trigger 1 blocks the way. Need to wait for it to close...waiting 8 sec...");
@@ -170,7 +171,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
             Thread.sleep(1000);
         }
         //Step 9: is item 10 displayed?
-        assertTrue("X- text of item 10 WASNT displayed ending screen covers it",layout_120_page.isTextExists());
+        assertTrue("X- text of item 10 WASNT displayed ending screen covers it",layout_120_page.isTextExists(noClicks));
         System.out.println("## END OF TEST ##");
         LogLog4j.endTestCase("test case ended");
     }

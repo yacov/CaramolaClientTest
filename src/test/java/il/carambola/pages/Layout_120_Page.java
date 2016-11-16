@@ -76,11 +76,11 @@ public class Layout_120_Page extends Page {
     }
 
     @Step("Find text of item")
-    public boolean isTextExists() throws IOException {
-        Integer itemNo = 0;
+    public boolean isTextExists(Integer currentItem) throws IOException {
+
         // must declare the WebElement here so we can use the "itemNo" (its a dynamic class)
         WebElement Item = driver.findElement(By.xpath(Consts.ACTIVE_ITEM_XPATH));
-        return findText(Item, itemNo);
+        return findText(Item, currentItem);
     }
 
     @Step("Find the word 'Question'")
@@ -128,9 +128,9 @@ public class Layout_120_Page extends Page {
             while ( (sumOfClicks < noOfClicks + maxClicks) && sumOfClicks < 10){
                 Log.info("Item " + sumOfClicks + " is: ");
                 // first item
-                isTextExists();
+                isTextExists(sumOfClicks);
                 // first image
-                isImageExists();  // also prints the src. no need for printImage()
+                isImageExists(sumOfClicks);  // also prints the src. no need for printImage()
 
                 //click to next
                 clickElement(TrueButton);
@@ -142,9 +142,9 @@ public class Layout_120_Page extends Page {
             while ( (sumOfClicks < noOfClicks + maxClicks) && sumOfClicks < 10){
                 Log.info("Item " + sumOfClicks + " is: ");
                 // first item
-                isTextExists();
+                isTextExists(sumOfClicks);
                 // first image
-                isImageExists();  // also prints the src. no need for printImage()
+                isImageExists(sumOfClicks);  // also prints the src. no need for printImage()
 
                 //click to next
                 clickElement(FalseButton);
@@ -262,13 +262,13 @@ public class Layout_120_Page extends Page {
 
     // Step 4.2 - Verify 1st Image -cbolaContent-imageLoader
     @Step("Check if Image Exists")
-    public boolean isImageExists(){
-        Integer imgNo = 1;
+    public boolean isImageExists(Integer currentImg){
+        Integer imgNo = currentImg;
         WebElement imgElement = driver.findElement(By.xpath(Consts.ACTIVE_IMG_XPATH));
         boolean isCbolaImg = imgElement.isDisplayed();
         if(isCbolaImg) {
             // (same as print img method)
-          //  String srcOfImage = imgElement.getAttribute("src");
+            //String srcOfImage = imgElement.getAttribute("style").substring(24,100);
             Log.info("V - Image " + imgNo + " was displayed: " + printImage());
             // System.out.println("From Page class: YEAH!- we can see 1st image element:");
 
@@ -282,10 +282,10 @@ public class Layout_120_Page extends Page {
 
     // get the src of the img and print it
     @Step("Print Image src url")
-    public String printImage(){
-        Integer imgNo = 1;
+    public String printImage( ){
+        //Integer imgNo = currentImg;
         WebElement imgSrc = driver.findElement(By.xpath(Consts.ACTIVE_IMG_XPATH));
-        String srcOfImage = imgSrc.getAttribute("src");
+        String srcOfImage = imgSrc.getAttribute("style").substring(24,75);;
         //Log.info("V - Image " + imgNo + " src is: " + srcOfImage);
         return srcOfImage;
     }

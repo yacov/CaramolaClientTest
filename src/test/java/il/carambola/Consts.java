@@ -28,7 +28,7 @@ public class Consts {
     public static final String SHARE_TWITTER_CLASS = "cbola-d-trivia__tw";
     public static final String SHARE_TWITTER_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div[1]/div[1]/div[1]/div[2]/i";
     //public static final String ACTIVE_IMG_CLASS = "cbola-d-trivia__item-image cbola-d-trivia__item-image--active";
-    public static final String ACTIVE_IMG_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div/div/div[2]/div[2]";
+    public static final String ACTIVE_IMG_XPATH = ".//*[contains(@class,'cbola-d-trivia__item-image cbola-d-trivia__item-image--active')]";
     //public static final String SCOREBOARD_PROGRESS_TITLE_CLASS = "cbola-d-trivia__progress-text"; //"Question"
     public static final String SCOREBOARD_PROGRESS_TITLE_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div/div[1]/div[4]/div[1]/div[1]"; //"Question"
     public static final String SCOREBOARD_PROGRESS_COUNT_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div/div[1]/div[4]/div[1]/div[2]"; //"1/10"
@@ -38,7 +38,7 @@ public class Consts {
 
     public static final String TITLE_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div[1]/div[2]/div[2]"; // The title= the main question
     //public static final String ACTIVE_ITEM_CLASS = "cbola-d-trivia__item-desc cbola-d-trivia__item-desc--active";
-    public static final String ACTIVE_ITEM_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div/div[2]/div[3]/div[1]";
+    public static final String ACTIVE_ITEM_XPATH = ".//*[contains(@class,'cbola-d-trivia__item-desc cbola-d-trivia__item-desc--active')]";
     public static final String TRUE_BTN_ID = "cbolaContent-leftButton0";
     public static final String TRUE_BTN_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div[1]/div[1]/div[2]/div[4]/div[1]";
     public static final String FALSE_BTN_ID = "cbolaContent-rightButton0";
