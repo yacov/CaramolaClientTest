@@ -58,7 +58,7 @@ public abstract class Page {
       case 110:
         break;
       case 120:
-        WebElement cbolaCenterWrapper = driver.findElement(By.id(Consts.CENTER_WRAPPER_ID + 0));
+        WebElement cbolaCenterWrapper = driver.findElement(By.xpath(Consts.CBOLA_LAYER_XPATH));
         if (cbolaCenterWrapper != null && cbolaCenterWrapper.isDisplayed()) {
           System.out.println("YEAH!- cbola centerWrapper was loaded succefuly inside the HTML");
           result = true;
@@ -148,7 +148,7 @@ public abstract class Page {
   }
 
   public void checkLayerNumber(Integer LayerNum) {
-    String layerTypeAttribute = driver.findElement(By.className(Consts.CENTER_WRAPPER_ID)).getAttribute("layertype");
+    String layerTypeAttribute = driver.findElement(By.xpath(Consts.CBOLA_LAYER_XPATH)).getAttribute("layertype");
     Integer layerNumber = Integer.parseInt(layerTypeAttribute);
     Assert.assertEquals(layerNumber, LayerNum, "This is not right Layer Number, so test stops here. Actual Layer number is " + layerNumber);
     Log.info("Layer number is OK: " + layerNumber);
@@ -179,7 +179,7 @@ public abstract class Page {
   }
   public void sizeOfWrapper(){
     // get size of wrapper
-    WebElement wrapper = driver.findElement(By.id(Consts.CENTER_WRAPPER_ID + 0));
+    WebElement wrapper = driver.findElement(By.xpath(Consts.CBOLA_LAYER_XPATH));
     Dimension dimWrapper = wrapper.getSize();
     System.out.println("height is: "+ dimWrapper.getHeight() + ". width is: " + dimWrapper.getWidth());
 
@@ -253,7 +253,8 @@ public abstract class Page {
   }
 
   public void isScoreUnit(WebElement ScoreUnitElement) throws IOException {
-    String ScoreUnit = ScoreUnitElement.findElement(By.tagName("span")).getText();
+    //String ScoreUnit = ScoreUnitElement.findElement(By.tagName("span")).getText();
+    String ScoreUnit = ScoreUnitElement.getText();
     System.out.println("ref text is: " + Consts.TEXT_YOUR_SCORE);
     System.out.println("text on screen is: " + ScoreUnit);
     // score unit- "your score"
@@ -313,11 +314,14 @@ public abstract class Page {
    }
   @Severity(SeverityLevel.MINOR)
   @Step("check for duplicate items")
-  public void checkDuplicateItems() throws IOException {
+  public boolean checkDuplicateItems() throws IOException {
+    Integer countSimilar = 0;
+    boolean isDup = false;
     for(Integer j = 0; j < itemsTemp.size(); j++){
       for(Integer k = j+1; k < itemsTemp.size(); k++){
         if(itemsTemp.get(k) != null && itemsTemp.get(j).equals(itemsTemp.get(k))){
           System.out.println("xx SHAYSE xx item no." + j + " and item no." + k + " are similar");
+          countSimilar++;
           File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
           FileUtils.copyFile(scrFile, new File(Consts.outputDirectory + "screenshot_item no."+j+" and item no."+k+" are similar.png"));
         }else{
@@ -326,6 +330,8 @@ public abstract class Page {
         }
       }
     }
+    if (countSimilar > 0){isDup = true;}
+    return isDup;
   }
 
   public boolean findEndingScreenMsg(WebElement element){
@@ -424,7 +430,7 @@ public abstract class Page {
     Integer scroll = (screenHeight - 150) / 2 ; // was 200 and was ok, but a bit low in the screen
     System.out.println(scroll);
     JavascriptExecutor jse = (JavascriptExecutor) driver;
-    jse.executeScript("document.getElementById('InContent-container-centerWrapper0').scrollIntoView(true);");
+    jse.executeScript("document.getElementsByClassName('cbola-d-trivia')[0].scrollIntoView(true);");
     jse.executeScript("window.scrollBy(0,-" + scroll + ")");
   }
 

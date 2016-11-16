@@ -110,20 +110,20 @@ public class TestNgTestBase {
       {
         counterSuccess++;
         //Do something here
-        System.out.println("passed **********");
+        System.out.println("passed **********\n");
       }
 
       else if(result.getStatus() == ITestResult.FAILURE)
       {
         counterFails++;
         //Do something here
-        System.out.println("Failed ***********");
+        System.out.println("Failed ***********\n");
 
       }
 
       else if(result.getStatus() == ITestResult.SKIP ){
 
-        System.out.println("Skiped***********");
+        System.out.println("Skiped***********\n");
 
       }
     }

@@ -47,7 +47,7 @@ public class Layout120_Ads_Tests extends TestNgTestBase {
         driver.navigate().to(url); // can also use driver.get(url). there's no performance diff
 
         // wait.until(ExpectedConditions.titleContains("Rushing")); // nice to have- dont start until element X is on page
-        Log.info("\n-----  Test Case 1: ** ADS test ** with URL: " + url + "-----");
+        Log.info("\n-----  Test Case 1: ** ADS test ** \nURL: " + url + "-----");
 
         // step 1
         //** make sure the method is TRUE. if not- log a message
@@ -60,10 +60,11 @@ public class Layout120_Ads_Tests extends TestNgTestBase {
         layout_120_page.scrollUnit();
 
         //step 2
-        //softAssert.assertTrue(layout_120_page.isAdAppearance(1,0),"couldnt find banner 300*250");
-        assertTrue("couldn't find banner 300*250", layout_120_page.isAdAppearance(1,0));
+        softAssert.assertTrue(layout_120_page.isAdAppearance(1,0),"couldnt find banner 300*250");
+        //assertTrue("couldn't find banner 300*250", layout_120_page.isAdAppearance(1,0));
         assertTrue("couldn't find banner 728*90",layout_120_page.isAdAppearance(4,0));
         assertTrue("couldn't find x btn", layout_120_page.isAdCloseBtnExists(4,true));
+
     }
 
     // Test Case 2
@@ -81,7 +82,7 @@ public class Layout120_Ads_Tests extends TestNgTestBase {
         driver.manage().window().maximize();
         driver.get(url);
         // wait.until(ExpectedConditions.titleContains("Rushing")); // nice to have- dont start until element X is on page
-        Log.info("\n-----  Test Case 2: ** ADS test ** with URL: " + url + "-----");
+        Log.info("\n-----  Test Case 2: ** ADS test ** \nURL: " + url + "-----");
 
         // step 1
         //** make sure the method is TRUE. if not- log a message
@@ -117,7 +118,7 @@ public class Layout120_Ads_Tests extends TestNgTestBase {
         driver.manage().window().maximize();
         driver.get(url);
         // wait.until(ExpectedConditions.titleContains("Rushing")); // nice to have- dont start until element X is on page
-        Log.info("\n-----  Test Case 3: ** ADS test ** with URL: " + url + "-----");
+        Log.info("\n-----  Test Case 3: ** ADS test ** \nURL: " + url + "-----");
 
         // step 1
         //** make sure the method is TRUE. if not- log a message

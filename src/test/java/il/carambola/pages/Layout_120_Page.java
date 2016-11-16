@@ -21,53 +21,50 @@ public class Layout_120_Page extends Page {
     private Integer sumOfClicks = 0;
     private String testUrl = null;
 
-
-    @FindBy(id = Consts.SCRIPT_ID)
+    @FindBy(className = Consts.SCRIPT_CLASS)
     WebElement ContentScript;
 
-    @FindBy(id = Consts.CENTER_WRAPPER_ID)
-    WebElement centerWrapper;
+    @FindBy(xpath = Consts.CBOLA_LAYER_XPATH)
+    WebElement cbolaLayer; //old = Wrapper
 
-    @FindBy(xpath = "//div[@class='" + Consts.BOARD_CLASS + "']")
-    WebElement CbolaBoard;
+    //@FindBy(xpath = "//div[@class='" + Consts.BOARD_CLASS + "']")
+    //WebElement CbolaBoard;
+    @FindBy(xpath = Consts.COVERAGE_XPATH)
+    WebElement CbolaCoverage; // old = Board
 
     //@FindBy(xpath = "//*[@id='InContent-container-centerWrapper0']//div[@class='cbola_board cbola_board0 unselectDrag']")
     //WebElement CbolaBoard;
 
-    @FindBy(id = Consts.TRUE_BTN_ID)
+    @FindBy(xpath = Consts.TRUE_BTN_XPATH)
     WebElement TrueButton;
-    @FindBy(id = Consts.FALSE_BTN_ID)
+    @FindBy(xpath = Consts.FALSE_BTN_XPATH)
     WebElement FalseButton;
 
-    @FindBy(xpath = "//img[@class='cbolaContent-itemPicture cbolaContent-itemPicture0']")
-    WebElement img0;
-    @FindBy(className = Consts.SHARE_FB_CLASS)
+    @FindBy(xpath = Consts.SHARE_FB_XPATH)
     WebElement shareFB;
-    @FindBy(xpath = ".//*[@id='InContent-container-centerWrapper0']/div/div/div[1]/div[2]/div[3]/div[5]/i[1]")
+    @FindBy(xpath = Consts.ENDING_SCREEN_SHARE_FB_XPATH)
     WebElement shareFBEndingScreen;
-    @FindBy(className = Consts.SHARE_TWITTER_CLASS)
+    @FindBy(xpath = Consts.SHARE_TWITTER_XPATH)
     WebElement shareTwitter;
-    @FindBy(xpath = ".//*[@id='InContent-container-centerWrapper0']/div/div/div[1]/div[2]/div[3]/div[5]/i[2]")
+    @FindBy(xpath = Consts.ENDING_SCREEN_SHARE_TWITTER_XPATH)
     WebElement shareTwitterEndingScreen;
-    @FindBy(className = Consts.SCORE_UNIT_CLASS)
+    @FindBy(xpath = Consts.SCOREBOARD_SCORE_TEXT_XPATH)
     WebElement scoreUnit;
-    @FindBy(className = Consts.TITLE_CLASS)
-    WebElement unitTitle;
     @FindBy(xpath = Consts.TITLE_XPATH)
-    WebElement unitTitleX;
-    @FindBy(className = Consts.ENDING_SCREEN_MSG_TITLE_CLASS)
-    WebElement endingScreenMsgTitle;
-    @FindBy(className = Consts.ENDING_SCREEN_MSG_NAME_CLASS)
-    WebElement endingScreenMsgName;
-    @FindBy(className = Consts.ENDING_SCREEN_MSG_BTN_CLASS)
-    WebElement endingScreenMsgBtn;
-    @FindBy(className = Consts.ENDING_SCREEN_SCORE_UNIT_CLASS)
-    WebElement endingScreenScoreUnitText;
-    @FindBy(className = Consts.ENDING_SCREEN_SHARE_TITLE_CLASS)
-    WebElement endingScreenShareTitle;
-    @FindBy(className = Consts.ENDING_SCREEN_SHARE_TITLE2_CLASS)
-    WebElement endingScreenShareTitle2;
-    @FindBy(className = Consts.ENDING_SCREEN_START_BTN_CLASS)
+    WebElement unitTitle;
+    @FindBy(xpath = Consts.ENDING_SCREEN_NEXT_HEADER)
+    WebElement endingScreenNextHeader;
+    @FindBy(xpath = Consts.ENDING_SCREEN_NEXT_TITLE)
+    WebElement endingScreenNextGameTitle;
+    //@FindBy(className = Consts.ENDING_SCREEN_MSG_BTN_CLASS)
+    //WebElement endingScreenMsgBtn;
+    @FindBy(xpath = Consts.ENDING_SCREEN_TITLE_XPATH)
+    WebElement endingScreenTextYouScored;
+    @FindBy(xpath = Consts.ENDING_SCREEN_CHALLENGE_XPATH)
+    WebElement endingScreenTextChallenge;
+    @FindBy(xpath = Consts.ENDING_SCREEN_YOUR_FRIENDS_XPATH)
+    WebElement endingScreenTextYourFriends;
+    @FindBy(xpath = Consts.ENDING_SCREEN_START_BTN)
     WebElement startBtn;
     //public ProfilePage profilePag
 
@@ -79,16 +76,17 @@ public class Layout_120_Page extends Page {
     }
 
     @Step("Find text of item")
-    public boolean isTextExists(Integer itemNo) throws IOException {
+    public boolean isTextExists() throws IOException {
+        Integer itemNo = 0;
         // must declare the WebElement here so we can use the "itemNo" (its a dynamic class)
-        WebElement Item = driver.findElement(By.className(Consts.FIRST_ITEM_CLASS + itemNo));
+        WebElement Item = driver.findElement(By.xpath(Consts.ACTIVE_ITEM_XPATH));
         return findText(Item, itemNo);
     }
 
     @Step("Find the word 'Question'")
     public boolean isScoreTitleExists() throws IOException {
         // must declare the WebElement here so we can use the "itemNo" (its a dynamic class)
-        WebElement scoreTitle = driver.findElement(By.className(Consts.SCORE_TITLE_CLASS));
+        WebElement scoreTitle = driver.findElement(By.xpath(Consts.SCOREBOARD_PROGRESS_TITLE_XPATH));
         return findScoreTitle(scoreTitle);
     }
 
@@ -130,9 +128,9 @@ public class Layout_120_Page extends Page {
             while ( (sumOfClicks < noOfClicks + maxClicks) && sumOfClicks < 10){
                 Log.info("Item " + sumOfClicks + " is: ");
                 // first item
-                isTextExists(sumOfClicks);
+                isTextExists();
                 // first image
-                isImageExists(sumOfClicks);  // also prints the src. no need for printImage()
+                isImageExists();  // also prints the src. no need for printImage()
 
                 //click to next
                 clickElement(TrueButton);
@@ -144,9 +142,9 @@ public class Layout_120_Page extends Page {
             while ( (sumOfClicks < noOfClicks + maxClicks) && sumOfClicks < 10){
                 Log.info("Item " + sumOfClicks + " is: ");
                 // first item
-                isTextExists(sumOfClicks);
+                isTextExists();
                 // first image
-                isImageExists(sumOfClicks);  // also prints the src. no need for printImage()
+                isImageExists();  // also prints the src. no need for printImage()
 
                 //click to next
                 clickElement(FalseButton);
@@ -169,7 +167,7 @@ public class Layout_120_Page extends Page {
 
 
     public Layout_120_Page WaitUntilLayoutIsLoaded() {
-        waitUntilIsLoadedCustomTime(CbolaBoard, 160);
+        waitUntilIsLoadedCustomTime(CbolaCoverage, 160);
 
         return this;  // ?? why like this?
     }
@@ -180,7 +178,7 @@ public class Layout_120_Page extends Page {
     }
 
     public boolean CheckThatCenterWrapperExists() {
-        return exists(centerWrapper);
+        return exists(cbolaLayer);
 
     }
     public boolean isScriptValidHere(){
@@ -207,7 +205,7 @@ public class Layout_120_Page extends Page {
                 driver.switchTo().frame(i);
 
                 try {
-                    WebElement scriptTagTemp = driver.findElement(By.id(Consts.SCRIPT_ID));
+                    WebElement scriptTagTemp = driver.findElement(By.className(Consts.SCRIPT_CLASS));
 
                     String b = scriptTagTemp.toString();
                     System.out.println(b);
@@ -232,7 +230,7 @@ public class Layout_120_Page extends Page {
     @Step("Check if board exists")
     public boolean IsBoardExist(){
         boolean isBoardValid = true;
-        if (CbolaBoard != null && CbolaBoard.isDisplayed()) {
+        if (CbolaCoverage != null && CbolaCoverage.isDisplayed()) {
             Log.info("V - cbola board displayed");
             System.out.println("YEAH!- cbola board was displayed");
         } else {
@@ -240,7 +238,7 @@ public class Layout_120_Page extends Page {
             //errors.add("\nBrowser: " + browserName + " URL: " + (i + 1) + " SHAYSE- cbola borad is NOT displayed");
             //testRunSuccessfull = false;
             isBoardValid = false;
-            if (CbolaBoard == null) {
+            if (CbolaCoverage == null) {
                 Log.error("X - cbola board WASNT loaded");
             }
         }
@@ -259,17 +257,19 @@ public class Layout_120_Page extends Page {
     @Step("Check if Layer is correct")
     public void chekLayerisCorrect() {
         checkLayerNumber(120);
+
     }
 
     // Step 4.2 - Verify 1st Image -cbolaContent-imageLoader
     @Step("Check if Image Exists")
-    public boolean isImageExists(Integer imgNo){
-        WebElement imgElement = driver.findElement(By.className(Consts.FIRST_IMG_CLASS + imgNo));
+    public boolean isImageExists(){
+        Integer imgNo = 1;
+        WebElement imgElement = driver.findElement(By.xpath(Consts.ACTIVE_IMG_XPATH));
         boolean isCbolaImg = imgElement.isDisplayed();
         if(isCbolaImg) {
             // (same as print img method)
           //  String srcOfImage = imgElement.getAttribute("src");
-            Log.info("V - Image " + imgNo + " was displayed: " + printImage(imgNo));
+            Log.info("V - Image " + imgNo + " was displayed: " + printImage());
             // System.out.println("From Page class: YEAH!- we can see 1st image element:");
 
         } else {
@@ -279,10 +279,12 @@ public class Layout_120_Page extends Page {
         }
         return isCbolaImg;
     }
+
     // get the src of the img and print it
     @Step("Print Image src url")
-    public String printImage(Integer imgNo){
-        WebElement imgSrc = driver.findElement(By.className(Consts.FIRST_IMG_CLASS + imgNo));
+    public String printImage(){
+        Integer imgNo = 1;
+        WebElement imgSrc = driver.findElement(By.xpath(Consts.ACTIVE_IMG_XPATH));
         String srcOfImage = imgSrc.getAttribute("src");
         //Log.info("V - Image " + imgNo + " src is: " + srcOfImage);
         return srcOfImage;
@@ -310,19 +312,19 @@ public class Layout_120_Page extends Page {
     }
     @Step("Find Unit Title")
     public void isUnitTitleExists()throws IOException{
-        findUnitTitle(unitTitleX); // trying the Xpath. if it works, possible to delete findBy class
+        findUnitTitle(unitTitle);
     }
     @Step("Find Ending Screen msg- title")
     public boolean isEndingScreenMsgTitleExists(){
-        return findEndingScreenMsg(endingScreenMsgTitle);
+        return findEndingScreenMsg(endingScreenNextHeader);
     }
 
     // find the name of the next game (ONLY GOOD for Trivia layouts- 120, 140, 1400 and therefor the method will be in this class
     @Step("Find Ending Screen msg- name of next game")
     public boolean findEndingScreenMsgName(){
-        boolean isEndingScreenMsgName = endingScreenMsgName.isDisplayed();
+        boolean isEndingScreenMsgName = endingScreenNextGameTitle.isDisplayed();
         if(isEndingScreenMsgName){
-            String nextGameName = endingScreenMsgName.getText();
+            String nextGameName = endingScreenNextGameTitle.getText();
             Log.info("V- Ending Screen Msg name exists. next game is: " + nextGameName);
         }else{
             Log.error("X- Ending Screen Msg name DID NOT exist in page");
@@ -331,9 +333,9 @@ public class Layout_120_Page extends Page {
     }
     @Step("Find 'Start' btn")
     public boolean isStartNextGameBtnExists(){
-        boolean isStartBtn = endingScreenMsgBtn.isDisplayed();
+        boolean isStartBtn = startBtn.isDisplayed();
         if(isStartBtn){
-            String startBtnText = endingScreenMsgBtn.getText();
+            String startBtnText = startBtn.getText();
             Log.info("V- Start button exists and it says: " + startBtnText);
         }else{
             Log.error("X- Start button DOESN'T exists");
@@ -342,9 +344,9 @@ public class Layout_120_Page extends Page {
     }
     @Step("You scored a...")
     public boolean isScoreUnitTitle(){
-        boolean isScoreTitle = endingScreenScoreUnitText.isDisplayed();
+        boolean isScoreTitle = endingScreenTextYouScored.isDisplayed();
         if(isScoreTitle){
-            String scoreText = endingScreenScoreUnitText.getText();
+            String scoreText = endingScreenTextYouScored.getText();
             Log.info("V- score title was displayed: " + scoreText);
             isScoreTitleCorrect(scoreText);
         }else{
@@ -413,9 +415,9 @@ public class Layout_120_Page extends Page {
     }
     @Step("Find ES text- CHALLENGE")
     public boolean isEndingScreenShareTitleExists(){
-        boolean isEndingScreenShareTitle = endingScreenShareTitle.isDisplayed();
+        boolean isEndingScreenShareTitle = endingScreenTextChallenge.isDisplayed();
         if(isEndingScreenShareTitle){
-            String shareTitle = endingScreenShareTitle.getText();
+            String shareTitle = endingScreenTextChallenge.getText();
             Log.info("V- ending screen share title exists: " + shareTitle);
         }else{
             Log.error("X- ending screen share title DOESNT exists");
@@ -424,9 +426,9 @@ public class Layout_120_Page extends Page {
     }
     @Step("Find ES text- YOUR FRIENDS")
     public boolean isEndingScreenShareTitle2Exists(){
-        boolean isEndingScreenShareTitle2 = endingScreenShareTitle2.isDisplayed();
+        boolean isEndingScreenShareTitle2 = endingScreenTextYourFriends.isDisplayed();
         if(isEndingScreenShareTitle2){
-            String shareTitle = endingScreenShareTitle2.getText();
+            String shareTitle = endingScreenTextYourFriends.getText();
             Log.info("V- ending screen share title 2 exists: " + shareTitle);
         }else{
             Log.error("X- ending screen share title 2 DOESNT exists");

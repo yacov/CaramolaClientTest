@@ -13,42 +13,68 @@ public class Consts {
 
 
     //120
-    // HTML classes
-    public static final String FIRST_IMG_CLASS = "cbolaContent-itemPicture";
-    public static final String FIRST_ITEM_CLASS = "cbolaContent-itemDescription";
-    public static final String BOARD_CLASS = "cbola_board cbola_board0 unselectDrag";
-    public static final String SHARE_FB_CLASS = "cbola-fa-facebook";
-    public static final String SHARE_TWITTER_CLASS = "cbola-fa-twitter";
-    public static final String SCORE_TITLE_CLASS = "cbolaContent-scoreTitle";
-    public static final String SCORE_UNIT_CLASS = "cbolaContent-scoreUnit";
-    public static final String TITLE_CLASS = "cbolaContent-itemsTitle0";
-    public static final String TITLE_XPATH = ".//*[@id='InContent-container-centerWrapper0']/div/div/div[1]/div[2]/div[1]/div";//"html/body/center/div/div/div[1]/div[1]/div[6]";
+
+    // TRIVIA BASIC DIV
+    //public static final String SCRIPT_ID = "InContentScript0"; old version
+    public static final String SCRIPT_CLASS = "carambola_InContent";
+    public static final String CBOLA_LAYER_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]";
+    //public static final String BOARD_CLASS = "cbola_board cbola_board0 unselectDrag"; old version. NO BOARD
+    public static final String BOARD_CLASS = "cbola-d-trivia";
+    public static final String COVERAGE_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div[1]";
+
+    // TRIVIA BODY
+    public static final String SHARE_FB_CLASS = "cbola-d-trivia__fb";
+    public static final String SHARE_FB_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div[1]/div[1]/div[1]/div[1]/i";
+    public static final String SHARE_TWITTER_CLASS = "cbola-d-trivia__tw";
+    public static final String SHARE_TWITTER_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div[1]/div[1]/div[1]/div[2]/i";
+    //public static final String ACTIVE_IMG_CLASS = "cbola-d-trivia__item-image cbola-d-trivia__item-image--active";
+    public static final String ACTIVE_IMG_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div/div/div[2]/div[2]";
+    //public static final String SCOREBOARD_PROGRESS_TITLE_CLASS = "cbola-d-trivia__progress-text"; //"Question"
+    public static final String SCOREBOARD_PROGRESS_TITLE_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div/div[1]/div[4]/div[1]/div[1]"; //"Question"
+    public static final String SCOREBOARD_PROGRESS_COUNT_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div/div[1]/div[4]/div[1]/div[2]"; //"1/10"
+    public static final String SCOREBOARD_SCORE_TEXT_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div/div[1]/div[4]/div[2]/div[1]"; //"your score"
+    public static final String SCOREBOARD_SCORE_COUNT_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div/div[1]/div[4]/div[2]/div[2]"; //"0"
+    //public static final String SCOREBOARD_SCORE_UNIT_CLASS = "cbola-d-trivia__score-text"; // your score
+
+    public static final String TITLE_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div[1]/div[2]/div[2]"; // The title= the main question
+    //public static final String ACTIVE_ITEM_CLASS = "cbola-d-trivia__item-desc cbola-d-trivia__item-desc--active";
+    public static final String ACTIVE_ITEM_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div/div[2]/div[3]/div[1]";
+    public static final String TRUE_BTN_ID = "cbolaContent-leftButton0";
+    public static final String TRUE_BTN_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div[1]/div[1]/div[2]/div[4]/div[1]";
+    public static final String FALSE_BTN_ID = "cbolaContent-rightButton0";
+    public static final String FALSE_BTN_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div[1]/div[1]/div[2]/div[4]/div[2]";
+
+    // TRIVIA FOOTER
+   public static final String POWERED_BY_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div[2]/div[1]"; //"html/body/center/div/div/div[1]/div[2]/div[1]";
+
+    // TRIVIA ENDING SCREEN
     public static final String ENDING_SCREEN_MSG_TITLE_CLASS = "cbolaContent-finalGameMessageTitle";
+    public static final String ENDING_SCREEN_TITLE_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div[1]/div[1]/div[2]/div[1]/div[1]"; //You scored a...
+    public static final String ENDING_SCREEN_SCORE_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div[1]/div[1]/div[2]/div[1]/div[2]"; // 5/10
+    public static final String ENDING_SCREEN_CHALLENGE_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div[1]/div[1]/div[2]/div[1]/div[3]"; // Challenge
+    public static final String ENDING_SCREEN_YOUR_FRIENDS_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div[1]/div[1]/div[2]/div[1]/div[4]"; // Your friends
+    public static final String ENDING_SCREEN_SHARE_FB_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div[1]/div[2]/div[1]/div[5]/div[1]/i";
+    public static final String ENDING_SCREEN_SHARE_TWITTER_XPATH = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div/div[1]/div[2]/div[1]/div[5]/div[2]/i";
+    public static final String ENDING_SCREEN_NEXT_HEADER = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div[1]/div[1]/div[1]/div[3]/div[1]"; // Next quiz
+    public static final String ENDING_SCREEN_NEXT_TITLE = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div[1]/div[1]/div[1]/div[3]/div[2]"; // The title of next game
+    public static final String ENDING_SCREEN_START_BTN = ".//*[contains(@class,'cbola-layer in-content-container-wrapper')]/div/div[1]/div[1]/div[1]/div[3]/div[3]"; // START
+
     public static final String ENDING_SCREEN_MSG_NAME_CLASS = "cbolaContent-finalGameMessageName";
     public static final String ENDING_SCREEN_MSG_BTN_CLASS = "cbolaContent-finalGameMessageButton";
     public static final String ENDING_SCREEN_SCORE_UNIT_CLASS = "cbolaContent-scoreUnitTitle";
-    public static final String ENDING_SCREEN_SCORE_NUMBER_CLASS = "cbolaContent-scoreNumber";
+    public static final String ENDING_SCREEN_SCORE_NUMBER_CLASS = "cbola-d-trivia__score-count";
     public static final String ENDING_SCREEN_SHARE_TITLE_CLASS = "cbolaContent-scoreUnitShareTitle";
     public static final String ENDING_SCREEN_SHARE_TITLE2_CLASS = "cbolaContent-scoreUnitShareTitle2";
-    public static final String ENDING_SCREEN_SHARE_ICONS_CLASS = "cbolaContent-scoreUnitShareIcons";
-    public static final String ENDING_SCREEN_SHARE_FB_CLASS = "cbola-fa cbola-fa-facebook cbolaContent-scoreShareIcon";
-    public static final String ENDING_SCREEN_SHARE_TWITTER_CLASS = "cbola-fa cbola-fa-twitter cbolaContent-scoreShareIcon";
-    public static final String ENDING_SCREEN_START_BTN_CLASS = "cbolaContent-finalGameMessageButton";
-    public static final String POWERED_BY_CLASS = "cbolaContent-poweredByTitleImage";
-    public static final String POWERED_BY_XPATH = ".//*[@id='InContent-container-centerWrapper0']/div/div/div[1]/div[2]/div[1]/div"; //"html/body/center/div/div/div[1]/div[2]/div[1]";
+    //public static final String ENDING_SCREEN_SHARE_ICONS_CLASS = "cbolaContent-scoreUnitShareIcons";
+
+    //public static final String ENDING_SCREEN_START_BTN_CLASS = "cbolaContent-finalGameMessageButton";
+
+    //TRIVIA ADS
     public static final String AD_CLOSE_BTN = "hideAdButton";
-    public static final String AD_CLOSE_BTN_XPATH = ".//*[@id='cbolaBannerTitle0_4']/div[1]";
+    public static final String AD_CLOSE_BTN_XPATH = ".//*[@id='cbolaBannerStructure-1_4']/div[2]";
+    public static final String BUNNER_STRUCTURE_ID = "cbolaBannerStructure-1_"; // ORIGINAL: cbolaBannerStructure0_1
 
-
-    // HTML IDs
-    public static final String SCRIPT_ID = "InContentScript0";
-    public static final String CENTER_WRAPPER_ID = "InContent-container-centerWrapper";
-    public static final String TRUE_BTN_ID = "cbolaContent-leftButton0";
-    public static final String FALSE_BTN_ID = "cbolaContent-rightButton0";
-    public static final String BUNNER_STRUCTURE_ID = "cbolaBannerStructure0_"; // ORIGINAL: cbolaBannerStructure0_1
-
-
-    //texts
+    //TRIVIA TEXTS
     public static final String TEXT_QUESTION = "Question";
     public static final String TEXT_YOUR_SCORE = "Your score";
     public static final String SCORE_1_2 = "You Scored a Ridiculous";

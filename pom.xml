@@ -97,7 +97,7 @@
         <version>2.18</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+            <!-- <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile> -->
             <suiteXmlFile>src/test/resources/testng_ads.xml</suiteXmlFile>
           </suiteXmlFiles>
           <testFailureIgnore>false</testFailureIgnore>
@@ -110,7 +110,7 @@
               <name>listener</name>
               <value>ru.yandex.qatools.allure.testng.AllureTestListener</value>
             </property> -->
-            <!-- <suiteXmlFile>testng_ads_.xml</suiteXmlFile>    ?????  whats that -->
+            <suiteXmlFile>testng_ads_.xml</suiteXmlFile>    <!--?????  whats that -->
           </properties>
           <forkMode>always</forkMode>
           <systemPropertyVariables>

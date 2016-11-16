@@ -31,7 +31,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     //This test runs several times, every iteration with new url. Urls are stored in resources/urlList.data file
 // Test Case 1
     @Features("Check if Layer's UI was fully loaded")
-    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 60000)
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 6000000)
     // IO Exception added after using File export for screenshot
     public void BasicFullLoad(String url) throws IOException {
 
@@ -44,7 +44,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         driver.manage().window().maximize();
         driver.get(url);
         // wait.until(ExpectedConditions.titleContains("Rushing")); // nice to have- dont start until element X is on page
-        Log.info("\n-----  Test Case 1: ** UI test ** with URL: " + url + "-----");
+        Log.info("\n-----  Test Case 1: ** UI test ** \nURL: " + url + "-----");
         driver.findElement(By.tagName("body")).sendKeys("Keys.ESCAPE");
         // step 1
         //** make sure the method is TRUE. if not- log a message
@@ -59,9 +59,9 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         //step 4
         //softAssert.assertTrue(layout_120_page.IsBoardExist(), "From test: Cbola board DOESNT exists");
         //step 4.2
-        layout_120_page.isImageExists(0);
+        layout_120_page.isImageExists();
         // Log.info(layout_120_page.printImage(0)); printImage return String. its already in isFirstImageExists
-        layout_120_page.isTextExists(0); // its a boolean in case we will want to make Assert
+        layout_120_page.isTextExists(); // its a boolean in case we will want to make Assert
         layout_120_page.isScoreTitleExists();
         layout_120_page.isShareBtnExists("FB"); // excepts "FB" or "Twitter"
         layout_120_page.isShareBtnExists("Twitter");
@@ -84,7 +84,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         //driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
 
         driver.get(url);
-        Log.info("\n-----  Test Case 2: ** FUNCTIONALITY test ** with URL: " + url + "-----");
+        Log.info("\n-----  Test Case 2: ** FUNCTIONALITY test ** \nURL: " + url + "-----");
         //driver.findElement(By.tagName("body")).sendKeys("Keys.ESCAPE");
         // basic tests- is script, is layout, is wrapper
         assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere2());
@@ -106,7 +106,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         // need to improve.. need to add the number of items I want to print (depends on how many clicks I made above)
         layout_120_page.printItemsList(4); // 5 clicks ==> 6 items
 
-        layout_120_page.checkDuplicateItems();
+        assertFalse("There are duplicate TEXT items",layout_120_page.checkDuplicateItems());
 
         //** need to clear items List at the end of the @Test otherwise it will save it for the next url and it will have a long list
         layout_120_page.itemsTemp.clear();
@@ -123,7 +123,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 80000)
     public void endingScreen(String url) throws InterruptedException, IOException {
         driver.get(url);
-        Log.info("\n-----  Test Case 3: ** CONTENT test ** with URL: " + url + "-----");
+        Log.info("\n-----  Test Case 3: ** CONTENT test ** \nURL: " + url + "-----");
         driver.findElement(By.tagName("body")).sendKeys("Keys.ESCAPE");
         // basic tests- is script, is layout, is wrapper
         assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere2());
@@ -156,9 +156,9 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         layout_120_page.isShareBtnEndingScreenExists("FB");
         layout_120_page.isShareBtnEndingScreenExists("Twitter");
         //Step 6: image 10 appears (next game's image)
-        layout_120_page.isImageExists(10);
+        layout_120_page.isImageExists();
         //Step 7: is item 10 displayed? mustNOT because Ending screen covers it
-        assertFalse("X- text of item 10 WAS displayed ending screen covers it",layout_120_page.isTextExists(10));
+        assertFalse("X- text of item 10 WAS displayed ending screen covers it",layout_120_page.isTextExists());
         //Step 8: click START (new game)
         if(layout_120_page.isAdAppearance(1,0)) {
             Log.info("Can't click. trigger 1 blocks the way. Need to wait for it to close...waiting 8 sec...");
@@ -170,7 +170,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
             Thread.sleep(1000);
         }
         //Step 9: is item 10 displayed?
-        assertTrue("X- text of item 10 WASNT displayed ending screen covers it",layout_120_page.isTextExists(10));
+        assertTrue("X- text of item 10 WASNT displayed ending screen covers it",layout_120_page.isTextExists());
         System.out.println("## END OF TEST ##");
         LogLog4j.endTestCase("test case ended");
     }
@@ -179,7 +179,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     public void clickPoweredByIcon(String url) throws InterruptedException {
         driver.manage().window().maximize();
         driver.get(url);
-        Log.info("\n-----  Test Case 4: ** FUNCTIONALITY test ** with URL: " + url + "-----");
+        Log.info("\n-----  Test Case 4: ** FUNCTIONALITY test ** \nURL: " + url + "-----");
         driver.findElement(By.tagName("body")).sendKeys("Keys.ESCAPE");
         // basic tests- is script, is layout, is wrapper
         assertTrue("Script is not valid on url" + url, layout_120_page.isScriptValidHere2());
