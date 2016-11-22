@@ -3,8 +3,7 @@ package il.carambola;
 import il.carambola.pages.Layout_120_Page;
 import org.apache.commons.mail.EmailException;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -12,9 +11,7 @@ import org.testng.asserts.SoftAssert;
 import ru.yandex.qatools.allure.annotations.Features;
 
 import java.awt.*;
-import java.awt.event.KeyEvent;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
 
 import static org.testng.AssertJUnit.assertFalse;
 import static org.testng.AssertJUnit.assertTrue;
@@ -25,9 +22,9 @@ public class Layout120_Ads_Tests extends TestNgTestBase {
 
     private SoftAssert softAssert = new SoftAssert();
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void initPageObjects() {
-        //layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
+        layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
 
     }
 
@@ -44,7 +41,8 @@ public class Layout120_Ads_Tests extends TestNgTestBase {
         //driver.manage().timeouts().pageLoadTimeout(maxPageRunTime, TimeUnit.SECONDS); // will work on the pages with synch loading, but this doesn't solve the problem on pages loading stuff in asynch, the tests will fail all the time if we set the pageLoadTimeOut.
 
         driver.manage().window().maximize();
-        driver.navigate().to(url); // can also use driver.get(url). there's no performance diff
+        driver.get(url);
+        //driver.navigate().to(url); // can also use driver.get(url). there's no performance diff
 
         // wait.until(ExpectedConditions.titleContains("Rushing")); // nice to have- dont start until element X is on page
         Log.info("\n-----  Test Case 1: ** ADS test ** \nURL: " + url + "-----");

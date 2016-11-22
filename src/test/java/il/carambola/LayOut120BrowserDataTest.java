@@ -1,9 +1,10 @@
 package il.carambola;
 
+import il.carambola.pages.Layout_120_Page;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.*;
-import org.openqa.selenium.remote.server.handler.SwitchToWindow;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -11,11 +12,10 @@ import org.testng.asserts.SoftAssert;
 import ru.yandex.qatools.allure.annotations.Features;
 
 import java.io.IOException;
-import java.util.*;
-import java.util.concurrent.TimeUnit;
 
 import static org.testng.AssertJUnit.assertFalse;
 import static org.testng.AssertJUnit.assertTrue;
+
 
 public class LayOut120BrowserDataTest extends TestNgTestBase {
     private static Logger Log = Logger.getLogger(LogLog4j.class.getName());
@@ -23,9 +23,9 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
 
     private SoftAssert softAssert = new SoftAssert();
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void initPageObjects() {
-        //layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
+        layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
     }
 
     //This test runs several times, every iteration with new url. Urls are stored in resources/urlList.data file

@@ -5,7 +5,6 @@ import il.carambola.pages.Layout_120_Page;
 import il.carambola.util.PropertyLoader;
 import org.apache.commons.mail.EmailException;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,9 +19,8 @@ import ru.stqa.selenium.factory.WebDriverFactoryMode;
 import ru.yandex.qatools.allure.annotations.Parameter;
 
 import java.net.InetAddress;
-import java.rmi.UnknownHostException;
-import java.util.concurrent.TimeUnit;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Base class for TestNG-based test classes
@@ -45,7 +43,7 @@ public class TestNgTestBase {
   @BeforeTest(alwaysRun = true)
   public void setuptestNg(@Optional("Firefox") @Parameter("Browser") String browser) throws Exception {
     baseUrl = PropertyLoader.loadProperty("site.url");
-
+    layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
 
     WebDriverFactory.setMode(WebDriverFactoryMode.THREADLOCAL_SINGLETON);
     //Check if parameter passed from TestNG is 'firefox'
@@ -53,6 +51,8 @@ public class TestNgTestBase {
       if (browser.equalsIgnoreCase("Firefox")) {
 
         //create firefox instance
+        //WebDriver driver;
+        System.setProperty("webdriver.gecko.driver", "C:\\QATools\\geckodriver.exe");
         driver = new FirefoxDriver();
         //driver.findElement(By.tagName("body")).sendKeys("Keys.ESCAPE"); doesnt work...
 
@@ -62,8 +62,8 @@ public class TestNgTestBase {
       //Check if parameter passed as 'chrome'
       else if (browser.equalsIgnoreCase("Chrome")) {
 
-        String exePathChromeDriver = "C:\\Users\\Yair\\Documents\\yair\\QA\\TestAutomation\\Selenium\\chrome_driver2_0\\chromedriver.exe";
-        System.setProperty("webdriver.chrome.driver", exePathChromeDriver);
+        // String exePathChromeDriver = "C:\\Users\\Yair\\Documents\\yair\\QA\\TestAutomation\\Selenium\\chrome_driver2_0\\chromedriver.exe";
+        // System.setProperty("webdriver.chrome.driver", exePathChromeDriver);
 
         driver = new ChromeDriver();
         Log.info("\n\n*** Starting Chrome Browser ***\n");
@@ -91,9 +91,9 @@ public class TestNgTestBase {
        // driver = WebDriverFactory.getDriver(capabilities);
        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
        System.out.println("from: TestNgTestBase - implicit wait 5 sec finished");
-       layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
+       //layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
      }else{
-       layout_120_page = PageFactory.initElements(unitDriver, Layout_120_Page.class);
+       //layout_120_page = PageFactory.initElements(unitDriver, Layout_120_Page.class);
      }
 
     } catch (Exception e) {
