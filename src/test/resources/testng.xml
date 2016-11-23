@@ -22,7 +22,7 @@
             </run>
         </groups> -->
     <classes>
-
+      <class name="il.carambola.LayOut120BrowserDataTest"/>
     </classes>
   </test>
 <!--
