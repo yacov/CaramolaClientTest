@@ -3369,3 +3369,418 @@ URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
 2016-11-22 12:44:14 INFO  LogLog4j:356 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
 2016-11-22 12:44:14 INFO  LogLog4j:379 - x btn exists for trigger 4
 2016-11-22 12:44:14 INFO  LogLog4j:382 - x btn clicked for trigger 4
+2016-11-23 14:32:51 INFO  LogLog4j:100 - java.lang.IllegalStateException: The driver executable does not exist: C:\QATools\geckodriver.exe
+2016-11-23 14:32:51 INFO  LogLog4j:111 - time before loading page
+2016-11-23 14:32:51 INFO  LogLog4j:75 - time before loaing page
+2016-11-23 14:32:51 INFO  LogLog4j:39 - from test: before get.url
+2016-11-23 14:33:19 INFO  LogLog4j:100 - java.lang.IllegalStateException: The driver executable does not exist: C:\QATools\geckodriver.exe
+2016-11-23 14:33:20 INFO  LogLog4j:39 - from test: before get.url
+2016-11-23 14:37:43 INFO  LogLog4j:100 - java.lang.IllegalStateException: The driver executable does not exist: C:\QATools\geckodriver.exe
+2016-11-23 14:37:43 INFO  LogLog4j:39 - from test: before get.url
+2016-11-23 14:40:28 INFO  LogLog4j:59 - 
+
+*** Starting FireFox Browser ***
+
+2016-11-23 14:40:28 INFO  LogLog4j:39 - from test: before get.url
+2016-11-23 14:40:43 INFO  LogLog4j:48 - 
+-----  Test Case 1: ** ADS test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 14:40:43 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 14:40:43 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 14:40:43 INFO  LogLog4j:56 - From test: Assert is OK, centerWrapper exists
+2016-11-23 14:40:48 INFO  LogLog4j:370 - Banner structure: cbolaBannerStructure-1_1 was NOT found in page
+2016-11-23 14:40:48 INFO  LogLog4j:356 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
+2016-11-23 14:40:49 INFO  LogLog4j:379 - x btn exists for trigger 4
+2016-11-23 14:40:49 INFO  LogLog4j:382 - x btn clicked for trigger 4
+2016-11-23 14:41:08 INFO  LogLog4j:59 - 
+
+*** Starting FireFox Browser ***
+
+2016-11-23 14:41:08 INFO  LogLog4j:20 - ****************************************************************************************
+2016-11-23 14:41:08 INFO  LogLog4j:22 - ****************************************************************************************
+2016-11-23 14:41:08 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-11-23 14:41:08 INFO  LogLog4j:26 - ****************************************************************************************
+2016-11-23 14:41:08 INFO  LogLog4j:28 - ****************************************************************************************
+2016-11-23 14:41:08 INFO  LogLog4j:39 - tc1 time before loaing page
+2016-11-23 14:41:22 INFO  LogLog4j:47 - 
+-----  Test Case 1: ** UI test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 14:41:23 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 14:41:23 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 14:41:23 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
+2016-11-23 14:41:23 INFO  LogLog4j:272 - V - Image 0 was displayed: url("http://media.carambo.la/Images/7530_1_5.jpg") 
+2016-11-23 14:41:23 INFO  LogLog4j:211 - V - Item 0 was displayed: If every NFL team finishes the season with the same record, the playoffs are determined by a coin toss
+2016-11-23 14:41:23 INFO  LogLog4j:233 - V - Score Title Class was displayed
+2016-11-23 14:41:23 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
+2016-11-23 14:41:24 INFO  LogLog4j:276 - V - FB share btn was displayed
+2016-11-23 14:41:24 INFO  LogLog4j:285 - V - Twitter share btn was displayed
+2016-11-23 14:41:24 INFO  LogLog4j:262 - V - Text check- score unit match
+2016-11-23 14:41:24 INFO  LogLog4j:299 - V - Text check- Title was displayed: Do You Know Your NFL Rules & Regulations?
+2016-11-23 14:41:24 INFO  LogLog4j:395 - V - Powered By Carambola btn was displayed
+2016-11-23 14:41:24 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-11-23 14:41:24 INFO  LogLog4j:38 - X
+2016-11-23 14:41:24 INFO  LogLog4j:40 - X
+2016-11-23 14:41:24 INFO  LogLog4j:42 - X
+2016-11-23 14:41:24 INFO  LogLog4j:44 - X
+2016-11-23 14:42:18 INFO  LogLog4j:59 - 
+
+*** Starting FireFox Browser ***
+
+2016-11-23 14:42:18 INFO  LogLog4j:20 - ****************************************************************************************
+2016-11-23 14:42:18 INFO  LogLog4j:22 - ****************************************************************************************
+2016-11-23 14:42:18 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-11-23 14:42:18 INFO  LogLog4j:26 - ****************************************************************************************
+2016-11-23 14:42:18 INFO  LogLog4j:28 - ****************************************************************************************
+2016-11-23 14:42:18 INFO  LogLog4j:39 - tc1 time before loaing page
+2016-11-23 14:42:31 INFO  LogLog4j:47 - 
+-----  Test Case 1: ** UI test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 14:42:32 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 14:42:32 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 14:42:32 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
+2016-11-23 14:42:32 INFO  LogLog4j:272 - V - Image 0 was displayed: url("http://media.carambo.la/Images/7530_1_5.jpg") 
+2016-11-23 14:42:32 INFO  LogLog4j:211 - V - Item 0 was displayed: If every NFL team finishes the season with the same record, the playoffs are determined by a coin toss
+2016-11-23 14:42:32 INFO  LogLog4j:233 - V - Score Title Class was displayed
+2016-11-23 14:42:32 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
+2016-11-23 14:42:33 INFO  LogLog4j:276 - V - FB share btn was displayed
+2016-11-23 14:42:33 INFO  LogLog4j:285 - V - Twitter share btn was displayed
+2016-11-23 14:42:33 INFO  LogLog4j:262 - V - Text check- score unit match
+2016-11-23 14:42:33 INFO  LogLog4j:299 - V - Text check- Title was displayed: Do You Know Your NFL Rules & Regulations?
+2016-11-23 14:42:33 INFO  LogLog4j:395 - V - Powered By Carambola btn was displayed
+2016-11-23 14:42:33 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-11-23 14:42:33 INFO  LogLog4j:38 - X
+2016-11-23 14:42:33 INFO  LogLog4j:40 - X
+2016-11-23 14:42:33 INFO  LogLog4j:42 - X
+2016-11-23 14:42:33 INFO  LogLog4j:44 - X
+2016-11-23 14:42:42 INFO  LogLog4j:87 - 
+-----  Test Case 2: ** FUNCTIONALITY test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 14:42:42 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 14:42:42 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 14:42:42 INFO  LogLog4j:143 - Item 0 is: 
+2016-11-23 14:42:42 INFO  LogLog4j:211 - V - Item 0 was displayed: If every NFL team finishes the season with the same record, the playoffs are determined by a coin toss
+2016-11-23 14:42:42 INFO  LogLog4j:272 - V - Image 0 was displayed: url("http://media.carambo.la/Images/7530_1_5.jpg") 
+2016-11-23 14:42:42 INFO  LogLog4j:151 - V- click number: 1 on element 'FalseButton'
+2016-11-23 14:42:44 INFO  LogLog4j:143 - Item 1 is: 
+2016-11-23 14:42:44 INFO  LogLog4j:211 - V - Item 1 was displayed: The official score of a forfeited NFL game is 2-0, as a safety is the only score not accredited to one player
+2016-11-23 14:42:44 INFO  LogLog4j:272 - V - Image 1 was displayed: url("http://media.carambo.la/Images/7526_1_5.jpg") 
+2016-11-23 14:42:44 INFO  LogLog4j:151 - V- click number: 2 on element 'FalseButton'
+2016-11-23 14:42:46 INFO  LogLog4j:129 - Item 2 is: 
+2016-11-23 14:42:46 INFO  LogLog4j:211 - V - Item 2 was displayed: According to the official rules, trash talking by a cornerback while the ball is in the air is pass interference
+2016-11-23 14:42:46 INFO  LogLog4j:272 - V - Image 2 was displayed: url("http://media.carambo.la/Images/7532_1_5.jpg") 
+2016-11-23 14:42:46 INFO  LogLog4j:137 - V- click number: 3 on element 'TrueButton'
+2016-11-23 14:42:48 INFO  LogLog4j:129 - Item 3 is: 
+2016-11-23 14:42:48 INFO  LogLog4j:211 - V - Item 3 was displayed: According to the rulebook, an NFL game is not allowed to take place on a Tuesday under any circumstance
+2016-11-23 14:42:48 INFO  LogLog4j:272 - V - Image 3 was displayed: url("http://media.carambo.la/Images/7458_1_5.jpg") 
+2016-11-23 14:42:48 INFO  LogLog4j:137 - V- click number: 4 on element 'TrueButton'
+2016-11-23 14:42:49 INFO  LogLog4j:129 - Item 4 is: 
+2016-11-23 14:42:49 INFO  LogLog4j:211 - V - Item 4 was displayed: The NFL has fined players up to $5,000 for every time they throw a game ball to a fan in the stands
+2016-11-23 14:42:49 INFO  LogLog4j:272 - V - Image 4 was displayed: url("http://media.carambo.la/Images/7496_1_5.jpg") 
+2016-11-23 14:42:50 INFO  LogLog4j:137 - V- click number: 5 on element 'TrueButton'
+2016-11-23 14:42:51 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-11-23 14:42:51 INFO  LogLog4j:38 - X
+2016-11-23 14:42:51 INFO  LogLog4j:40 - X
+2016-11-23 14:42:51 INFO  LogLog4j:42 - X
+2016-11-23 14:42:51 INFO  LogLog4j:44 - X
+2016-11-23 14:42:58 INFO  LogLog4j:183 - 
+-----  Test Case 4: ** FUNCTIONALITY test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 14:42:58 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 14:42:58 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 14:42:59 INFO  LogLog4j:98 - V- click number: 1 on element 'TrueButton'
+2016-11-23 14:43:06 INFO  LogLog4j:418 - V - The window that was opened by click is CORRECT. its title is: Carambola
+2016-11-23 14:43:13 INFO  LogLog4j:126 - 
+-----  Test Case 3: ** CONTENT test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 14:43:14 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 14:43:14 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 14:43:14 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-11-23 14:43:15 INFO  LogLog4j:109 - V- click number: 2 on element 'FalseButton'
+2016-11-23 14:43:17 INFO  LogLog4j:109 - V- click number: 3 on element 'FalseButton'
+2016-11-23 14:43:19 INFO  LogLog4j:109 - V- click number: 4 on element 'FalseButton'
+2016-11-23 14:43:20 INFO  LogLog4j:109 - V- click number: 5 on element 'FalseButton'
+2016-11-23 14:43:22 INFO  LogLog4j:109 - V- click number: 6 on element 'FalseButton'
+2016-11-23 14:43:23 INFO  LogLog4j:109 - V- click number: 7 on element 'FalseButton'
+2016-11-23 14:43:25 INFO  LogLog4j:109 - V- click number: 8 on element 'FalseButton'
+2016-11-23 14:43:27 INFO  LogLog4j:109 - V- click number: 9 on element 'FalseButton'
+2016-11-23 14:43:28 INFO  LogLog4j:109 - V- click number: 10 on element 'FalseButton'
+2016-11-23 14:43:33 INFO  LogLog4j:341 - V - Ending Screen Msg title was displayed: CHALLENGE
+2016-11-23 14:43:33 INFO  LogLog4j:328 - V- Ending Screen Msg name exists. next game is: YOUR FRIENDS
+2016-11-23 14:43:33 INFO  LogLog4j:339 - V- Start button exists and it says: 
+2016-11-23 14:43:33 INFO  LogLog4j:350 - V- score title was displayed: You Scored a Fair
+2016-11-23 14:43:33 INFO  LogLog4j:384 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-11-23 14:43:33 INFO  LogLog4j:421 - V- ending screen share title exists: START ANOTHER QUIZ
+2016-11-23 14:43:33 INFO  LogLog4j:432 - V- ending screen share title 2 exists: Up Next: Football History
+2016-11-23 14:43:45 INFO  LogLog4j:69 - 
+
+*** Starting Chrome Browser ***
+
+2016-11-23 14:43:45 INFO  LogLog4j:20 - ****************************************************************************************
+2016-11-23 14:43:45 INFO  LogLog4j:22 - ****************************************************************************************
+2016-11-23 14:43:45 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-11-23 14:43:45 INFO  LogLog4j:26 - ****************************************************************************************
+2016-11-23 14:43:45 INFO  LogLog4j:28 - ****************************************************************************************
+2016-11-23 14:43:45 INFO  LogLog4j:39 - tc1 time before loaing page
+2016-11-23 14:44:02 INFO  LogLog4j:47 - 
+-----  Test Case 1: ** UI test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 14:44:02 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 14:44:02 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 14:44:02 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
+2016-11-23 14:44:02 INFO  LogLog4j:272 - V - Image 0 was displayed: media.carambo.la/Images/7530_1_5.jpg") 50% 50% / co
+2016-11-23 14:44:02 INFO  LogLog4j:211 - V - Item 0 was displayed: If every NFL team finishes the season with the same record, the playoffs are determined by a coin toss
+2016-11-23 14:44:02 INFO  LogLog4j:233 - V - Score Title Class was displayed
+2016-11-23 14:44:02 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
+2016-11-23 14:44:02 INFO  LogLog4j:276 - V - FB share btn was displayed
+2016-11-23 14:44:02 INFO  LogLog4j:285 - V - Twitter share btn was displayed
+2016-11-23 14:44:02 INFO  LogLog4j:262 - V - Text check- score unit match
+2016-11-23 14:44:03 INFO  LogLog4j:299 - V - Text check- Title was displayed: Do You Know Your NFL Rules & Regulations?
+2016-11-23 14:44:03 INFO  LogLog4j:395 - V - Powered By Carambola btn was displayed
+2016-11-23 14:44:03 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-11-23 14:44:03 INFO  LogLog4j:38 - X
+2016-11-23 14:44:03 INFO  LogLog4j:40 - X
+2016-11-23 14:44:03 INFO  LogLog4j:42 - X
+2016-11-23 14:44:03 INFO  LogLog4j:44 - X
+2016-11-23 14:44:29 INFO  LogLog4j:87 - 
+-----  Test Case 2: ** FUNCTIONALITY test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 14:44:29 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 14:44:29 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 14:44:30 INFO  LogLog4j:143 - Item 0 is: 
+2016-11-23 14:44:30 INFO  LogLog4j:211 - V - Item 0 was displayed: If every NFL team finishes the season with the same record, the playoffs are determined by a coin toss
+2016-11-23 14:44:30 INFO  LogLog4j:272 - V - Image 0 was displayed: media.carambo.la/Images/7530_1_5.jpg") 50% 50% / co
+2016-11-23 14:44:30 INFO  LogLog4j:151 - V- click number: 1 on element 'FalseButton'
+2016-11-23 14:44:31 INFO  LogLog4j:143 - Item 1 is: 
+2016-11-23 14:44:39 INFO  LogLog4j:211 - V - Item 1 was displayed: The official score of a forfeited NFL game is 2-0, as a safety is the only score not accredited to one player
+2016-11-23 14:44:39 INFO  LogLog4j:272 - V - Image 1 was displayed: media.carambo.la/Images/7526_1_5.jpg") 50% 50% / co
+2016-11-23 14:44:39 INFO  LogLog4j:151 - V- click number: 2 on element 'FalseButton'
+2016-11-23 14:44:41 INFO  LogLog4j:129 - Item 2 is: 
+2016-11-23 14:44:41 INFO  LogLog4j:211 - V - Item 2 was displayed: According to the official rules, trash talking by a cornerback while the ball is in the air is pass interference
+2016-11-23 14:44:41 INFO  LogLog4j:272 - V - Image 2 was displayed: media.carambo.la/Images/7532_1_5.jpg") 50% 50% / co
+2016-11-23 14:44:41 INFO  LogLog4j:137 - V- click number: 3 on element 'TrueButton'
+2016-11-23 14:44:42 INFO  LogLog4j:129 - Item 3 is: 
+2016-11-23 14:44:49 INFO  LogLog4j:211 - V - Item 3 was displayed: According to the rulebook, an NFL game is not allowed to take place on a Tuesday under any circumstance
+2016-11-23 14:44:49 INFO  LogLog4j:272 - V - Image 3 was displayed: media.carambo.la/Images/7458_1_5.jpg") 50% 50% / co
+2016-11-23 14:44:49 INFO  LogLog4j:137 - V- click number: 4 on element 'TrueButton'
+2016-11-23 14:44:50 INFO  LogLog4j:129 - Item 4 is: 
+2016-11-23 14:44:52 INFO  LogLog4j:211 - V - Item 4 was displayed: The NFL has fined players up to $5,000 for every time they throw a game ball to a fan in the stands
+2016-11-23 14:44:52 INFO  LogLog4j:272 - V - Image 4 was displayed: media.carambo.la/Images/7496_1_5.jpg") 50% 50% / co
+2016-11-23 14:44:52 INFO  LogLog4j:137 - V- click number: 5 on element 'TrueButton'
+2016-11-23 14:44:53 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-11-23 14:44:53 INFO  LogLog4j:38 - X
+2016-11-23 14:44:53 INFO  LogLog4j:40 - X
+2016-11-23 14:44:53 INFO  LogLog4j:42 - X
+2016-11-23 14:44:53 INFO  LogLog4j:44 - X
+2016-11-23 14:44:58 INFO  LogLog4j:183 - 
+-----  Test Case 4: ** FUNCTIONALITY test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 14:44:58 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 14:44:58 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 14:44:58 INFO  LogLog4j:98 - V- click number: 1 on element 'TrueButton'
+2016-11-23 14:45:07 INFO  LogLog4j:418 - V - The window that was opened by click is CORRECT. its title is: Carambola
+2016-11-23 14:45:13 INFO  LogLog4j:126 - 
+-----  Test Case 3: ** CONTENT test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 14:45:13 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 14:45:14 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 14:45:14 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-11-23 14:45:17 INFO  LogLog4j:109 - V- click number: 2 on element 'FalseButton'
+2016-11-23 14:45:20 INFO  LogLog4j:109 - V- click number: 3 on element 'FalseButton'
+2016-11-23 14:45:24 INFO  LogLog4j:109 - V- click number: 4 on element 'FalseButton'
+2016-11-23 14:45:27 INFO  LogLog4j:109 - V- click number: 5 on element 'FalseButton'
+2016-11-23 14:45:30 INFO  LogLog4j:109 - V- click number: 6 on element 'FalseButton'
+2016-11-23 14:45:33 INFO  LogLog4j:109 - V- click number: 7 on element 'FalseButton'
+2016-11-23 14:45:36 INFO  LogLog4j:109 - V- click number: 8 on element 'FalseButton'
+2016-11-23 14:45:39 INFO  LogLog4j:109 - V- click number: 9 on element 'FalseButton'
+2016-11-23 14:45:43 INFO  LogLog4j:109 - V- click number: 10 on element 'FalseButton'
+2016-11-23 14:45:48 INFO  LogLog4j:341 - V - Ending Screen Msg title was displayed: CHALLENGE
+2016-11-23 14:45:48 INFO  LogLog4j:328 - V- Ending Screen Msg name exists. next game is: YOUR FRIENDS
+2016-11-23 14:45:48 INFO  LogLog4j:339 - V- Start button exists and it says: 
+2016-11-23 14:45:48 INFO  LogLog4j:350 - V- score title was displayed: You Scored a Fair
+2016-11-23 14:45:48 INFO  LogLog4j:384 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-11-23 14:45:49 INFO  LogLog4j:421 - V- ending screen share title exists: START ANOTHER QUIZ
+2016-11-23 14:45:49 INFO  LogLog4j:432 - V- ending screen share title 2 exists: Up Next: Football History
+2016-11-23 15:31:55 INFO  LogLog4j:59 - 
+
+*** Starting FireFox Browser ***
+
+2016-11-23 15:31:55 INFO  LogLog4j:20 - ****************************************************************************************
+2016-11-23 15:31:55 INFO  LogLog4j:22 - ****************************************************************************************
+2016-11-23 15:31:55 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-11-23 15:31:55 INFO  LogLog4j:26 - ****************************************************************************************
+2016-11-23 15:31:55 INFO  LogLog4j:28 - ****************************************************************************************
+2016-11-23 15:31:55 INFO  LogLog4j:41 - tc1 time before loaing page
+2016-11-23 15:32:32 INFO  LogLog4j:49 - 
+-----  Test Case 1: ** UI test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 15:32:32 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 15:32:32 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 15:32:32 INFO  LogLog4j:59 - From test: Assert is OK, centerWrapper exists
+2016-11-23 15:32:32 INFO  LogLog4j:272 - V - Image 0 was displayed: url("http://media.carambo.la/Images/7530_1_5.jpg") 
+2016-11-23 15:32:33 INFO  LogLog4j:211 - V - Item 0 was displayed: If every NFL team finishes the season with the same record, the playoffs are determined by a coin toss
+2016-11-23 15:32:33 INFO  LogLog4j:233 - V - Score Title Class was displayed
+2016-11-23 15:32:33 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
+2016-11-23 15:32:33 INFO  LogLog4j:276 - V - FB share btn was displayed
+2016-11-23 15:32:33 INFO  LogLog4j:285 - V - Twitter share btn was displayed
+2016-11-23 15:32:33 INFO  LogLog4j:262 - V - Text check- score unit match
+2016-11-23 15:32:33 INFO  LogLog4j:299 - V - Text check- Title was displayed: Do You Know Your NFL Rules & Regulations?
+2016-11-23 15:32:33 INFO  LogLog4j:395 - V - Powered By Carambola btn was displayed
+2016-11-23 15:32:33 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-11-23 15:32:33 INFO  LogLog4j:38 - X
+2016-11-23 15:32:33 INFO  LogLog4j:40 - X
+2016-11-23 15:32:33 INFO  LogLog4j:42 - X
+2016-11-23 15:32:33 INFO  LogLog4j:44 - X
+2016-11-23 15:32:41 INFO  LogLog4j:89 - 
+-----  Test Case 2: ** FUNCTIONALITY test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 15:32:41 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 15:32:41 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 15:32:41 INFO  LogLog4j:143 - Item 0 is: 
+2016-11-23 15:32:41 INFO  LogLog4j:211 - V - Item 0 was displayed: If every NFL team finishes the season with the same record, the playoffs are determined by a coin toss
+2016-11-23 15:32:41 INFO  LogLog4j:272 - V - Image 0 was displayed: url("http://media.carambo.la/Images/7530_1_5.jpg") 
+2016-11-23 15:32:41 INFO  LogLog4j:151 - V- click number: 1 on element 'FalseButton'
+2016-11-23 15:32:43 INFO  LogLog4j:143 - Item 1 is: 
+2016-11-23 15:32:43 INFO  LogLog4j:211 - V - Item 1 was displayed: The official score of a forfeited NFL game is 2-0, as a safety is the only score not accredited to one player
+2016-11-23 15:32:43 INFO  LogLog4j:272 - V - Image 1 was displayed: url("http://media.carambo.la/Images/7526_1_5.jpg") 
+2016-11-23 15:32:43 INFO  LogLog4j:151 - V- click number: 2 on element 'FalseButton'
+2016-11-23 15:32:45 INFO  LogLog4j:129 - Item 2 is: 
+2016-11-23 15:32:45 INFO  LogLog4j:211 - V - Item 2 was displayed: According to the official rules, trash talking by a cornerback while the ball is in the air is pass interference
+2016-11-23 15:32:45 INFO  LogLog4j:272 - V - Image 2 was displayed: url("http://media.carambo.la/Images/7532_1_5.jpg") 
+2016-11-23 15:32:45 INFO  LogLog4j:137 - V- click number: 3 on element 'TrueButton'
+2016-11-23 15:32:46 INFO  LogLog4j:129 - Item 3 is: 
+2016-11-23 15:32:47 INFO  LogLog4j:211 - V - Item 3 was displayed: According to the rulebook, an NFL game is not allowed to take place on a Tuesday under any circumstance
+2016-11-23 15:32:47 INFO  LogLog4j:272 - V - Image 3 was displayed: url("http://media.carambo.la/Images/7458_1_5.jpg") 
+2016-11-23 15:32:47 INFO  LogLog4j:137 - V- click number: 4 on element 'TrueButton'
+2016-11-23 15:32:48 INFO  LogLog4j:129 - Item 4 is: 
+2016-11-23 15:32:48 INFO  LogLog4j:211 - V - Item 4 was displayed: The NFL has fined players up to $5,000 for every time they throw a game ball to a fan in the stands
+2016-11-23 15:32:48 INFO  LogLog4j:272 - V - Image 4 was displayed: url("http://media.carambo.la/Images/7496_1_5.jpg") 
+2016-11-23 15:32:48 INFO  LogLog4j:137 - V- click number: 5 on element 'TrueButton'
+2016-11-23 15:32:50 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-11-23 15:32:50 INFO  LogLog4j:38 - X
+2016-11-23 15:32:50 INFO  LogLog4j:40 - X
+2016-11-23 15:32:50 INFO  LogLog4j:42 - X
+2016-11-23 15:32:50 INFO  LogLog4j:44 - X
+2016-11-23 15:32:59 INFO  LogLog4j:185 - 
+-----  Test Case 4: ** FUNCTIONALITY test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 15:32:59 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 15:32:59 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 15:32:59 INFO  LogLog4j:98 - V- click number: 1 on element 'TrueButton'
+2016-11-23 15:33:07 INFO  LogLog4j:418 - V - The window that was opened by click is CORRECT. its title is: Carambola
+2016-11-23 15:33:15 INFO  LogLog4j:128 - 
+-----  Test Case 3: ** CONTENT test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 15:33:15 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 15:33:15 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 15:33:15 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-11-23 15:33:17 INFO  LogLog4j:109 - V- click number: 2 on element 'FalseButton'
+2016-11-23 15:33:19 INFO  LogLog4j:109 - V- click number: 3 on element 'FalseButton'
+2016-11-23 15:33:20 INFO  LogLog4j:109 - V- click number: 4 on element 'FalseButton'
+2016-11-23 15:33:22 INFO  LogLog4j:109 - V- click number: 5 on element 'FalseButton'
+2016-11-23 15:33:23 INFO  LogLog4j:109 - V- click number: 6 on element 'FalseButton'
+2016-11-23 15:33:25 INFO  LogLog4j:109 - V- click number: 7 on element 'FalseButton'
+2016-11-23 15:33:27 INFO  LogLog4j:109 - V- click number: 8 on element 'FalseButton'
+2016-11-23 15:33:28 INFO  LogLog4j:109 - V- click number: 9 on element 'FalseButton'
+2016-11-23 15:33:30 INFO  LogLog4j:109 - V- click number: 10 on element 'FalseButton'
+2016-11-23 15:33:34 INFO  LogLog4j:341 - V - Ending Screen Msg title was displayed: CHALLENGE
+2016-11-23 15:33:34 INFO  LogLog4j:328 - V- Ending Screen Msg name exists. next game is: YOUR FRIENDS
+2016-11-23 15:33:35 INFO  LogLog4j:339 - V- Start button exists and it says: 
+2016-11-23 15:33:35 INFO  LogLog4j:350 - V- score title was displayed: You Scored a Fair
+2016-11-23 15:33:35 INFO  LogLog4j:384 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-11-23 15:33:35 INFO  LogLog4j:421 - V- ending screen share title exists: START ANOTHER QUIZ
+2016-11-23 15:33:35 INFO  LogLog4j:432 - V- ending screen share title 2 exists: Up Next: Football Mysteries
+2016-11-23 15:33:40 INFO  LogLog4j:111 - time before loading page
+2016-11-23 15:33:40 INFO  LogLog4j:75 - time before loaing page
+2016-11-23 15:33:40 INFO  LogLog4j:39 - from test: before get.url
+2016-11-23 15:33:46 INFO  LogLog4j:69 - 
+
+*** Starting Chrome Browser ***
+
+2016-11-23 15:33:46 INFO  LogLog4j:20 - ****************************************************************************************
+2016-11-23 15:33:46 INFO  LogLog4j:22 - ****************************************************************************************
+2016-11-23 15:33:46 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
+2016-11-23 15:33:46 INFO  LogLog4j:26 - ****************************************************************************************
+2016-11-23 15:33:46 INFO  LogLog4j:28 - ****************************************************************************************
+2016-11-23 15:33:46 INFO  LogLog4j:41 - tc1 time before loaing page
+2016-11-23 15:34:24 INFO  LogLog4j:49 - 
+-----  Test Case 1: ** UI test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 15:34:24 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 15:34:24 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 15:34:24 INFO  LogLog4j:59 - From test: Assert is OK, centerWrapper exists
+2016-11-23 15:34:24 INFO  LogLog4j:272 - V - Image 0 was displayed: media.carambo.la/Images/7530_1_5.jpg") 50% 50% / co
+2016-11-23 15:34:24 INFO  LogLog4j:211 - V - Item 0 was displayed: If every NFL team finishes the season with the same record, the playoffs are determined by a coin toss
+2016-11-23 15:34:24 INFO  LogLog4j:233 - V - Score Title Class was displayed
+2016-11-23 15:34:24 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
+2016-11-23 15:34:36 INFO  LogLog4j:276 - V - FB share btn was displayed
+2016-11-23 15:34:36 INFO  LogLog4j:285 - V - Twitter share btn was displayed
+2016-11-23 15:34:36 INFO  LogLog4j:262 - V - Text check- score unit match
+2016-11-23 15:34:36 INFO  LogLog4j:299 - V - Text check- Title was displayed: Do You Know Your NFL Rules & Regulations?
+2016-11-23 15:34:36 INFO  LogLog4j:395 - V - Powered By Carambola btn was displayed
+2016-11-23 15:34:36 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-11-23 15:34:36 INFO  LogLog4j:38 - X
+2016-11-23 15:34:36 INFO  LogLog4j:40 - X
+2016-11-23 15:34:36 INFO  LogLog4j:42 - X
+2016-11-23 15:34:36 INFO  LogLog4j:44 - X
+2016-11-23 15:34:47 INFO  LogLog4j:89 - 
+-----  Test Case 2: ** FUNCTIONALITY test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 15:34:47 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 15:34:47 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 15:34:48 INFO  LogLog4j:143 - Item 0 is: 
+2016-11-23 15:34:48 INFO  LogLog4j:211 - V - Item 0 was displayed: If every NFL team finishes the season with the same record, the playoffs are determined by a coin toss
+2016-11-23 15:34:48 INFO  LogLog4j:272 - V - Image 0 was displayed: media.carambo.la/Images/7530_1_5.jpg") 50% 50% / co
+2016-11-23 15:34:48 INFO  LogLog4j:151 - V- click number: 1 on element 'FalseButton'
+2016-11-23 15:34:49 INFO  LogLog4j:143 - Item 1 is: 
+2016-11-23 15:34:53 INFO  LogLog4j:211 - V - Item 1 was displayed: The official score of a forfeited NFL game is 2-0, as a safety is the only score not accredited to one player
+2016-11-23 15:34:53 INFO  LogLog4j:272 - V - Image 1 was displayed: media.carambo.la/Images/7526_1_5.jpg") 50% 50% / co
+2016-11-23 15:34:53 INFO  LogLog4j:151 - V- click number: 2 on element 'FalseButton'
+2016-11-23 15:34:58 INFO  LogLog4j:129 - Item 2 is: 
+2016-11-23 15:34:58 INFO  LogLog4j:211 - V - Item 2 was displayed: According to the official rules, trash talking by a cornerback while the ball is in the air is pass interference
+2016-11-23 15:34:58 INFO  LogLog4j:272 - V - Image 2 was displayed: media.carambo.la/Images/7532_1_5.jpg") 50% 50% / co
+2016-11-23 15:34:58 INFO  LogLog4j:137 - V- click number: 3 on element 'TrueButton'
+2016-11-23 15:34:59 INFO  LogLog4j:129 - Item 3 is: 
+2016-11-23 15:34:59 INFO  LogLog4j:211 - V - Item 3 was displayed: According to the rulebook, an NFL game is not allowed to take place on a Tuesday under any circumstance
+2016-11-23 15:34:59 INFO  LogLog4j:272 - V - Image 3 was displayed: media.carambo.la/Images/7458_1_5.jpg") 50% 50% / co
+2016-11-23 15:34:59 INFO  LogLog4j:137 - V- click number: 4 on element 'TrueButton'
+2016-11-23 15:35:01 INFO  LogLog4j:129 - Item 4 is: 
+2016-11-23 15:35:01 INFO  LogLog4j:211 - V - Item 4 was displayed: The NFL has fined players up to $5,000 for every time they throw a game ball to a fan in the stands
+2016-11-23 15:35:01 INFO  LogLog4j:272 - V - Image 4 was displayed: media.carambo.la/Images/7496_1_5.jpg") 50% 50% / co
+2016-11-23 15:35:01 INFO  LogLog4j:137 - V- click number: 5 on element 'TrueButton'
+2016-11-23 15:35:03 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-11-23 15:35:03 INFO  LogLog4j:38 - X
+2016-11-23 15:35:03 INFO  LogLog4j:40 - X
+2016-11-23 15:35:03 INFO  LogLog4j:42 - X
+2016-11-23 15:35:03 INFO  LogLog4j:44 - X
+2016-11-23 15:35:10 INFO  LogLog4j:185 - 
+-----  Test Case 4: ** FUNCTIONALITY test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 15:35:10 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 15:35:10 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 15:35:10 INFO  LogLog4j:98 - V- click number: 1 on element 'TrueButton'
+2016-11-23 15:35:19 INFO  LogLog4j:418 - V - The window that was opened by click is CORRECT. its title is: Carambola
+2016-11-23 15:35:26 INFO  LogLog4j:128 - 
+-----  Test Case 3: ** CONTENT test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-23 15:35:26 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-23 15:35:26 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-23 15:35:27 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-11-23 15:35:31 INFO  LogLog4j:109 - V- click number: 2 on element 'FalseButton'
+2016-11-23 15:35:34 INFO  LogLog4j:109 - V- click number: 3 on element 'FalseButton'
+2016-11-23 15:35:39 INFO  LogLog4j:109 - V- click number: 4 on element 'FalseButton'
+2016-11-23 15:35:43 INFO  LogLog4j:109 - V- click number: 5 on element 'FalseButton'
+2016-11-23 15:35:47 INFO  LogLog4j:109 - V- click number: 6 on element 'FalseButton'
+2016-11-23 15:35:50 INFO  LogLog4j:109 - V- click number: 7 on element 'FalseButton'
+2016-11-23 15:35:55 INFO  LogLog4j:109 - V- click number: 8 on element 'FalseButton'
+2016-11-23 15:36:01 INFO  LogLog4j:109 - V- click number: 9 on element 'FalseButton'
+2016-11-23 15:36:05 INFO  LogLog4j:109 - V- click number: 10 on element 'FalseButton'
+2016-11-23 15:36:09 INFO  LogLog4j:341 - V - Ending Screen Msg title was displayed: CHALLENGE
+2016-11-23 15:36:09 INFO  LogLog4j:328 - V- Ending Screen Msg name exists. next game is: YOUR FRIENDS
+2016-11-23 15:36:10 INFO  LogLog4j:339 - V- Start button exists and it says: 
+2016-11-23 15:36:10 INFO  LogLog4j:350 - V- score title was displayed: You Scored a Fair
+2016-11-23 15:36:10 INFO  LogLog4j:384 - V - score unit title is correct. CABA scored: 5 and got this title: You Scored a Fair
+2016-11-23 15:36:10 INFO  LogLog4j:421 - V- ending screen share title exists: START ANOTHER QUIZ
+2016-11-23 15:36:10 INFO  LogLog4j:432 - V- ending screen share title 2 exists: Up Next: Football Mysteries
+2016-11-23 15:36:15 INFO  LogLog4j:111 - time before loading page
+2016-11-23 15:36:15 INFO  LogLog4j:75 - time before loaing page
+2016-11-23 15:36:15 INFO  LogLog4j:39 - from test: before get.url

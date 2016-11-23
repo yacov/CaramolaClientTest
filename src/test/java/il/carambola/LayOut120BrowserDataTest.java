@@ -10,6 +10,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import ru.yandex.qatools.allure.annotations.Features;
+import ru.yandex.qatools.allure.annotations.Severity;
+import ru.yandex.qatools.allure.model.SeverityLevel;
 
 import java.io.IOException;
 
@@ -118,7 +120,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     public void tearDown() {
         this.driver.quit();
     }*/
-
+    @Severity(SeverityLevel.MINOR)
     @Features("Check ending screen and next game's 1st item")
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 80000)
     public void endingScreen(String url) throws InterruptedException, IOException {

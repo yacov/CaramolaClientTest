@@ -11,6 +11,7 @@
       </groups> -->
     <classes>
       <class name="il.carambola.LayOut120BrowserDataTest"/>
+      <class name="il.carambola.Layout120_Ads_Tests"/>
     </classes>
   </test>
 
@@ -23,6 +24,7 @@
         </groups> -->
     <classes>
       <class name="il.carambola.LayOut120BrowserDataTest"/>
+      <class name="il.carambola.Layout120_Ads_Tests"/>
     </classes>
   </test>
 <!--

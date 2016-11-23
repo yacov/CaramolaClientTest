@@ -10,6 +10,8 @@ public class Consts {
     public static final String outputLogFile = "C:\\Users\\Yair\\Documents\\yair\\QA\\TestAutomation\\Selenium\\output\\output_Logs_TC";
     public static final String outputErrorsFile = "\\src\\test\\resources\\output\\output_Errors_TC";
     public static final String outputDirectory = "\\src\\test\\resources\\output";
+    public static final String chromeDriverPath = "C:\\Users\\Yair\\Documents\\yair\\QA\\TestAutomation\\Selenium\\chrome_driver2_0\\chromedriver.exe";
+    public static final String geckoDriverPath = "C:\\Users\\Yair\\Documents\\yair\\QA\\TestAutomation\\Selenium\\GeckoDriver-v0.11.1\\geckodriver.exe";
 
 
     //120

@@ -25,8 +25,8 @@ public class Layout120_Ads_Tests extends TestNgTestBase {
     @BeforeMethod(alwaysRun = true)
     public void initPageObjects() {
         layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
-
     }
+
 
     //This test runs several times, every iteration with new url. Urls are stored in resources/urlList.data file
 // Test Case 1
