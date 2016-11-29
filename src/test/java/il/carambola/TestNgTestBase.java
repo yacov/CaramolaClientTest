@@ -52,7 +52,7 @@ public class TestNgTestBase {
 
         //create firefox instance
         //WebDriver driver;
-        System.setProperty("webdriver.gecko.driver", "C:\\QATools\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "src\\drvv\\wires.exe");
         driver = new FirefoxDriver();
         //driver.findElement(By.tagName("body")).sendKeys("Keys.ESCAPE"); doesnt work...
 
@@ -62,8 +62,8 @@ public class TestNgTestBase {
       //Check if parameter passed as 'chrome'
       else if (browser.equalsIgnoreCase("Chrome")) {
 
-        // String exePathChromeDriver = "C:\\Users\\Yair\\Documents\\yair\\QA\\TestAutomation\\Selenium\\chrome_driver2_0\\chromedriver.exe";
-        // System.setProperty("webdriver.chrome.driver", exePathChromeDriver);
+        String exePathChromeDriver = "src\\drvv\\chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver", exePathChromeDriver);
 
         driver = new ChromeDriver();
         Log.info("\n\n*** Starting Chrome Browser ***\n");
