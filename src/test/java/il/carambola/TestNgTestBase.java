@@ -40,7 +40,7 @@ public class TestNgTestBase {
   public Integer counterFails = 0;
 
   @Parameters({"browser_name"})
-  @BeforeTest(alwaysRun = true)
+  @BeforeClass(alwaysRun = true)
   public void setuptestNg(@Optional("Firefox") @Parameter("Browser") String browser) throws Exception {
     baseUrl = PropertyLoader.loadProperty("site.url");
     layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
@@ -52,7 +52,7 @@ public class TestNgTestBase {
 
         //create firefox instance
         //WebDriver driver;
-        System.setProperty("webdriver.gecko.driver", Consts.geckoDriverPath);
+        System.setProperty("webdriver.gecko.driver", "C:\\QATools\\geckodriver.exe");
         driver = new FirefoxDriver();
         //driver.findElement(By.tagName("body")).sendKeys("Keys.ESCAPE"); doesnt work...
 
@@ -62,10 +62,10 @@ public class TestNgTestBase {
       //Check if parameter passed as 'chrome'
       else if (browser.equalsIgnoreCase("Chrome")) {
 
-        String exePathChromeDriver = Consts.chromeDriverPath;
-        System.setProperty("webdriver.chrome.driver", exePathChromeDriver);
-        driver = new ChromeDriver();
+        // String exePathChromeDriver = "C:\\Users\\Yair\\Documents\\yair\\QA\\TestAutomation\\Selenium\\chrome_driver2_0\\chromedriver.exe";
+        // System.setProperty("webdriver.chrome.driver", exePathChromeDriver);
 
+        driver = new ChromeDriver();
         Log.info("\n\n*** Starting Chrome Browser ***\n");
 
       }else if(browser.equalsIgnoreCase("Headless")){
