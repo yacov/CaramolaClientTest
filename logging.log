@@ -3944,3 +3944,41 @@ URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
 -----  Test Case 1: ** ADS test ** 
 URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
 2016-11-29 16:03:31 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-29 16:10:09 INFO  LogLog4j:59 - 
+
+*** Starting FireFox Browser ***
+
+2016-11-29 16:10:09 INFO  LogLog4j:111 - time before loading page
+2016-11-29 16:10:14 INFO  LogLog4j:119 - 
+-----  Test Case 3: ** ADS test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-29 16:10:15 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-29 16:10:20 INFO  LogLog4j:75 - time before loaing page
+2016-11-29 16:10:22 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-29 16:10:22 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-29 16:10:27 INFO  LogLog4j:39 - from test: before get.url
+2016-11-29 16:10:29 INFO  LogLog4j:48 - 
+-----  Test Case 1: ** ADS test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-29 16:10:29 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-29 16:10:45 INFO  LogLog4j:69 - 
+
+*** Starting Chrome Browser ***
+
+2016-11-29 16:10:45 INFO  LogLog4j:111 - time before loading page
+2016-11-29 16:10:52 INFO  LogLog4j:119 - 
+-----  Test Case 3: ** ADS test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-29 16:10:52 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-29 16:10:57 INFO  LogLog4j:75 - time before loaing page
+2016-11-29 16:10:59 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-29 16:10:59 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-29 16:11:04 INFO  LogLog4j:39 - from test: before get.url
+2016-11-29 16:11:06 INFO  LogLog4j:48 - 
+-----  Test Case 1: ** ADS test ** 
+URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
+2016-11-29 16:11:06 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
