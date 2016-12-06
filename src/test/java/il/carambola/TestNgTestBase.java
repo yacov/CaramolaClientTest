@@ -1,6 +1,5 @@
 package il.carambola;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
 import il.carambola.pages.Layout_120_Page;
 import il.carambola.util.PropertyLoader;
 import org.apache.commons.mail.EmailException;
@@ -11,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
@@ -69,8 +69,11 @@ public class TestNgTestBase {
         Log.info("\n\n*** Starting Chrome Browser ***\n");
 
       }else if(browser.equalsIgnoreCase("Headless")){
-        unitDriver = new HtmlUnitDriver(BrowserVersion.CHROME);
-        unitDriver.setJavascriptEnabled(true);
+        //unitDriver = new HtmlUnitDriver(BrowserVersion.CHROME);
+        //unitDriver.setJavascriptEnabled(true);
+        System.setProperty("phantomjs.binary.path", "src\\drvv\\phantomjs.exe");
+        driver = new PhantomJSDriver();
+        Log.info("\n\n*** Starting headless PhantomJS Browser ***\n");
 
       }
       else if (browser.equalsIgnoreCase("ie")) {
