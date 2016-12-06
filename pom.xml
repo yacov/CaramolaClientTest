@@ -202,9 +202,12 @@
           </plugin>
         </plugins>
       </build>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
     </profile>
     <profile>
-      <id>testngUi</id>
+      <id>testngui</id>
       <build>
         <plugins>
           <plugin>
@@ -234,9 +237,6 @@
           </plugin>
         </plugins>
       </build>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
     </profile>
   </profiles>
 </project>
