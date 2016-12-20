@@ -22,7 +22,7 @@
 2016-10-19 10:41:21 INFO  LogLog4j:272 - V - Image 10 was displayed: http://media.carambo.la/Images/3210_1_5.jpg
 2016-10-19 10:41:21 INFO  LogLog4j:218 - X - Item 10 WASN'T displayed
 2016-10-19 10:41:26 INFO  LogLog4j:364 - Banner structure: cbolaBannerStructure0_1 was NOT found in page
-2016-10-19 10:41:27 INFO  LogLog4j:211 - V - Item 10 was displayed: Ryan Gosling actually built the old Chevy Malibu he drove around in his film “Drive” with his own two hands
+2016-10-19 10:41:27 INFO  LogLog4j:211 - V - Item 10 was displayed: Ryan Gosling actually built the old Chevy Malibu he drove around in his film ï¿½Driveï¿½ with his own two hands
 2016-10-19 10:41:27 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
 2016-10-19 10:41:27 INFO  LogLog4j:38 - X
 2016-10-19 10:41:27 INFO  LogLog4j:40 - X
@@ -73,7 +73,7 @@
 2016-10-19 11:01:36 INFO  LogLog4j:272 - V - Image 1 was displayed: http://media.carambo.la/Images/1929_1_5.jpg
 2016-10-19 11:01:36 INFO  LogLog4j:153 - V- click number: 2 on element 'FalseButton'
 2016-10-19 11:01:38 INFO  LogLog4j:131 - Item 2 is: 
-2016-10-19 11:01:38 INFO  LogLog4j:211 - V - Item 2 was displayed: For Jake Gyllenhaal’s boxing role in “Southpaw,” he gained 15 pounds of muscle, training 6 hours a day
+2016-10-19 11:01:38 INFO  LogLog4j:211 - V - Item 2 was displayed: For Jake Gyllenhaalï¿½s boxing role in ï¿½Southpaw,ï¿½ he gained 15 pounds of muscle, training 6 hours a day
 2016-10-19 11:01:38 INFO  LogLog4j:272 - V - Image 2 was displayed: http://media.carambo.la/Images/2428_1_5.jpg
 2016-10-19 11:01:38 INFO  LogLog4j:139 - V- click number: 3 on element 'TrueButton'
 2016-10-19 11:01:40 INFO  LogLog4j:131 - Item 3 is: 
@@ -81,7 +81,7 @@
 2016-10-19 11:01:40 INFO  LogLog4j:272 - V - Image 3 was displayed: http://media.carambo.la/Images/381_1_5.jpg
 2016-10-19 11:01:40 INFO  LogLog4j:139 - V- click number: 4 on element 'TrueButton'
 2016-10-19 11:01:42 INFO  LogLog4j:131 - Item 4 is: 
-2016-10-19 11:01:42 INFO  LogLog4j:211 - V - Item 4 was displayed: For Bradley Cooper’s role in “The A-Team,” he used a 3-2-1 circuit training workout, each for 10 minutes
+2016-10-19 11:01:42 INFO  LogLog4j:211 - V - Item 4 was displayed: For Bradley Cooperï¿½s role in ï¿½The A-Team,ï¿½ he used a 3-2-1 circuit training workout, each for 10 minutes
 2016-10-19 11:01:42 INFO  LogLog4j:272 - V - Image 4 was displayed: http://media.carambo.la/Images/236_1_5.jpg
 2016-10-19 11:01:42 INFO  LogLog4j:139 - V- click number: 5 on element 'TrueButton'
 2016-10-19 11:01:44 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
@@ -121,7 +121,7 @@
 2016-10-19 11:02:33 INFO  LogLog4j:272 - V - Image 10 was displayed: http://media.carambo.la/Images/3210_1_5.jpg
 2016-10-19 11:02:33 INFO  LogLog4j:218 - X - Item 10 WASN'T displayed
 2016-10-19 11:02:38 INFO  LogLog4j:364 - Banner structure: cbolaBannerStructure0_1 was NOT found in page
-2016-10-19 11:02:39 INFO  LogLog4j:211 - V - Item 10 was displayed: Ryan Gosling actually built the old Chevy Malibu he drove around in his film “Drive” with his own two hands
+2016-10-19 11:02:39 INFO  LogLog4j:211 - V - Item 10 was displayed: Ryan Gosling actually built the old Chevy Malibu he drove around in his film ï¿½Driveï¿½ with his own two hands
 2016-10-19 11:02:39 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
 2016-10-19 11:02:39 INFO  LogLog4j:38 - X
 2016-10-19 11:02:39 INFO  LogLog4j:40 - X
@@ -172,7 +172,7 @@
 2016-10-19 11:03:10 INFO  LogLog4j:272 - V - Image 1 was displayed: http://media.carambo.la/Images/1929_1_5.jpg
 2016-10-19 11:03:10 INFO  LogLog4j:153 - V- click number: 2 on element 'FalseButton'
 2016-10-19 11:03:12 INFO  LogLog4j:131 - Item 2 is: 
-2016-10-19 11:03:12 INFO  LogLog4j:211 - V - Item 2 was displayed: For Jake Gyllenhaal’s boxing role in “Southpaw,” he gained 15 pounds of muscle, training 6 hours a day
+2016-10-19 11:03:12 INFO  LogLog4j:211 - V - Item 2 was displayed: For Jake Gyllenhaalï¿½s boxing role in ï¿½Southpaw,ï¿½ he gained 15 pounds of muscle, training 6 hours a day
 2016-10-19 11:03:12 INFO  LogLog4j:272 - V - Image 2 was displayed: http://media.carambo.la/Images/2428_1_5.jpg
 2016-10-19 11:03:12 INFO  LogLog4j:139 - V- click number: 3 on element 'TrueButton'
 2016-10-19 11:03:14 INFO  LogLog4j:131 - Item 3 is: 
@@ -180,7 +180,7 @@
 2016-10-19 11:03:14 INFO  LogLog4j:272 - V - Image 3 was displayed: http://media.carambo.la/Images/381_1_5.jpg
 2016-10-19 11:03:14 INFO  LogLog4j:139 - V- click number: 4 on element 'TrueButton'
 2016-10-19 11:03:16 INFO  LogLog4j:131 - Item 4 is: 
-2016-10-19 11:03:16 INFO  LogLog4j:211 - V - Item 4 was displayed: For Bradley Cooper’s role in “The A-Team,” he used a 3-2-1 circuit training workout, each for 10 minutes
+2016-10-19 11:03:16 INFO  LogLog4j:211 - V - Item 4 was displayed: For Bradley Cooperï¿½s role in ï¿½The A-Team,ï¿½ he used a 3-2-1 circuit training workout, each for 10 minutes
 2016-10-19 11:03:16 INFO  LogLog4j:272 - V - Image 4 was displayed: http://media.carambo.la/Images/236_1_5.jpg
 2016-10-19 11:03:16 INFO  LogLog4j:139 - V- click number: 5 on element 'TrueButton'
 2016-10-19 11:03:18 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
@@ -220,7 +220,7 @@
 2016-10-19 11:04:27 INFO  LogLog4j:272 - V - Image 10 was displayed: http://media.carambo.la/Images/3210_1_5.jpg
 2016-10-19 11:04:27 INFO  LogLog4j:218 - X - Item 10 WASN'T displayed
 2016-10-19 11:04:32 INFO  LogLog4j:364 - Banner structure: cbolaBannerStructure0_1 was NOT found in page
-2016-10-19 11:04:33 INFO  LogLog4j:211 - V - Item 10 was displayed: Ryan Gosling actually built the old Chevy Malibu he drove around in his film “Drive” with his own two hands
+2016-10-19 11:04:33 INFO  LogLog4j:211 - V - Item 10 was displayed: Ryan Gosling actually built the old Chevy Malibu he drove around in his film ï¿½Driveï¿½ with his own two hands
 2016-10-19 11:04:33 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
 2016-10-19 11:04:33 INFO  LogLog4j:38 - X
 2016-10-19 11:04:33 INFO  LogLog4j:40 - X
@@ -341,7 +341,7 @@
 2016-10-20 16:05:09 INFO  LogLog4j:272 - V - Image 1 was displayed: http://media.carambo.la/Images/1929_1_5.jpg
 2016-10-20 16:05:09 INFO  LogLog4j:153 - V- click number: 2 on element 'FalseButton'
 2016-10-20 16:05:11 INFO  LogLog4j:131 - Item 2 is: 
-2016-10-20 16:05:11 INFO  LogLog4j:211 - V - Item 2 was displayed: For Jake Gyllenhaal’s boxing role in “Southpaw,” he gained 15 pounds of muscle, training 6 hours a day
+2016-10-20 16:05:11 INFO  LogLog4j:211 - V - Item 2 was displayed: For Jake Gyllenhaalï¿½s boxing role in ï¿½Southpaw,ï¿½ he gained 15 pounds of muscle, training 6 hours a day
 2016-10-20 16:05:11 INFO  LogLog4j:272 - V - Image 2 was displayed: http://media.carambo.la/Images/2428_1_5.jpg
 2016-10-20 16:05:11 INFO  LogLog4j:139 - V- click number: 3 on element 'TrueButton'
 2016-10-20 16:05:13 INFO  LogLog4j:131 - Item 3 is: 
@@ -349,7 +349,7 @@
 2016-10-20 16:05:13 INFO  LogLog4j:272 - V - Image 3 was displayed: http://media.carambo.la/Images/381_1_5.jpg
 2016-10-20 16:05:13 INFO  LogLog4j:139 - V- click number: 4 on element 'TrueButton'
 2016-10-20 16:05:14 INFO  LogLog4j:131 - Item 4 is: 
-2016-10-20 16:05:15 INFO  LogLog4j:211 - V - Item 4 was displayed: For Bradley Cooper’s role in “The A-Team,” he used a 3-2-1 circuit training workout, each for 10 minutes
+2016-10-20 16:05:15 INFO  LogLog4j:211 - V - Item 4 was displayed: For Bradley Cooperï¿½s role in ï¿½The A-Team,ï¿½ he used a 3-2-1 circuit training workout, each for 10 minutes
 2016-10-20 16:05:15 INFO  LogLog4j:272 - V - Image 4 was displayed: http://media.carambo.la/Images/236_1_5.jpg
 2016-10-20 16:05:15 INFO  LogLog4j:139 - V- click number: 5 on element 'TrueButton'
 2016-10-20 16:05:16 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
@@ -477,7 +477,7 @@ URL: http://moviecodex.com/2016/01/04/the-big-short-a-tale-of-american-greed/---
 2016-10-20 16:20:00 INFO  LogLog4j:272 - V - Image 1 was displayed: http://media.carambo.la/Images/1929_1_5.jpg
 2016-10-20 16:20:00 INFO  LogLog4j:153 - V- click number: 2 on element 'FalseButton'
 2016-10-20 16:20:02 INFO  LogLog4j:131 - Item 2 is: 
-2016-10-20 16:20:02 INFO  LogLog4j:211 - V - Item 2 was displayed: For Jake Gyllenhaal’s boxing role in “Southpaw,” he gained 15 pounds of muscle, training 6 hours a day
+2016-10-20 16:20:02 INFO  LogLog4j:211 - V - Item 2 was displayed: For Jake Gyllenhaalï¿½s boxing role in ï¿½Southpaw,ï¿½ he gained 15 pounds of muscle, training 6 hours a day
 2016-10-20 16:20:02 INFO  LogLog4j:272 - V - Image 2 was displayed: http://media.carambo.la/Images/2428_1_5.jpg
 2016-10-20 16:20:02 INFO  LogLog4j:139 - V- click number: 3 on element 'TrueButton'
 2016-10-20 16:20:04 INFO  LogLog4j:131 - Item 3 is: 
@@ -485,7 +485,7 @@ URL: http://moviecodex.com/2016/01/04/the-big-short-a-tale-of-american-greed/---
 2016-10-20 16:20:04 INFO  LogLog4j:272 - V - Image 3 was displayed: http://media.carambo.la/Images/381_1_5.jpg
 2016-10-20 16:20:04 INFO  LogLog4j:139 - V- click number: 4 on element 'TrueButton'
 2016-10-20 16:20:05 INFO  LogLog4j:131 - Item 4 is: 
-2016-10-20 16:20:06 INFO  LogLog4j:211 - V - Item 4 was displayed: For Bradley Cooper’s role in “The A-Team,” he used a 3-2-1 circuit training workout, each for 10 minutes
+2016-10-20 16:20:06 INFO  LogLog4j:211 - V - Item 4 was displayed: For Bradley Cooperï¿½s role in ï¿½The A-Team,ï¿½ he used a 3-2-1 circuit training workout, each for 10 minutes
 2016-10-20 16:20:06 INFO  LogLog4j:272 - V - Image 4 was displayed: http://media.carambo.la/Images/236_1_5.jpg
 2016-10-20 16:20:06 INFO  LogLog4j:139 - V- click number: 5 on element 'TrueButton'
 2016-10-20 16:20:07 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
@@ -2938,7 +2938,7 @@ URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
 2016-11-18 14:04:29 INFO  LogLog4j:154 - Layer number is OK: 120
 2016-11-18 14:04:30 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
 2016-11-18 14:04:30 INFO  LogLog4j:272 - V - Image 0 was displayed: url("http://media.carambo.la/Images/7614_1_5.jpg") 
-2016-11-18 14:04:30 INFO  LogLog4j:211 - V - Item 0 was displayed: An NFL referee was once ejected from a game in ‘96 by his fellow refs after he began antagonizing players
+2016-11-18 14:04:30 INFO  LogLog4j:211 - V - Item 0 was displayed: An NFL referee was once ejected from a game in ï¿½96 by his fellow refs after he began antagonizing players
 2016-11-18 14:04:30 INFO  LogLog4j:233 - V - Score Title Class was displayed
 2016-11-18 14:04:30 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
 2016-11-18 14:04:32 INFO  LogLog4j:276 - V - FB share btn was displayed
@@ -2957,7 +2957,7 @@ URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
 2016-11-18 14:04:47 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
 2016-11-18 14:04:47 INFO  LogLog4j:154 - Layer number is OK: 120
 2016-11-18 14:04:49 INFO  LogLog4j:143 - Item 0 is: 
-2016-11-18 14:04:49 INFO  LogLog4j:211 - V - Item 0 was displayed: An NFL referee was once ejected from a game in ‘96 by his fellow refs after he began antagonizing players
+2016-11-18 14:04:49 INFO  LogLog4j:211 - V - Item 0 was displayed: An NFL referee was once ejected from a game in ï¿½96 by his fellow refs after he began antagonizing players
 2016-11-18 14:04:49 INFO  LogLog4j:272 - V - Image 0 was displayed: url("http://media.carambo.la/Images/7614_1_5.jpg") 
 2016-11-18 14:04:50 INFO  LogLog4j:151 - V- click number: 1 on element 'FalseButton'
 2016-11-18 14:04:51 INFO  LogLog4j:143 - Item 1 is: 
@@ -3015,7 +3015,7 @@ URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
 2016-11-18 14:05:57 INFO  LogLog4j:272 - V - Image 11 was displayed: url("http://media.carambo.la/Images/4310_1_5.jpg") 
 2016-11-18 14:05:57 INFO  LogLog4j:218 - X - Item 10 WASN'T displayed
 2016-11-18 14:06:03 INFO  LogLog4j:370 - Banner structure: cbolaBannerStructure-1_1 was NOT found in page
-2016-11-18 14:06:04 INFO  LogLog4j:211 - V - Item 10 was displayed: It takes approximately 600 cows to make one full season’s worth of footballs for the NFL
+2016-11-18 14:06:04 INFO  LogLog4j:211 - V - Item 10 was displayed: It takes approximately 600 cows to make one full seasonï¿½s worth of footballs for the NFL
 2016-11-18 14:06:04 INFO  LogLog4j:36 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
 2016-11-18 14:06:04 INFO  LogLog4j:38 - X
 2016-11-18 14:06:04 INFO  LogLog4j:40 - X
@@ -3197,7 +3197,7 @@ URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
 2016-11-22 12:27:42 INFO  LogLog4j:154 - Layer number is OK: 120
 2016-11-22 12:27:42 INFO  LogLog4j:62 - From test: Assert is OK, centerWrapper exists
 2016-11-22 12:27:42 INFO  LogLog4j:272 - V - Image 0 was displayed: url("http://media.carambo.la/Images/7614_1_5.jpg") 
-2016-11-22 12:27:42 INFO  LogLog4j:211 - V - Item 0 was displayed: An NFL referee was once ejected from a game in ‘96 by his fellow refs after he began antagonizing players
+2016-11-22 12:27:42 INFO  LogLog4j:211 - V - Item 0 was displayed: An NFL referee was once ejected from a game in ï¿½96 by his fellow refs after he began antagonizing players
 2016-11-22 12:27:43 INFO  LogLog4j:233 - V - Score Title Class was displayed
 2016-11-22 12:27:43 INFO  LogLog4j:236 - V - Text of Question is Correct: Question
 2016-11-22 12:27:43 INFO  LogLog4j:276 - V - FB share btn was displayed
@@ -3216,7 +3216,7 @@ URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
 2016-11-22 12:27:51 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
 2016-11-22 12:27:52 INFO  LogLog4j:154 - Layer number is OK: 120
 2016-11-22 12:27:52 INFO  LogLog4j:143 - Item 0 is: 
-2016-11-22 12:27:52 INFO  LogLog4j:211 - V - Item 0 was displayed: An NFL referee was once ejected from a game in ‘96 by his fellow refs after he began antagonizing players
+2016-11-22 12:27:52 INFO  LogLog4j:211 - V - Item 0 was displayed: An NFL referee was once ejected from a game in ï¿½96 by his fellow refs after he began antagonizing players
 2016-11-22 12:27:52 INFO  LogLog4j:272 - V - Image 0 was displayed: url("http://media.carambo.la/Images/7614_1_5.jpg") 
 2016-11-22 12:27:52 INFO  LogLog4j:151 - V- click number: 1 on element 'FalseButton'
 2016-11-22 12:27:54 INFO  LogLog4j:143 - Item 1 is: 
@@ -3784,201 +3784,250 @@ URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
 2016-11-23 15:36:15 INFO  LogLog4j:111 - time before loading page
 2016-11-23 15:36:15 INFO  LogLog4j:75 - time before loaing page
 2016-11-23 15:36:15 INFO  LogLog4j:39 - from test: before get.url
-2016-11-28 16:40:33 INFO  LogLog4j:59 - 
+2016-11-30 18:08:57 INFO  LogLog4j:65 - 
 
 *** Starting FireFox Browser ***
 
-2016-11-28 16:40:33 INFO  LogLog4j:20 - ****************************************************************************************
-2016-11-28 16:40:33 INFO  LogLog4j:22 - ****************************************************************************************
-2016-11-28 16:40:33 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
-2016-11-28 16:40:33 INFO  LogLog4j:26 - ****************************************************************************************
-2016-11-28 16:40:33 INFO  LogLog4j:28 - ****************************************************************************************
-2016-11-28 16:40:33 INFO  LogLog4j:41 - tc1 time before loaing page
-2016-11-28 16:40:39 INFO  LogLog4j:49 - 
------  Test Case 1: ** UI test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-28 16:40:41 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-28 16:40:50 INFO  LogLog4j:89 - 
------  Test Case 2: ** FUNCTIONALITY test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-28 16:40:50 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-28 16:41:53 INFO  LogLog4j:185 - 
------  Test Case 4: ** FUNCTIONALITY test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-28 16:41:59 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-28 16:42:51 INFO  LogLog4j:128 - 
------  Test Case 3: ** CONTENT test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-28 16:42:57 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-28 16:44:06 INFO  LogLog4j:111 - time before loading page
-2016-11-28 16:44:06 INFO  LogLog4j:75 - time before loaing page
-2016-11-28 16:44:06 INFO  LogLog4j:39 - from test: before get.url
-2016-11-28 16:44:20 INFO  LogLog4j:69 - 
+2016-11-30 18:08:57 INFO  LogLog4j:39 - from test: before get.url
+2016-11-30 18:09:06 INFO  LogLog4j:48 - 
+-----  Test Case 1: ** ADS test ** 
+URL: http://www.rantbuzz.com/10-reasons-trump-deserves-president/-----
+2016-11-30 18:09:06 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-30 18:09:07 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-30 18:09:07 INFO  LogLog4j:56 - From test: Assert is OK, centerWrapper exists
+2016-11-30 18:09:08 INFO  LogLog4j:356 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-11-30 18:09:08 INFO  LogLog4j:356 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
+2016-11-30 18:09:08 INFO  LogLog4j:379 - x btn exists for trigger 4
+2016-11-30 18:09:08 INFO  LogLog4j:382 - x btn clicked for trigger 4
+2016-11-30 18:09:08 INFO  LogLog4j:39 - from test: before get.url
+2016-11-30 18:09:17 INFO  LogLog4j:48 - 
+-----  Test Case 1: ** ADS test ** 
+URL: http://www.rantbuzz.com/-----
+2016-11-30 18:09:28 ERROR LogLog4j:143 - SHAYSE- unexpected error: Unable to locate element: .carambola_InContent
+For documentation on this error, please visit: http:/
+2016-11-30 18:44:30 INFO  LogLog4j:65 - 
+
+*** Starting FireFox Browser ***
+
+2016-11-30 18:44:30 INFO  LogLog4j:111 - time before loading page
+2016-11-30 18:44:42 INFO  LogLog4j:119 - 
+-----  Test Case 3: ** ADS test ** 
+URL: http://www.rantbuzz.com/10-reasons-trump-deserves-president/-----
+2016-11-30 18:44:42 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-30 18:44:42 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-30 18:44:43 INFO  LogLog4j:127 - From test: Assert is OK, centerWrapper exists
+2016-11-30 18:44:43 INFO  LogLog4j:356 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-11-30 18:44:43 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-11-30 18:44:50 INFO  LogLog4j:370 - Banner structure: cbolaBannerStructure-1_1 was NOT found in page
+2016-11-30 18:44:50 INFO  LogLog4j:135 - YEAH! -AD Trigger 1 was NOT displayed on screen after clicking false button. it probably got CLOSED by the click
+2016-11-30 18:44:50 INFO  LogLog4j:75 - time before loaing page
+2016-11-30 18:44:57 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** 
+URL: http://www.rantbuzz.com/10-reasons-trump-deserves-president/-----
+2016-11-30 18:44:57 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-30 18:44:57 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-30 18:44:57 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-11-30 18:44:58 INFO  LogLog4j:356 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-11-30 18:44:58 INFO  LogLog4j:356 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
+2016-11-30 18:45:08 INFO  LogLog4j:356 - AD Trigger 1 was loaded and displayed on screen after waiting: 9 seconds
+2016-11-30 18:45:08 INFO  LogLog4j:39 - from test: before get.url
+2016-11-30 18:45:13 INFO  LogLog4j:48 - 
+-----  Test Case 1: ** ADS test ** 
+URL: http://www.rantbuzz.com/10-reasons-trump-deserves-president/-----
+2016-11-30 18:45:14 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-30 18:45:14 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-30 18:45:14 INFO  LogLog4j:56 - From test: Assert is OK, centerWrapper exists
+2016-11-30 18:45:15 INFO  LogLog4j:356 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-11-30 18:45:15 INFO  LogLog4j:356 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
+2016-11-30 18:45:15 INFO  LogLog4j:379 - x btn exists for trigger 4
+2016-11-30 18:45:15 INFO  LogLog4j:382 - x btn clicked for trigger 4
+2016-11-30 18:45:20 INFO  LogLog4j:75 - 
 
 *** Starting Chrome Browser ***
 
-2016-11-28 16:44:20 INFO  LogLog4j:20 - ****************************************************************************************
-2016-11-28 16:44:20 INFO  LogLog4j:22 - ****************************************************************************************
-2016-11-28 16:44:20 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
-2016-11-28 16:44:20 INFO  LogLog4j:26 - ****************************************************************************************
-2016-11-28 16:44:20 INFO  LogLog4j:28 - ****************************************************************************************
-2016-11-28 16:44:20 INFO  LogLog4j:41 - tc1 time before loaing page
-2016-11-28 16:44:27 INFO  LogLog4j:49 - 
------  Test Case 1: ** UI test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-28 16:44:27 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-28 16:44:34 INFO  LogLog4j:89 - 
------  Test Case 2: ** FUNCTIONALITY test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-28 16:44:34 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-28 16:45:42 INFO  LogLog4j:185 - 
+2016-11-30 18:45:20 INFO  LogLog4j:111 - time before loading page
+2016-11-30 18:45:34 INFO  LogLog4j:119 - 
+-----  Test Case 3: ** ADS test ** 
+URL: http://www.rantbuzz.com/10-reasons-trump-deserves-president/-----
+2016-11-30 18:45:34 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-30 18:45:34 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-30 18:45:34 INFO  LogLog4j:127 - From test: Assert is OK, centerWrapper exists
+2016-11-30 18:45:34 INFO  LogLog4j:356 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-11-30 18:45:34 INFO  LogLog4j:109 - V- click number: 1 on element 'FalseButton'
+2016-11-30 18:45:37 INFO  LogLog4j:356 - AD Trigger 1 was loaded and displayed on screen after waiting: 1 seconds
+2016-11-30 18:45:37 INFO  LogLog4j:75 - time before loaing page
+2016-11-30 18:45:44 INFO  LogLog4j:83 - 
+-----  Test Case 2: ** ADS test ** 
+URL: http://www.rantbuzz.com/10-reasons-trump-deserves-president/-----
+2016-11-30 18:45:44 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-30 18:45:44 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-30 18:45:44 INFO  LogLog4j:91 - From test: Assert is OK, centerWrapper exists
+2016-11-30 18:45:44 INFO  LogLog4j:356 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-11-30 18:45:44 INFO  LogLog4j:356 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
+2016-11-30 18:45:53 INFO  LogLog4j:370 - Banner structure: cbolaBannerStructure-1_1 was NOT found in page
+2016-11-30 18:45:53 INFO  LogLog4j:100 - YEAH! -AD Trigger 1 was NOT displayed on screen after waiting 9 sec in viewability
+2016-11-30 18:45:53 INFO  LogLog4j:356 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
+2016-11-30 18:45:53 INFO  LogLog4j:39 - from test: before get.url
+2016-11-30 18:46:00 INFO  LogLog4j:48 - 
+-----  Test Case 1: ** ADS test ** 
+URL: http://www.rantbuzz.com/10-reasons-trump-deserves-president/-----
+2016-11-30 18:46:00 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-30 18:46:00 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-11-30 18:46:00 INFO  LogLog4j:56 - From test: Assert is OK, centerWrapper exists
+2016-11-30 18:46:00 INFO  LogLog4j:356 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-11-30 18:46:00 INFO  LogLog4j:356 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
+2016-11-30 18:46:00 INFO  LogLog4j:379 - x btn exists for trigger 4
+2016-11-30 18:46:00 INFO  LogLog4j:382 - x btn clicked for trigger 4
+2016-11-30 19:46:14 INFO  LogLog4j:65 - 
+
+*** Starting FireFox Browser ***
+
+2016-11-30 19:46:28 INFO  LogLog4j:188 - 
 -----  Test Case 4: ** FUNCTIONALITY test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-28 16:45:42 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-28 16:46:38 INFO  LogLog4j:128 - 
------  Test Case 3: ** CONTENT test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-28 16:46:44 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-28 16:47:52 INFO  LogLog4j:111 - time before loading page
-2016-11-28 16:47:52 INFO  LogLog4j:75 - time before loaing page
-2016-11-28 16:47:52 INFO  LogLog4j:39 - from test: before get.url
-2016-11-29 15:35:39 INFO  LogLog4j:59 - 
+URL: http://www.rantbuzz.com/10-reasons-trump-deserves-president/-----
+2016-11-30 19:46:28 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-11-30 19:47:14 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-12-01 11:52:12 INFO  LogLog4j:71 - 
 
 *** Starting FireFox Browser ***
 
-2016-11-29 15:35:42 INFO  LogLog4j:39 - from test: before get.url
-2016-11-29 15:35:58 INFO  LogLog4j:48 - 
+2016-12-01 11:55:22 INFO  LogLog4j:41 - from test: before get.url
+2016-12-01 11:55:46 INFO  LogLog4j:71 - 
+
+*** Starting FireFox Browser ***
+
+2016-12-01 11:56:16 INFO  LogLog4j:41 - from test: before get.url
+2016-12-01 11:56:32 INFO  LogLog4j:71 - 
+
+*** Starting FireFox Browser ***
+
+2016-12-01 12:00:30 INFO  LogLog4j:41 - from test: before get.url
+2016-12-01 12:00:56 INFO  LogLog4j:71 - 
+
+*** Starting FireFox Browser ***
+
+2016-12-01 12:02:36 INFO  LogLog4j:71 - 
+
+*** Starting FireFox Browser ***
+
+2016-12-01 12:05:09 INFO  LogLog4j:71 - 
+
+*** Starting FireFox Browser ***
+
+2016-12-01 12:05:49 INFO  LogLog4j:50 - from test: before get.url
+2016-12-01 12:06:06 INFO  LogLog4j:71 - 
+
+*** Starting FireFox Browser ***
+
+2016-12-01 12:06:57 INFO  LogLog4j:50 - from test: before get.url
+2016-12-01 12:07:43 INFO  LogLog4j:71 - 
+
+*** Starting FireFox Browser ***
+
+2016-12-01 12:17:43 INFO  LogLog4j:50 - from test: before get.url
+2016-12-01 17:08:54 INFO  LogLog4j:71 - 
+
+*** Starting FireFox Browser ***
+
+2016-12-01 17:08:54 INFO  LogLog4j:50 - from test: before get.url
+2016-12-01 17:09:15 INFO  LogLog4j:59 - 
 -----  Test Case 1: ** ADS test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 15:35:59 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 15:55:24 INFO  LogLog4j:59 - 
+URL: http://www.rantbuzz.com/10-reasons-trump-deserves-president/-----
+2016-12-01 17:09:15 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-12-01 17:09:15 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-12-01 17:09:16 INFO  LogLog4j:67 - From test: Assert is OK, centerWrapper exists
+2016-12-01 17:09:16 INFO  LogLog4j:356 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-12-01 17:09:17 INFO  LogLog4j:356 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
+2016-12-01 17:09:17 INFO  LogLog4j:379 - x btn exists for trigger 4
+2016-12-01 17:09:17 INFO  LogLog4j:382 - x btn clicked for trigger 4
+2016-12-01 17:19:11 INFO  LogLog4j:71 - 
 
 *** Starting FireFox Browser ***
 
-2016-11-29 15:55:24 INFO  LogLog4j:20 - ****************************************************************************************
-2016-11-29 15:55:24 INFO  LogLog4j:22 - ****************************************************************************************
-2016-11-29 15:55:24 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
-2016-11-29 15:55:24 INFO  LogLog4j:26 - ****************************************************************************************
-2016-11-29 15:55:24 INFO  LogLog4j:28 - ****************************************************************************************
-2016-11-29 15:55:24 INFO  LogLog4j:41 - tc1 time before loaing page
-2016-11-29 15:55:33 INFO  LogLog4j:49 - 
------  Test Case 1: ** UI test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 15:55:35 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 15:55:43 INFO  LogLog4j:89 - 
------  Test Case 2: ** FUNCTIONALITY test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 15:55:43 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 15:56:46 INFO  LogLog4j:185 - 
+2016-12-01 17:19:11 INFO  LogLog4j:50 - from test: before get.url
+2016-12-01 17:19:48 INFO  LogLog4j:59 - 
+-----  Test Case 1: ** ADS test ** 
+URL: http://www.rantbuzz.com/10-reasons-trump-deserves-president/-----
+2016-12-01 17:19:49 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-12-01 17:19:49 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-12-01 17:19:49 INFO  LogLog4j:67 - From test: Assert is OK, centerWrapper exists
+2016-12-01 17:19:55 INFO  LogLog4j:370 - Banner structure: cbolaBannerStructure-1_1 was NOT found in page
+2016-12-01 17:19:55 INFO  LogLog4j:356 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
+2016-12-01 17:19:55 INFO  LogLog4j:379 - x btn exists for trigger 4
+2016-12-01 17:19:55 INFO  LogLog4j:382 - x btn clicked for trigger 4
+2016-12-01 17:24:00 INFO  LogLog4j:82 - 
+
+*** Starting FireFox Browser ***
+
+2016-12-01 17:24:00 INFO  LogLog4j:40 - from test: before get.url
+2016-12-01 17:24:18 INFO  LogLog4j:49 - 
+-----  Test Case 1: ** ADS test ** 
+URL: http://www.rantbuzz.com/10-reasons-trump-deserves-president/-----
+2016-12-01 17:24:19 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-12-01 17:24:19 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-12-01 17:24:20 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
+2016-12-01 17:24:20 INFO  LogLog4j:356 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-12-01 17:24:20 INFO  LogLog4j:356 - AD Trigger 4 was loaded and displayed on screen after waiting: 0 seconds
+2016-12-01 17:24:20 INFO  LogLog4j:379 - x btn exists for trigger 4
+2016-12-01 17:24:20 INFO  LogLog4j:382 - x btn clicked for trigger 4
+2016-12-20 13:40:48 INFO  LogLog4j:82 - 
+
+*** Starting FireFox Browser ***
+
+2016-12-20 13:40:48 INFO  LogLog4j:40 - from test: before get.url
+2016-12-20 13:42:08 INFO  LogLog4j:49 - 
+-----  Test Case 1: ** ADS test ** 
+URL: http://www.rantbuzz.com/10-reasons-trump-deserves-president/-----
+2016-12-20 13:42:21 INFO  LogLog4j:82 - 
+
+*** Starting FireFox Browser ***
+
+2016-12-20 13:42:21 INFO  LogLog4j:40 - from test: before get.url
+2016-12-20 13:45:21 INFO  LogLog4j:82 - 
+
+*** Starting FireFox Browser ***
+
+2016-12-20 13:45:21 INFO  LogLog4j:40 - from test: before get.url
+2016-12-20 13:45:24 INFO  LogLog4j:49 - 
+-----  Test Case 1: ** ADS test ** 
+URL: http://qa1.carambo.la/inimage/test_pages/120_basic_page/index.html-----
+2016-12-20 13:45:24 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-12-20 13:45:24 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-12-20 13:45:24 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
+2016-12-20 13:45:25 INFO  LogLog4j:356 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-12-20 13:45:30 INFO  LogLog4j:370 - Banner structure: cbolaBannerStructure-1_4 was NOT found in page
+2016-12-20 13:46:04 INFO  LogLog4j:82 - 
+
+*** Starting FireFox Browser ***
+
+2016-12-20 13:46:07 INFO  LogLog4j:188 - 
 -----  Test Case 4: ** FUNCTIONALITY test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 15:56:53 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 15:57:20 INFO  LogLog4j:154 - Layer number is OK: 120
-2016-11-29 15:57:20 INFO  LogLog4j:98 - V- click number: 1 on element 'TrueButton'
-2016-11-29 15:57:28 INFO  LogLog4j:418 - V - The window that was opened by click is CORRECT. its title is: Carambola
-2016-11-29 15:57:32 INFO  LogLog4j:128 - 
------  Test Case 3: ** CONTENT test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 15:57:33 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 15:58:55 INFO  LogLog4j:59 - 
+URL: http://qa1.carambo.la/inimage/test_pages/120_basic_page/index.html-----
+2016-12-20 13:46:07 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-12-20 13:46:07 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-12-20 13:46:08 INFO  LogLog4j:98 - V- click number: 1 on element 'TrueButton'
+2016-12-20 13:46:15 INFO  LogLog4j:418 - V - The window that was opened by click is CORRECT. its title is: Carambola
+2016-12-20 15:57:52 INFO  LogLog4j:82 - 
 
 *** Starting FireFox Browser ***
 
-2016-11-29 15:58:55 INFO  LogLog4j:111 - time before loading page
-2016-11-29 15:59:00 INFO  LogLog4j:119 - 
------  Test Case 3: ** ADS test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 15:59:00 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 15:59:05 INFO  LogLog4j:75 - time before loaing page
-2016-11-29 15:59:09 INFO  LogLog4j:83 - 
------  Test Case 2: ** ADS test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 15:59:09 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 15:59:14 INFO  LogLog4j:39 - from test: before get.url
-2016-11-29 15:59:17 INFO  LogLog4j:48 - 
+2016-12-20 15:57:52 INFO  LogLog4j:40 - from test: before get.url
+2016-12-20 15:57:55 INFO  LogLog4j:49 - 
 -----  Test Case 1: ** ADS test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 15:59:17 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 15:59:34 INFO  LogLog4j:69 - 
+URL: http://qa1.carambo.la/inimage/test_pages/120_basic_page/index.html-----
+2016-12-20 15:57:55 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-12-20 15:57:55 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-12-20 15:57:55 INFO  LogLog4j:57 - From test: Assert is OK, centerWrapper exists
+2016-12-20 15:57:56 INFO  LogLog4j:356 - AD Trigger 1 was loaded and displayed on screen after waiting: 0 seconds
+2016-12-20 15:58:01 INFO  LogLog4j:370 - Banner structure: cbolaBannerStructure-1_4 was NOT found in page
+2016-12-20 18:03:58 INFO  LogLog4j:82 - 
 
-*** Starting Chrome Browser ***
+*** Starting FireFox Browser ***
 
-2016-11-29 15:59:34 INFO  LogLog4j:20 - ****************************************************************************************
-2016-11-29 15:59:34 INFO  LogLog4j:22 - ****************************************************************************************
-2016-11-29 15:59:34 INFO  LogLog4j:24 - $$$$$$$$$$$$$$$$$$$$$                 START TEST CASE       $$$$$$$$$$$$$$$$$$$$$$$$$
-2016-11-29 15:59:34 INFO  LogLog4j:26 - ****************************************************************************************
-2016-11-29 15:59:34 INFO  LogLog4j:28 - ****************************************************************************************
-2016-11-29 15:59:34 INFO  LogLog4j:41 - tc1 time before loaing page
-2016-11-29 15:59:41 INFO  LogLog4j:49 - 
------  Test Case 1: ** UI test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 15:59:41 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 15:59:48 INFO  LogLog4j:89 - 
------  Test Case 2: ** FUNCTIONALITY test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 15:59:48 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 16:00:56 INFO  LogLog4j:185 - 
+2016-12-20 18:04:01 INFO  LogLog4j:188 - 
 -----  Test Case 4: ** FUNCTIONALITY test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 16:00:56 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 16:01:53 INFO  LogLog4j:128 - 
------  Test Case 3: ** CONTENT test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 16:01:58 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 16:03:09 INFO  LogLog4j:69 - 
-
-*** Starting Chrome Browser ***
-
-2016-11-29 16:03:09 INFO  LogLog4j:111 - time before loading page
-2016-11-29 16:03:17 INFO  LogLog4j:119 - 
------  Test Case 3: ** ADS test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 16:03:17 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 16:03:22 INFO  LogLog4j:75 - time before loaing page
-2016-11-29 16:03:24 INFO  LogLog4j:83 - 
------  Test Case 2: ** ADS test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 16:03:24 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 16:03:29 INFO  LogLog4j:39 - from test: before get.url
-2016-11-29 16:03:31 INFO  LogLog4j:48 - 
------  Test Case 1: ** ADS test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 16:03:31 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 16:10:09 INFO  LogLog4j:59 - 
-
-*** Starting FireFox Browser ***
-
-2016-11-29 16:10:09 INFO  LogLog4j:111 - time before loading page
-2016-11-29 16:10:14 INFO  LogLog4j:119 - 
------  Test Case 3: ** ADS test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 16:10:15 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 16:10:20 INFO  LogLog4j:75 - time before loaing page
-2016-11-29 16:10:22 INFO  LogLog4j:83 - 
------  Test Case 2: ** ADS test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 16:10:22 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 16:10:27 INFO  LogLog4j:39 - from test: before get.url
-2016-11-29 16:10:29 INFO  LogLog4j:48 - 
------  Test Case 1: ** ADS test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 16:10:29 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 16:10:45 INFO  LogLog4j:69 - 
-
-*** Starting Chrome Browser ***
-
-2016-11-29 16:10:45 INFO  LogLog4j:111 - time before loading page
-2016-11-29 16:10:52 INFO  LogLog4j:119 - 
------  Test Case 3: ** ADS test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 16:10:52 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 16:10:57 INFO  LogLog4j:75 - time before loaing page
-2016-11-29 16:10:59 INFO  LogLog4j:83 - 
------  Test Case 2: ** ADS test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 16:10:59 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
-2016-11-29 16:11:04 INFO  LogLog4j:39 - from test: before get.url
-2016-11-29 16:11:06 INFO  LogLog4j:48 - 
------  Test Case 1: ** ADS test ** 
-URL: http://www.sportingcharts.com/nfl/stats/team-rushing-statistics/2015/-----
-2016-11-29 16:11:06 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+URL: http://qa1.carambo.la/inimage/test_pages/120_basic_page/index.html-----
+2016-12-20 18:04:01 INFO  LogLog4j:136 - YEAH!- cbola SCRIPT was loaded successfuly inside the HTML
+2016-12-20 18:04:02 INFO  LogLog4j:154 - Layer number is OK: 120
+2016-12-20 18:04:02 INFO  LogLog4j:98 - V- click number: 1 on element 'TrueButton'
+2016-12-20 18:04:09 INFO  LogLog4j:418 - V - The window that was opened by click is CORRECT. its title is: Carambola

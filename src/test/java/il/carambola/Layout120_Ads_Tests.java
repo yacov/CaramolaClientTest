@@ -1,6 +1,7 @@
 package il.carambola;
 
 import il.carambola.pages.Layout_120_Page;
+import il.carambola.util.PropertyLoader;
 import org.apache.commons.mail.EmailException;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
@@ -22,7 +23,7 @@ public class Layout120_Ads_Tests extends TestNgTestBase {
 
     private SoftAssert softAssert = new SoftAssert();
 
-    @BeforeMethod(alwaysRun = true)
+    @BeforeMethod(alwaysRun = true) // Can't be: BeforeClass
     public void initPageObjects() {
         layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
     }
@@ -36,7 +37,7 @@ public class Layout120_Ads_Tests extends TestNgTestBase {
     // IO Exception added after using File export for screenshot
     public void openAdsOnloadTriggers1and4Close4WithXbtn(String url) throws IOException, InterruptedException, EmailException, AWTException {
 
-        Log.info("from test: before get.url");
+       Log.info("from test: before get.url");
         long maxPageRunTime = (30 + 10); // 30 for page load + 10 for the test
         //driver.manage().timeouts().pageLoadTimeout(maxPageRunTime, TimeUnit.SECONDS); // will work on the pages with synch loading, but this doesn't solve the problem on pages loading stuff in asynch, the tests will fail all the time if we set the pageLoadTimeOut.
 

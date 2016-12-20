@@ -42,29 +42,29 @@ public class Layout_120_Page extends Page {
 
     @FindBy(xpath = Consts.SHARE_FB_XPATH)
     WebElement shareFB;
-    @FindBy(xpath = Consts.ENDING_SCREEN_SHARE_FB_XPATH)
+    @FindBy(xpath = Consts.ENDING_SCREEN2_SHARE_FB_XPATH)
     WebElement shareFBEndingScreen;
     @FindBy(xpath = Consts.SHARE_TWITTER_XPATH)
     WebElement shareTwitter;
-    @FindBy(xpath = Consts.ENDING_SCREEN_SHARE_TWITTER_XPATH)
+    @FindBy(xpath = Consts.ENDING_SCREEN2_SHARE_TWITTER_XPATH)
     WebElement shareTwitterEndingScreen;
     @FindBy(xpath = Consts.SCOREBOARD_SCORE_TEXT_XPATH)
     WebElement scoreUnit;
     @FindBy(xpath = Consts.TITLE_XPATH)
     WebElement unitTitle;
-    @FindBy(xpath = Consts.ENDING_SCREEN_NEXT_HEADER)
+    @FindBy(xpath = Consts.ENDING_SCREEN2_NEXT_HEADER)
     WebElement endingScreenNextHeader;
-    @FindBy(xpath = Consts.ENDING_SCREEN_NEXT_TITLE)
+    @FindBy(xpath = Consts.ENDING_SCREEN2_NEXT_TITLE)
     WebElement endingScreenNextGameTitle;
     //@FindBy(className = Consts.ENDING_SCREEN_MSG_BTN_CLASS)
     //WebElement endingScreenMsgBtn;
     @FindBy(xpath = Consts.ENDING_SCREEN_TITLE_XPATH)
     WebElement endingScreenTextYouScored;
-    @FindBy(xpath = Consts.ENDING_SCREEN_CHALLENGE_XPATH)
+    @FindBy(xpath = Consts.ENDING_SCREEN2_CHALLENGE_XPATH)
     WebElement endingScreenTextChallenge;
-    @FindBy(xpath = Consts.ENDING_SCREEN_YOUR_FRIENDS_XPATH)
+    @FindBy(xpath = Consts.ENDING_SCREEN2_YOUR_FRIENDS_XPATH)
     WebElement endingScreenTextYourFriends;
-    @FindBy(xpath = Consts.ENDING_SCREEN_START_BTN)
+    @FindBy(xpath = Consts.ENDING_SCREEN2_START_BTN)
     WebElement startBtn;
     //public ProfilePage profilePag
 

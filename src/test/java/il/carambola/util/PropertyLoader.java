@@ -14,6 +14,8 @@ import java.util.Properties;
 public class PropertyLoader {
 
   private static final String DEBUG_PROPERTIES = "/debug.properties";
+  private static final String DEBUG__AUTHENTICATION_PROPERTIES = "/debug.authentication.properties";
+
 
   public static Capabilities loadCapabilities() throws IOException {
     return loadCapabilities(System.getProperty("application.properties", DEBUG_PROPERTIES));
@@ -45,6 +47,12 @@ public class PropertyLoader {
   public static String loadProperty(String name) throws IOException {
     return loadProperty(name, System.getProperty("application.properties", DEBUG_PROPERTIES));
   }
+
+  public static String loadAuthProperty(String name) throws IOException {
+    return loadProperty(name, System.getProperty("application.authentication.properties",DEBUG__AUTHENTICATION_PROPERTIES));
+  }
+
+
 
   public static String loadProperty(String name, String fromResource) throws IOException {
     Properties props = new Properties();

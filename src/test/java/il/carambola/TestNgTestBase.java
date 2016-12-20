@@ -18,7 +18,10 @@ import ru.stqa.selenium.factory.WebDriverFactory;
 import ru.stqa.selenium.factory.WebDriverFactoryMode;
 import ru.yandex.qatools.allure.annotations.Parameter;
 
+
+import java.io.IOException;
 import java.net.InetAddress;
+import java.sql.Connection;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
@@ -39,11 +42,31 @@ public class TestNgTestBase {
   public Integer counterSuccess = 0;
   public Integer counterFails = 0;
 
+
+
   @Parameters({"browser_name"})
   @BeforeClass(alwaysRun = true)
   public void setuptestNg(@Optional("Firefox") @Parameter("Browser") String browser) throws Exception {
-    baseUrl = PropertyLoader.loadProperty("site.url");
+
+    //baseUrl = PropertyLoader.loadProperty("site.url");  ?? DO WE NEED IT ??
+
     layout_120_page = PageFactory.initElements(driver, Layout_120_Page.class);
+
+
+    String pwd = PropertyLoader.loadAuthProperty("auth.pass");
+    if (pwd ==null)
+    {
+      //take the urls from file
+    }
+    else
+    {
+      //take the urls from DB
+      Connection conn = null;
+      conn = GeneralUtils.connectToDatabaseOrDie();
+      GeneralUtils.queryAndPrint(conn,"prod_10_urls_120");
+      conn.close();
+    }
+
 
     WebDriverFactory.setMode(WebDriverFactoryMode.THREADLOCAL_SINGLETON);
     //Check if parameter passed from TestNG is 'firefox'
@@ -138,7 +161,7 @@ public class TestNgTestBase {
   }
   // tearDown after test
   @AfterTest(alwaysRun = true)
-  public void tearDown() throws EmailException, java.net.UnknownHostException {
+  public void tearDown() throws EmailException, IOException {
     String endTime = GeneralUtils.sdf.format(new Date());
     this.driver.quit();
 
@@ -148,7 +171,6 @@ public class TestNgTestBase {
     hostname = addr.getHostName();
 
     double testTimeMin = ((System.currentTimeMillis()) - startTimeMls) / 1000.d / 60;
-    //GeneralUtils.emailer(" Holly Shmoly! a HUGE mother FU@#$ing Automated TEST was just FINISHED !! on hostname: " + hostname);
     GeneralUtils.emailer("Holly Shmoly! a mother FU@#$ing Automated TEST was just FINISHED !!" +
             "\nClass name:  "+ this.getClass().getName() +"" +
             "\nStarted at:  "+ startTime +"" +

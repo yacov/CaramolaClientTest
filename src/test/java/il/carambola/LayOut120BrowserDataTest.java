@@ -14,6 +14,9 @@ import ru.yandex.qatools.allure.annotations.Severity;
 import ru.yandex.qatools.allure.model.SeverityLevel;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 import static org.testng.AssertJUnit.assertFalse;
 import static org.testng.AssertJUnit.assertTrue;
@@ -33,12 +36,12 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     //This test runs several times, every iteration with new url. Urls are stored in resources/urlList.data file
 // Test Case 1
     @Features("Check if Layer's UI was fully loaded")
-    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 6000000)
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", timeOut = 6000000) //UrlsQuery
     // IO Exception added after using File export for screenshot
     public void BasicFullLoad(String url) throws IOException {
 
         LogLog4j.startTestCase("START TEST CASE");
-        Log.info("tc1 time before loaing page");
+        Log.info("tc1 time before loading page");
         long maxPageRunTime = (30 + 10); // 30 for page load + 10 for the test
         //driver.manage().timeouts().pageLoadTimeout(maxPageRunTime, TimeUnit.SECONDS); // will work on the pages with synch loading, but this doesn't solve the problem on pages loading stuff in asynch, the tests will fail all the time if we set the pageLoadTimeOut.
         WebDriverWait wait = new WebDriverWait(driver, 10);
@@ -47,7 +50,7 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         driver.get(url);
         // wait.until(ExpectedConditions.titleContains("Rushing")); // nice to have- dont start until element X is on page
         Log.info("\n-----  Test Case 1: ** UI test ** \nURL: " + url + "-----");
-        driver.findElement(By.tagName("body")).sendKeys("Keys.ESCAPE");
+        //driver.findElement(By.tagName("body")).sendKeys("Keys.ESCAPE");
         // step 1
         //** make sure the method is TRUE. if not- log a message
         assertTrue("From test: Script is not valid on url " + url, layout_120_page.isScriptValidHere2());
@@ -146,9 +149,9 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
         // Step 3: Ending screen Message Structure- "next quiz"
         assertTrue("cant find ending screen msg title",layout_120_page.isEndingScreenMsgTitleExists()); // the assert will fail the test if needed
         //Step 3.1: name of next game
-        assertTrue("cant find ending screen msg name",layout_120_page.findEndingScreenMsgName());
+        //assertTrue("cant find ending screen msg name",layout_120_page.findEndingScreenMsgName());
         //Step 3.2: btn "next"
-        assertTrue("cant find ending screen \'Start\' Button",layout_120_page.isStartNextGameBtnExists());
+        //assertTrue("cant find ending screen \'Start\' Button",layout_120_page.isStartNextGameBtnExists());
         //Step 4: score unit structure - "you scored a__ " if it passes go to next method and check if the title is correct
         assertTrue("cant find ending screen score unit title",layout_120_page.isScoreUnitTitle());
         //Step 4.2: challange
@@ -210,18 +213,23 @@ public class LayOut120BrowserDataTest extends TestNgTestBase {
     }
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Urls", enabled = false)
 
-    public void testSeleniumCommands(String url) throws InterruptedException {
+    public void testSeleniumCommands(String url) throws InterruptedException, SQLException, ClassNotFoundException, IOException {
+        System.out.println("Test started");
 
-        driver.manage().window().maximize();
-        driver.get(url);
+       // driver.manage().window().maximize();
+       // driver.get(url);
 
         // need to scroll to avoid bug that cant find the button
-        layout_120_page.scrollUnit();
+        //layout_120_page.scrollUnit();
 
-        layout_120_page.pressTrueButton(1);
-        Thread.sleep(2000);
+        //layout_120_page.pressTrueButton(1);
+        //Thread.sleep(2000);
+        Connection conn = null;
+        //ResultSet result = null;
+        conn = GeneralUtils.connectToDatabaseOrDie();
+        GeneralUtils.queryAndPrint(conn,"prod_10_urls_120");
 
-
+        conn.close();
 
     }
 }

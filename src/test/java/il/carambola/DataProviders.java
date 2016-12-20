@@ -32,6 +32,7 @@ public class DataProviders {
         BufferedReader in = new BufferedReader(new InputStreamReader(DataProviders.class.getResourceAsStream("/urlList.data")));
 
         List<Object[]> userData = new ArrayList<Object[]>(); //the Tilde <~> is just a shorthand for "same as in declaration"
+
         String line = in.readLine();
         while (line != null) {
             userData.add(line.split(";"));
@@ -40,6 +41,10 @@ public class DataProviders {
         in.close();
         return userData.iterator();
 
+    }
+    @DataProvider
+    public static Iterator<Object[]> UrlsQuery() throws IOException {
+        return GeneralUtils.urlList.iterator();
     }
     @DataProvider
     public static Iterator<Object[]> Urls1() throws IOException {
